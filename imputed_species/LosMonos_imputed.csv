@@ -1,601 +1,239 @@
-rank,scientific_name,common_name,iconic_taxon_name,confidence,prob_mean,prob_std,prob_min,prob_max,model_agreement,prob_RF_v1,prob_RF_v2,prob_RF_v3,prob_XGB_v1,prob_XGB_v2,prob_XGB_v3
-1,Heliopetes ericetorum,Northern White-Skipper,Insecta,High (70-90%),0.8823,0.0323,0.8312,0.9063,6/6 models agree,0.9058,0.8989,0.8522,0.9063,0.8312,0.8992
-2,Zarhipis,,Insecta,High (70-90%),0.8661,0.0943,0.7394,0.9895,6/6 models agree,0.9895,0.8964,0.7903,0.9421,0.7394,0.839
-3,Eupeodes volucris,Large-tailed Aphideater,Insecta,High (70-90%),0.866,0.0869,0.7644,0.9914,6/6 models agree,0.9914,0.9095,0.7704,0.8923,0.7644,0.8678
-4,Sternula antillarum browni,California Least Tern,Aves,High (70-90%),0.8652,0.0683,0.7684,0.956,6/6 models agree,0.956,0.8416,0.7684,0.9245,0.8258,0.8748
-5,Iridopsis fragilaria,,Insecta,High (70-90%),0.8623,0.0773,0.774,0.9622,6/6 models agree,0.9622,0.8791,0.8146,0.9405,0.774,0.8034
-6,Neoscona,Spotted Orbweavers,Arachnida,High (70-90%),0.8589,0.0588,0.7802,0.9317,6/6 models agree,0.9157,0.8663,0.7802,0.9317,0.8093,0.8501
-7,Punctularia atropurpurascens,Purple Fuzz,Fungi,High (70-90%),0.8578,0.0628,0.7735,0.9254,6/6 models agree,0.9254,0.8496,0.7977,0.9196,0.7735,0.8812
-8,Baccharis sergiloides,desert baccharis,Plantae,High (70-90%),0.8476,0.0449,0.777,0.8882,6/6 models agree,0.8882,0.8695,0.777,0.8879,0.8115,0.8519
-9,Volvopluteus,,Fungi,High (70-90%),0.8476,0.0449,0.777,0.8882,6/6 models agree,0.8882,0.8695,0.777,0.8879,0.8115,0.8519
-10,Ligustrum lucidum,tree privet,Plantae,High (70-90%),0.8457,0.0794,0.7493,0.9403,6/6 models agree,0.9285,0.8523,0.7664,0.9403,0.7493,0.8376
-11,Pruinomycena acicula,orange bonnet,Fungi,High (70-90%),0.8456,0.0878,0.7546,0.9906,6/6 models agree,0.9906,0.8776,0.7546,0.875,0.7696,0.8059
-12,Agaricus xanthodermus,Yellow Stainer,Fungi,High (70-90%),0.845,0.0574,0.7848,0.9237,6/6 models agree,0.9095,0.8212,0.7848,0.9237,0.8055,0.8252
-13,Acmispon glaber brevialatus,short-winged deerweed,Plantae,High (70-90%),0.8378,0.0617,0.7391,0.9202,6/6 models agree,0.8224,0.8582,0.7391,0.9202,0.8138,0.8731
-14,Myxomycetes,true slime molds,Protozoa,High (70-90%),0.8368,0.092,0.7304,0.9835,6/6 models agree,0.9835,0.828,0.7304,0.8947,0.7598,0.8244
-15,Xylocopa sonorina,Valley Carpenter Bee,Insecta,High (70-90%),0.835,0.0438,0.7802,0.8809,6/6 models agree,0.8809,0.8695,0.7985,0.8713,0.7802,0.8098
-16,Ectopsocidae,Outer Barklice,Insecta,High (70-90%),0.835,0.0926,0.6921,0.9477,6/6 models agree,0.9142,0.7954,0.6921,0.9477,0.7995,0.8612
-17,Bubo virginianus pacificus,Coastal Great Horned Owl,Aves,High (70-90%),0.8321,0.0678,0.7507,0.9157,6/6 models agree,0.8925,0.8241,0.7592,0.9157,0.7507,0.8505
-18,Toxomerus occidentalis,Western Calligrapher,Insecta,High (70-90%),0.8279,0.064,0.742,0.9072,6/6 models agree,0.8934,0.8312,0.742,0.9072,0.7797,0.8138
-19,Pituophis catenifer annectens,San Diego Gopher Snake,Reptilia,High (70-90%),0.8241,0.0611,0.7317,0.8982,6/6 models agree,0.8613,0.8053,0.7317,0.8982,0.7858,0.862
-20,Lycogala,Wolfs Milk,Protozoa,High (70-90%),0.824,0.0164,0.7914,0.8358,6/6 models agree,0.8294,0.8358,0.8308,0.8242,0.7914,0.8325
-21,Trichaptum,,Fungi,High (70-90%),0.824,0.0164,0.7914,0.8358,6/6 models agree,0.8294,0.8358,0.8308,0.8242,0.7914,0.8325
-22,Sitona hispidulus,Clover Weevil,Insecta,High (70-90%),0.8164,0.1012,0.6997,0.9432,6/6 models agree,0.9432,0.7951,0.6997,0.9383,0.7586,0.7634
-23,Cynara cardunculus,Artichoke Thistle,Plantae,High (70-90%),0.8161,0.0948,0.7037,0.9484,6/6 models agree,0.9484,0.8168,0.7413,0.9055,0.7037,0.781
-24,Hazardia squarrosa,saw-toothed goldenbush,Plantae,High (70-90%),0.8108,0.0533,0.7202,0.8614,6/6 models agree,0.8614,0.8144,0.7202,0.8579,0.7813,0.8294
-25,Taraxacum officinale,common dandelion,Plantae,High (70-90%),0.8108,0.0533,0.7202,0.8614,6/6 models agree,0.8614,0.8144,0.7202,0.8579,0.7813,0.8294
-26,Juglans californica,Southern California Walnut,Plantae,High (70-90%),0.8096,0.0168,0.7909,0.8384,6/6 models agree,0.8165,0.8051,0.7968,0.8096,0.8384,0.7909
-27,Peucetia,Green Lynx Spiders,Arachnida,High (70-90%),0.8024,0.0279,0.7492,0.8239,6/6 models agree,0.8195,0.8182,0.797,0.8239,0.7492,0.8063
-28,Oxalis pes-caprae,Bermuda buttercup,Plantae,High (70-90%),0.8024,0.0279,0.7492,0.8239,6/6 models agree,0.8195,0.8182,0.797,0.8239,0.7492,0.8063
-29,Boletus barrowsii,Barrow's Bolete,Fungi,High (70-90%),0.8005,0.0639,0.714,0.8827,6/6 models agree,0.8827,0.8335,0.7397,0.8377,0.714,0.7954
-30,Agaricus sylvaticus,Blushing Wood Mushroom,Fungi,High (70-90%),0.8005,0.0639,0.714,0.8827,6/6 models agree,0.8827,0.8335,0.7397,0.8377,0.714,0.7954
-31,Thamnophis hammondii,Two-striped Garter Snake,Reptilia,High (70-90%),0.7969,0.1061,0.6837,0.9641,6/6 models agree,0.9641,0.8331,0.6933,0.8452,0.6837,0.7622
-32,Microtus californicus,California Vole,Mammalia,High (70-90%),0.7966,0.0271,0.7442,0.8168,6/6 models agree,0.8115,0.805,0.7442,0.8108,0.7915,0.8168
-33,Ischnura cervula,Pacific Forktail,Insecta,High (70-90%),0.7966,0.0271,0.7442,0.8168,6/6 models agree,0.8115,0.805,0.7442,0.8108,0.7915,0.8168
-34,Graphocephala atropunctata,Blue-green Sharpshooter,Insecta,High (70-90%),0.7966,0.0271,0.7442,0.8168,6/6 models agree,0.8115,0.805,0.7442,0.8108,0.7915,0.8168
-35,Coprinellus bipellis,,Fungi,High (70-90%),0.7966,0.0271,0.7442,0.8168,6/6 models agree,0.8115,0.805,0.7442,0.8108,0.7915,0.8168
-36,Helvella macropus,long-stalked gray cup,Fungi,High (70-90%),0.7959,0.1207,0.6599,0.9911,6/6 models agree,0.9911,0.8447,0.6599,0.8268,0.6856,0.7674
-37,Helvella crispa,White Saddle,Fungi,High (70-90%),0.7959,0.1207,0.6599,0.9911,6/6 models agree,0.9911,0.8447,0.6599,0.8268,0.6856,0.7674
-38,Quercus dumosa,Nuttall's scrub oak,Plantae,High (70-90%),0.7908,0.0149,0.7614,0.8015,6/6 models agree,0.7938,0.7922,0.7614,0.801,0.8015,0.795
-39,Calonarius,Chalkland Webcaps,Fungi,High (70-90%),0.7908,0.0149,0.7614,0.8015,6/6 models agree,0.7938,0.7922,0.7614,0.801,0.8015,0.795
-40,Stenamma,,Insecta,High (70-90%),0.7908,0.0149,0.7614,0.8015,6/6 models agree,0.7938,0.7922,0.7614,0.801,0.8015,0.795
-41,Trachemys scripta scripta,Yellow-bellied Slider,Reptilia,High (70-90%),0.7895,0.0749,0.6984,0.9029,6/6 models agree,0.9029,0.7904,0.6984,0.8465,0.7344,0.7642
-42,Aceria boycei,Ragweed Gall Mite,Arachnida,High (70-90%),0.7885,0.0345,0.7415,0.8187,6/6 models agree,0.8115,0.8052,0.7415,0.8187,0.7475,0.8068
-43,Leptodictyum riparium,Streamside Leptodictyum Moss,Plantae,High (70-90%),0.7881,0.028,0.7524,0.8149,6/6 models agree,0.8117,0.8004,0.7541,0.8149,0.7524,0.7952
-44,Fabaceae,Legumes,Plantae,High (70-90%),0.7881,0.028,0.7524,0.8149,6/6 models agree,0.8117,0.8004,0.7541,0.8149,0.7524,0.7952
-45,Haemorhous mexicanus,House Finch,Aves,High (70-90%),0.7879,0.0325,0.7475,0.8249,6/6 models agree,0.8249,0.7895,0.7534,0.821,0.7475,0.7912
-46,Amsinckia menziesii intermedia,Rancher's fiddleneck,Plantae,High (70-90%),0.7871,0.029,0.7482,0.8162,6/6 models agree,0.8162,0.8056,0.7482,0.8098,0.7555,0.7871
-47,Psathyrella bipellis,Maroon Brittlestem,Fungi,High (70-90%),0.7871,0.029,0.7482,0.8162,6/6 models agree,0.8162,0.8056,0.7482,0.8098,0.7555,0.7871
-48,Eriogonum elongatum,Long-stemmed Buckwheat,Plantae,High (70-90%),0.7871,0.029,0.7482,0.8162,6/6 models agree,0.8162,0.8056,0.7482,0.8098,0.7555,0.7871
-49,Dasymutilla aureola,Pacific Velvet Ant,Insecta,High (70-90%),0.7851,0.0299,0.7417,0.8324,6/6 models agree,0.8324,0.7921,0.7417,0.79,0.7684,0.7858
-50,Pseudognaphalium beneolens,Fragrant Everlasting,Plantae,High (70-90%),0.7847,0.0452,0.7247,0.8306,6/6 models agree,0.8306,0.7971,0.7247,0.8181,0.7319,0.8059
-51,Eumenes crucifera,Cross Potter Wasp,Insecta,High (70-90%),0.7847,0.0452,0.7247,0.8306,6/6 models agree,0.8306,0.7971,0.7247,0.8181,0.7319,0.8059
-52,Tyrannus verticalis,Western Kingbird,Aves,High (70-90%),0.7847,0.0452,0.7247,0.8306,6/6 models agree,0.8306,0.7971,0.7247,0.8181,0.7319,0.8059
-53,Taraxacum,common dandelions,Plantae,High (70-90%),0.7828,0.0572,0.698,0.8609,6/6 models agree,0.8609,0.8233,0.7479,0.7728,0.698,0.7936
-54,Rubroboletus satanas,Devil's Bolete,Fungi,High (70-90%),0.7828,0.0572,0.698,0.8609,6/6 models agree,0.8609,0.8233,0.7479,0.7728,0.698,0.7936
-55,Leocarpus fragilis,insect-egg slime,Protozoa,High (70-90%),0.7824,0.0367,0.7349,0.8259,6/6 models agree,0.8259,0.7976,0.7349,0.8091,0.7419,0.7852
-56,Solanum xanti,purple nightshade,Plantae,High (70-90%),0.7813,0.0535,0.7066,0.8406,6/6 models agree,0.8313,0.7791,0.7066,0.8406,0.7321,0.7979
-57,Megaceryle alcyon,Belted Kingfisher,Aves,High (70-90%),0.7799,0.1036,0.6892,0.9652,6/6 models agree,0.9652,0.7735,0.6951,0.8222,0.6892,0.7341
-58,Misumenini,,Arachnida,High (70-90%),0.778,0.0297,0.7349,0.8139,6/6 models agree,0.8139,0.7932,0.7349,0.7827,0.75,0.7932
-59,Sorghum bicolor,Sorghums,Plantae,High (70-90%),0.778,0.0297,0.7349,0.8139,6/6 models agree,0.8139,0.7932,0.7349,0.7827,0.75,0.7932
-60,Cortaderia,Pampas grasses,Plantae,High (70-90%),0.7768,0.0436,0.6997,0.8252,6/6 models agree,0.7855,0.758,0.6997,0.8252,0.7904,0.8018
-61,Cynoglosseae,,Plantae,High (70-90%),0.7758,0.0119,0.7605,0.7936,6/6 models agree,0.7792,0.7832,0.7605,0.7694,0.7936,0.7688
-62,Calliopsis obscurella,,Insecta,High (70-90%),0.7758,0.0119,0.7605,0.7936,6/6 models agree,0.7792,0.7832,0.7605,0.7694,0.7936,0.7688
-63,Coriarachnini,,Arachnida,High (70-90%),0.7758,0.0119,0.7605,0.7936,6/6 models agree,0.7792,0.7832,0.7605,0.7694,0.7936,0.7688
-64,Lysimachia loeflingii,Blue Scarlet Pimpernel,Plantae,High (70-90%),0.7758,0.0119,0.7605,0.7936,6/6 models agree,0.7792,0.7832,0.7605,0.7694,0.7936,0.7688
-65,Nicrophorus marginatus,Margined Burying Beetle,Insecta,High (70-90%),0.7758,0.0119,0.7605,0.7936,6/6 models agree,0.7792,0.7832,0.7605,0.7694,0.7936,0.7688
-66,Ambrosia,Ragweeds,Plantae,High (70-90%),0.7726,0.024,0.7355,0.8021,6/6 models agree,0.8021,0.7803,0.7355,0.7894,0.7554,0.773
-67,Russula cerolens,Pocket-stalked russula,Fungi,High (70-90%),0.7682,0.0863,0.6481,0.8622,6/6 models agree,0.8584,0.6931,0.6481,0.8622,0.7663,0.7812
-68,Pardosa,Thin-legged Wolf Spiders,Arachnida,High (70-90%),0.768,0.0163,0.7437,0.7884,6/6 models agree,0.7884,0.7793,0.7437,0.7546,0.7705,0.7715
-69,Amsinckia tessellata,Bristly Fiddleneck,Plantae,High (70-90%),0.7676,0.0327,0.7124,0.8022,6/6 models agree,0.8022,0.7934,0.7508,0.7799,0.7124,0.7669
-70,Coniontis,,Insecta,High (70-90%),0.7665,0.0796,0.6875,0.8655,6/6 models agree,0.8655,0.7383,0.6875,0.8617,0.6913,0.7547
-71,Tortistilus,,Insecta,High (70-90%),0.7653,0.0284,0.7218,0.7946,6/6 models agree,0.788,0.7784,0.7218,0.7946,0.7409,0.768
-72,Anatidae,"Ducks, Geese, and Swans",Aves,High (70-90%),0.7638,0.0133,0.7375,0.7733,6/6 models agree,0.7676,0.7654,0.7375,0.7733,0.7727,0.7662
-73,Anser cygnoides,Swan Goose,Aves,High (70-90%),0.7638,0.0133,0.7375,0.7733,6/6 models agree,0.7676,0.7654,0.7375,0.7733,0.7727,0.7662
-74,Dipterostemon capitatus capitatus,,Plantae,High (70-90%),0.7599,0.0277,0.714,0.7929,6/6 models agree,0.763,0.7502,0.714,0.7565,0.7929,0.7827
-75,Erigeron foliosus foliosus,Thread stemmed fleabane,Plantae,High (70-90%),0.7585,0.0143,0.7333,0.7755,6/6 models agree,0.763,0.7624,0.7333,0.7755,0.7527,0.7643
-76,Gnorimoschema baccharisella,Coyote Brush Stem Gall Moth,Insecta,High (70-90%),0.7585,0.0143,0.7333,0.7755,6/6 models agree,0.763,0.7624,0.7333,0.7755,0.7527,0.7643
-77,Aves,Birds,Aves,High (70-90%),0.7585,0.0143,0.7333,0.7755,6/6 models agree,0.763,0.7624,0.7333,0.7755,0.7527,0.7643
-78,Chiroptera,Bats,Mammalia,High (70-90%),0.7585,0.0143,0.7333,0.7755,6/6 models agree,0.763,0.7624,0.7333,0.7755,0.7527,0.7643
-79,Tetranychus urticae,Twospotted Spider Mite,Arachnida,High (70-90%),0.7578,0.0096,0.7442,0.7672,6/6 models agree,0.7672,0.7665,0.7442,0.7639,0.7499,0.7548
-80,Troglodytes aedon,Northern House Wren,Aves,High (70-90%),0.7578,0.0096,0.7442,0.7672,6/6 models agree,0.7672,0.7665,0.7442,0.7639,0.7499,0.7548
-81,Thyridanthrax nugator,,Insecta,High (70-90%),0.7578,0.0096,0.7442,0.7672,6/6 models agree,0.7672,0.7665,0.7442,0.7639,0.7499,0.7548
-82,Hemeroplanis historialis,,Insecta,High (70-90%),0.7578,0.0096,0.7442,0.7672,6/6 models agree,0.7672,0.7665,0.7442,0.7639,0.7499,0.7548
-83,Oenothera,"evening primroses, sundrops, and beeblossoms",Plantae,High (70-90%),0.7578,0.0096,0.7442,0.7672,6/6 models agree,0.7672,0.7665,0.7442,0.7639,0.7499,0.7548
-84,Phacelia ramosissima,branching phacelia,Plantae,High (70-90%),0.7568,0.0631,0.6826,0.8509,6/6 models agree,0.8509,0.7767,0.6923,0.7879,0.6826,0.7503
-85,Populus trichocarpa,black cottonwood,Plantae,High (70-90%),0.7551,0.0289,0.7119,0.792,6/6 models agree,0.792,0.7608,0.7362,0.7786,0.7119,0.7513
-86,Chlorophyllum molybdites,Green-spored Parasol,Fungi,High (70-90%),0.7521,0.0311,0.7051,0.7911,6/6 models agree,0.7683,0.7685,0.7283,0.7911,0.7051,0.7514
-87,Perdita,Fairy Bees,Insecta,High (70-90%),0.7506,0.0368,0.7074,0.814,6/6 models agree,0.732,0.732,0.7074,0.814,0.7634,0.7549
-88,Taiyuna isantus,,Animalia,High (70-90%),0.7465,0.0171,0.7261,0.7694,6/6 models agree,0.7536,0.7504,0.7261,0.7694,0.7261,0.7535
-89,Agaricus californicus,California Agaricus,Fungi,High (70-90%),0.7465,0.0171,0.7261,0.7694,6/6 models agree,0.7536,0.7504,0.7261,0.7694,0.7261,0.7535
-90,Cotula australis,Common Cotula,Plantae,High (70-90%),0.7465,0.0171,0.7261,0.7694,6/6 models agree,0.7536,0.7504,0.7261,0.7694,0.7261,0.7535
-91,Xenoglossa pruinosa,Pruinose Squash Bee,Insecta,High (70-90%),0.7462,0.0354,0.6914,0.7875,6/6 models agree,0.7875,0.7801,0.7294,0.7372,0.6914,0.7514
-92,Sturnella neglecta,Western Meadowlark,Aves,High (70-90%),0.7456,0.0301,0.7084,0.7742,6/6 models agree,0.7715,0.7742,0.7084,0.7719,0.7277,0.7199
-93,Trochilidae,Hummingbirds,Aves,High (70-90%),0.7454,0.0357,0.6868,0.7723,6/6 models agree,0.7723,0.7713,0.7154,0.7647,0.6868,0.7619
-94,Euura,,Insecta,High (70-90%),0.7454,0.0357,0.6868,0.7723,6/6 models agree,0.7723,0.7713,0.7154,0.7647,0.6868,0.7619
-95,Sisymbrium officinale,Hedge mustard,Plantae,High (70-90%),0.7454,0.0357,0.6868,0.7723,6/6 models agree,0.7723,0.7713,0.7154,0.7647,0.6868,0.7619
-96,Steccherinum ochraceum,Ochre Spreading Tooth,Fungi,High (70-90%),0.7454,0.0125,0.7237,0.7599,6/6 models agree,0.7397,0.7479,0.7237,0.7523,0.7488,0.7599
-97,Hesperocnide tenella,Western nettle,Plantae,High (70-90%),0.7443,0.0307,0.7113,0.7906,6/6 models agree,0.7113,0.7549,0.7139,0.7906,0.7328,0.762
-98,Calliphoridae,Blow Flies,Insecta,High (70-90%),0.7438,0.1169,0.6265,0.9261,6/6 models agree,0.8252,0.6276,0.6265,0.9261,0.7097,0.7476
-99,Julidae,,Animalia,High (70-90%),0.7433,0.0133,0.7206,0.7583,6/6 models agree,0.7505,0.7509,0.7425,0.737,0.7206,0.7583
-100,Oecobius navus,Wall Spider,Arachnida,High (70-90%),0.7433,0.0133,0.7206,0.7583,6/6 models agree,0.7505,0.7509,0.7425,0.737,0.7206,0.7583
-101,Oecanthus rileyi,Riley's Tree Cricket,Insecta,High (70-90%),0.7433,0.0133,0.7206,0.7583,6/6 models agree,0.7505,0.7509,0.7425,0.737,0.7206,0.7583
-102,Dione vanillae,Gulf Fritillary,Insecta,High (70-90%),0.7433,0.0133,0.7206,0.7583,6/6 models agree,0.7505,0.7509,0.7425,0.737,0.7206,0.7583
-103,Carduus pycnocephalus pycnocephalus,,Plantae,High (70-90%),0.7428,0.0109,0.7275,0.7526,6/6 models agree,0.7485,0.7471,0.7275,0.7526,0.7304,0.7507
-104,Roanokenses,Amanita sect. Roanokenses,Fungi,High (70-90%),0.7421,0.0265,0.7026,0.7681,6/6 models agree,0.7026,0.7349,0.7226,0.7659,0.7588,0.7681
-105,Stephanomeria virgata,rod wirelettuce,Plantae,High (70-90%),0.741,0.0109,0.725,0.7507,6/6 models agree,0.7507,0.7501,0.725,0.7452,0.7297,0.7451
-106,Cuscuta campestris,Field Dodder,Plantae,High (70-90%),0.741,0.0109,0.725,0.7507,6/6 models agree,0.7507,0.7501,0.725,0.7452,0.7297,0.7451
-107,Ammophila,Thread-waisted Sand Wasps,Insecta,High (70-90%),0.741,0.0109,0.725,0.7507,6/6 models agree,0.7507,0.7501,0.725,0.7452,0.7297,0.7451
-108,Platynus brunneomarginatus,,Insecta,High (70-90%),0.7397,0.0448,0.6606,0.7811,6/6 models agree,0.7811,0.7636,0.6606,0.7567,0.7138,0.7625
-109,Sphenophorus venatus,Hunting Billbug,Insecta,High (70-90%),0.7397,0.0448,0.6606,0.7811,6/6 models agree,0.7811,0.7636,0.6606,0.7567,0.7138,0.7625
-110,Latrodectus hesperus,Western Black Widow,Arachnida,High (70-90%),0.7397,0.0448,0.6606,0.7811,6/6 models agree,0.7811,0.7636,0.6606,0.7567,0.7138,0.7625
-111,Chlorophyllum brunneum,Shaggy Parasol,Fungi,High (70-90%),0.7397,0.0193,0.7027,0.7588,6/6 models agree,0.7449,0.7423,0.7027,0.7588,0.7399,0.7495
-112,Solanum nigrum,Black Nightshade Complex,Plantae,High (70-90%),0.7397,0.0193,0.7027,0.7588,6/6 models agree,0.7449,0.7423,0.7027,0.7588,0.7399,0.7495
-113,Lampropeltis californiae,California King Snake,Reptilia,High (70-90%),0.7392,0.0401,0.6863,0.8031,6/6 models agree,0.755,0.7437,0.7091,0.8031,0.6863,0.738
-114,Brassicaceae,mustard family,Plantae,High (70-90%),0.7391,0.0282,0.693,0.7647,6/6 models agree,0.761,0.7604,0.7275,0.7647,0.693,0.728
-115,Cyathus,,Fungi,High (70-90%),0.739,0.032,0.6944,0.7765,6/6 models agree,0.7228,0.7304,0.6944,0.776,0.7765,0.7335
-116,Amaranthus palmeri,Palmer's Amaranth,Plantae,High (70-90%),0.7361,0.0693,0.6526,0.84,6/6 models agree,0.84,0.7215,0.6526,0.7925,0.6838,0.7265
-117,Oenothera elata,tall evening primrose,Plantae,High (70-90%),0.736,0.0135,0.7157,0.7506,6/6 models agree,0.7506,0.7352,0.7157,0.7442,0.7245,0.7454
-118,Pinus,pines,Plantae,High (70-90%),0.733,0.0299,0.6975,0.786,6/6 models agree,0.7205,0.7271,0.6975,0.7232,0.786,0.7439
-119,Corvus corax,Common Raven,Aves,High (70-90%),0.7313,0.0627,0.6559,0.8066,6/6 models agree,0.8066,0.7647,0.6559,0.7713,0.6565,0.733
-120,Salix exigua,Narrowleaf Willow,Plantae,High (70-90%),0.7309,0.0103,0.7197,0.7423,6/6 models agree,0.7409,0.7367,0.7197,0.7423,0.7248,0.7207
-121,Paropsisterna m-fuscum,Eucalyptus Leaf Beetle,Insecta,High (70-90%),0.7307,0.0246,0.6912,0.7574,6/6 models agree,0.7542,0.7318,0.7171,0.7574,0.6912,0.7325
-122,Trirhabda,,Insecta,High (70-90%),0.7307,0.0295,0.6857,0.7519,6/6 models agree,0.7516,0.7428,0.6857,0.7519,0.7009,0.751
-123,Slaterocoris,,Insecta,High (70-90%),0.7307,0.0295,0.6857,0.7519,6/6 models agree,0.7516,0.7428,0.6857,0.7519,0.7009,0.751
-124,Eriogonum fasciculatum fasciculatum,Coastal California Buckwheat,Plantae,High (70-90%),0.7307,0.0295,0.6857,0.7519,6/6 models agree,0.7516,0.7428,0.6857,0.7519,0.7009,0.751
-125,Cuscuta californica,California dodder,Plantae,High (70-90%),0.7304,0.0288,0.6787,0.7648,6/6 models agree,0.7313,0.7452,0.6787,0.7648,0.7369,0.7253
-126,Melissodes,,Insecta,High (70-90%),0.7295,0.0424,0.6644,0.7755,6/6 models agree,0.7308,0.703,0.6644,0.7755,0.73,0.7735
-127,Corthylio calendula,Ruby-crowned Kinglet,Aves,High (70-90%),0.7291,0.0207,0.6987,0.7581,6/6 models agree,0.7342,0.7231,0.6987,0.7581,0.7177,0.7429
-128,Neotoma fuscipes,Dusky-footed Woodrat,Mammalia,High (70-90%),0.7291,0.0207,0.6987,0.7581,6/6 models agree,0.7342,0.7231,0.6987,0.7581,0.7177,0.7429
-129,Halictus tripartitus,Tripartite Sweat Bee,Insecta,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-130,Helicosmia,,Insecta,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-131,Oestroidea,"Bot Flies, Blow Flies, and Allies",Insecta,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-132,Mordella hubbsi,,Insecta,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-133,Oxyopes,Grass Lynx Spiders,Arachnida,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-134,Corythucha morrilli,Morrill Lace Bug,Insecta,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-135,Avena,Oats,Plantae,High (70-90%),0.7291,0.0045,0.7241,0.7362,6/6 models agree,0.7305,0.7262,0.7241,0.7313,0.7262,0.7362
-136,Megachile angelarum,,Insecta,High (70-90%),0.7281,0.0574,0.6518,0.7942,6/6 models agree,0.7829,0.7434,0.6518,0.7942,0.6732,0.7227
-137,Ammopelmatus,North American Jerusalem Crickets,Insecta,High (70-90%),0.7276,0.0341,0.6896,0.7735,6/6 models agree,0.7367,0.6951,0.6896,0.7576,0.7129,0.7735
-138,Ochlodes sylvanoides,Woodland Skipper,Insecta,High (70-90%),0.7275,0.0247,0.6919,0.7589,6/6 models agree,0.7344,0.7114,0.6919,0.7589,0.7196,0.7485
-139,Pluteus exilis,Western Deer Mushroom,Fungi,High (70-90%),0.7267,0.0106,0.7122,0.7376,6/6 models agree,0.7306,0.7297,0.7122,0.7376,0.7148,0.7351
-140,Bactericera maculipennis,,Insecta,High (70-90%),0.7267,0.0106,0.7122,0.7376,6/6 models agree,0.7306,0.7297,0.7122,0.7376,0.7148,0.7351
-141,Helvella vespertina,Western Black Elfin Saddle,Fungi,High (70-90%),0.7267,0.0106,0.7122,0.7376,6/6 models agree,0.7306,0.7297,0.7122,0.7376,0.7148,0.7351
-142,Callophrys dumetorum,Lotus Hairstreak,Insecta,High (70-90%),0.7264,0.0507,0.6747,0.7847,6/6 models agree,0.6912,0.6822,0.6747,0.7846,0.7408,0.7847
-143,Cirsium occidentale,Cobwebby Thistle,Plantae,High (70-90%),0.7263,0.0275,0.7011,0.7646,6/6 models agree,0.7079,0.7084,0.7011,0.7646,0.7187,0.7571
-144,Spodoptera exigua,Beet Armyworm Moth,Insecta,High (70-90%),0.7261,0.0223,0.6986,0.762,6/6 models agree,0.762,0.7379,0.7089,0.7225,0.6986,0.7268
-145,Papilio rutulus,Western Tiger Swallowtail,Insecta,High (70-90%),0.7242,0.04,0.673,0.7886,6/6 models agree,0.7467,0.7066,0.673,0.7886,0.7041,0.7262
-146,Entoloma,Pinkgills,Fungi,High (70-90%),0.724,0.022,0.6996,0.7552,6/6 models agree,0.7038,0.6996,0.7125,0.7381,0.7346,0.7552
-147,Dryobates nuttallii,Nuttall's Woodpecker,Aves,High (70-90%),0.7234,0.0245,0.6985,0.7612,6/6 models agree,0.7612,0.6985,0.6993,0.7243,0.7158,0.741
-148,Stropharia coronilla,Garland Roundhead,Fungi,High (70-90%),0.7229,0.0267,0.681,0.7544,6/6 models agree,0.7442,0.7334,0.681,0.7544,0.7149,0.7093
-149,Machaerantherinae,,Plantae,High (70-90%),0.7226,0.0232,0.6953,0.7601,6/6 models agree,0.7387,0.7079,0.6953,0.7601,0.7173,0.7163
-150,Anser anser × cygnoides,Greylag × Swan Goose,Aves,High (70-90%),0.7221,0.0297,0.6904,0.7689,6/6 models agree,0.7689,0.7381,0.6904,0.7255,0.7185,0.6914
-151,Eucalyptus,eucalyptus,Plantae,High (70-90%),0.7218,0.0243,0.6889,0.7518,6/6 models agree,0.7456,0.7091,0.6889,0.7518,0.7076,0.7278
-152,Heterotheca grandiflora,Telegraphweed,Plantae,High (70-90%),0.7217,0.014,0.7028,0.7446,6/6 models agree,0.7131,0.7227,0.7028,0.7446,0.7266,0.7201
-153,Laccaria laccata,deceiver,Fungi,High (70-90%),0.7203,0.0183,0.6983,0.7449,6/6 models agree,0.7168,0.7026,0.6983,0.7224,0.7365,0.7449
-154,Phloeodes diabolicus,Diabolical Ironclad Beetle,Insecta,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-155,Stigmella heteromelis,,Insecta,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-156,Artemisia palmeri,San Diego Sagewort,Plantae,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-157,Scleroderma citrinum,common earthball,Fungi,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-158,Iva hayesiana,San Diego marsh-elder,Plantae,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-159,Aceria paracalifornica,California Sagebrush Gall Mite,Arachnida,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-160,Silene laciniata laciniata,Mexican pink,Plantae,High (70-90%),0.7201,0.0086,0.7091,0.7351,6/6 models agree,0.7186,0.7202,0.7091,0.7351,0.7156,0.7219
-161,Vitis girdiana,desert wild grape,Plantae,High (70-90%),0.7199,0.0141,0.7065,0.742,6/6 models agree,0.7065,0.7192,0.7068,0.742,0.7138,0.731
-162,Vitis californica,California wild grape,Plantae,High (70-90%),0.719,0.0615,0.6668,0.8172,6/6 models agree,0.6909,0.668,0.6668,0.7716,0.8172,0.6997
-163,Encelia farinosa,Brittlebush,Plantae,High (70-90%),0.7167,0.035,0.6689,0.7631,6/6 models agree,0.6689,0.6947,0.6983,0.7631,0.7357,0.7392
-164,Tracheophyta,Vascular Plants,Plantae,High (70-90%),0.7162,0.0141,0.6937,0.7335,6/6 models agree,0.7225,0.7335,0.6937,0.7075,0.7155,0.7246
-165,Vitis,grapevines,Plantae,High (70-90%),0.7152,0.0119,0.6953,0.7296,6/6 models agree,0.7174,0.7296,0.721,0.7196,0.7084,0.6953
-166,Helvella,Elfin Saddles,Fungi,High (70-90%),0.7141,0.0188,0.694,0.7419,6/6 models agree,0.7164,0.704,0.694,0.7419,0.6985,0.7297
-167,Hebeloma,Poisonpies,Fungi,High (70-90%),0.7139,0.0599,0.6231,0.7837,6/6 models agree,0.6807,0.69,0.6231,0.7449,0.7609,0.7837
-168,Conocybe apala,milky conecap,Fungi,High (70-90%),0.7122,0.0354,0.677,0.7596,6/6 models agree,0.6971,0.677,0.679,0.7596,0.7101,0.7501
-169,Sturnus vulgaris,European Starling,Aves,High (70-90%),0.7115,0.0217,0.6899,0.7474,6/6 models agree,0.7474,0.7277,0.7047,0.6971,0.7022,0.6899
-170,Catalinia castanea,,Arachnida,High (70-90%),0.7113,0.0873,0.6448,0.8788,6/6 models agree,0.8788,0.7312,0.6618,0.6856,0.6448,0.6654
-171,Galium angustifolium,Narrow-leaved Bedstraw,Plantae,High (70-90%),0.7101,0.0387,0.6638,0.7521,6/6 models agree,0.7367,0.6817,0.6812,0.7521,0.6638,0.7454
-172,Callirhytis perdens,Ruptured Twig Gall Wasp,Insecta,High (70-90%),0.7097,0.0091,0.7016,0.725,6/6 models agree,0.7021,0.7062,0.7016,0.725,0.7073,0.7158
-173,Quercus agrifolia agrifolia,California Live Oak,Plantae,High (70-90%),0.7097,0.0091,0.7016,0.725,6/6 models agree,0.7021,0.7062,0.7016,0.725,0.7073,0.7158
-174,Dryocosmus minusculus,Pumpkin Gall Wasp,Insecta,High (70-90%),0.7097,0.0091,0.7016,0.725,6/6 models agree,0.7021,0.7062,0.7016,0.725,0.7073,0.7158
-175,Eucalyptus globulus,Tasmanian blue gum,Plantae,High (70-90%),0.7091,0.0103,0.6982,0.7235,6/6 models agree,0.7201,0.7017,0.6982,0.7066,0.7046,0.7235
-176,Lentinellus ursinus,bear lentinus,Fungi,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-177,Pimplinae,,Insecta,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-178,Dacrymyces stillatus,Jelly Spot Fungus,Fungi,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-179,Clastoptera lineatocollis,,Insecta,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-180,Lepiota spheniscispora,Penguin-spored Lepiota,Fungi,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-181,Mycenaceae,,Fungi,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-182,Rubroboletus,,Fungi,High (70-90%),0.7091,0.0064,0.7036,0.7208,6/6 models agree,0.7069,0.7122,0.7036,0.7208,0.7057,0.7053
-183,Agaricaceae,Field Mushrooms and Allies,Fungi,High (70-90%),0.7085,0.0334,0.6671,0.7378,6/6 models agree,0.7378,0.7361,0.6701,0.7357,0.6671,0.704
-184,Parasola plicatilis,pleated inkcap,Fungi,High (70-90%),0.7074,0.0053,0.6998,0.7142,6/6 models agree,0.712,0.7083,0.6998,0.7142,0.7062,0.7039
-185,Coltricia,,Fungi,High (70-90%),0.7074,0.0053,0.6998,0.7142,6/6 models agree,0.712,0.7083,0.6998,0.7142,0.7062,0.7039
-186,Eucrypta chrysanthemifolia chrysanthemifolia,,Plantae,High (70-90%),0.7074,0.0053,0.6998,0.7142,6/6 models agree,0.712,0.7083,0.6998,0.7142,0.7062,0.7039
-187,Apium,Celery and Marshwort,Plantae,High (70-90%),0.7074,0.0053,0.6998,0.7142,6/6 models agree,0.712,0.7083,0.6998,0.7142,0.7062,0.7039
-188,Cenchrus clandestinus,Kikuyu Grass,Plantae,High (70-90%),0.7072,0.0046,0.7002,0.7118,6/6 models agree,0.7118,0.7117,0.7002,0.709,0.7034,0.7074
-189,Crotalus ruber,Red Diamond Rattlesnake,Reptilia,High (70-90%),0.7072,0.0107,0.6884,0.716,6/6 models agree,0.7141,0.716,0.6884,0.7138,0.7105,0.7005
-190,Sonchus,sow thistles,Plantae,High (70-90%),0.7072,0.0107,0.6884,0.716,6/6 models agree,0.7141,0.716,0.6884,0.7138,0.7105,0.7005
-191,Rhamnus,Buckthorns,Plantae,High (70-90%),0.7066,0.0533,0.671,0.8133,6/6 models agree,0.6932,0.6981,0.6892,0.8133,0.671,0.6751
-192,Cryptocephalus andrewsi,,Insecta,High (70-90%),0.7063,0.0138,0.6895,0.725,6/6 models agree,0.7118,0.7101,0.6895,0.7111,0.6906,0.725
-193,Schoenoplectus,Schoenoplectus Bulrushes,Plantae,High (70-90%),0.7063,0.0138,0.6895,0.725,6/6 models agree,0.7118,0.7101,0.6895,0.7111,0.6906,0.725
-194,Sambucus cerulea,blue elder,Plantae,High (70-90%),0.7055,0.039,0.6513,0.752,6/6 models agree,0.752,0.7415,0.6725,0.6997,0.6513,0.716
-195,Sonchus oleraceus,Common Sow-thistle,Plantae,High (70-90%),0.7053,0.0107,0.688,0.7174,6/6 models agree,0.7174,0.7003,0.7022,0.7134,0.688,0.7108
-196,Xerocomellus mendocinensis,,Fungi,High (70-90%),0.7051,0.0133,0.6855,0.7188,6/6 models agree,0.7175,0.7054,0.6934,0.7188,0.6855,0.71
-197,Marasmius albogriseus,,Fungi,High (70-90%),0.7048,0.0182,0.6853,0.7338,6/6 models agree,0.7338,0.7102,0.6961,0.7139,0.6853,0.6893
-198,Cirsium,Plume Thistles,Plantae,High (70-90%),0.7028,0.0294,0.6686,0.7564,6/6 models agree,0.6927,0.7041,0.6686,0.6895,0.7055,0.7564
-199,Collybia nuda,Blewit,Fungi,High (70-90%),0.7026,0.0199,0.6788,0.7323,6/6 models agree,0.7057,0.6788,0.6872,0.7172,0.7323,0.6942
-200,Helminthotheca echioides,bristly oxtongue,Plantae,High (70-90%),0.7016,0.0337,0.6622,0.7529,6/6 models agree,0.7294,0.6936,0.6938,0.7529,0.6773,0.6622
-201,Laetiporus gilbertsonii,Western Hardwood Sulphur Shelf,Fungi,High (70-90%),0.7011,0.0282,0.668,0.7495,6/6 models agree,0.7052,0.696,0.6799,0.7495,0.668,0.7081
-202,Leucocybe candicans,,Fungi,High (70-90%),0.7011,0.0028,0.6972,0.7044,6/6 models agree,0.7019,0.6987,0.7007,0.7044,0.7036,0.6972
-203,Stemonitis splendens,chocolate tube slime,Protozoa,High (70-90%),0.7011,0.0028,0.6972,0.7044,6/6 models agree,0.7019,0.6987,0.7007,0.7044,0.7036,0.6972
-204,Tapinella panuoides,Oyster Rollrim,Fungi,High (70-90%),0.7011,0.0028,0.6972,0.7044,6/6 models agree,0.7019,0.6987,0.7007,0.7044,0.7036,0.6972
-205,Pieris rapae,Small White,Insecta,High (70-90%),0.701,0.0281,0.6629,0.7324,6/6 models agree,0.6849,0.6854,0.6629,0.7324,0.7081,0.7321
-206,Icterus cucullatus,Hooded Oriole,Aves,High (70-90%),0.7007,0.0131,0.6857,0.717,6/6 models agree,0.692,0.6906,0.6857,0.7139,0.717,0.705
-207,Naematelia aurantia,golden ear,Fungi,High (70-90%),0.7003,0.0273,0.6696,0.7433,6/6 models agree,0.7221,0.6939,0.6823,0.7433,0.6909,0.6696
-208,Hypochaeris radicata,Common Cat's-ear,Plantae,Good (50-70%),0.6994,0.0139,0.6799,0.7105,6/6 models agree,0.7103,0.7043,0.7078,0.6799,0.6834,0.7105
-209,Batrachoseps major,Southern California Slender Salamander,Amphibia,Good (50-70%),0.6988,0.0146,0.6706,0.7114,6/6 models agree,0.7114,0.6985,0.7017,0.7079,0.7027,0.6706
-210,Hylaeus,Masked Bees,Insecta,Good (50-70%),0.6987,0.0082,0.6838,0.7065,6/6 models agree,0.7012,0.7065,0.6838,0.6992,0.6961,0.7055
-211,Andrena,Mining Bees,Insecta,Good (50-70%),0.6987,0.0082,0.6838,0.7065,6/6 models agree,0.7012,0.7065,0.6838,0.6992,0.6961,0.7055
-212,Asteroideae,,Plantae,Good (50-70%),0.6985,0.029,0.6645,0.7358,6/6 models agree,0.6744,0.6645,0.6805,0.7178,0.7358,0.718
-213,Cistus creticus,Hoary Rock-rose,Plantae,Good (50-70%),0.6985,0.0601,0.5818,0.7401,6/6 models agree,0.7329,0.7314,0.6883,0.7401,0.7161,0.5818
-214,Erynnis,Duskywings,Insecta,Good (50-70%),0.6984,0.0147,0.6838,0.7228,6/6 models agree,0.7039,0.6839,0.6838,0.6942,0.7228,0.7017
-215,Nycticorax nycticorax,Black-crowned Night Heron,Aves,Good (50-70%),0.6979,0.0222,0.6679,0.7297,6/6 models agree,0.6872,0.6845,0.6679,0.7114,0.7068,0.7297
-216,Bromus,bromes,Plantae,Good (50-70%),0.6966,0.0195,0.6759,0.7292,6/6 models agree,0.7096,0.6875,0.6759,0.7292,0.6845,0.6928
-217,Lycosoidea,Wolf Spiders and Allies,Arachnida,Good (50-70%),0.6965,0.0094,0.6907,0.7151,6/6 models agree,0.6911,0.6907,0.697,0.6914,0.6936,0.7151
-218,Mycena,Bonnets,Fungi,Good (50-70%),0.6965,0.0094,0.6907,0.7151,6/6 models agree,0.6911,0.6907,0.697,0.6914,0.6936,0.7151
-219,Mucoromycetes,,Fungi,Good (50-70%),0.6965,0.0094,0.6907,0.7151,6/6 models agree,0.6911,0.6907,0.697,0.6914,0.6936,0.7151
-220,Salix gooddingii,Goodding's willow,Plantae,Good (50-70%),0.6961,0.002,0.6927,0.6987,6/6 models agree,0.6965,0.6953,0.6927,0.6965,0.6967,0.6987
-221,Peridroma saucia,Variegated Cutworm Moth,Insecta,Good (50-70%),0.6961,0.002,0.6927,0.6987,6/6 models agree,0.6965,0.6953,0.6927,0.6965,0.6967,0.6987
-222,Pantherinae,Amanita ser. Pantherinae,Fungi,Good (50-70%),0.6961,0.002,0.6927,0.6987,6/6 models agree,0.6965,0.6953,0.6927,0.6965,0.6967,0.6987
-223,Trifolium repens,white clover,Plantae,Good (50-70%),0.6955,0.0165,0.6804,0.7212,6/6 models agree,0.7104,0.6913,0.6822,0.7212,0.6804,0.6876
-224,Ardea alba,Great Egret,Aves,Good (50-70%),0.6955,0.0205,0.6757,0.7318,6/6 models agree,0.7318,0.7022,0.6773,0.6923,0.6935,0.6757
-225,Butorides virescens,Green Heron,Aves,Good (50-70%),0.6951,0.0188,0.6735,0.7267,6/6 models agree,0.7043,0.6925,0.6812,0.6735,0.6927,0.7267
-226,Cupaniopsis anacardioides,Tuckeroo,Plantae,Good (50-70%),0.6945,0.0233,0.6743,0.7334,6/6 models agree,0.7122,0.686,0.6743,0.7334,0.6784,0.6826
-227,Gilia angelensis,chaparral gilia,Plantae,Good (50-70%),0.6944,0.012,0.6832,0.7099,6/6 models agree,0.6832,0.6893,0.6843,0.7099,0.6905,0.7091
-228,Sympetrum corruptum,Variegated Meadowhawk,Insecta,Good (50-70%),0.6944,0.012,0.6832,0.7099,6/6 models agree,0.6832,0.6893,0.6843,0.7099,0.6905,0.7091
-229,Pseudognaphalium biolettii,two-color rabbit tobacco,Plantae,Good (50-70%),0.6942,0.022,0.6673,0.7274,6/6 models agree,0.7101,0.6858,0.6781,0.6673,0.7274,0.6964
-230,Lathyrus vestitus alefeldii,San Diego Pea,Plantae,Good (50-70%),0.6941,0.0241,0.658,0.7241,6/6 models agree,0.7047,0.7106,0.6904,0.6766,0.658,0.7241
-231,Porzana carolina,Sora,Aves,Good (50-70%),0.692,0.0095,0.6758,0.705,6/6 models agree,0.6963,0.6909,0.6758,0.6924,0.705,0.6918
-232,Graptemys pseudogeographica pseudogeographica,Northern False Map Turtle,Reptilia,Good (50-70%),0.692,0.0095,0.6758,0.705,6/6 models agree,0.6963,0.6909,0.6758,0.6924,0.705,0.6918
-233,Myrtoideae,,Plantae,Good (50-70%),0.692,0.0095,0.6758,0.705,6/6 models agree,0.6963,0.6909,0.6758,0.6924,0.705,0.6918
-234,Schistocerca nitens,Gray Bird Grasshopper,Insecta,Good (50-70%),0.6918,0.0185,0.6653,0.7222,6/6 models agree,0.6835,0.6916,0.6917,0.6963,0.6653,0.7222
-235,Lonchura punctulata,Scaly-breasted Munia,Aves,Good (50-70%),0.6916,0.0222,0.669,0.7311,6/6 models agree,0.6882,0.673,0.669,0.7311,0.6983,0.69
-236,Panaeolus foenisecii,Mower's Mushroom,Fungi,Good (50-70%),0.6911,0.0235,0.6544,0.7192,6/6 models agree,0.708,0.6881,0.6759,0.6544,0.7012,0.7192
-237,Coprinopsis atramentaria,Common Ink Cap,Fungi,Good (50-70%),0.6911,0.026,0.6617,0.7373,6/6 models agree,0.6938,0.6901,0.6617,0.6917,0.6719,0.7373
-238,Trachemys scripta,Pond Slider,Reptilia,Good (50-70%),0.691,0.0167,0.671,0.7129,6/6 models agree,0.6857,0.6764,0.671,0.7075,0.7129,0.6926
-239,Xerocomellus,,Fungi,Good (50-70%),0.6906,0.0162,0.6627,0.7043,6/6 models agree,0.7006,0.6987,0.7043,0.6795,0.6627,0.6981
-240,Bubo virginianus,Great Horned Owl,Aves,Good (50-70%),0.6906,0.0311,0.6639,0.7492,6/6 models agree,0.6921,0.6639,0.6652,0.7492,0.6892,0.6838
-241,Salix lasiolepis,Arroyo Willow,Plantae,Good (50-70%),0.6904,0.0347,0.6632,0.7526,6/6 models agree,0.6698,0.6638,0.6632,0.7067,0.7526,0.6865
-242,Polioptila caerulea,Blue-gray Gnatcatcher,Aves,Good (50-70%),0.6903,0.0054,0.6814,0.696,6/6 models agree,0.6867,0.696,0.6933,0.6903,0.6814,0.6938
-243,Litomegachile,,Insecta,Good (50-70%),0.6903,0.0054,0.6814,0.696,6/6 models agree,0.6867,0.696,0.6933,0.6903,0.6814,0.6938
-244,Rumex crispus,curled dock,Plantae,Good (50-70%),0.6902,0.0162,0.6683,0.7116,6/6 models agree,0.6845,0.681,0.6683,0.7063,0.7116,0.6895
-245,Acmispon,deervetch,Plantae,Good (50-70%),0.6895,0.0146,0.6693,0.7083,6/6 models agree,0.6824,0.7083,0.6802,0.6993,0.6693,0.6976
-246,Amanita calyptratoides,Candlestick Amanita,Fungi,Good (50-70%),0.6887,0.0639,0.6158,0.7969,6/6 models agree,0.7969,0.6979,0.6955,0.6319,0.6158,0.6944
-247,Dittrichia graveolens,Stinkwort,Plantae,Good (50-70%),0.688,0.0435,0.6389,0.7555,6/6 models agree,0.6555,0.6625,0.6389,0.7107,0.7047,0.7555
-248,Vitaceae,Grape Family,Plantae,Good (50-70%),0.6879,0.0164,0.6717,0.711,6/6 models agree,0.68,0.6816,0.6768,0.706,0.6717,0.711
-249,Hygrophorus eburneus,Cowboy's Handkerchief,Fungi,Good (50-70%),0.6874,0.0152,0.6692,0.7106,6/6 models agree,0.6974,0.6692,0.6741,0.6877,0.6851,0.7106
-250,Malacothamnus fasciculatus,southern coastal bushmallow,Plantae,Good (50-70%),0.6859,0.0245,0.6656,0.7325,6/6 models agree,0.692,0.6788,0.6743,0.7325,0.6721,0.6656
-251,Vespula pensylvanica,Western Yellowjacket,Insecta,Good (50-70%),0.6857,0.0259,0.6555,0.7166,6/6 models agree,0.7151,0.6836,0.6826,0.6555,0.6609,0.7166
-252,Sceloporus occidentalis longipes,Great Basin Fence Lizard,Reptilia,Good (50-70%),0.6856,0.0162,0.6593,0.7045,6/6 models agree,0.6958,0.6936,0.6846,0.6593,0.6755,0.7045
-253,Aculus tetanothrix,Willow Bead Gall Mite,Arachnida,Good (50-70%),0.6855,0.0209,0.6578,0.7143,6/6 models agree,0.6895,0.6653,0.6881,0.6983,0.7143,0.6578
-254,Amanita pantherinoides,Western Panther,Fungi,Good (50-70%),0.6839,0.0216,0.6588,0.7169,6/6 models agree,0.7169,0.6789,0.6648,0.6986,0.6588,0.6853
-255,Cortaderia selloana,Pampas Grass,Plantae,Good (50-70%),0.6831,0.0122,0.6691,0.6985,6/6 models agree,0.6775,0.6709,0.6691,0.6985,0.6908,0.6913
-256,Anura,Frogs and Toads,Amphibia,Good (50-70%),0.6828,0.003,0.677,0.6849,6/6 models agree,0.6839,0.6822,0.677,0.6841,0.6849,0.6845
-257,Junonia grisea,Gray Buckeye,Insecta,Good (50-70%),0.6828,0.003,0.677,0.6849,6/6 models agree,0.6839,0.6822,0.677,0.6841,0.6849,0.6845
-258,Lotus tenuis,narrow-leaf bird's-foot trefoil,Plantae,Good (50-70%),0.6828,0.003,0.677,0.6849,6/6 models agree,0.6839,0.6822,0.677,0.6841,0.6849,0.6845
-259,Xanthocephalus xanthocephalus,Yellow-headed Blackbird,Aves,Good (50-70%),0.6828,0.003,0.677,0.6849,6/6 models agree,0.6839,0.6822,0.677,0.6841,0.6849,0.6845
-260,Aigeiros,Black Poplars and Allies,Plantae,Good (50-70%),0.6828,0.003,0.677,0.6849,6/6 models agree,0.6839,0.6822,0.677,0.6841,0.6849,0.6845
-261,Inocybe insinuata,,Fungi,Good (50-70%),0.6827,0.052,0.6133,0.7608,6/6 models agree,0.7608,0.7043,0.6133,0.7008,0.6404,0.6766
-262,Agaricus brunneofibrillosus,Bleeding Brown Cypress Agaricus,Fungi,Good (50-70%),0.6826,0.0081,0.6693,0.6922,6/6 models agree,0.6922,0.6775,0.6867,0.6868,0.6693,0.6832
-263,Misumenoides formosipes,White-banded Crab Spider,Arachnida,Good (50-70%),0.682,0.0347,0.6529,0.7491,6/6 models agree,0.6643,0.6797,0.663,0.683,0.6529,0.7491
-264,Orgyia vetusta,Western Tussock Moth,Insecta,Good (50-70%),0.6818,0.0123,0.6652,0.6977,6/6 models agree,0.6869,0.6743,0.675,0.6916,0.6652,0.6977
-265,Phidippus johnsoni,Johnson's Jumping Spider,Arachnida,Good (50-70%),0.6815,0.0846,0.5868,0.7733,6/6 models agree,0.5868,0.6391,0.598,0.7733,0.7201,0.7719
-266,Apis mellifera,Western Honey Bee,Insecta,Good (50-70%),0.6814,0.0153,0.6601,0.7012,6/6 models agree,0.7012,0.6771,0.6702,0.6939,0.6601,0.686
-267,Eriophyllum confertiflorum confertiflorum,,Plantae,Good (50-70%),0.6814,0.029,0.6444,0.713,6/6 models agree,0.713,0.6831,0.6492,0.7079,0.6908,0.6444
-268,Anser cygnoides domesticus,Domestic Swan Goose,Aves,Good (50-70%),0.681,0.0127,0.6671,0.7,6/6 models agree,0.6761,0.6738,0.6671,0.6932,0.7,0.6759
-269,Zonotrichia leucophrys,White-crowned Sparrow,Aves,Good (50-70%),0.681,0.0126,0.6676,0.7036,6/6 models agree,0.6823,0.6676,0.6732,0.6832,0.6758,0.7036
-270,Cardamine hirsuta,hairy bittercress,Plantae,Good (50-70%),0.6808,0.0226,0.6404,0.7088,6/6 models agree,0.7088,0.6816,0.6794,0.683,0.6404,0.6915
-271,Encelia farinosa × californica,California brittlebush hybrid,Plantae,Good (50-70%),0.6802,0.0298,0.6308,0.7128,6/6 models agree,0.6308,0.6607,0.6844,0.6924,0.6999,0.7128
-272,Gambusia affinis,Western Mosquitofish,Actinopterygii,Good (50-70%),0.6798,0.0243,0.6534,0.7173,6/6 models agree,0.7173,0.7005,0.6719,0.6617,0.6534,0.6743
-273,Helvella acetabulum,Vinegar Cup,Fungi,Good (50-70%),0.6795,0.0096,0.6652,0.6926,6/6 models agree,0.6926,0.6861,0.6819,0.6652,0.6738,0.6773
-274,Heraclides rumiko,Western Giant Swallowtail,Insecta,Good (50-70%),0.6789,0.0414,0.6254,0.7309,6/6 models agree,0.675,0.6664,0.6254,0.7244,0.6513,0.7309
-275,Chlorophyllum,,Fungi,Good (50-70%),0.6786,0.024,0.662,0.7264,6/6 models agree,0.7264,0.6696,0.6768,0.662,0.6647,0.6724
-276,Circus hudsonius,Northern Harrier,Aves,Good (50-70%),0.6783,0.0454,0.6071,0.7444,6/6 models agree,0.6071,0.6721,0.6773,0.6651,0.7039,0.7444
-277,Evernia prunastri,Oakmoss,Fungi,Good (50-70%),0.678,0.0233,0.6492,0.704,6/6 models agree,0.6849,0.704,0.6546,0.6728,0.6492,0.7024
-278,Sylvilagus audubonii,Desert Cottontail,Mammalia,Good (50-70%),0.6775,0.0124,0.6648,0.6974,6/6 models agree,0.6659,0.6723,0.6648,0.6841,0.6801,0.6974
-279,Agelenopsis aperta,Desert Grass Spider,Arachnida,Good (50-70%),0.6769,0.0133,0.665,0.7023,6/6 models agree,0.6727,0.668,0.6759,0.7023,0.6778,0.665
-280,Scirpus,Scirpus Bulrushes,Plantae,Good (50-70%),0.6769,0.0133,0.665,0.7023,6/6 models agree,0.6727,0.668,0.6759,0.7023,0.6778,0.665
-281,Isodontia philadelphica,,Insecta,Good (50-70%),0.6768,0.0053,0.6677,0.6829,6/6 models agree,0.6829,0.68,0.6778,0.6677,0.6786,0.6738
-282,Salix lasiandra,Pacific Willow,Plantae,Good (50-70%),0.6767,0.0229,0.6534,0.7163,6/6 models agree,0.7163,0.6796,0.6859,0.6656,0.6597,0.6534
-283,Plestiodon skiltonianus skiltonianus,Skilton's Skink,Reptilia,Good (50-70%),0.6766,0.0137,0.6571,0.6974,6/6 models agree,0.6675,0.6765,0.6787,0.6571,0.6974,0.6824
-284,Scolopendra polymorpha,Common Desert Centipede,Animalia,Good (50-70%),0.6766,0.0137,0.6571,0.6974,6/6 models agree,0.6675,0.6765,0.6787,0.6571,0.6974,0.6824
-285,Lepidium didymum,Lesser swine-cress,Plantae,Good (50-70%),0.6766,0.0137,0.6571,0.6974,6/6 models agree,0.6675,0.6765,0.6787,0.6571,0.6974,0.6824
-286,Paruroctonus silvestrii,California common scorpion,Arachnida,Good (50-70%),0.6766,0.0137,0.6571,0.6974,6/6 models agree,0.6675,0.6765,0.6787,0.6571,0.6974,0.6824
-287,Hypsiglena ochrorhynchus klauberi,San Diego Nightsnake,Reptilia,Good (50-70%),0.6766,0.0137,0.6571,0.6974,6/6 models agree,0.6675,0.6765,0.6787,0.6571,0.6974,0.6824
-288,Sitta carolinensis,White-breasted Nuthatch,Aves,Good (50-70%),0.6763,0.0241,0.6504,0.7163,6/6 models agree,0.6937,0.6642,0.6657,0.7163,0.6674,0.6504
-289,Populus,"poplars, cottonwoods, and aspens",Plantae,Good (50-70%),0.6755,0.0324,0.6337,0.7268,6/6 models agree,0.7268,0.6949,0.6742,0.6697,0.6539,0.6337
-290,Selasphorus sasin,Allen's Hummingbird,Aves,Good (50-70%),0.6754,0.0271,0.6449,0.7203,6/6 models agree,0.655,0.6673,0.6449,0.674,0.7203,0.6911
-291,Mycena tenerrima,frosty bonnet,Fungi,Good (50-70%),0.6754,0.0457,0.6288,0.7466,6/6 models agree,0.6448,0.6386,0.6288,0.6969,0.6966,0.7466
-292,Emydidae,Pond and Box Turtles,Reptilia,Good (50-70%),0.6748,0.0046,0.6675,0.6803,6/6 models agree,0.6741,0.6722,0.6675,0.6803,0.6768,0.6782
-293,Perithemis intensa,Mexican Amberwing,Insecta,Good (50-70%),0.6748,0.0046,0.6675,0.6803,6/6 models agree,0.6741,0.6722,0.6675,0.6803,0.6768,0.6782
-294,Lemna minor,Common Duckweed,Plantae,Good (50-70%),0.6748,0.0046,0.6675,0.6803,6/6 models agree,0.6741,0.6722,0.6675,0.6803,0.6768,0.6782
-295,Deirochelyinae,Deirochelyine Turtles,Reptilia,Good (50-70%),0.6748,0.0046,0.6675,0.6803,6/6 models agree,0.6741,0.6722,0.6675,0.6803,0.6768,0.6782
-296,Sonchus asper,prickly sowthistle,Plantae,Good (50-70%),0.674,0.0037,0.6685,0.678,6/6 models agree,0.6775,0.6746,0.6685,0.6741,0.6712,0.678
-297,Cyperaceae,Sedges,Plantae,Good (50-70%),0.674,0.0037,0.6685,0.678,6/6 models agree,0.6775,0.6746,0.6685,0.6741,0.6712,0.678
-298,Lemna,Duckweeds,Plantae,Good (50-70%),0.674,0.0037,0.6685,0.678,6/6 models agree,0.6775,0.6746,0.6685,0.6741,0.6712,0.678
-299,Leucocoprinus ianthinus,,Fungi,Good (50-70%),0.674,0.0037,0.6685,0.678,6/6 models agree,0.6775,0.6746,0.6685,0.6741,0.6712,0.678
-300,Phlegmacium glaucopus,greenfoot webcap,Fungi,Good (50-70%),0.674,0.0037,0.6685,0.678,6/6 models agree,0.6775,0.6746,0.6685,0.6741,0.6712,0.678
-301,Hebeloma crustuliniforme,Poison Pie,Fungi,Good (50-70%),0.6739,0.0236,0.6444,0.707,6/6 models agree,0.707,0.6818,0.681,0.6444,0.6812,0.6481
-302,Populus nigra,Black Poplar,Plantae,Good (50-70%),0.6738,0.0177,0.6581,0.7073,6/6 models agree,0.6614,0.6581,0.676,0.668,0.7073,0.672
-303,Ardea herodias,Great Blue Heron,Aves,Good (50-70%),0.6737,0.0252,0.6293,0.6992,6/6 models agree,0.6876,0.6901,0.6712,0.6649,0.6293,0.6992
-304,Spinus psaltria,Lesser Goldfinch,Aves,Good (50-70%),0.6736,0.0102,0.666,0.6923,6/6 models agree,0.6784,0.666,0.667,0.6923,0.6703,0.6678
-305,Molothrus ater,Brown-headed Cowbird,Aves,Good (50-70%),0.6733,0.009,0.6615,0.6816,6/6 models agree,0.6816,0.6796,0.6638,0.6615,0.672,0.6816
-306,Matricaria discoidea,pineapple-weed,Plantae,Good (50-70%),0.6723,0.0188,0.6476,0.6968,6/6 models agree,0.6476,0.6798,0.6593,0.6625,0.6968,0.6879
-307,Lonicera,honeysuckles,Plantae,Good (50-70%),0.672,0.0136,0.6464,0.6834,6/6 models agree,0.6834,0.6684,0.6809,0.6464,0.6736,0.6792
-308,Agaricus hondensis,Felt-ringed Agaricus,Fungi,Good (50-70%),0.6717,0.0463,0.6118,0.7193,6/6 models agree,0.7189,0.6639,0.6118,0.6912,0.6249,0.7193
-309,Pezizales,,Fungi,Good (50-70%),0.6712,0.0304,0.6148,0.704,6/6 models agree,0.6889,0.6696,0.6768,0.6148,0.704,0.6734
-310,Pellaea mucronata,bird's foot cliffbrake,Plantae,Good (50-70%),0.6711,0.0344,0.6293,0.7097,6/6 models agree,0.6348,0.6652,0.6293,0.7097,0.6821,0.7056
-311,Populus fremontii,Frémont Cottonwood,Plantae,Good (50-70%),0.6711,0.0147,0.6508,0.6894,6/6 models agree,0.6894,0.6719,0.6688,0.6855,0.6599,0.6508
-312,Geraniaceae,Geranium family,Plantae,Good (50-70%),0.6707,0.1012,0.5591,0.8256,6/6 models agree,0.8256,0.6731,0.5862,0.7487,0.5591,0.6315
-313,Boletales,boletes and allies,Fungi,Good (50-70%),0.67,0.009,0.6611,0.6853,6/6 models agree,0.6639,0.666,0.6677,0.6611,0.6853,0.6763
-314,Tenebrionidae,Darkling Beetles,Insecta,Good (50-70%),0.6699,0.0466,0.6242,0.7376,6/6 models agree,0.6338,0.6334,0.6242,0.7376,0.6835,0.7069
-315,Dendroctonus,,Insecta,Good (50-70%),0.6699,0.0729,0.5631,0.7577,6/6 models agree,0.5631,0.6783,0.695,0.6051,0.7577,0.7203
-316,Glomeromycota,Glomeromycetes,Fungi,Good (50-70%),0.6692,0.0076,0.6575,0.6758,6/6 models agree,0.6575,0.662,0.6715,0.6758,0.6738,0.6747
-317,Gymnopilus sapineus,Scaly Rustgill,Fungi,Good (50-70%),0.6692,0.0076,0.6575,0.6758,6/6 models agree,0.6575,0.662,0.6715,0.6758,0.6738,0.6747
-318,Melilotus albus,White Sweetclover,Plantae,Good (50-70%),0.6692,0.0131,0.6501,0.6903,6/6 models agree,0.6903,0.6671,0.6702,0.6501,0.6642,0.6734
-319,Bovista,True Puffballs,Fungi,Good (50-70%),0.6689,0.0183,0.644,0.6884,6/6 models agree,0.644,0.6484,0.6741,0.6821,0.6762,0.6884
-320,Scirpus microcarpus,Panicled Bulrush,Plantae,Good (50-70%),0.6685,0.015,0.6508,0.6838,6/6 models agree,0.6802,0.6508,0.6652,0.6838,0.68,0.6511
-321,Trifolium fragiferum,Strawberry clover,Plantae,Good (50-70%),0.6685,0.0061,0.6615,0.6764,6/6 models agree,0.6721,0.6731,0.6636,0.6764,0.6642,0.6615
-322,Sylvilagus bachmani,Brush Rabbit,Mammalia,Good (50-70%),0.6685,0.0239,0.6237,0.6886,6/6 models agree,0.6886,0.6689,0.6648,0.6237,0.6877,0.677
-323,Deinandra,,Plantae,Good (50-70%),0.6683,0.0624,0.5953,0.7553,6/6 models agree,0.649,0.6399,0.5953,0.7553,0.6359,0.7344
-324,Neoscona crucifera,Spotted Orbweaver,Arachnida,Good (50-70%),0.6679,0.0161,0.6421,0.6883,6/6 models agree,0.6768,0.6421,0.6574,0.6723,0.6883,0.6705
-325,Melinis repens,Natal Grass,Plantae,Good (50-70%),0.6676,0.0147,0.6467,0.6779,6/6 models agree,0.6774,0.6762,0.6467,0.6779,0.6505,0.6767
-326,Dipterostemon,,Plantae,Good (50-70%),0.6676,0.0147,0.6467,0.6779,6/6 models agree,0.6774,0.6762,0.6467,0.6779,0.6505,0.6767
-327,Psathyrella longipes,Tall Psathyrella,Fungi,Good (50-70%),0.6676,0.0147,0.6467,0.6779,6/6 models agree,0.6774,0.6762,0.6467,0.6779,0.6505,0.6767
-328,Cenchrus setaceus,Fountain Grass,Plantae,Good (50-70%),0.6676,0.0147,0.6467,0.6779,6/6 models agree,0.6774,0.6762,0.6467,0.6779,0.6505,0.6767
-329,Trirhabda sericotrachyla,California sagebrush leaf beetle,Insecta,Good (50-70%),0.6676,0.0147,0.6467,0.6779,6/6 models agree,0.6774,0.6762,0.6467,0.6779,0.6505,0.6767
-330,Superstitionia donensis,Superstition Mountains Scorpion,Arachnida,Good (50-70%),0.6676,0.0147,0.6467,0.6779,6/6 models agree,0.6774,0.6762,0.6467,0.6779,0.6505,0.6767
-331,Pompiloidea,"Spider Wasps, Velvet Ants, and Allies",Insecta,Good (50-70%),0.6673,0.0134,0.6467,0.6797,6/6 models agree,0.6706,0.6797,0.6747,0.6548,0.6774,0.6467
-332,Achyrachaena mollis,Blow Wives,Plantae,Good (50-70%),0.6673,0.0134,0.6467,0.6797,6/6 models agree,0.6706,0.6797,0.6747,0.6548,0.6774,0.6467
-333,Trifolieae,,Plantae,Good (50-70%),0.6673,0.0134,0.6467,0.6797,6/6 models agree,0.6706,0.6797,0.6747,0.6548,0.6774,0.6467
-334,Alternaria,,Fungi,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-335,Calyptratae,Calyptrate Flies,Insecta,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-336,Erigeron sumatrensis,tropical horseweed,Plantae,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-337,Linum usitatissimum,common flax,Plantae,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-338,Littorina scutulata,Checkered Periwinkle,Mollusca,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-339,Lepidium oblongum,Veiny Pepperweed,Plantae,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-340,Typha domingensis,southern cattail,Plantae,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-341,Typha,Cattails,Plantae,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-342,Calliphora vicina,Blue Blowfly,Insecta,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-343,Achradocera,,Insecta,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-344,Hydrophorus,,Insecta,Good (50-70%),0.6673,0.0041,0.6647,0.6755,6/6 models agree,0.6658,0.6653,0.6755,0.6647,0.6664,0.6661
-345,Astur cooperii,Cooper's Hawk,Aves,Good (50-70%),0.6672,0.0237,0.6293,0.6973,6/6 models agree,0.676,0.6511,0.6764,0.6732,0.6293,0.6973
-346,Pantomorus cervinus,Fuller's rose weevil,Insecta,Good (50-70%),0.667,0.0313,0.6184,0.6951,6/6 models agree,0.6184,0.6613,0.6901,0.6442,0.6928,0.6951
-347,Geothlypis trichas,Common Yellowthroat,Aves,Good (50-70%),0.6668,0.0055,0.6589,0.6734,6/6 models agree,0.6649,0.6589,0.6637,0.6673,0.6734,0.6724
-348,Pseudognaphalium stramineum,cottonbatting plant,Plantae,Good (50-70%),0.6663,0.0303,0.6164,0.7111,6/6 models agree,0.6654,0.6699,0.6164,0.6614,0.6737,0.7111
-349,Pseudognaphalium microcephalum,Feltleaf Everlasting,Plantae,Good (50-70%),0.6663,0.0303,0.6164,0.7111,6/6 models agree,0.6654,0.6699,0.6164,0.6614,0.6737,0.7111
-350,Quiscalus mexicanus,Great-tailed Grackle,Aves,Good (50-70%),0.6659,0.0175,0.6318,0.6795,6/6 models agree,0.6673,0.6675,0.6713,0.6779,0.6795,0.6318
-351,Vertebrata,Vertebrates,Animalia,Good (50-70%),0.6657,0.012,0.6491,0.68,6/6 models agree,0.6791,0.6491,0.6631,0.6583,0.6644,0.68
-352,Collybia brunneocephala,Brownit,Fungi,Good (50-70%),0.6651,0.0387,0.6138,0.7074,6/6 models agree,0.6816,0.6138,0.635,0.6476,0.7049,0.7074
-353,Helvella compressa,,Fungi,Good (50-70%),0.6649,0.0275,0.6238,0.7099,6/6 models agree,0.6586,0.6669,0.6238,0.6619,0.6685,0.7099
-354,Erynnis funeralis,Funereal Duskywing,Insecta,Good (50-70%),0.6647,0.012,0.6484,0.6848,6/6 models agree,0.6484,0.6629,0.6848,0.6688,0.6588,0.6646
-355,Quercus wislizeni,interior live oak,Plantae,Good (50-70%),0.6647,0.012,0.6484,0.6848,6/6 models agree,0.6484,0.6629,0.6848,0.6688,0.6588,0.6646
-356,Archilestes californicus,California Spreadwing,Insecta,Good (50-70%),0.6645,0.0186,0.6412,0.6963,6/6 models agree,0.6711,0.6412,0.6645,0.6539,0.6963,0.6599
-357,Anthocharis sara,Sara Orangetip,Insecta,Good (50-70%),0.6644,0.0316,0.6236,0.7015,6/6 models agree,0.6317,0.6645,0.6236,0.6716,0.7015,0.6932
-358,Callophrys augustinus iroides,Western Brown Elfin,Insecta,Good (50-70%),0.664,0.0177,0.6426,0.6844,6/6 models agree,0.6649,0.6684,0.6426,0.68,0.6438,0.6844
-359,Pipilo maculatus,Spotted Towhee,Aves,Good (50-70%),0.6638,0.015,0.6378,0.68,6/6 models agree,0.6626,0.6583,0.669,0.6378,0.68,0.6753
-360,Cuscuta,dodders,Plantae,Good (50-70%),0.6637,0.0135,0.6456,0.6875,6/6 models agree,0.6597,0.6625,0.6643,0.6456,0.6875,0.6625
-361,Trichostema lanceolatum,Vinegar Weed,Plantae,Good (50-70%),0.6635,0.0474,0.5908,0.7311,6/6 models agree,0.6822,0.6576,0.6819,0.7311,0.6376,0.5908
-362,Lepiota,,Fungi,Good (50-70%),0.6634,0.0149,0.6379,0.6801,6/6 models agree,0.6573,0.6649,0.6753,0.6647,0.6801,0.6379
-363,Helvella solitaria,,Fungi,Good (50-70%),0.6634,0.0149,0.6379,0.6801,6/6 models agree,0.6573,0.6649,0.6753,0.6647,0.6801,0.6379
-364,Acmispon americanus,Spanish clover,Plantae,Good (50-70%),0.6633,0.065,0.5684,0.7188,6/6 models agree,0.7172,0.7188,0.6776,0.5965,0.5684,0.7012
-365,Plantago major,greater plantain,Plantae,Good (50-70%),0.6626,0.0159,0.6398,0.6816,6/6 models agree,0.6398,0.6524,0.656,0.6816,0.6769,0.6688
-366,Irbisia,,Insecta,Good (50-70%),0.6616,0.0089,0.646,0.6714,6/6 models agree,0.6571,0.6668,0.6714,0.6643,0.646,0.6642
-367,Rabdophaga salicisbatatus,Potato Gall Midge,Insecta,Good (50-70%),0.6616,0.0089,0.646,0.6714,6/6 models agree,0.6571,0.6668,0.6714,0.6643,0.646,0.6642
-368,Pterygota,Winged and Once-winged Insects,Insecta,Good (50-70%),0.6616,0.0089,0.646,0.6714,6/6 models agree,0.6571,0.6668,0.6714,0.6643,0.646,0.6642
-369,Pachydiplax longipennis,Blue Dasher,Insecta,Good (50-70%),0.6613,0.0104,0.6463,0.6776,6/6 models agree,0.6579,0.657,0.6661,0.6463,0.6628,0.6776
-370,Satyrium sylvinus,Sylvan Hairstreak,Insecta,Good (50-70%),0.6611,0.0266,0.6119,0.6915,6/6 models agree,0.6595,0.6617,0.6718,0.6119,0.6915,0.6703
-371,Anser,Grey Geese,Aves,Good (50-70%),0.6611,0.0178,0.6302,0.6777,6/6 models agree,0.6732,0.67,0.6648,0.6302,0.6506,0.6777
-372,Otospermophilus beecheyi,California Ground Squirrel,Mammalia,Good (50-70%),0.661,0.0169,0.6346,0.6754,6/6 models agree,0.6754,0.6656,0.6714,0.6455,0.6732,0.6346
-373,Blapstinus,,Insecta,Good (50-70%),0.6608,0.0033,0.6566,0.6659,6/6 models agree,0.6566,0.6603,0.6659,0.6608,0.6582,0.663
-374,Apalone spinifera,Spiny Softshell,Reptilia,Good (50-70%),0.6608,0.0033,0.6566,0.6659,6/6 models agree,0.6566,0.6603,0.6659,0.6608,0.6582,0.663
-375,Anser anser domesticus,Domestic Greylag Goose,Aves,Good (50-70%),0.6608,0.0033,0.6566,0.6659,6/6 models agree,0.6566,0.6603,0.6659,0.6608,0.6582,0.663
-376,Dryocosmus dubiosus,Two-horned Gall Wasp,Insecta,Good (50-70%),0.6607,0.0252,0.628,0.6888,6/6 models agree,0.6888,0.666,0.6629,0.6846,0.628,0.6339
-377,Lotus corniculatus,bird's-foot trefoil,Plantae,Good (50-70%),0.6605,0.012,0.6503,0.6819,6/6 models agree,0.6503,0.6538,0.6613,0.6507,0.6649,0.6819
-378,Daucus pusillus,American wild carrot,Plantae,Good (50-70%),0.6601,0.0244,0.6343,0.7017,6/6 models agree,0.6493,0.647,0.6526,0.6758,0.6343,0.7017
-379,Chondestes grammacus,Lark Sparrow,Aves,Good (50-70%),0.6596,0.0086,0.6521,0.672,6/6 models agree,0.6529,0.66,0.672,0.6679,0.6521,0.6531
-380,Strymon melinus,Gray Hairstreak,Insecta,Good (50-70%),0.6596,0.0086,0.6521,0.672,6/6 models agree,0.6529,0.66,0.672,0.6679,0.6521,0.6531
-381,Armillaria mellea,Honey Mushroom,Fungi,Good (50-70%),0.6596,0.0249,0.6317,0.6957,6/6 models agree,0.6785,0.6344,0.6621,0.6957,0.6317,0.6549
-382,Anas acuta,Northern Pintail,Aves,Good (50-70%),0.6595,0.0076,0.6451,0.6664,6/6 models agree,0.6612,0.6607,0.665,0.6451,0.6586,0.6664
-383,Tricholoma imbricatoides,,Fungi,Good (50-70%),0.6595,0.0097,0.6491,0.6733,6/6 models agree,0.6491,0.6659,0.6733,0.6538,0.6507,0.6642
-384,Lepidanthrax,,Insecta,Good (50-70%),0.6593,0.029,0.6291,0.7082,6/6 models agree,0.6291,0.6404,0.6756,0.6426,0.7082,0.6598
-385,Diptera,Flies,Insecta,Good (50-70%),0.6593,0.029,0.6291,0.7082,6/6 models agree,0.6291,0.6404,0.6756,0.6426,0.7082,0.6598
-386,Serpentes,Snakes,Reptilia,Good (50-70%),0.6582,0.0246,0.6335,0.6947,6/6 models agree,0.6799,0.6387,0.6432,0.6335,0.6947,0.6595
-387,Anser anser domesticus × cygnoides domesticus,Domestic Greylag × Domestic Swan Goose,Aves,Good (50-70%),0.6581,0.0076,0.6451,0.6664,6/6 models agree,0.6611,0.6541,0.6633,0.6451,0.6586,0.6664
-388,Foeniculum vulgare,fennel,Plantae,Good (50-70%),0.6581,0.0175,0.6322,0.6845,6/6 models agree,0.6505,0.6529,0.6627,0.6845,0.6658,0.6322
-389,Pleurotus,Oyster Mushrooms,Fungi,Good (50-70%),0.6581,0.0156,0.6397,0.6867,6/6 models agree,0.6568,0.6397,0.6508,0.6867,0.6589,0.6556
-390,Galium nuttallii,San Diego bedstraw,Plantae,Good (50-70%),0.6573,0.0493,0.5604,0.6912,6/6 models agree,0.6831,0.6761,0.6515,0.5604,0.6912,0.6813
-391,Egretta thula,Snowy Egret,Aves,Good (50-70%),0.6571,0.0096,0.6386,0.6646,6/6 models agree,0.6587,0.6618,0.6636,0.6556,0.6646,0.6386
-392,Falco sparverius,American Kestrel,Aves,Good (50-70%),0.6569,0.0215,0.6212,0.6793,6/6 models agree,0.6793,0.663,0.6764,0.6559,0.6212,0.6459
-393,Eleodes,,Insecta,Good (50-70%),0.6568,0.0172,0.6312,0.6749,6/6 models agree,0.6744,0.6634,0.6749,0.6482,0.6485,0.6312
-394,Leptocybe invasa,Eucalyptus Stem Gall Wasp,Insecta,Good (50-70%),0.6557,0.0239,0.6179,0.6758,6/6 models agree,0.6686,0.6758,0.6726,0.6179,0.6339,0.6653
-395,Elanus leucurus,White-tailed Kite,Aves,Good (50-70%),0.6548,0.0261,0.6319,0.7016,6/6 models agree,0.6427,0.6319,0.6366,0.7016,0.648,0.668
-396,Mareca americana,American Wigeon,Aves,Good (50-70%),0.6546,0.0043,0.649,0.6602,6/6 models agree,0.6566,0.6535,0.6602,0.6506,0.649,0.6575
-397,Fulica americana,American Coot,Aves,Good (50-70%),0.6546,0.0034,0.6501,0.6602,6/6 models agree,0.6549,0.6546,0.6602,0.6501,0.6523,0.6553
-398,Nicotiana glauca,tree tobacco,Plantae,Good (50-70%),0.6542,0.0066,0.6429,0.6631,6/6 models agree,0.6429,0.6532,0.6631,0.6553,0.6542,0.6568
-399,Symphyotrichum subulatum,annual saltmarsh aster,Plantae,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-400,Juncaceae,Rushes and Allies,Plantae,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-401,Accipitridae,"Hawks, Eagles, and Kites",Aves,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-402,Nannopterum auritum,Double-crested Cormorant,Aves,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-403,Passer domesticus,House Sparrow,Aves,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-404,Pelecanus erythrorhynchos,American White Pelican,Aves,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-405,Dermaptera,Earwigs,Insecta,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-406,Salticidae,Jumping Spiders,Arachnida,Good (50-70%),0.6541,0.0033,0.6501,0.6599,6/6 models agree,0.6532,0.6535,0.6599,0.6501,0.6523,0.6553
-407,Aix sponsa,Wood Duck,Aves,Good (50-70%),0.6539,0.0133,0.6434,0.6791,6/6 models agree,0.6434,0.6463,0.6576,0.6791,0.6455,0.6519
-408,Lupinus succulentus,arroyo lupine,Plantae,Good (50-70%),0.6538,0.0552,0.591,0.7379,6/6 models agree,0.6419,0.6336,0.617,0.7379,0.7016,0.591
-409,Erigeron foliosus,Leafy Fleabane,Plantae,Good (50-70%),0.6533,0.0208,0.6176,0.678,6/6 models agree,0.6641,0.6604,0.678,0.6567,0.6431,0.6176
-410,Larus delawarensis,Ring-billed Gull,Aves,Good (50-70%),0.6523,0.0058,0.6439,0.6588,6/6 models agree,0.6521,0.6482,0.6588,0.6439,0.6584,0.6524
-411,Pepsis,New World Tarantula-hawk Wasps,Insecta,Good (50-70%),0.6519,0.0222,0.6114,0.6749,6/6 models agree,0.6635,0.6749,0.6472,0.6114,0.6634,0.6508
-412,Cucurbita,gourds,Plantae,Good (50-70%),0.65,0.0502,0.5857,0.7107,6/6 models agree,0.7107,0.6653,0.6442,0.5857,0.5998,0.6944
-413,Clarkia,Clarkias,Plantae,Good (50-70%),0.6477,0.0112,0.6328,0.6649,6/6 models agree,0.6386,0.6487,0.6649,0.6531,0.6328,0.6478
-414,Mycogone rosea,,Fungi,Good (50-70%),0.6477,0.0112,0.6328,0.6649,6/6 models agree,0.6386,0.6487,0.6649,0.6531,0.6328,0.6478
-415,Vespidae,"Hornets, Paper Wasps, Potter Wasps, and Allies",Insecta,Good (50-70%),0.6477,0.0112,0.6328,0.6649,6/6 models agree,0.6386,0.6487,0.6649,0.6531,0.6328,0.6478
-416,Centaurea cyanus,Cornflower,Plantae,Good (50-70%),0.6477,0.0112,0.6328,0.6649,6/6 models agree,0.6386,0.6487,0.6649,0.6531,0.6328,0.6478
-417,Podilymbus podiceps,Pied-billed Grebe,Aves,Good (50-70%),0.6476,0.0128,0.626,0.6612,6/6 models agree,0.6495,0.6612,0.6591,0.642,0.626,0.6479
-418,Pluteus,Shields,Fungi,Good (50-70%),0.6469,0.0097,0.6348,0.6596,6/6 models agree,0.6425,0.6455,0.6596,0.6573,0.6417,0.6348
-419,Chlorion aerarium,Steel-blue Cricket-hunter Wasp,Insecta,Good (50-70%),0.6469,0.0097,0.6348,0.6596,6/6 models agree,0.6425,0.6455,0.6596,0.6573,0.6417,0.6348
-420,Trirhabda geminata,Encelia Leaf Beetle,Insecta,Good (50-70%),0.6469,0.033,0.6173,0.7016,6/6 models agree,0.6671,0.6497,0.6234,0.6223,0.6173,0.7016
-421,Quercus berberidifolia,California scrub oak,Plantae,Good (50-70%),0.6468,0.0206,0.6111,0.6671,6/6 models agree,0.6551,0.6512,0.6671,0.6613,0.6348,0.6111
-422,Hypomyces cervinigenus,,Fungi,Good (50-70%),0.6458,0.0157,0.6281,0.6644,6/6 models agree,0.6603,0.6308,0.6644,0.6543,0.6281,0.6372
-423,Euwallacea fornicatus,Polyphagous Shothole Borer Beetle Complex,Insecta,Good (50-70%),0.6456,0.0273,0.6098,0.681,6/6 models agree,0.6202,0.6408,0.6662,0.6098,0.681,0.6558
-424,Isocoma menziesii menziesii,Menzies' Goldenbush,Plantae,Good (50-70%),0.6455,0.0172,0.6285,0.6712,6/6 models agree,0.6325,0.6424,0.6621,0.6285,0.6712,0.6367
-425,Validae,Amanita Sect. Validae,Fungi,Good (50-70%),0.6455,0.0172,0.6285,0.6712,6/6 models agree,0.6325,0.6424,0.6621,0.6285,0.6712,0.6367
-426,Lathyrus vestitus,Pacific pea,Plantae,Good (50-70%),0.6441,0.0521,0.591,0.7298,6/6 models agree,0.7298,0.6735,0.6303,0.6443,0.591,0.5955
-427,Eucalyptus cladocalyx,sugar gum,Plantae,Good (50-70%),0.6435,0.0166,0.6153,0.6623,6/6 models agree,0.6393,0.6386,0.6623,0.6551,0.6153,0.6506
-428,Caloboletus marshii,Ben's Bitter Bolete,Fungi,Good (50-70%),0.6433,0.0216,0.6142,0.668,6/6 models agree,0.6357,0.6142,0.6523,0.668,0.664,0.6257
-429,Osmadenia tenella,False Rosinweed,Plantae,Good (50-70%),0.643,0.0367,0.6164,0.7105,6/6 models agree,0.6176,0.6224,0.6164,0.6596,0.6312,0.7105
-430,Nicotiana quadrivalvis,Indian tobacco,Plantae,Good (50-70%),0.6429,0.0963,0.538,0.8149,6/6 models agree,0.8149,0.6717,0.5769,0.6205,0.538,0.6357
-431,Cryptantha,Annual Cryptanthas,Plantae,Good (50-70%),0.6426,0.0324,0.5859,0.6747,6/6 models agree,0.6747,0.6643,0.6529,0.5859,0.6527,0.6249
-432,Cryptantha muricata,pointed cryptantha,Plantae,Good (50-70%),0.6418,0.0242,0.5931,0.6589,6/6 models agree,0.5931,0.6479,0.6493,0.6589,0.6509,0.6505
-433,Glaucopsyche lygdamus,Silvery Blue,Insecta,Good (50-70%),0.6413,0.0161,0.6243,0.6659,6/6 models agree,0.6508,0.6479,0.6307,0.6659,0.6284,0.6243
-434,Solanum,nightshades,Plantae,Good (50-70%),0.641,0.0106,0.6267,0.6569,6/6 models agree,0.6474,0.6368,0.6346,0.6267,0.6437,0.6569
-435,Mutarda nigra,Black Mustard,Plantae,Good (50-70%),0.6396,0.0382,0.5754,0.6892,6/6 models agree,0.6373,0.6389,0.632,0.5754,0.6892,0.665
-436,Brodiaea filifolia,thread-leaved brodiaea,Plantae,Good (50-70%),0.6391,0.0722,0.5132,0.7213,6/6 models agree,0.5132,0.6767,0.6643,0.6046,0.6546,0.7213
-437,Lactuca serriola,prickly lettuce,Plantae,Good (50-70%),0.6374,0.0105,0.6244,0.6542,6/6 models agree,0.6341,0.6244,0.6387,0.6542,0.6432,0.63
-438,Mirabilis laevis crassifolia,California Four o'Clock,Plantae,Good (50-70%),0.6366,0.0458,0.5693,0.6897,6/6 models agree,0.6296,0.6157,0.5693,0.628,0.6873,0.6897
-439,Polypogon monspeliensis,rabbitfoot grass,Plantae,Good (50-70%),0.6352,0.0197,0.6071,0.6658,6/6 models agree,0.631,0.6343,0.6465,0.6264,0.6658,0.6071
-440,Chlorophyta,green algae,Plantae,Good (50-70%),0.6352,0.0197,0.6071,0.6658,6/6 models agree,0.631,0.6343,0.6465,0.6264,0.6658,0.6071
-441,Acridoidea,Short-horned Grasshoppers and Locusts,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-442,Agromyzidae,Leaf-miner Flies,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-443,Thaumatomyia,,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-444,Thecabius,,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-445,Trirhabda luteocincta,Goldenbush beetle,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-446,Paspalum dilatatum,Dallis grass,Plantae,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-447,Caladonus coquilletti,,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-448,Colletes,Cellophane Bees,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-449,Aphididae,Aphids,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-450,Stagmomantis californica,California Mantis,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-451,Exoristinae,,Insecta,Good (50-70%),0.6349,0.0144,0.6222,0.655,6/6 models agree,0.6222,0.6265,0.655,0.6259,0.6514,0.6283
-452,Entoloma lividoalbum,,Fungi,Good (50-70%),0.6337,0.0515,0.5318,0.6663,6/6 models agree,0.5318,0.6663,0.6591,0.6307,0.6517,0.6629
-453,Mareca penelope,Eurasian Wigeon,Aves,Good (50-70%),0.6333,0.0125,0.6162,0.6482,6/6 models agree,0.6162,0.6254,0.6482,0.6266,0.638,0.6452
-454,Polydesmidae,,Animalia,Good (50-70%),0.6333,0.0125,0.6162,0.6482,6/6 models agree,0.6162,0.6254,0.6482,0.6266,0.638,0.6452
-455,Coprinus comatus,Shaggy Mane,Fungi,Good (50-70%),0.6332,0.0133,0.622,0.6524,6/6 models agree,0.622,0.6251,0.648,0.625,0.6524,0.6266
-456,Argopecten ventricosus,Pacific Calico Scallop,Mollusca,Good (50-70%),0.6332,0.0133,0.622,0.6524,6/6 models agree,0.622,0.6251,0.648,0.625,0.6524,0.6266
-457,Anthrenus lepidus,,Insecta,Good (50-70%),0.6304,0.0305,0.6019,0.6877,6/6 models agree,0.6287,0.6354,0.6155,0.6877,0.6019,0.6133
-458,Animalia,Animals,Animalia,Good (50-70%),0.6304,0.0234,0.5969,0.652,6/6 models agree,0.6425,0.5969,0.6056,0.652,0.6362,0.6491
-459,Castianeira thalia,,Arachnida,Good (50-70%),0.6303,0.0199,0.6038,0.6595,6/6 models agree,0.6185,0.6326,0.6595,0.6223,0.6452,0.6038
-460,Odonata,Dragonflies and Damselflies,Insecta,Good (50-70%),0.6303,0.0199,0.6038,0.6595,6/6 models agree,0.6185,0.6326,0.6595,0.6223,0.6452,0.6038
-461,Libellula saturata,Flame Skimmer,Insecta,Good (50-70%),0.6303,0.0199,0.6038,0.6595,6/6 models agree,0.6185,0.6326,0.6595,0.6223,0.6452,0.6038
-462,Sympetrum illotum,Cardinal Meadowhawk,Insecta,Good (50-70%),0.6303,0.0199,0.6038,0.6595,6/6 models agree,0.6185,0.6326,0.6595,0.6223,0.6452,0.6038
-463,Lentinellus montanus,,Fungi,Good (50-70%),0.6303,0.0078,0.6211,0.6398,6/6 models agree,0.6306,0.6318,0.6398,0.6372,0.6211,0.6211
-464,Spodocybe trulliformis,dapper funnel,Fungi,Good (50-70%),0.6303,0.0078,0.6211,0.6398,6/6 models agree,0.6306,0.6318,0.6398,0.6372,0.6211,0.6211
-465,Oxalis corniculata,Creeping Woodsorrel,Plantae,Good (50-70%),0.6303,0.0078,0.6211,0.6398,6/6 models agree,0.6306,0.6318,0.6398,0.6372,0.6211,0.6211
-466,Conocybe,Conecaps,Fungi,Good (50-70%),0.6303,0.0078,0.6211,0.6398,6/6 models agree,0.6306,0.6318,0.6398,0.6372,0.6211,0.6211
-467,Melanosmia,,Insecta,Good (50-70%),0.6285,0.0167,0.6141,0.655,6/6 models agree,0.6149,0.6332,0.655,0.6153,0.6384,0.6141
-468,Castilleja,Paintbrushes,Plantae,Good (50-70%),0.6285,0.0167,0.6141,0.655,6/6 models agree,0.6149,0.6332,0.655,0.6153,0.6384,0.6141
-469,Alcidamea,,Insecta,Good (50-70%),0.6285,0.0167,0.6141,0.655,6/6 models agree,0.6149,0.6332,0.655,0.6153,0.6384,0.6141
-470,Asteraceae,"Sunflowers, Daisies, Asters, and Allies",Plantae,Good (50-70%),0.6282,0.0126,0.6144,0.6512,6/6 models agree,0.6144,0.628,0.6512,0.6298,0.6199,0.626
-471,Peziza vesiculosa,blistered cup,Fungi,Good (50-70%),0.6282,0.0126,0.6144,0.6512,6/6 models agree,0.6144,0.628,0.6512,0.6298,0.6199,0.626
-472,Melilotus,melilots and sweetclovers,Plantae,Good (50-70%),0.6282,0.0126,0.6144,0.6512,6/6 models agree,0.6144,0.628,0.6512,0.6298,0.6199,0.626
-473,Aphis,,Insecta,Good (50-70%),0.6282,0.0126,0.6144,0.6512,6/6 models agree,0.6144,0.628,0.6512,0.6298,0.6199,0.626
-474,Dacrymyces chrysospermus,Orange Jelly Spot,Fungi,Good (50-70%),0.6282,0.0126,0.6144,0.6512,6/6 models agree,0.6144,0.628,0.6512,0.6298,0.6199,0.626
-475,Lemnoideae,duckweeds,Plantae,Good (50-70%),0.6282,0.0126,0.6144,0.6512,6/6 models agree,0.6144,0.628,0.6512,0.6298,0.6199,0.626
-476,Stephanomeria exigua,Small Wirelettuce,Plantae,Good (50-70%),0.6282,0.1085,0.5142,0.7406,6/6 models agree,0.5312,0.5445,0.5142,0.7406,0.7074,0.7311
-477,Erodium malacoides,Soft Stork's-bill,Plantae,Good (50-70%),0.6269,0.0092,0.6177,0.6402,6/6 models agree,0.6181,0.6177,0.6282,0.6223,0.6402,0.6348
-478,Lythrum hyssopifolia,Hyssop Loosestrife,Plantae,Good (50-70%),0.6269,0.0092,0.6177,0.6402,6/6 models agree,0.6181,0.6177,0.6282,0.6223,0.6402,0.6348
-479,Poales,"Grasses, Sedges, Cattails, and Allies",Plantae,Good (50-70%),0.6268,0.0538,0.5193,0.6639,6/6 models agree,0.6358,0.64,0.6639,0.5193,0.6595,0.6423
-480,Xanthoparmelia,rock shield lichens,Fungi,Good (50-70%),0.6259,0.0207,0.6074,0.6612,6/6 models agree,0.6116,0.6169,0.6612,0.6179,0.6404,0.6074
-481,Poecilanthrax,,Insecta,Good (50-70%),0.6259,0.0207,0.6074,0.6612,6/6 models agree,0.6116,0.6169,0.6612,0.6179,0.6404,0.6074
-482,Malva nicaeensis,bull mallow,Plantae,Good (50-70%),0.6241,0.0108,0.6068,0.639,6/6 models agree,0.6227,0.6248,0.6203,0.6068,0.6309,0.639
-483,Reithrodontomyini,Harvest and Deer Mice,Mammalia,Good (50-70%),0.6241,0.0108,0.6068,0.639,6/6 models agree,0.6227,0.6248,0.6203,0.6068,0.6309,0.639
-484,Malva multiflora,Cretan mallow,Plantae,Good (50-70%),0.6241,0.0108,0.6068,0.639,6/6 models agree,0.6227,0.6248,0.6203,0.6068,0.6309,0.639
-485,Selasphorus,"Rufous, Allen's, and Allied Hummingbirds",Aves,Good (50-70%),0.6231,0.0073,0.6178,0.6371,6/6 models agree,0.6241,0.6218,0.6371,0.6182,0.6196,0.6178
-486,Bombycilla cedrorum,Cedar Waxwing,Aves,Good (50-70%),0.6231,0.0073,0.6178,0.6371,6/6 models agree,0.6241,0.6218,0.6371,0.6182,0.6196,0.6178
-487,Callipepla californica,California Quail,Aves,Good (50-70%),0.6231,0.0073,0.6178,0.6371,6/6 models agree,0.6241,0.6218,0.6371,0.6182,0.6196,0.6178
-488,Geomyidae,Pocket Gophers,Mammalia,Good (50-70%),0.6231,0.0073,0.6178,0.6371,6/6 models agree,0.6241,0.6218,0.6371,0.6182,0.6196,0.6178
-489,Colaptes auratus,Northern Flicker,Aves,Good (50-70%),0.6231,0.0073,0.6178,0.6371,6/6 models agree,0.6241,0.6218,0.6371,0.6182,0.6196,0.6178
-490,Maculatinae,,Fungi,Good (50-70%),0.6231,0.0073,0.6178,0.6371,6/6 models agree,0.6241,0.6218,0.6371,0.6182,0.6196,0.6178
-491,Tenthredinidae,Common Sawflies,Insecta,Good (50-70%),0.6214,0.0126,0.6076,0.6412,6/6 models agree,0.6076,0.6111,0.6412,0.6155,0.6231,0.6296
-492,Turdus migratorius,American Robin,Aves,Good (50-70%),0.6214,0.0126,0.6076,0.6412,6/6 models agree,0.6076,0.6111,0.6412,0.6155,0.6231,0.6296
-493,Clarkia amoena,Farewell-To-Spring,Plantae,Good (50-70%),0.6198,0.0258,0.5899,0.6517,6/6 models agree,0.5899,0.6065,0.6517,0.6118,0.6517,0.6072
-494,Zadontomerus,,Insecta,Good (50-70%),0.6174,0.0155,0.6009,0.6424,6/6 models agree,0.6027,0.6153,0.6424,0.6009,0.6269,0.6161
-495,Vanessa annabella,West Coast Lady,Insecta,Good (50-70%),0.6174,0.0155,0.6009,0.6424,6/6 models agree,0.6027,0.6153,0.6424,0.6009,0.6269,0.6161
-496,Agrocybe,,Fungi,Good (50-70%),0.6137,0.0304,0.5869,0.6732,6/6 models agree,0.5869,0.5975,0.6071,0.6732,0.6053,0.6119
-497,Tamarix,Tamarisks,Plantae,Good (50-70%),0.6124,0.0164,0.596,0.6433,6/6 models agree,0.606,0.6093,0.6433,0.596,0.6151,0.6043
-498,Anthidiellum notatum robertsoni,California Rotund-Resin Bee,Insecta,Good (50-70%),0.6124,0.0164,0.596,0.6433,6/6 models agree,0.606,0.6093,0.6433,0.596,0.6151,0.6043
-499,Trichobaris compacta,Datura Weevil,Insecta,Good (50-70%),0.6124,0.0164,0.596,0.6433,6/6 models agree,0.606,0.6093,0.6433,0.596,0.6151,0.6043
-500,Baccharis pilularis consanguinea,Chaparral Coyote Brush,Plantae,Good (50-70%),0.6119,0.0261,0.5696,0.6468,6/6 models agree,0.6033,0.6149,0.6293,0.6468,0.6076,0.5696
-501,Aizoaceae,Stone plants,Plantae,Good (50-70%),0.6106,0.0628,0.5272,0.6823,6/6 models agree,0.5272,0.5653,0.6557,0.5747,0.6823,0.6582
-502,Aythya collaris,Ring-necked Duck,Aves,Good (50-70%),0.608,0.0078,0.5969,0.617,6/6 models agree,0.6131,0.6112,0.617,0.6003,0.5969,0.6095
-503,Anas crecca,Green-winged Teal,Aves,Good (50-70%),0.608,0.0078,0.5969,0.617,6/6 models agree,0.6131,0.6112,0.617,0.6003,0.5969,0.6095
-504,Gymnopilus ventricosus,Western Jumbo Gym,Fungi,Good (50-70%),0.6072,0.0178,0.5877,0.6357,6/6 models agree,0.5906,0.5877,0.604,0.6173,0.6082,0.6357
-505,Blattella germanica,German Cockroach,Insecta,Good (50-70%),0.6061,0.0575,0.5221,0.6728,6/6 models agree,0.5221,0.5965,0.5883,0.5856,0.671,0.6728
-506,Clitocybe,Funnels,Fungi,Good (50-70%),0.6047,0.1018,0.525,0.7971,6/6 models agree,0.7971,0.5591,0.525,0.6273,0.5297,0.5902
-507,Araneae,Spiders,Arachnida,Good (50-70%),0.6043,0.0157,0.5843,0.6254,6/6 models agree,0.6141,0.6089,0.6054,0.5878,0.5843,0.6254
-508,Cotinis,Green June Beetles,Insecta,Good (50-70%),0.6043,0.0157,0.5843,0.6254,6/6 models agree,0.6141,0.6089,0.6054,0.5878,0.5843,0.6254
-509,Cirsium vulgare,Bull Thistle,Plantae,Good (50-70%),0.6043,0.0157,0.5843,0.6254,6/6 models agree,0.6141,0.6089,0.6054,0.5878,0.5843,0.6254
-510,Aphis nerii,Oleander Aphid,Insecta,Good (50-70%),0.6043,0.0157,0.5843,0.6254,6/6 models agree,0.6141,0.6089,0.6054,0.5878,0.5843,0.6254
-511,Rhynchophorus palmarum,South American Palm Weevil,Insecta,Good (50-70%),0.6043,0.0157,0.5843,0.6254,6/6 models agree,0.6141,0.6089,0.6054,0.5878,0.5843,0.6254
-512,Danaus plexippus,Monarch,Insecta,Good (50-70%),0.6043,0.0157,0.5843,0.6254,6/6 models agree,0.6141,0.6089,0.6054,0.5878,0.5843,0.6254
-513,Stylocline gnaphalioides,everlasting neststraw,Plantae,Good (50-70%),0.6033,0.037,0.5704,0.6532,6/6 models agree,0.5714,0.5822,0.6452,0.5704,0.6532,0.5972
-514,Asterellopsis palmeri,Palmer's asterella,Plantae,Good (50-70%),0.6027,0.0508,0.5222,0.6736,6/6 models agree,0.5222,0.5986,0.5773,0.6736,0.6209,0.6234
-515,Corvus,Crows and Ravens,Aves,Good (50-70%),0.6011,0.0499,0.5318,0.6584,6/6 models agree,0.5318,0.5764,0.6584,0.5676,0.6268,0.6457
-516,Fraxinus uhdei,Shamel Ash,Plantae,Good (50-70%),0.5983,0.0309,0.5687,0.6444,6/6 models agree,0.5702,0.5868,0.5687,0.627,0.593,0.6444
-517,Eumorpha achemon,Achemon Sphinx,Insecta,Good (50-70%),0.598,0.0671,0.4972,0.6746,5/6 models agree,0.4972,0.6076,0.6746,0.5386,0.642,0.6282
-518,Osmiini,,Insecta,Good (50-70%),0.5979,0.0255,0.5799,0.64,6/6 models agree,0.5831,0.5805,0.6191,0.5847,0.64,0.5799
-519,Ricinus communis,castor bean,Plantae,Good (50-70%),0.597,0.0434,0.5244,0.647,6/6 models agree,0.5244,0.5913,0.647,0.6291,0.6118,0.5784
-520,Cyclosa turbinata,Humped Trashline Orbweaver,Arachnida,Good (50-70%),0.5964,0.0383,0.5485,0.6444,6/6 models agree,0.5485,0.5733,0.6337,0.5705,0.6444,0.608
-521,Stachys albens,whitestem hedgenettle,Plantae,Good (50-70%),0.5953,0.0289,0.5733,0.6527,6/6 models agree,0.5733,0.5787,0.5859,0.5893,0.6527,0.5917
-522,Salsola,Russian Thistles,Plantae,Good (50-70%),0.5953,0.0289,0.5733,0.6527,6/6 models agree,0.5733,0.5787,0.5859,0.5893,0.6527,0.5917
-523,Russula maculata,,Fungi,Good (50-70%),0.5953,0.0289,0.5733,0.6527,6/6 models agree,0.5733,0.5787,0.5859,0.5893,0.6527,0.5917
-524,Diplacus × australis,San Diego Monkeyflower,Plantae,Good (50-70%),0.5922,0.0335,0.5301,0.6211,6/6 models agree,0.605,0.6179,0.6211,0.5301,0.5955,0.5835
-525,Micranthophora,,Insecta,Good (50-70%),0.5921,0.0577,0.5019,0.6715,6/6 models agree,0.5019,0.5943,0.5969,0.561,0.6274,0.6715
-526,Aphelocoma californica obscura,Belding's Scrub-Jay,Aves,Good (50-70%),0.5911,0.0851,0.5075,0.6859,6/6 models agree,0.5252,0.5098,0.5075,0.6859,0.665,0.6531
-527,Stenodynerus,,Insecta,Good (50-70%),0.589,0.0933,0.4423,0.6868,5/6 models agree,0.4423,0.539,0.6868,0.5701,0.6839,0.6119
-528,Pectocarya,combseeds,Plantae,Good (50-70%),0.5877,0.0223,0.5678,0.6243,6/6 models agree,0.5691,0.5678,0.6009,0.5909,0.6243,0.5731
-529,Chaenactis glabriuscula glabriuscula,,Plantae,Good (50-70%),0.5877,0.0223,0.5678,0.6243,6/6 models agree,0.5691,0.5678,0.6009,0.5909,0.6243,0.5731
-530,Geococcyx californianus,Greater Roadrunner,Aves,Good (50-70%),0.5877,0.0223,0.5678,0.6243,6/6 models agree,0.5691,0.5678,0.6009,0.5909,0.6243,0.5731
-531,Diplacus longiflorus,southern bush monkeyflower,Plantae,Good (50-70%),0.5869,0.0156,0.5649,0.6041,6/6 models agree,0.5893,0.5981,0.6041,0.5649,0.5942,0.571
-532,Erodium moschatum,musk stork's-bill,Plantae,Good (50-70%),0.5863,0.0495,0.517,0.651,6/6 models agree,0.517,0.5599,0.6284,0.5615,0.651,0.5998
-533,Peucetia viridans,Green Lynx Spider,Arachnida,Good (50-70%),0.5815,0.03,0.5496,0.6301,6/6 models agree,0.5496,0.5599,0.5723,0.5733,0.6301,0.6036
-534,Chilocorus,Twice-stabbed Lady Beetles,Insecta,Good (50-70%),0.5814,0.0506,0.5292,0.6528,6/6 models agree,0.5292,0.558,0.6263,0.5327,0.6528,0.5892
-535,Aureoboletus flaviporus,viscid bolete,Fungi,Good (50-70%),0.5794,0.027,0.5542,0.6297,6/6 models agree,0.567,0.5754,0.5635,0.5542,0.5865,0.6297
-536,Lupinus hirsutissimus,Stinging Lupine,Plantae,Good (50-70%),0.578,0.0454,0.5229,0.6273,6/6 models agree,0.5321,0.5606,0.5229,0.6107,0.6273,0.6146
-537,Agapostemon,,Insecta,Good (50-70%),0.5773,0.0275,0.533,0.6099,6/6 models agree,0.533,0.5791,0.6099,0.5894,0.5934,0.5591
-538,Limacoidea,,Mollusca,Good (50-70%),0.5755,0.027,0.5441,0.6166,6/6 models agree,0.5441,0.5533,0.5886,0.5626,0.6166,0.5874
-539,Gymnopilus aurantiophyllus,,Fungi,Good (50-70%),0.5755,0.027,0.5441,0.6166,6/6 models agree,0.5441,0.5533,0.5886,0.5626,0.6166,0.5874
-540,Mecaphesa,,Arachnida,Good (50-70%),0.5721,0.0134,0.5565,0.5939,6/6 models agree,0.5642,0.5653,0.5939,0.5808,0.5719,0.5565
-541,Agulla,Common Snakeflies,Insecta,Good (50-70%),0.5721,0.0134,0.5565,0.5939,6/6 models agree,0.5642,0.5653,0.5939,0.5808,0.5719,0.5565
-542,Neotephritis finalis,Sunflower Seed Maggot,Insecta,Good (50-70%),0.5721,0.0134,0.5565,0.5939,6/6 models agree,0.5642,0.5653,0.5939,0.5808,0.5719,0.5565
-543,Nemognatha,,Insecta,Good (50-70%),0.5721,0.0134,0.5565,0.5939,6/6 models agree,0.5642,0.5653,0.5939,0.5808,0.5719,0.5565
-544,Druon quercuslanigerum,,Insecta,Good (50-70%),0.5648,0.0252,0.525,0.5911,6/6 models agree,0.525,0.5498,0.5911,0.5598,0.5887,0.5741
-545,Inocybe,Fiber Caps,Fungi,Good (50-70%),0.5648,0.0252,0.525,0.5911,6/6 models agree,0.525,0.5498,0.5911,0.5598,0.5887,0.5741
-546,Leiothlypis celata,Orange-crowned Warbler,Aves,Good (50-70%),0.5574,0.0231,0.5214,0.5895,6/6 models agree,0.5731,0.5895,0.5486,0.5565,0.5554,0.5214
-547,Johnstonella angustifolia,narrow-leaved cryptantha,Plantae,Good (50-70%),0.5565,0.034,0.5214,0.6208,6/6 models agree,0.5393,0.5572,0.6208,0.5214,0.5535,0.5466
-548,Acmispon strigosus,strigose lotus,Plantae,Good (50-70%),0.5565,0.034,0.5214,0.6208,6/6 models agree,0.5393,0.5572,0.6208,0.5214,0.5535,0.5466
-549,Ashmeadiella,,Insecta,Good (50-70%),0.5565,0.034,0.5214,0.6208,6/6 models agree,0.5393,0.5572,0.6208,0.5214,0.5535,0.5466
-550,Braconidae,Braconid Wasps,Insecta,Good (50-70%),0.5555,0.0257,0.5288,0.5968,6/6 models agree,0.5385,0.5439,0.5968,0.5288,0.5759,0.5489
-551,Nolanea,,Fungi,Good (50-70%),0.5526,0.064,0.4695,0.6329,5/6 models agree,0.5198,0.5058,0.4695,0.6329,0.5781,0.6093
-552,Cercopoidea,Spittlebugs and Froghoppers,Insecta,Good (50-70%),0.5512,0.0367,0.5152,0.6145,6/6 models agree,0.5327,0.544,0.6145,0.5152,0.5731,0.5276
-553,Aphonopelma,,Arachnida,Good (50-70%),0.5512,0.0367,0.5152,0.6145,6/6 models agree,0.5327,0.544,0.6145,0.5152,0.5731,0.5276
-554,Microcentrum rhombifolium,Greater Anglewing,Insecta,Good (50-70%),0.5496,0.032,0.5151,0.5998,6/6 models agree,0.5371,0.5522,0.5998,0.5151,0.5716,0.522
-555,Russula bicolor,,Fungi,Good (50-70%),0.5492,0.0591,0.4552,0.6184,5/6 models agree,0.4552,0.5161,0.6014,0.5541,0.6184,0.5497
-556,Pezizaceae,"Pezizas, Desert Truffles, and Allies",Fungi,Good (50-70%),0.5486,0.0506,0.4594,0.5983,5/6 models agree,0.4594,0.5418,0.5983,0.5376,0.5937,0.5611
-557,Gnaphosidae,Stealthy Ground Spiders,Arachnida,Good (50-70%),0.5461,0.0097,0.5352,0.5642,6/6 models agree,0.5465,0.5444,0.5352,0.5642,0.5412,0.5452
-558,Pontia,,Insecta,Good (50-70%),0.544,0.0756,0.4439,0.6303,4/6 models agree,0.4439,0.5238,0.6267,0.4833,0.6303,0.5558
-559,Navarretia hamata leptantha,Slender-Flowered Hooked Navarretia,Plantae,Good (50-70%),0.5375,0.0578,0.4822,0.6107,4/6 models agree,0.4822,0.5136,0.6107,0.4921,0.6097,0.5165
-560,Ozophora,,Insecta,Good (50-70%),0.5375,0.0578,0.4822,0.6107,4/6 models agree,0.4822,0.5136,0.6107,0.4921,0.6097,0.5165
-561,Acmispon americanus americanus,Spanish clover,Plantae,Good (50-70%),0.5365,0.0095,0.5256,0.5484,6/6 models agree,0.5484,0.5469,0.5371,0.5256,0.5323,0.5284
-562,Distichlis spicata,Saltgrass,Plantae,Good (50-70%),0.5365,0.0095,0.5256,0.5484,6/6 models agree,0.5484,0.5469,0.5371,0.5256,0.5323,0.5284
-563,Myrtales,"myrtles, evening primroses, and allies",Plantae,Good (50-70%),0.5365,0.0095,0.5256,0.5484,6/6 models agree,0.5484,0.5469,0.5371,0.5256,0.5323,0.5284
-564,Haliotis fulgens,Green Abalone,Mollusca,Good (50-70%),0.5365,0.0095,0.5256,0.5484,6/6 models agree,0.5484,0.5469,0.5371,0.5256,0.5323,0.5284
-565,Asclepias curassavica,tropical milkweed,Plantae,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-566,Siphanta,,Insecta,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-567,Sarcophaga,Common Flesh Flies,Insecta,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-568,Chrysoperla,Common Green Lacewings,Insecta,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-569,Brachycera,Brachyceran Flies,Insecta,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-570,Polycaon,,Insecta,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-571,Polycaon stoutii,Stout's Hardwood Borer,Insecta,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-572,Dendryphantina,,Arachnida,Good (50-70%),0.5355,0.0156,0.5168,0.5522,6/6 models agree,0.549,0.547,0.5522,0.5259,0.5168,0.5218
-573,Erigeron bonariensis,Flax-leaved Horseweed,Plantae,Good (50-70%),0.5354,0.0764,0.4348,0.6104,3/6 models agree,0.6104,0.5955,0.6015,0.4348,0.471,0.4992
-574,Icaricia acmon,Acmon Blue,Insecta,Good (50-70%),0.5345,0.0309,0.5049,0.5906,6/6 models agree,0.5105,0.5326,0.5049,0.5437,0.5246,0.5906
-575,Tylobolus claremontus,,Animalia,Good (50-70%),0.5272,0.028,0.5027,0.5763,6/6 models agree,0.52,0.5415,0.5763,0.5027,0.5196,0.5031
-576,Clutia,Cluts,Plantae,Good (50-70%),0.5272,0.028,0.5027,0.5763,6/6 models agree,0.52,0.5415,0.5763,0.5027,0.5196,0.5031
-577,Flavoparmelia,greenshield lichens,Fungi,Good (50-70%),0.5243,0.0426,0.4767,0.5815,4/6 models agree,0.4767,0.5132,0.4793,0.5599,0.5354,0.5815
-578,Lupinus microcarpus densiflorus,Dense-flowered Lupine,Plantae,Good (50-70%),0.5192,0.0555,0.4653,0.611,2/6 models agree,0.4653,0.4879,0.611,0.4936,0.5622,0.4955
-579,Chimarocephala pacifica,Painted Meadow Grasshopper,Insecta,Good (50-70%),0.5192,0.0555,0.4653,0.611,2/6 models agree,0.4653,0.4879,0.611,0.4936,0.5622,0.4955
-580,Peziza arvernensis,,Fungi,Good (50-70%),0.5122,0.0486,0.439,0.5633,4/6 models agree,0.439,0.4657,0.5432,0.5318,0.5633,0.5305
-581,Sayapis,,Insecta,Good (50-70%),0.511,0.0523,0.4409,0.5725,3/6 models agree,0.4409,0.467,0.4965,0.5272,0.5725,0.5616
-582,Opuntia leucotricha,Arborescent Pricklypear,Plantae,Good (50-70%),0.5109,0.0311,0.4766,0.5619,3/6 models agree,0.4895,0.4932,0.5619,0.4766,0.5259,0.5183
-583,Lucilia,Greenbottle Flies,Insecta,Good (50-70%),0.5095,0.0187,0.4882,0.5363,3/6 models agree,0.5242,0.5363,0.4882,0.4999,0.5143,0.494
-584,Erynnis pacuvius,Pacuvius Duskywing,Insecta,Good (50-70%),0.5003,0.0275,0.4793,0.555,1/6 models agree,0.4964,0.4946,0.555,0.486,0.4904,0.4793
-585,Ceriporia spissa,,Fungi,Moderate (30-50%),0.4997,0.0262,0.4546,0.5249,4/6 models agree,0.503,0.5217,0.4856,0.5249,0.4546,0.5082
-586,Alopecosa kochi,Koch's Wolf Spider,Arachnida,Moderate (30-50%),0.4911,0.0313,0.4663,0.5473,2/6 models agree,0.4701,0.4817,0.5473,0.4732,0.5079,0.4663
-587,Robinia,Locust Trees,Plantae,Moderate (30-50%),0.4845,0.0238,0.4589,0.52,2/6 models agree,0.4589,0.4744,0.52,0.4645,0.5052,0.4844
-588,Xanthoria parietina,Common Sunburst Lichen,Fungi,Moderate (30-50%),0.4845,0.0238,0.4589,0.52,2/6 models agree,0.4589,0.4744,0.52,0.4645,0.5052,0.4844
-589,Robinia hispida,Bristly locust,Plantae,Moderate (30-50%),0.4845,0.0238,0.4589,0.52,2/6 models agree,0.4589,0.4744,0.52,0.4645,0.5052,0.4844
-590,Toxicodendron,poison ivies and oaks,Plantae,Moderate (30-50%),0.4649,0.0929,0.3312,0.5821,3/6 models agree,0.3312,0.4589,0.5086,0.3858,0.5821,0.5225
-591,Quercus berberidifolia × engelmannii,,Plantae,Moderate (30-50%),0.4626,0.003,0.4568,0.4655,0/6 models agree,0.463,0.4643,0.4568,0.463,0.4655,0.4627
-592,Scudderia mexicana,Mexican Bush Katydid,Insecta,Moderate (30-50%),0.4358,0.0562,0.3688,0.5223,1/6 models agree,0.3891,0.4428,0.5223,0.3688,0.472,0.4198
-593,Mentha spicata,spearmint,Plantae,Moderate (30-50%),0.4358,0.0562,0.3688,0.5223,1/6 models agree,0.3891,0.4428,0.5223,0.3688,0.472,0.4198
-594,Bombyliidae,Bee Flies,Insecta,Moderate (30-50%),0.4265,0.0545,0.3702,0.4957,0/6 models agree,0.3702,0.3908,0.4957,0.3769,0.4793,0.4459
-595,Coccinellini,Black-spotted Lady Beetles,Insecta,Moderate (30-50%),0.4187,0.0035,0.4151,0.424,0/6 models agree,0.4157,0.4189,0.424,0.4216,0.4167,0.4151
-596,Cardueae,,Plantae,Moderate (30-50%),0.4187,0.0035,0.4151,0.424,0/6 models agree,0.4157,0.4189,0.424,0.4216,0.4167,0.4151
-597,Apodemia,,Insecta,Moderate (30-50%),0.4187,0.0035,0.4151,0.424,0/6 models agree,0.4157,0.4189,0.424,0.4216,0.4167,0.4151
-598,Eucrypta chrysanthemifolia,common eucrypta,Plantae,Moderate (30-50%),0.4187,0.0035,0.4151,0.424,0/6 models agree,0.4157,0.4189,0.424,0.4216,0.4167,0.4151
-599,Acer saccharinum,silver maple,Plantae,Moderate (30-50%),0.3454,0.0691,0.2646,0.4333,0/6 models agree,0.2869,0.3255,0.3407,0.4213,0.4333,0.2646
-600,Adolphia californica,California adolphia,Plantae,Low (<30%),0.2061,0.142,0.0262,0.4005,0/6 models agree,0.0262,0.194,0.4005,0.0729,0.3174,0.2258
+rank,scientific_name,common_name,iconic_taxon_name,confidence,prob_mean,prob_std,models_agree,prob_RF_v1,prob_RF_v2,prob_RF_v3,prob_XGB_v1,prob_XGB_v2,prob_XGB_v3
+1,Quercus berberidifolia × engelmannii,,Plantae,Very High (>90%),0.9993,0.0008,6,1.0,1.0,0.9981,0.9999,0.9988,0.9992
+2,Eucrypta chrysanthemifolia,common eucrypta,Plantae,Very High (>90%),0.9987,0.0013,6,1.0,1.0,0.9975,0.9997,0.9971,0.998
+3,Apodemia,,Insecta,Very High (>90%),0.9987,0.0013,6,1.0,1.0,0.9975,0.9997,0.9971,0.998
+4,Coccinellini,Black-spotted Lady Beetles,Insecta,Very High (>90%),0.9987,0.0013,6,1.0,1.0,0.9975,0.9997,0.9971,0.998
+5,Cardueae,,Plantae,Very High (>90%),0.9987,0.0013,6,1.0,1.0,0.9975,0.9997,0.9971,0.998
+6,Gnaphosidae,Stealthy Ground Spiders,Arachnida,Very High (>90%),0.9985,0.0016,6,1.0,0.9979,0.9956,0.9998,0.9991,0.9987
+7,Ceriporia spissa,,Fungi,Very High (>90%),0.9976,0.0038,6,0.99,0.9997,0.9994,0.9997,0.9982,0.9986
+8,Aureoboletus flaviporus,viscid bolete,Fungi,Very High (>90%),0.9957,0.0081,6,0.9792,0.9988,0.9975,0.9998,0.9993,0.9993
+9,Agaricaceae,Field Mushrooms and Allies,Fungi,Very High (>90%),0.9949,0.0089,6,0.977,0.998,0.996,0.9998,0.9994,0.9993
+10,Salsola,Russian Thistles,Plantae,Very High (>90%),0.9935,0.0091,6,0.9756,0.9953,0.9933,0.9997,0.9987,0.9986
+11,Stachys albens,whitestem hedgenettle,Plantae,Very High (>90%),0.9935,0.0091,6,0.9756,0.9953,0.9933,0.9997,0.9987,0.9986
+12,Russula maculata,,Fungi,Very High (>90%),0.9935,0.0091,6,0.9756,0.9953,0.9933,0.9997,0.9987,0.9986
+13,Aphelocoma californica obscura,Belding's Scrub-Jay,Aves,Very High (>90%),0.9928,0.0087,6,0.9756,0.9992,0.9944,0.9975,0.9929,0.997
+14,Icaricia acmon,Acmon Blue,Insecta,Very High (>90%),0.9912,0.0113,6,0.9686,0.9938,0.9941,0.9986,0.9956,0.9967
+15,Nolanea,,Fungi,Very High (>90%),0.9892,0.0193,6,0.95,0.9972,0.9976,0.9985,0.9942,0.9979
+16,Stropharia coronilla,Garland Roundhead,Fungi,Very High (>90%),0.9887,0.0111,6,0.9707,0.9845,0.9836,0.9989,0.9968,0.9976
+17,Nicotiana quadrivalvis,Indian tobacco,Plantae,Very High (>90%),0.987,0.0123,6,0.9656,0.985,0.9818,0.9958,0.9964,0.9972
+18,Leiothlypis celata,Orange-crowned Warbler,Aves,Very High (>90%),0.9851,0.0159,6,0.9567,0.9819,0.9812,0.9988,0.9961,0.9958
+19,Evernia prunastri,Oakmoss,Fungi,Very High (>90%),0.981,0.0249,6,0.9333,0.9932,0.9737,0.9977,0.9918,0.9964
+20,Pseudognaphalium microcephalum,Feltleaf Everlasting,Plantae,Very High (>90%),0.9788,0.0217,6,0.9367,0.9767,0.9853,0.9948,0.9855,0.9941
+21,Pseudognaphalium stramineum,cottonbatting plant,Plantae,Very High (>90%),0.9788,0.0217,6,0.9367,0.9767,0.9853,0.9948,0.9855,0.9941
+22,Druon quercuslanigerum,,Insecta,Very High (>90%),0.9716,0.0355,6,0.9007,0.9753,0.9827,0.9857,0.9887,0.9967
+23,Inocybe,Fiber Caps,Fungi,Very High (>90%),0.9716,0.0355,6,0.9007,0.9753,0.9827,0.9857,0.9887,0.9967
+24,Geraniaceae,Geranium family,Plantae,Very High (>90%),0.9676,0.0528,6,0.8633,0.9803,0.9656,0.9998,0.9978,0.9985
+25,Gymnopilus ventricosus,Western Jumbo Gym,Fungi,Very High (>90%),0.9674,0.0566,6,0.8533,0.9838,0.9749,0.9995,0.9947,0.9979
+26,Megachile angelarum,,Insecta,Very High (>90%),0.9663,0.0609,6,0.843,0.9872,0.9784,0.9993,0.9939,0.9962
+27,Acer saccharinum,silver maple,Plantae,Very High (>90%),0.9633,0.0281,6,0.918,0.9434,0.9665,0.996,0.9782,0.9776
+28,Sayapis,,Insecta,Very High (>90%),0.9605,0.0465,6,0.8733,0.9437,0.9765,0.9928,0.9824,0.9946
+29,Tenebrionidae,Darkling Beetles,Insecta,Very High (>90%),0.9531,0.0462,6,0.8626,0.9465,0.9712,0.9782,0.9759,0.9843
+30,Sambucus cerulea,blue elder,Plantae,Very High (>90%),0.9519,0.044,6,0.8633,0.9626,0.9765,0.9761,0.9594,0.9733
+31,Xylocopa sonorina,Valley Carpenter Bee,Insecta,Very High (>90%),0.9515,0.0567,6,0.8633,0.9467,0.907,0.9981,0.9965,0.9976
+32,Clarkia,Clarkias,Plantae,Very High (>90%),0.9508,0.0687,6,0.8139,0.9642,0.9574,0.9897,0.986,0.9939
+33,Mycogone rosea,,Fungi,Very High (>90%),0.9508,0.0687,6,0.8139,0.9642,0.9574,0.9897,0.986,0.9939
+34,Centaurea cyanus,Cornflower,Plantae,Very High (>90%),0.9508,0.0687,6,0.8139,0.9642,0.9574,0.9897,0.986,0.9939
+35,Vespidae,"Hornets, Paper Wasps, Potter Wasps, and Allies",Insecta,Very High (>90%),0.9508,0.0687,6,0.8139,0.9642,0.9574,0.9897,0.986,0.9939
+36,Andrena,Mining Bees,Insecta,Very High (>90%),0.9501,0.0502,6,0.85,0.9593,0.9779,0.9823,0.9549,0.976
+37,Hylaeus,Masked Bees,Insecta,Very High (>90%),0.9501,0.0502,6,0.85,0.9593,0.9779,0.9823,0.9549,0.976
+38,Asterellopsis palmeri,Palmer's asterella,Plantae,Very High (>90%),0.9486,0.0617,6,0.8485,0.9492,0.9037,0.9982,0.9946,0.9977
+39,Clutia,Cluts,Plantae,Very High (>90%),0.9473,0.0365,6,0.8939,0.9104,0.9733,0.979,0.9748,0.9526
+40,Tylobolus claremontus,,Animalia,Very High (>90%),0.9473,0.0365,6,0.8939,0.9104,0.9733,0.979,0.9748,0.9526
+41,Amsinckia menziesii intermedia,Rancher's fiddleneck,Plantae,Very High (>90%),0.9469,0.0599,6,0.8367,0.9264,0.9516,0.9887,0.987,0.9913
+42,Eriogonum elongatum,Long-stemmed Buckwheat,Plantae,Very High (>90%),0.9469,0.0599,6,0.8367,0.9264,0.9516,0.9887,0.987,0.9913
+43,Psathyrella bipellis,Maroon Brittlestem,Fungi,Very High (>90%),0.9469,0.0599,6,0.8367,0.9264,0.9516,0.9887,0.987,0.9913
+44,Lucilia,Greenbottle Flies,Insecta,Very High (>90%),0.9446,0.0756,6,0.796,0.9378,0.9668,0.9935,0.9879,0.9853
+45,Vanessa annabella,West Coast Lady,Insecta,Very High (>90%),0.943,0.05,6,0.8489,0.9239,0.966,0.9689,0.9722,0.978
+46,Zadontomerus,,Insecta,Very High (>90%),0.943,0.05,6,0.8489,0.9239,0.966,0.9689,0.9722,0.978
+47,Pezizaceae,"Pezizas, Desert Truffles, and Allies",Fungi,Very High (>90%),0.9423,0.0422,6,0.8634,0.9314,0.97,0.9579,0.981,0.9502
+48,Trichostema lanceolatum,Vinegar Weed,Plantae,Very High (>90%),0.9422,0.0842,6,0.7739,0.9634,0.9498,0.9941,0.9804,0.9918
+49,Dasymutilla aureola,Pacific Velvet Ant,Insecta,Very High (>90%),0.9421,0.0678,6,0.84,0.935,0.8848,0.999,0.9959,0.9977
+50,Callophrys augustinus iroides,Western Brown Elfin,Insecta,Very High (>90%),0.9414,0.083,6,0.7758,0.9449,0.9699,0.9732,0.9899,0.9945
+51,Sturnella neglecta,Western Meadowlark,Aves,Very High (>90%),0.9385,0.0694,6,0.8133,0.9185,0.9294,0.9897,0.9877,0.9923
+52,Spodoptera exigua,Beet Armyworm Moth,Insecta,Very High (>90%),0.9376,0.0833,6,0.78,0.9199,0.9443,0.9966,0.9898,0.9946
+53,Bovista,True Puffballs,Fungi,Very High (>90%),0.9351,0.0841,6,0.7767,0.917,0.9393,0.9963,0.9868,0.9946
+54,Lythrum hyssopifolia,Hyssop Loosestrife,Plantae,Very High (>90%),0.9349,0.0761,6,0.8192,0.9254,0.8729,0.9986,0.9958,0.9973
+55,Erodium malacoides,Soft Stork's-bill,Plantae,Very High (>90%),0.9349,0.0761,6,0.8192,0.9254,0.8729,0.9986,0.9958,0.9973
+56,Lathyrus vestitus,Pacific pea,Plantae,Very High (>90%),0.9339,0.0545,6,0.8363,0.9021,0.9664,0.9673,0.9741,0.957
+57,Corvus,Crows and Ravens,Aves,Very High (>90%),0.9303,0.0929,6,0.7567,0.9124,0.9272,0.9986,0.9912,0.9956
+58,Aceria boycei,Ragweed Gall Mite,Arachnida,Very High (>90%),0.9295,0.0861,6,0.7597,0.9487,0.9286,0.9816,0.9689,0.9893
+59,Agrocybe,,Fungi,Very High (>90%),0.9238,0.0507,6,0.833,0.9192,0.9695,0.9238,0.9739,0.9231
+60,Leocarpus fragilis,insect-egg slime,Protozoa,Very High (>90%),0.9235,0.0795,6,0.7769,0.9046,0.9193,0.9892,0.9693,0.9814
+61,Acmispon americanus,Spanish clover,Plantae,Very High (>90%),0.9226,0.1025,6,0.733,0.934,0.8873,0.9971,0.987,0.9969
+62,Thamnophis hammondii,Two-striped Garter Snake,Reptilia,Very High (>90%),0.9204,0.072,6,0.8125,0.8689,0.8978,0.9723,0.9861,0.9846
+63,Trochilidae,Hummingbirds,Aves,Very High (>90%),0.9186,0.0698,6,0.7918,0.8993,0.9653,0.9119,0.969,0.9746
+64,Euura,,Insecta,Very High (>90%),0.9186,0.0698,6,0.7918,0.8993,0.9653,0.9119,0.969,0.9746
+65,Sisymbrium officinale,Hedge mustard,Plantae,Very High (>90%),0.9186,0.0698,6,0.7918,0.8993,0.9653,0.9119,0.969,0.9746
+66,Hypochaeris radicata,Common Cat's-ear,Plantae,Very High (>90%),0.9147,0.0896,6,0.7458,0.9011,0.9161,0.9576,0.9774,0.9901
+67,Agaricus hondensis,Felt-ringed Agaricus,Fungi,Very High (>90%),0.9141,0.0824,6,0.7508,0.9086,0.9622,0.9483,0.953,0.962
+68,Serpentes,Snakes,Reptilia,Very High (>90%),0.9104,0.0861,6,0.7505,0.8953,0.9061,0.9765,0.952,0.9821
+69,Ambrosia,Ragweeds,Plantae,Very High (>90%),0.9091,0.1138,6,0.69,0.8932,0.9236,0.9794,0.9771,0.9914
+70,Stephanomeria exigua,Small Wirelettuce,Plantae,Very High (>90%),0.9028,0.0402,6,0.8722,0.8758,0.917,0.9457,0.9499,0.8561
+71,Clarkia amoena,Farewell-To-Spring,Plantae,Very High (>90%),0.9004,0.0696,6,0.7656,0.8959,0.9598,0.9125,0.9317,0.9372
+72,Leptocybe invasa,Eucalyptus Stem Gall Wasp,Insecta,High (70-90%),0.8979,0.1229,6,0.6622,0.8641,0.9531,0.9546,0.9836,0.97
+73,Rabdophaga salicisbatatus,Potato Gall Midge,Insecta,High (70-90%),0.8972,0.1275,6,0.6522,0.8641,0.9499,0.9593,0.9879,0.97
+74,Pterygota,Winged and Once-winged Insects,Insecta,High (70-90%),0.8972,0.1275,6,0.6522,0.8641,0.9499,0.9593,0.9879,0.97
+75,Irbisia,,Insecta,High (70-90%),0.8972,0.1275,6,0.6522,0.8641,0.9499,0.9593,0.9879,0.97
+76,Superstitionia donensis,Superstition Mountains Scorpion,Arachnida,High (70-90%),0.8966,0.0904,6,0.732,0.8944,0.9526,0.8689,0.978,0.9533
+77,Melinis repens,Natal Grass,Plantae,High (70-90%),0.8966,0.0904,6,0.732,0.8944,0.9526,0.8689,0.978,0.9533
+78,Psathyrella longipes,Tall Psathyrella,Fungi,High (70-90%),0.8966,0.0904,6,0.732,0.8944,0.9526,0.8689,0.978,0.9533
+79,Trirhabda sericotrachyla,California sagebrush leaf beetle,Insecta,High (70-90%),0.8966,0.0904,6,0.732,0.8944,0.9526,0.8689,0.978,0.9533
+80,Cenchrus setaceus,Fountain Grass,Plantae,High (70-90%),0.8966,0.0904,6,0.732,0.8944,0.9526,0.8689,0.978,0.9533
+81,Dipterostemon,,Plantae,High (70-90%),0.8966,0.0904,6,0.732,0.8944,0.9526,0.8689,0.978,0.9533
+82,Corvus corax,Common Raven,Aves,High (70-90%),0.8954,0.0782,6,0.7583,0.926,0.9704,0.9305,0.9384,0.849
+83,Cryptantha muricata,pointed cryptantha,Plantae,High (70-90%),0.895,0.0753,6,0.765,0.9265,0.9708,0.9174,0.9412,0.849
+84,Volvopluteus,,Fungi,High (70-90%),0.8936,0.0938,6,0.7149,0.8809,0.8981,0.9513,0.9484,0.9682
+85,Baccharis sergiloides,desert baccharis,Plantae,High (70-90%),0.8936,0.0938,6,0.7149,0.8809,0.8981,0.9513,0.9484,0.9682
+86,Solanum xanti,purple nightshade,Plantae,High (70-90%),0.8876,0.1106,6,0.702,0.8217,0.8839,0.9519,0.9832,0.9826
+87,Clitocybe,Funnels,Fungi,High (70-90%),0.8871,0.0512,6,0.8306,0.8472,0.9494,0.9502,0.8688,0.8762
+88,Hesperocnide tenella,Western nettle,Plantae,High (70-90%),0.8855,0.0772,6,0.7458,0.851,0.897,0.95,0.9385,0.9304
+89,Micranthophora,,Insecta,High (70-90%),0.8811,0.1143,6,0.6871,0.9002,0.9596,0.8036,0.9718,0.964
+90,Trirhabda geminata,Encelia Leaf Beetle,Insecta,High (70-90%),0.8809,0.0659,6,0.78,0.913,0.9431,0.8508,0.9494,0.849
+91,Erynnis pacuvius,Pacuvius Duskywing,Insecta,High (70-90%),0.8808,0.124,6,0.6752,0.8465,0.8211,0.9842,0.98,0.9776
+92,Pontia,,Insecta,High (70-90%),0.8781,0.0731,6,0.7433,0.9016,0.9388,0.9052,0.9304,0.849
+93,Peziza arvernensis,,Fungi,High (70-90%),0.876,0.0669,6,0.8367,0.8671,0.9719,0.8028,0.9432,0.8346
+94,Schoenoplectus,Schoenoplectus Bulrushes,Plantae,High (70-90%),0.8754,0.0731,6,0.7767,0.9147,0.9757,0.9151,0.8183,0.8523
+95,Cryptocephalus andrewsi,,Insecta,High (70-90%),0.8754,0.0731,6,0.7767,0.9147,0.9757,0.9151,0.8183,0.8523
+96,Amaranthus palmeri,Palmer's Amaranth,Plantae,High (70-90%),0.8704,0.0833,6,0.7233,0.9001,0.9569,0.8586,0.9347,0.849
+97,Lathyrus vestitus alefeldii,San Diego Pea,Plantae,High (70-90%),0.8704,0.142,6,0.5915,0.8559,0.9506,0.9155,0.9653,0.9436
+98,Inocybe insinuata,,Fungi,High (70-90%),0.8703,0.0989,6,0.7142,0.8688,0.9524,0.7971,0.9708,0.9189
+99,Gnorimoschema baccharisella,Coyote Brush Stem Gall Moth,Insecta,High (70-90%),0.869,0.1102,6,0.6781,0.8102,0.8751,0.9325,0.9439,0.9742
+100,Erigeron foliosus foliosus,Thread stemmed fleabane,Plantae,High (70-90%),0.869,0.1102,6,0.6781,0.8102,0.8751,0.9325,0.9439,0.9742
+101,Aves,Birds,Aves,High (70-90%),0.869,0.1102,6,0.6781,0.8102,0.8751,0.9325,0.9439,0.9742
+102,Chiroptera,Bats,Mammalia,High (70-90%),0.869,0.1102,6,0.6781,0.8102,0.8751,0.9325,0.9439,0.9742
+103,Sonchus oleraceus,Common Sow-thistle,Plantae,High (70-90%),0.8616,0.1377,6,0.6131,0.8092,0.8684,0.9777,0.9716,0.9298
+104,Anthrenus lepidus,,Insecta,High (70-90%),0.8606,0.0792,6,0.8,0.8828,0.9221,0.7327,0.9412,0.8851
+105,Sphenophorus venatus,Hunting Billbug,Insecta,High (70-90%),0.8589,0.1342,6,0.6267,0.8702,0.9525,0.7811,0.9693,0.9535
+106,Latrodectus hesperus,Western Black Widow,Arachnida,High (70-90%),0.8589,0.1342,6,0.6267,0.8702,0.9525,0.7811,0.9693,0.9535
+107,Platynus brunneomarginatus,,Insecta,High (70-90%),0.8589,0.1342,6,0.6267,0.8702,0.9525,0.7811,0.9693,0.9535
+108,Distichlis spicata,Saltgrass,Plantae,High (70-90%),0.8525,0.1332,6,0.6248,0.92,0.9251,0.7551,0.9287,0.9612
+109,Acmispon americanus americanus,Spanish clover,Plantae,High (70-90%),0.8525,0.1332,6,0.6248,0.92,0.9251,0.7551,0.9287,0.9612
+110,Myrtales,"myrtles, evening primroses, and allies",Plantae,High (70-90%),0.8525,0.1332,6,0.6248,0.92,0.9251,0.7551,0.9287,0.9612
+111,Haliotis fulgens,Green Abalone,Mollusca,High (70-90%),0.8525,0.1332,6,0.6248,0.92,0.9251,0.7551,0.9287,0.9612
+112,Callirhytis perdens,Ruptured Twig Gall Wasp,Insecta,High (70-90%),0.8478,0.1509,6,0.5722,0.7928,0.8569,0.961,0.9651,0.9389
+113,Dryocosmus minusculus,Pumpkin Gall Wasp,Insecta,High (70-90%),0.8478,0.1509,6,0.5722,0.7928,0.8569,0.961,0.9651,0.9389
+114,Quercus agrifolia agrifolia,California Live Oak,Plantae,High (70-90%),0.8478,0.1509,6,0.5722,0.7928,0.8569,0.961,0.9651,0.9389
+115,Glaucopsyche lygdamus,Silvery Blue,Insecta,High (70-90%),0.8477,0.0899,6,0.7605,0.8938,0.9463,0.8369,0.9238,0.725
+116,Dryocosmus dubiosus,Two-horned Gall Wasp,Insecta,High (70-90%),0.8318,0.1157,6,0.6475,0.8148,0.9497,0.7906,0.9624,0.8256
+117,Elanus leucurus,White-tailed Kite,Aves,High (70-90%),0.8313,0.1647,6,0.65,0.6939,0.7027,0.989,0.9923,0.96
+118,Deinandra,,Plantae,High (70-90%),0.8153,0.0914,6,0.7267,0.7427,0.7292,0.8799,0.9206,0.8927
+119,Solanum nigrum,Black Nightshade Complex,Plantae,High (70-90%),0.8141,0.1266,6,0.6492,0.8666,0.8665,0.6699,0.8628,0.97
+120,Chlorophyllum brunneum,Shaggy Parasol,Fungi,High (70-90%),0.8141,0.1266,6,0.6492,0.8666,0.8665,0.6699,0.8628,0.97
+121,Animalia,Animals,Animalia,High (70-90%),0.8101,0.099,6,0.8033,0.8271,0.8472,0.6326,0.9358,0.8147
+122,Eucalyptus cladocalyx,sugar gum,Plantae,High (70-90%),0.8056,0.1565,6,0.5358,0.7475,0.9113,0.7715,0.9579,0.9093
+123,Hebeloma,Poisonpies,Fungi,High (70-90%),0.779,0.1356,6,0.6633,0.6532,0.6593,0.9408,0.9131,0.8441
+124,Eriophyllum confertiflorum confertiflorum,,Plantae,High (70-90%),0.7761,0.1357,6,0.6798,0.8739,0.9521,0.5718,0.7987,0.7802
+125,Callophrys dumetorum,Lotus Hairstreak,Insecta,High (70-90%),0.7727,0.1037,6,0.746,0.8123,0.8286,0.785,0.8821,0.5825
+126,Matricaria discoidea,pineapple-weed,Plantae,High (70-90%),0.7642,0.1023,6,0.6567,0.7218,0.7268,0.9117,0.8709,0.6974
+127,Collybia brunneocephala,Brownit,Fungi,High (70-90%),0.7578,0.1098,6,0.68,0.6762,0.6781,0.89,0.9062,0.7161
+128,Mirabilis laevis crassifolia,California Four o'Clock,Plantae,High (70-90%),0.7455,0.092,6,0.6256,0.7005,0.7139,0.8043,0.8918,0.7367
+129,Lupinus microcarpus densiflorus,Dense-flowered Lupine,Plantae,High (70-90%),0.7439,0.1512,6,0.5833,0.7772,0.857,0.5278,0.8849,0.8335
+130,Chimarocephala pacifica,Painted Meadow Grasshopper,Insecta,High (70-90%),0.7439,0.1512,6,0.5833,0.7772,0.857,0.5278,0.8849,0.8335
+131,Peucetia,Green Lynx Spiders,Arachnida,High (70-90%),0.7414,0.1704,6,0.523,0.6225,0.6534,0.9294,0.9381,0.7819
+132,Oxalis pes-caprae,Bermuda buttercup,Plantae,High (70-90%),0.7414,0.1704,6,0.523,0.6225,0.6534,0.9294,0.9381,0.7819
+133,Entoloma,Pinkgills,Fungi,High (70-90%),0.7402,0.072,6,0.65,0.7538,0.8617,0.6999,0.7627,0.7133
+134,Pepsis,New World Tarantula-hawk Wasps,Insecta,High (70-90%),0.7355,0.2065,5,0.7092,0.7226,0.8,0.9404,0.8848,0.3561
+135,Osmadenia tenella,False Rosinweed,Plantae,High (70-90%),0.7287,0.13,6,0.5533,0.6496,0.6787,0.848,0.9039,0.7389
+136,Circus hudsonius,Northern Harrier,Aves,High (70-90%),0.7259,0.0933,6,0.6567,0.754,0.8459,0.58,0.7633,0.7558
+137,Rubroboletus satanas,Devil's Bolete,Fungi,High (70-90%),0.7235,0.0914,6,0.5909,0.7899,0.8516,0.667,0.7111,0.7304
+138,Taraxacum,common dandelions,Plantae,High (70-90%),0.7235,0.0914,6,0.5909,0.7899,0.8516,0.667,0.7111,0.7304
+139,Erigeron foliosus,Leafy Fleabane,Plantae,High (70-90%),0.7212,0.167,5,0.4581,0.7251,0.9073,0.5981,0.8434,0.7951
+140,Caloboletus marshii,Ben's Bitter Bolete,Fungi,High (70-90%),0.7155,0.1335,6,0.5787,0.6098,0.6193,0.8838,0.8604,0.741
+141,Catalinia castanea,,Arachnida,High (70-90%),0.7132,0.2386,5,0.5084,0.8119,0.9415,0.3405,0.9111,0.7657
+142,Cryptantha,Annual Cryptanthas,Plantae,High (70-90%),0.7083,0.0989,6,0.58,0.7322,0.75,0.6608,0.8679,0.6588
+143,Peucetia viridans,Green Lynx Spider,Arachnida,High (70-90%),0.7048,0.2402,5,0.7581,0.8345,0.9521,0.2816,0.8206,0.5819
+144,Turdus migratorius,American Robin,Aves,High (70-90%),0.7024,0.2055,4,0.69,0.4803,0.4465,0.9686,0.8051,0.8239
+145,Tenthredinidae,Common Sawflies,Insecta,High (70-90%),0.7024,0.2055,4,0.69,0.4803,0.4465,0.9686,0.8051,0.8239
+146,Pellaea mucronata,bird's foot cliffbrake,Plantae,Good (50-70%),0.6839,0.2057,5,0.6597,0.737,0.7901,0.7363,0.8874,0.2931
+147,Lupinus hirsutissimus,Stinging Lupine,Plantae,Good (50-70%),0.6785,0.3023,4,0.8201,0.8725,0.966,0.2309,0.8153,0.366
+148,Stenodynerus,,Insecta,Good (50-70%),0.666,0.1774,4,0.4901,0.729,0.8251,0.4123,0.6946,0.8448
+149,Ozophora,,Insecta,Good (50-70%),0.6565,0.2661,5,0.5874,0.8161,0.9372,0.1686,0.7094,0.7204
+150,Navarretia hamata leptantha,Slender-Flowered Hooked Navarretia,Plantae,Good (50-70%),0.6565,0.2661,5,0.5874,0.8161,0.9372,0.1686,0.7094,0.7204
+151,Russula bicolor,,Fungi,Good (50-70%),0.6501,0.3284,4,0.3517,0.8086,0.9459,0.1353,0.8932,0.7657
+152,Falco sparverius,American Kestrel,Aves,Good (50-70%),0.6145,0.199,3,0.4967,0.7102,0.8655,0.4108,0.7893,0.4145
+153,Troglodytes aedon,Northern House Wren,Aves,Good (50-70%),0.6084,0.1844,4,0.4425,0.6721,0.7263,0.3283,0.8155,0.6655
+154,Oenothera,"evening primroses, sundrops, and beeblossoms",Plantae,Good (50-70%),0.6084,0.1844,4,0.4425,0.6721,0.7263,0.3283,0.8155,0.6655
+155,Thyridanthrax nugator,,Insecta,Good (50-70%),0.6084,0.1844,4,0.4425,0.6721,0.7263,0.3283,0.8155,0.6655
+156,Tetranychus urticae,Twospotted Spider Mite,Arachnida,Good (50-70%),0.6084,0.1844,4,0.4425,0.6721,0.7263,0.3283,0.8155,0.6655
+157,Hemeroplanis historialis,,Insecta,Good (50-70%),0.6084,0.1844,4,0.4425,0.6721,0.7263,0.3283,0.8155,0.6655
+158,Helvella macropus,long-stalked gray cup,Fungi,Good (50-70%),0.6049,0.3169,4,0.3412,0.753,0.9307,0.1068,0.8356,0.662
+159,Helvella crispa,White Saddle,Fungi,Good (50-70%),0.6049,0.3169,4,0.3412,0.753,0.9307,0.1068,0.8356,0.662
+160,Lupinus succulentus,arroyo lupine,Plantae,Good (50-70%),0.6012,0.2722,4,0.7136,0.7591,0.829,0.4049,0.7642,0.1366
+161,Scirpus microcarpus,Panicled Bulrush,Plantae,Good (50-70%),0.5563,0.2866,4,0.5919,0.7272,0.7749,0.1874,0.8401,0.2161
+162,Cucurbita,gourds,Plantae,Good (50-70%),0.5326,0.1966,4,0.5353,0.5694,0.6,0.2169,0.8186,0.4556
+163,Pompiloidea,"Spider Wasps, Velvet Ants, and Allies",Insecta,Good (50-70%),0.5277,0.2918,4,0.5826,0.7314,0.8567,0.0464,0.6085,0.3407
+164,Trifolieae,,Plantae,Good (50-70%),0.5277,0.2918,4,0.5826,0.7314,0.8567,0.0464,0.6085,0.3407
+165,Achyrachaena mollis,Blow Wives,Plantae,Good (50-70%),0.5277,0.2918,4,0.5826,0.7314,0.8567,0.0464,0.6085,0.3407
+166,Acmispon,deervetch,Plantae,Good (50-70%),0.5051,0.2564,3,0.4792,0.6514,0.8514,0.1049,0.5822,0.3615
+167,Asteroideae,,Plantae,Moderate (30-50%),0.4951,0.2882,3,0.41,0.6966,0.8475,0.0289,0.6079,0.3796
+168,Tricholoma imbricatoides,,Fungi,Moderate (30-50%),0.4915,0.277,3,0.2333,0.2472,0.3101,0.7828,0.8647,0.5107
+169,Cistus creticus,Hoary Rock-rose,Plantae,Moderate (30-50%),0.4882,0.1092,3,0.435,0.5311,0.5798,0.3283,0.622,0.4329
+170,Anthocharis sara,Sara Orangetip,Insecta,Moderate (30-50%),0.4843,0.1914,4,0.5933,0.6343,0.6561,0.3111,0.5227,0.1881
+171,Phidippus johnsoni,Johnson's Jumping Spider,Arachnida,Moderate (30-50%),0.4831,0.1373,3,0.5799,0.594,0.6014,0.4551,0.4163,0.2521
+172,Entoloma lividoalbum,,Fungi,Moderate (30-50%),0.4794,0.2275,3,0.1967,0.3036,0.3429,0.7381,0.7012,0.5941
+173,Daucus pusillus,American wild carrot,Plantae,Moderate (30-50%),0.461,0.346,3,0.6481,0.7122,0.8678,0.0593,0.4338,0.045
+174,Misumenoides formosipes,White-banded Crab Spider,Arachnida,Moderate (30-50%),0.4577,0.2239,4,0.5315,0.5683,0.6524,0.2769,0.6256,0.0913
+175,Helvella compressa,,Fungi,Moderate (30-50%),0.4546,0.3276,3,0.6037,0.7356,0.7961,0.0417,0.4802,0.0704
+176,Stephanomeria virgata,rod wirelettuce,Plantae,Moderate (30-50%),0.45,0.2552,2,0.4697,0.643,0.8091,0.0782,0.3714,0.3287
+177,Ammophila,Thread-waisted Sand Wasps,Insecta,Moderate (30-50%),0.45,0.2552,2,0.4697,0.643,0.8091,0.0782,0.3714,0.3287
+178,Cuscuta campestris,Field Dodder,Plantae,Moderate (30-50%),0.45,0.2552,2,0.4697,0.643,0.8091,0.0782,0.3714,0.3287
+179,Selasphorus sasin,Allen's Hummingbird,Aves,Moderate (30-50%),0.4488,0.2587,4,0.5952,0.5879,0.6361,0.1903,0.6323,0.0509
+180,Pituophis catenifer annectens,San Diego Gopher Snake,Reptilia,Moderate (30-50%),0.4472,0.163,2,0.2533,0.3285,0.3413,0.6352,0.6261,0.4985
+181,Cirsium,Plume Thistles,Plantae,Moderate (30-50%),0.4458,0.2562,4,0.5533,0.665,0.6805,0.1291,0.5273,0.1195
+182,Trirhabda,,Insecta,Moderate (30-50%),0.44,0.3323,2,0.3196,0.714,0.9171,0.023,0.4715,0.1947
+183,Eriogonum fasciculatum fasciculatum,Coastal California Buckwheat,Plantae,Moderate (30-50%),0.44,0.3323,2,0.3196,0.714,0.9171,0.023,0.4715,0.1947
+184,Slaterocoris,,Insecta,Moderate (30-50%),0.44,0.3323,2,0.3196,0.714,0.9171,0.023,0.4715,0.1947
+185,Pruinomycena acicula,orange bonnet,Fungi,Moderate (30-50%),0.439,0.2344,2,0.4467,0.6543,0.7004,0.0499,0.4366,0.3462
+186,Lactuca serriola,prickly lettuce,Plantae,Moderate (30-50%),0.4313,0.3831,3,0.672,0.7454,0.8794,0.0066,0.2626,0.0221
+187,Roanokenses,Amanita sect. Roanokenses,Fungi,Moderate (30-50%),0.431,0.2672,2,0.4527,0.657,0.8099,0.0823,0.2628,0.3212
+188,Punctularia atropurpurascens,Purple Fuzz,Fungi,Moderate (30-50%),0.4165,0.2222,2,0.1867,0.2468,0.2533,0.6761,0.6807,0.4551
+189,Mutarda nigra,Black Mustard,Plantae,Moderate (30-50%),0.416,0.3555,3,0.662,0.6926,0.8199,0.016,0.2815,0.0242
+190,Cyathus,,Fungi,Moderate (30-50%),0.4125,0.2166,2,0.3267,0.6127,0.6688,0.0645,0.3991,0.4031
+191,Xenoglossa pruinosa,Pruinose Squash Bee,Insecta,Moderate (30-50%),0.4092,0.2753,2,0.409,0.6386,0.813,0.0679,0.3086,0.2181
+192,Trachemys scripta scripta,Yellow-bellied Slider,Reptilia,Moderate (30-50%),0.4092,0.211,2,0.2833,0.5886,0.6626,0.0774,0.4205,0.4226
+193,Ischnura cervula,Pacific Forktail,Insecta,Moderate (30-50%),0.4091,0.319,2,0.1267,0.6374,0.8763,0.0298,0.476,0.3083
+194,Coprinellus bipellis,,Fungi,Moderate (30-50%),0.4091,0.319,2,0.1267,0.6374,0.8763,0.0298,0.476,0.3083
+195,Graphocephala atropunctata,Blue-green Sharpshooter,Insecta,Moderate (30-50%),0.4091,0.319,2,0.1267,0.6374,0.8763,0.0298,0.476,0.3083
+196,Microtus californicus,California Vole,Mammalia,Moderate (30-50%),0.4091,0.319,2,0.1267,0.6374,0.8763,0.0298,0.476,0.3083
+197,Solanum,nightshades,Plantae,Moderate (30-50%),0.4071,0.3602,3,0.6281,0.7047,0.8285,0.0106,0.2553,0.0154
+198,Juglans californica,Southern California Walnut,Plantae,Moderate (30-50%),0.4043,0.2058,2,0.2762,0.3431,0.4151,0.1253,0.7,0.5662
+199,Nemognatha,,Insecta,Moderate (30-50%),0.4032,0.203,2,0.2833,0.5699,0.6511,0.0837,0.4086,0.4226
+200,Agulla,Common Snakeflies,Insecta,Moderate (30-50%),0.4032,0.203,2,0.2833,0.5699,0.6511,0.0837,0.4086,0.4226
+201,Mecaphesa,,Arachnida,Moderate (30-50%),0.4032,0.203,2,0.2833,0.5699,0.6511,0.0837,0.4086,0.4226
+202,Neotephritis finalis,Sunflower Seed Maggot,Insecta,Moderate (30-50%),0.4032,0.203,2,0.2833,0.5699,0.6511,0.0837,0.4086,0.4226
+203,Neoscona crucifera,Spotted Orbweaver,Arachnida,Moderate (30-50%),0.4004,0.1905,3,0.5178,0.549,0.5816,0.0828,0.3769,0.294
+204,Agaricus xanthodermus,Yellow Stainer,Fungi,Moderate (30-50%),0.3965,0.1519,1,0.2829,0.3402,0.4105,0.248,0.6727,0.4248
+205,Misumenini,,Arachnida,Moderate (30-50%),0.3891,0.2721,2,0.2325,0.5754,0.7894,0.0158,0.4301,0.2913
+206,Sorghum bicolor,Sorghums,Plantae,Moderate (30-50%),0.3891,0.2721,2,0.2325,0.5754,0.7894,0.0158,0.4301,0.2913
+207,Agromyzidae,Leaf-miner Flies,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+208,Thaumatomyia,,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+209,Thecabius,,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+210,Aphididae,Aphids,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+211,Trirhabda luteocincta,Goldenbush beetle,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+212,Acridoidea,Short-horned Grasshoppers and Locusts,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+213,Exoristinae,,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+214,Caladonus coquilletti,,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+215,Colletes,Cellophane Bees,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+216,Stagmomantis californica,California Mantis,Insecta,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+217,Paspalum dilatatum,Dallis grass,Plantae,Moderate (30-50%),0.3871,0.2835,2,0.3837,0.629,0.7873,0.0214,0.3289,0.1726
+218,Ochlodes sylvanoides,Woodland Skipper,Insecta,Moderate (30-50%),0.3862,0.1511,1,0.2467,0.3308,0.3469,0.4093,0.6751,0.3081
+219,Sonchus,sow thistles,Plantae,Moderate (30-50%),0.3828,0.2164,2,0.2733,0.5733,0.6659,0.0592,0.3519,0.3731
+220,Crotalus ruber,Red Diamond Rattlesnake,Reptilia,Moderate (30-50%),0.3828,0.2164,2,0.2733,0.5733,0.6659,0.0592,0.3519,0.3731
+221,Pezizales,,Fungi,Moderate (30-50%),0.3821,0.3037,3,0.5154,0.6164,0.7772,0.0687,0.2868,0.0283
+222,Bubo virginianus pacificus,Coastal Great Horned Owl,Aves,Moderate (30-50%),0.3722,0.2317,2,0.1433,0.1752,0.2354,0.4141,0.7357,0.5292
+223,Lonicera,honeysuckles,Plantae,Moderate (30-50%),0.3659,0.1218,0,0.34,0.4628,0.4831,0.2821,0.4515,0.1761
+224,Sympetrum corruptum,Variegated Meadowhawk,Insecta,Moderate (30-50%),0.363,0.2907,2,0.4289,0.6188,0.7589,0.0048,0.2219,0.1445
+225,Gilia angelensis,chaparral gilia,Plantae,Moderate (30-50%),0.363,0.2907,2,0.4289,0.6188,0.7589,0.0048,0.2219,0.1445
+226,Braconidae,Braconid Wasps,Insecta,Moderate (30-50%),0.3618,0.284,2,0.4024,0.6127,0.7511,0.0051,0.2606,0.1389
+227,Flavoparmelia,greenshield lichens,Fungi,Moderate (30-50%),0.3568,0.3681,3,0.7067,0.6549,0.7151,0.0283,0.0326,0.0034
+228,Coniontis,,Insecta,Moderate (30-50%),0.3524,0.1077,1,0.3067,0.4062,0.3845,0.1903,0.509,0.3176
+229,Amsinckia tessellata,Bristly Fiddleneck,Plantae,Moderate (30-50%),0.3431,0.2794,2,0.2142,0.5462,0.7929,0.0186,0.2933,0.1933
+230,Glomeromycota,Glomeromycetes,Fungi,Moderate (30-50%),0.3387,0.1436,1,0.1867,0.2371,0.2779,0.5877,0.4012,0.3418
+231,Gymnopilus sapineus,Scaly Rustgill,Fungi,Moderate (30-50%),0.3387,0.1436,1,0.1867,0.2371,0.2779,0.5877,0.4012,0.3418
+232,Paropsisterna m-fuscum,Eucalyptus Leaf Beetle,Insecta,Moderate (30-50%),0.337,0.0975,0,0.2333,0.3267,0.3301,0.4383,0.4612,0.2323
+233,Quercus wislizeni,interior live oak,Plantae,Moderate (30-50%),0.3359,0.2322,1,0.1167,0.1384,0.2127,0.4516,0.7269,0.3688
+234,Erynnis funeralis,Funereal Duskywing,Insecta,Moderate (30-50%),0.3359,0.2322,1,0.1167,0.1384,0.2127,0.4516,0.7269,0.3688
+235,Brassicaceae,mustard family,Plantae,Moderate (30-50%),0.3284,0.2785,2,0.2275,0.5283,0.7801,0.0098,0.2632,0.1614
+236,Archilestes californicus,California Spreadwing,Insecta,Moderate (30-50%),0.3247,0.257,2,0.492,0.5429,0.6202,0.0607,0.1892,0.0431
+237,Melissodes,,Insecta,Moderate (30-50%),0.308,0.2901,2,0.4648,0.5479,0.6767,0.0261,0.1222,0.0102
+238,Galium nuttallii,San Diego bedstraw,Plantae,Moderate (30-50%),0.3044,0.2519,2,0.4792,0.5182,0.5718,0.0238,0.217,0.0162
