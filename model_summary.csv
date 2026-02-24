@@ -1,0 +1,5 @@
+Reserve,CV_F1_Mean,CV_F1_Std,n_species_in_reserve,n_well_represented,n_underrepresented,n_absent_candidates
+Elliott_Chaparral,0.9904,0.0078,622,115,507,2026
+Mission_Bay,0.9972,0.0035,705,184,521,1943
+Scripps,0.9938,0.0059,1594,493,1101,1054
+Los_Monos,0.9982,0.0035,561,113,448,2087
