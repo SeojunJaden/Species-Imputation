@@ -5,3 +5,6 @@ tqdm
 pandas
 rasterio
 numpy
+# carstens-models (train_xgboost.py, etc.)
+xgboost
+scikit-learn
