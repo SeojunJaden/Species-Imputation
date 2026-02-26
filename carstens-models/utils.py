@@ -48,7 +48,7 @@ def make_background_points(df):
     bg = df[ENV_COLS].sample(n=N_BACKGROUND, random_state=RANDOM_SEED, replace=True).reset_index(drop=True)
 
     # pair with random species
-    bg[SPECIES_COL] = df[SPECIES_COL].sample(n=N_BACKGROUND, random_state=RANDOM_SEED, replace=True).values
+    bg[SPECIES_COL] = df[SPECIES_COL].sample(n=N_BACKGROUND, random_state=RANDOM_SEED + 1, replace=True).values
     
     bg["presence"] = 0
     return bg
@@ -61,7 +61,7 @@ def get_train_data():
     df["presence"] = 1
 
     bg = make_background_points(df)
-    train_data = pd.concat([df, bg])
+    train_data = pd.concat([df[FEATURE_COLS + ["presence"]], bg]).sample(frac=1, random_state=RANDOM_SEED)
 
     X = train_data[FEATURE_COLS]
     y = train_data["presence"]
