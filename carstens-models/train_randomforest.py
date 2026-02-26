@@ -34,20 +34,9 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y)):
 
 
 # calculate statistics
-print(f"\n--- Results ---")
+print(f"\n--- Stats ---")
+
 print(f"Mean AUC: {np.mean(aucs):.4f}")
 print(f"Std:      {np.std(aucs):.4f}")
 print(f"Min AUC:  {np.min(aucs):.4f}")
 print(f"Max AUC:  {np.max(aucs):.4f}")
-
-
-
-
-
-
-
-
-
-
-
-
