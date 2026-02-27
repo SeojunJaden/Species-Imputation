@@ -1,4 +1,4 @@
-# Instructions to run
+# Instructions
 1. run utils.py
 
 2. tune models to find best option. for each, tune parameters to minimize AUC. statistics for each model can be found in output.md after running.

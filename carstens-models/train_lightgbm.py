@@ -1,11 +1,10 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import roc_auc_score
 from lightgbm import LGBMClassifier
 
 
-from utils import get_train_data
+from utils import get_train_data, write_results
 
 # get train data, convert to numpy
 X, y = get_train_data()
@@ -13,17 +12,54 @@ X = X.values
 y = y.values
 
 RANDOM_SEED = 69
-N_FOLDS = 5
+
+
+
+"""
+IMPORTANT FOR TUNING: TEST THESE PARAMETERS!
+N_ESTIMATORS = [100, 200, 500]
+MAX_DEPTH = [3, 6, 9]
+LEARNING_RATE = [0.01, 0.1, 0.3]
+NUM_LEAVES = [31, 63, 127]
+MIN_CHILD_SAMPLES = [20, 50, 100]
+N_FOLDS = [5, 10]
+"""
+
+# current config, change this to test different parameters
+N_FOLDS           = 5
+N_ESTIMATORS      = 100
+MAX_DEPTH         = 6
+LEARNING_RATE     = 0.1
+NUM_LEAVES        = 31
+MIN_CHILD_SAMPLES = 20
+
+# this gets passed into write_results
+current_config = {
+    "n_folds":           N_FOLDS,
+    "n_estimators":      N_ESTIMATORS,
+    "max_depth":         MAX_DEPTH,
+    "learning_rate":     LEARNING_RATE,
+    "num_leaves":        NUM_LEAVES,
+    "min_child_samples": MIN_CHILD_SAMPLES,
+}
 
 # get cross validiation indices
-kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_SEED)
+kf = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=RANDOM_SEED)
 
 aucs = []
 for fold, (train_idx, test_idx) in enumerate(kf.split(X, y)):
     X_train, X_test = X[train_idx], X[test_idx]
     y_train, y_test = y[train_idx], y[test_idx]
 
-    model = LGBMClassifier(random_state=RANDOM_SEED)
+    model = LGBMClassifier(
+        n_estimators      = N_ESTIMATORS,
+        max_depth         = MAX_DEPTH,
+        learning_rate     = LEARNING_RATE,
+        num_leaves        = NUM_LEAVES,
+        min_child_samples = MIN_CHILD_SAMPLES,
+        random_state      = RANDOM_SEED,
+        n_jobs            = -1,
+    )
     model.fit(X_train, y_train)
 
     # test model
@@ -33,10 +69,5 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y)):
     aucs.append(auc)
 
 
-# calculate statistics
-print(f"\n--- Stats ---")
-
-print(f"Mean AUC: {np.mean(aucs):.4f}")
-print(f"Std:      {np.std(aucs):.4f}")
-print(f"Min AUC:  {np.min(aucs):.4f}")
-print(f"Max AUC:  {np.max(aucs):.4f}")
+# write results to output.md
+write_results("LightGBM", current_config, aucs)
