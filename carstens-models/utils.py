@@ -68,3 +68,26 @@ def get_train_data():
 
     
     return X, y
+
+# write results to output.md to compare model performance with different parameters
+def write_results(model_name, model_config, aucs):
+    lines = [
+        f"\n## {model_name}",
+        f"- Sample size: {config['sample_size']}",
+        f"- Background points: {config['n_background']}",
+        f"- Folds: {config['n_folds']}",
+        f"- Mean AUC: {np.mean(aucs):.4f}",
+        f"- Std:      {np.std(aucs):.4f}",
+        f"- Min AUC:  {np.min(aucs):.4f}",
+        f"- Max AUC:  {np.max(aucs):.4f}",
+    ]
+
+    # add parameters specifc to model type
+    for key, val in model_config.items():
+        if key not in ["sample_size", "n_background", "n_folds"]:
+            lines.append(f"- {key}: {val}")
+
+    with open("results.md", "a") as f:
+        f.write("\n".join(lines) + "\n")
+
+    print("\n".join(lines))
