@@ -2,9 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import roc_auc_score
-from sklearn.ensemble import RandomForestClassifier
+from lightgbm import LGBMClassifier
 
-from utils import get_train_data, write_results
+
+from utils import get_train_data
 
 # get train data, convert to numpy
 X, y = get_train_data()
@@ -12,22 +13,7 @@ X = X.values
 y = y.values
 
 RANDOM_SEED = 69
-
-# IMPORTANT FOR TUNING: FEATURES TO TEST!
-N_ESTIMATORS = [100, 200, 500]
-MAX_DEPTH = [None, 10, 20, 30]
-MIN_SAMPLES_LEAF = [1, 5, 10]
-MAX_FEATURES = ["sqrt", "log2"]
-N_FOLDS = [5, 10]
-
-# default configuration
-current_config = {
-    "n_folds":          5,
-    "n_estimators":     100,
-    "max_depth":        None,
-    "min_samples_leaf": 1,
-    "max_features":     "sqrt",
-}
+N_FOLDS = 5
 
 # get cross validiation indices
 kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_SEED)
@@ -37,7 +23,7 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y)):
     X_train, X_test = X[train_idx], X[test_idx]
     y_train, y_test = y[train_idx], y[test_idx]
 
-    model = RandomForestClassifier(n_estimators=100, random_state=RANDOM_SEED, n_jobs=-1)
+    model = LGBMClassifier(random_state=RANDOM_SEED)
     model.fit(X_train, y_train)
 
     # test model
@@ -45,3 +31,12 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y)):
     # compare probabilities to actual labels
     auc = roc_auc_score(y_test, probs)
     aucs.append(auc)
+
+
+# calculate statistics
+print(f"\n--- Stats ---")
+
+print(f"Mean AUC: {np.mean(aucs):.4f}")
+print(f"Std:      {np.std(aucs):.4f}")
+print(f"Min AUC:  {np.min(aucs):.4f}")
+print(f"Max AUC:  {np.max(aucs):.4f}")
