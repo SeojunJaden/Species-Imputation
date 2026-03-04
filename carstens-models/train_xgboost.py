@@ -16,21 +16,23 @@ RANDOM_SEED = 69
 
 """
 IMPORTANT FOR TUNING: TEST THESE PARAMETERS!
-N_ESTIMATORS = [100, 200, 500]
-MAX_DEPTH = [3, 6, 9]
-LEARNING_RATE = [0.01, 0.1, 0.3]
-SUBSAMPLE = [0.6, 0.8, 1.0]
-COLSAMPLE_BYTREE = [0.6, 0.8, 1.0]
-N_FOLDS = [5, 10]
+N_ESTIMATORS = [100, 200, 500] ** 500 best **
+MAX_DEPTH = [3, 6, 9] ** 6 best **
+LEARNING_RATE = [0.01, 0.1, 0.3] ** 0.1 best **
+SUBSAMPLE = [0.6, 0.8, 1.0] ** 1.0 best **
+COLSAMPLE_BYTREE = [0.6, 0.8, 1.0] ** 1.0 best **
+N_FOLDS = [5, 10] ** 10 best **
+
+0.7277 best mean AUC with 290,000 background points and sample of 160,000 (for now)
 """
 
 # current config, change this to test different parameters
-N_FOLDS          = 5
-N_ESTIMATORS     = 100
+N_FOLDS          = 10
+N_ESTIMATORS     = 500
 MAX_DEPTH        = 6
 LEARNING_RATE    = 0.1
-SUBSAMPLE        = 0.8
-COLSAMPLE_BYTREE = 0.8
+SUBSAMPLE        = 1.0
+COLSAMPLE_BYTREE = 1.0
 
 # get cross validiation indices
 kf = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=RANDOM_SEED)
@@ -59,7 +61,14 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y), 1):
     auc = roc_auc_score(y_test, probs)
     aucs.append(auc)
 
-
+current_config = {
+    "n_folds": N_FOLDS,
+    "N_ESTIMATORS": N_ESTIMATORS,
+    "MAX_DEPTH": MAX_DEPTH,
+    "LEARNING_RATE": LEARNING_RATE,
+    "SUBSAMPLE": SUBSAMPLE,
+    "COLSAMPLE_BYTREE": COLSAMPLE_BYTREE,
+}
 
 # write results to output.md
 write_results("XGBoost", current_config, aucs)

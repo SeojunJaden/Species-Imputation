@@ -14,18 +14,20 @@ RANDOM_SEED = 69
 
 """
 IMPORTANT FOR TUNING: TEST THESE PARAMETERS!
-N_ESTIMATORS = [100, 200, 500]
-MAX_DEPTH = [None, 10, 20, 30]
-MIN_SAMPLES_LEAF = [1, 5, 10]
-MAX_FEATURES = ["sqrt", "log2"]
-N_FOLDS = [5, 10]
+N_ESTIMATORS = [100, 200, 500] ** 500 slightly better than 200 **
+MAX_DEPTH = [None, 10, 20, 30] ** 20 best **
+MIN_SAMPLES_LEAF = [1, 5, 10] ** 10 best **
+MAX_FEATURES = ["sqrt", "log2"] ** no difference between the two? **
+N_FOLDS = [5, 10] ** 10 best **
+
+0.6949 best mean AUC with 290,000 background points and 100,000 sample size
 """
 
 # current config, change this to test different parameters
-N_FOLDS          = 5
-N_ESTIMATORS     = 100
-MAX_DEPTH        = None
-MIN_SAMPLES_LEAF = 1
+N_FOLDS          = 10
+N_ESTIMATORS     = 500
+MAX_DEPTH        = 20
+MIN_SAMPLES_LEAF = 10
 MAX_FEATURES     = "sqrt"
 
 # this gets passed into write_results
