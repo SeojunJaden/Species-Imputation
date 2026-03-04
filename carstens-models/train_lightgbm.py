@@ -17,21 +17,23 @@ RANDOM_SEED = 69
 
 """
 IMPORTANT FOR TUNING: TEST THESE PARAMETERS!
-N_ESTIMATORS = [100, 200, 500]
-MAX_DEPTH = [3, 6, 9]
-LEARNING_RATE = [0.01, 0.1, 0.3]
-NUM_LEAVES = [31, 63, 127]
-MIN_CHILD_SAMPLES = [20, 50, 100]
-N_FOLDS = [5, 10]
+N_ESTIMATORS = [100, 200, 500] ** 500 best **
+MAX_DEPTH = [3, 6, 9] ** -1 best for now **
+LEARNING_RATE = [0.01, 0.1, 0.3] ** 0.1 best **
+NUM_LEAVES = [31, 63, 127] ** 63 best **
+MIN_CHILD_SAMPLES = [20, 50, 100] ** 20 best **
+N_FOLDS = [5, 10] ** 10 best **
+
+0.7373 is best AUC with 291,000 background points and 161,000 sampling size
 """
 
 # current config, change this to test different parameters
-N_FOLDS           = 5
-N_ESTIMATORS      = 100
-MAX_DEPTH         = 6
+N_FOLDS           = 10
+N_ESTIMATORS      = 500
+MAX_DEPTH         = -1
 LEARNING_RATE     = 0.1
-NUM_LEAVES        = 31
-MIN_CHILD_SAMPLES = 20
+NUM_LEAVES        = 63
+MIN_CHILD_SAMPLES = 100
 
 # this gets passed into write_results
 current_config = {
