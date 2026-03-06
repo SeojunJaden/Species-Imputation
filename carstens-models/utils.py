@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import os
 
 # path relative to project root
 CSV_PATH = "../carsten-cleaning-pipeline/full_sd_obs_with_env_data.csv"
@@ -9,7 +10,7 @@ SPECIES_COL = "taxon_id"
 ENV_COLS = [
     "elevation", "slope", "aspect", "ndvi",
     "landcover", "impervious", "bathymetry",
-    "soil_sand", "soil_ph", "soil_clay",
+    "soil_sand", "soil_ph", "soil_clay", "latitude", "longitude"
 ]
 
 FEATURE_COLS = ENV_COLS + [SPECIES_COL]
@@ -90,7 +91,7 @@ def write_results(model_name, config, aucs):
         if key not in ["sample_size", "n_background", "n_folds"]:
             lines.append(f"- {key}: {val}")
 
-    with open("results.md", "a") as f:
+    with open(os.path.join(os.path.dirname(__file__), "results.md"), "a") as f:
         f.write("\n".join(lines) + "\n")
 
     print("\n".join(lines))
