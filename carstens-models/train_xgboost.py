@@ -23,7 +23,7 @@ SUBSAMPLE = [0.6, 0.8, 1.0] ** 1.0 best **
 COLSAMPLE_BYTREE = [0.6, 0.8, 1.0] ** 1.0 best **
 N_FOLDS = [5, 10] ** 10 best **
 
-0.7277 best mean AUC with 290,000 background points and sample of 160,000 (for now)
+0.7277 best mean AUC with best fit parameters and datapoints (290,000 background points and sample of 160,000)
 """
 
 # current config, change this to test different parameters
