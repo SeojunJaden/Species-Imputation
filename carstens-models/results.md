@@ -180,3 +180,30 @@ Checking N_ESTIMATORS
 - MAX_DEPTH: 9
 - LEARNING_RATE: 0.1
 - SUBSAMPLE: 1.0
+## XGBoost
+- Sample size: 150000
+- Background points: 290000
+- Folds: 10
+- Mean AUC: 0.7381
+- Std:      0.0039
+- Min AUC:  0.7317
+- Max AUC:  0.7447
+- N_ESTIMATORS: 500
+- MAX_DEPTH: 6
+- LEARNING_RATE: 0.1
+- SUBSAMPLE: 1.0
+- COLSAMPLE_BYTREE: 1.0
+
+## LightGBM
+- Sample size: 150000
+- Background points: 290000
+- Folds: 10
+- Mean AUC: 0.7471
+- Std:      0.0033
+- Min AUC:  0.7426
+- Max AUC:  0.7528
+- n_estimators: 500
+- max_depth: -1
+- learning_rate: 0.1
+- num_leaves: 63
+- min_child_samples: 100
