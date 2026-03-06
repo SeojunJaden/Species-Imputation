@@ -18,7 +18,7 @@ RANDOM_SEED = 69
 """
 IMPORTANT FOR TUNING: TEST THESE PARAMETERS!
 N_ESTIMATORS = [100, 200, 500] ** 500 best **
-MAX_DEPTH = [3, 6, 9] ** -1 best for now **
+MAX_DEPTH = [3, 6, 9] ** -1 best, we must use this so that there is no limit according to Claude **
 LEARNING_RATE = [0.01, 0.1, 0.3] ** 0.1 best **
 NUM_LEAVES = [31, 63, 127] ** 63 best **
 MIN_CHILD_SAMPLES = [20, 50, 100] ** 20 best **
