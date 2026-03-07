@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
 """
-Species Distribution Modeling - Environmental Data Extraction
+<<<<<<< Current (Your changes)
+This script combines environmental data from GeoTIFF files with observation data from CSV files.
+=======
+Extract environmental variables from GeoTIFFs at observation coordinates.
 
-This script extracts environmental data from GeoTIFF files at species observation
-coordinates and combines them with observation data from CSV files.
+Reads a cleaned observation CSV (lat/lon + taxon info), samples 10 environmental
+rasters at each point, and writes to data/ with taxon_name, lat, lon, taxon_id,
+plus elevation, slope, aspect, ndvi, landcover, impervious, bathymetry, soil_sand,
+soil_ph, soil_clay.
+>>>>>>> Incoming (Background Agent changes)
 
 Usage:
-  Process all CleanedData/*_Filtered.csv files (default):
-    python combine_data.py
+  python combine-gee-and-obs.py <input.csv> [output.csv]
 
-  Process a single CSV with minimal output (taxon_name, lat, long, taxon_id, 10 env cols):
-    python combine_data.py <input.csv> [output.csv]
-    e.g. python combine_data.py carsten-cleaning-pipeline/full_sd_obs_cleaned.csv ProcessedData/full_sd_obs_with_env_data.csv
+  If output is omitted, writes to data/{input_basename}_with_env_data.csv
+  Example: python combine-gee-and-obs.py data/first-200k-obs-cleaned.csv data/first-200k-obs-clean-with-env.csv
 """
 
 import os
 import sys
-import glob
 import pandas as pd
 import rasterio
-from rasterio.transform import xy
-from rasterio.warp import transform as rasterio_transform
 import numpy as np
 try:
     from tqdm import tqdm
@@ -32,19 +33,13 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
+# Paths relative to script location
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
 
-# Configuration
-TIFF_DIR = "GEE Data/drive-download-20260217T221411Z-1-001"
-CSV_DIR = "CleanedData"
-OUTPUT_DIR = "ProcessedData"
+TIFF_DIR = os.path.join(PROJECT_ROOT, "GEE Data", "drive-download-20260217T221411Z-1-001")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data")
 
-# Required columns to keep from CSV files
-REQUIRED_COLUMNS = [
-    'latitude', 'longitude', 'time_observed_at', 
-    'scientific_name', 'common_name', 'iconic_taxon_name'
-]
-
-# Expected TIFF files and their corresponding column names
 TIFF_FILES = {
     'elevation.tif': 'elevation',
     'slope.tif': 'slope',
@@ -61,149 +56,65 @@ TIFF_FILES = {
 
 def extract_pixel_values_batch(raster_path, coordinates):
     """
-    Extract pixel values from a GeoTIFF for multiple coordinates at once (vectorized).
-    
-    Parameters:
-    -----------
-    raster_path : str
-        Path to the GeoTIFF file
-    coordinates : list of tuples
-        List of (lon, lat) coordinate tuples
-    
-    Returns:
-    --------
-    list
-        List of pixel values (or None for invalid/out-of-bounds coordinates)
+    Sample a GeoTIFF at many (lon, lat) points in one go.
+
+    Returns a list of values (or None where out-of-bounds / nodata).
     """
     try:
         with rasterio.open(raster_path) as src:
-            # Use sample() to extract values for all points at once
-            # This is much faster than opening the file for each point
             values = list(src.sample(coordinates))
-            
-            # Process the results
             result = []
             nodata = src.nodata
-            
+
             for val_array in values:
-                if len(val_array) > 0:
-                    value = float(val_array[0])
-                    # Check for nodata
-                    if nodata is not None and (np.isnan(value) or value == nodata):
-                        result.append(None)
-                    else:
-                        result.append(value)
-                else:
+                if len(val_array) == 0:
                     result.append(None)
-            
+                    continue
+                value = float(val_array[0])
+                if nodata is not None and (np.isnan(value) or value == nodata):
+                    result.append(None)
+                else:
+                    result.append(value)
+
             return result
-    
-    except Exception as e:
-        # If batch extraction fails, return None for all points
+
+    except Exception:
         return [None] * len(coordinates)
 
 
-def load_raster_metadata(tiff_path):
+def process_csv_file(csv_path, tiff_dir, output_path):
     """
-    Load raster metadata for validation.
-    
-    Parameters:
-    -----------
-    tiff_path : str
-        Path to the GeoTIFF file
-    
-    Returns:
-    --------
-    dict or None
-        Dictionary with bounds and nodata info, or None if file can't be opened
+    Read observations CSV, sample env rasters at each (lat, lon), write enriched CSV to data/.
     """
-    try:
-        with rasterio.open(tiff_path) as src:
-            return {
-                'bounds': src.bounds,
-                'nodata': src.nodata,
-                'crs': src.crs,
-                'shape': src.shape
-            }
-    except Exception:
-        return None
-
-
-def process_csv_file(csv_path, tiff_dir, output_dir, output_path=None, minimal_output=False):
-    """
-    Process a single CSV file by extracting environmental data from TIFFs.
-
-    Parameters:
-    -----------
-    csv_path : str
-        Path to the input CSV file
-    tiff_dir : str
-        Directory containing TIFF files
-    output_dir : str
-        Directory to save processed CSV (used if output_path is None)
-    output_path : str, optional
-        If set, write output to this path (single-file mode).
-    minimal_output : bool
-        If True, output only: taxon_name, latitude, longitude, taxon_id, then 10 env columns.
-        Taxon name is scientific_name if present, else common_name. No reserve_name or env_data_completeness.
-
-    Returns:
-    --------
-    pd.DataFrame
-        Processed DataFrame with environmental data
-    """
-    # Extract reserve name from filename (for default output path)
-    reserve_name = os.path.basename(csv_path).replace('_Filtered.csv', '').replace('.csv', '')
-    if reserve_name.endswith('_cleaned'):
-        reserve_name = reserve_name.replace('_cleaned', '')
-
     print(f"\n{'='*60}")
     print(f"Processing: {os.path.basename(csv_path)}")
     print(f"{'='*60}")
 
-    # Read CSV file
-    print(f"Reading CSV file...")
     df = pd.read_csv(csv_path)
-    original_count = len(df)
-    print(f"  Loaded {original_count:,} observations")
+    print(f"  Loaded {len(df):,} observations")
 
-    if minimal_output:
-        # Single-file / minimal mode: need lat, long, taxon_id, and taxon name (scientific_name or common_name)
-        required = ['latitude', 'longitude', 'taxon_id']
-        missing = [c for c in required if c not in df.columns]
-        if missing:
-            print(f"  ERROR: Missing columns for minimal output: {missing}")
-            return None
-        if 'scientific_name' in df.columns:
-            df = df.assign(taxon_name=df['scientific_name'].astype(str))
-        elif 'common_name' in df.columns:
-            df = df.assign(taxon_name=df['common_name'].astype(str))
-        else:
-            print(f"  ERROR: Need scientific_name or common_name for taxon_name.")
-            return None
-        df = df[['latitude', 'longitude', 'taxon_id', 'taxon_name'] + [c for c in df.columns if c not in ('latitude', 'longitude', 'taxon_id', 'taxon_name')]].copy()
+    required = ['latitude', 'longitude', 'taxon_id']
+    missing = [c for c in required if c not in df.columns]
+    if missing:
+        print(f"  ERROR: Missing columns: {missing}")
+        return None
+
+    if 'scientific_name' in df.columns:
+        df = df.assign(taxon_name=df['scientific_name'].astype(str))
+    elif 'common_name' in df.columns:
+        df = df.assign(taxon_name=df['common_name'].astype(str))
     else:
-        # Standard mode: use REQUIRED_COLUMNS
-        missing_cols = [col for col in REQUIRED_COLUMNS if col not in df.columns]
-        if missing_cols:
-            print(f"  WARNING: Missing columns: {missing_cols}")
-            available_cols = [col for col in REQUIRED_COLUMNS if col in df.columns]
-            df = df[available_cols + ['latitude', 'longitude']].copy()
-        else:
-            df = df[REQUIRED_COLUMNS].copy()
+        print(f"  ERROR: Need scientific_name or common_name for taxon_name.")
+        return None
 
-    # Remove rows with missing coordinates
     df = df.dropna(subset=['latitude', 'longitude'])
-    valid_count = len(df)
-    print(f"  {valid_count:,} observations with valid coordinates")
+    print(f"  {len(df):,} observations with valid coordinates")
 
-    if valid_count == 0:
+    if len(df) == 0:
         print(f"  ERROR: No valid coordinates found!")
         return None
 
-    # Extract environmental data from each TIFF
     print(f"\nExtracting environmental data from {len(TIFF_FILES)} TIFF files...")
-
     coordinates = list(zip(df['longitude'], df['latitude']))
 
     for tiff_filename, column_name in tqdm(TIFF_FILES.items(), desc="  Processing TIFFs"):
@@ -216,163 +127,45 @@ def process_csv_file(csv_path, tiff_dir, output_dir, output_path=None, minimal_o
         df[column_name] = values
 
     env_columns = list(TIFF_FILES.values())
-    if not minimal_output:
-        df['env_data_completeness'] = df[env_columns].notna().sum(axis=1) / len(env_columns)
+    out = df[['taxon_name', 'latitude', 'longitude', 'taxon_id'] + env_columns].copy()
 
-    # Print statistics
-    print(f"\nData Completeness Statistics:")
-    print(f"  Total observations: {len(df):,}")
-    if not minimal_output:
-        print(f"  Observations with all env data: {(df['env_data_completeness'] == 1.0).sum():,}")
-        print(f"  Observations with >=50% env data: {(df['env_data_completeness'] >= 0.5).sum():,}")
-        print(f"  Observations with <50% env data: {(df['env_data_completeness'] < 0.5).sum():,}")
-    else:
-        all_ok = df[env_columns].notna().all(axis=1).sum()
-        print(f"  Observations with all env data: {all_ok:,}")
+    all_ok = out[env_columns].notna().all(axis=1).sum()
+    print(f"\n  Observations with all env data: {all_ok:,}")
     print(f"\nPer-variable completeness:")
     for col in env_columns:
-        if col in df.columns:
-            complete = df[col].notna().sum()
-            pct = (complete / len(df)) * 100
-            print(f"  {col:15s}: {complete:6,} ({pct:5.1f}%)")
+        complete = out[col].notna().sum()
+        pct = (complete / len(out)) * 100
+        print(f"  {col:15s}: {complete:6,} ({pct:5.1f}%)")
 
-    # Build output: minimal = taxon_name, latitude, longitude, taxon_id, then 10 env
-    if minimal_output:
-        out = df[['taxon_name', 'latitude', 'longitude', 'taxon_id'] + env_columns].copy()
-        out_path = output_path or os.path.join(output_dir, f"{reserve_name}_with_env_data.csv")
-    else:
-        out = df
-        out_path = output_path or os.path.join(output_dir, f"{reserve_name}_with_env_data.csv")
-        out['reserve_name'] = reserve_name
+    os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
+    out.to_csv(output_path, index=False)
+    print(f"\nSaved: {output_path}")
 
-    os.makedirs(os.path.dirname(out_path) or '.', exist_ok=True)
-    out.to_csv(out_path, index=False)
-    print(f"\nSaved: {out_path}")
-
-    return out if minimal_output else df
+    return out
 
 
 def main():
-    """Main function: single-file mode (with minimal output) or process all CleanedData CSVs."""
-    print("="*60)
-    print("Species Distribution Modeling - Environmental Data Extraction")
-    print("="*60)
+    if len(sys.argv) < 2:
+        print("Usage: python combine-gee-and-obs.py <input.csv> [output.csv]")
+        sys.exit(1)
 
-    # Single-file mode: python combine_data.py <input.csv> [output.csv]
-    if len(sys.argv) >= 2:
-        input_path = sys.argv[1]
-        output_path = sys.argv[2] if len(sys.argv) > 2 else None
-        if not os.path.exists(input_path):
-            print(f"ERROR: Input file not found: {input_path}")
-            return
-        if not os.path.exists(TIFF_DIR):
-            print(f"ERROR: TIFF directory not found: {TIFF_DIR}")
-            return
-        if output_path is None:
-            base = os.path.basename(input_path).replace('.csv', '')
-            output_path = os.path.join(OUTPUT_DIR, f"{base}_with_env_data.csv")
-        process_csv_file(input_path, TIFF_DIR, OUTPUT_DIR, output_path=output_path, minimal_output=True)
-        print(f"\n{'='*60}\nDone.")
-        return
+    input_path = sys.argv[1]
+    output_path = sys.argv[2] if len(sys.argv) > 2 else None
 
-    # Validate directories (batch mode)
+    if not os.path.exists(input_path):
+        print(f"ERROR: Input file not found: {input_path}")
+        sys.exit(1)
+
     if not os.path.exists(TIFF_DIR):
         print(f"ERROR: TIFF directory not found: {TIFF_DIR}")
-        return
+        sys.exit(1)
 
-    if not os.path.exists(CSV_DIR):
-        print(f"ERROR: CSV directory not found: {CSV_DIR}")
-        return
+    if output_path is None:
+        base = os.path.basename(input_path).replace('.csv', '')
+        output_path = os.path.join(OUTPUT_DIR, f"{base}_with_env_data.csv")
 
-    # Check for TIFF files
-    print(f"\nChecking TIFF files in {TIFF_DIR}...")
-    missing_tiffs = []
-    for tiff_filename in TIFF_FILES.keys():
-        tiff_path = os.path.join(TIFF_DIR, tiff_filename)
-        if os.path.exists(tiff_path):
-            print(f"  ✓ {tiff_filename}")
-        else:
-            print(f"  ✗ {tiff_filename} - NOT FOUND")
-            missing_tiffs.append(tiff_filename)
-    
-    if missing_tiffs:
-        print(f"\nWARNING: {len(missing_tiffs)} TIFF file(s) not found!")
-    
-    # Find all CSV files
-    csv_pattern = os.path.join(CSV_DIR, "*_Filtered.csv")
-    csv_files = sorted(glob.glob(csv_pattern))
-    
-    if not csv_files:
-        print(f"\nERROR: No CSV files found matching pattern: {csv_pattern}")
-        return
-    
-    print(f"\nFound {len(csv_files)} CSV file(s) to process:")
-    for csv_file in csv_files:
-        print(f"  - {os.path.basename(csv_file)}")
-    
-    # Process each CSV file
-    all_dataframes = []
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    for csv_path in csv_files:
-        reserve_name = os.path.basename(csv_path).replace('_Filtered.csv', '')
-        output_path = os.path.join(OUTPUT_DIR, f"{reserve_name}_with_env_data.csv")
-        
-        # Check if already processed
-        if os.path.exists(output_path):
-            print(f"\n{'='*60}")
-            print(f"Skipping {reserve_name} (already processed)")
-            print(f"{'='*60}")
-            print(f"Loading existing file: {output_path}")
-            try:
-                df_existing = pd.read_csv(output_path)
-                # Ensure reserve_name column exists
-                if 'reserve_name' not in df_existing.columns:
-                    df_existing['reserve_name'] = reserve_name
-                all_dataframes.append(df_existing)
-                print(f"  Loaded {len(df_existing):,} observations")
-            except Exception as e:
-                print(f"  ERROR loading existing file: {e}")
-                print(f"  Will reprocess...")
-                df_processed = process_csv_file(csv_path, TIFF_DIR, OUTPUT_DIR)
-                if df_processed is not None:
-                    all_dataframes.append(df_processed)
-        else:
-            df_processed = process_csv_file(csv_path, TIFF_DIR, OUTPUT_DIR)
-            if df_processed is not None:
-                all_dataframes.append(df_processed)
-    
-    # Combine all reserves
-    if all_dataframes:
-        print(f"\n{'='*60}")
-        print("Combining all reserves...")
-        print(f"{'='*60}")
-        
-        combined_df = pd.concat(all_dataframes, ignore_index=True)
-        
-        # Overall statistics
-        print(f"\nCombined Dataset Statistics:")
-        print(f"  Total observations: {len(combined_df):,}")
-        print(f"  Number of reserves: {combined_df['reserve_name'].nunique()}")
-        print(f"  Reserves: {', '.join(sorted(combined_df['reserve_name'].unique()))}")
-        
-        env_columns = list(TIFF_FILES.values())
-        print(f"\nOverall Data Completeness:")
-        print(f"  Observations with all env data: {(combined_df['env_data_completeness'] == 1.0).sum():,}")
-        print(f"  Observations with >=50% env data: {(combined_df['env_data_completeness'] >= 0.5).sum():,}")
-        print(f"  Observations with <50% env data: {(combined_df['env_data_completeness'] < 0.5).sum():,}")
-        
-        # Save combined CSV
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-        combined_output_path = os.path.join(OUTPUT_DIR, "all_reserves_with_env_data.csv")
-        combined_df.to_csv(combined_output_path, index=False)
-        print(f"\nSaved combined dataset: {combined_output_path}")
-        
-        print(f"\n{'='*60}")
-        print("Processing complete!")
-        print(f"{'='*60}")
-    else:
-        print("\nERROR: No data was successfully processed!")
+    process_csv_file(input_path, TIFF_DIR, output_path)
+    print(f"\n{'='*60}\nDone.")
 
 
 if __name__ == "__main__":
