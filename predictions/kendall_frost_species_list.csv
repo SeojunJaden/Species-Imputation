@@ -1,0 +1,2152 @@
+taxon_id,taxon_name,max_probability,mean_probability
+3875.0,"taxon_id
+3875.0      Tringa solitaria
+3875.0    Solitary Sandpiper
+Name: taxon_name, dtype: object",0.8648,0.5829
+3845.0,"taxon_id
+3845.0    Calidris canutus
+3845.0            Red Knot
+Name: taxon_name, dtype: object",0.8648,0.5829
+3864.0,"taxon_id
+3864.0       Least Sandpiper
+3864.0    Calidris minutilla
+Name: taxon_name, dtype: object",0.8648,0.5829
+3869.0,"taxon_id
+3869.0    Short-billed Dowitcher
+3869.0       Limnodromus griseus
+Name: taxon_name, dtype: object",0.8648,0.5829
+3835.0,"taxon_id
+3835.0    Sandpipers and Allies
+3835.0             Scolopacidae
+Name: taxon_name, dtype: object",0.8648,0.5829
+3849.0,"taxon_id
+3849.0    Calidris alba
+3849.0       Sanderling
+Name: taxon_name, dtype: object",0.8648,0.5829
+3873.0,"taxon_id
+3873.0      Long-billed Dowitcher
+3873.0    Limnodromus scolopaceus
+Name: taxon_name, dtype: object",0.8648,0.5829
+3892.0,"taxon_id
+3892.0    Tringa melanoleuca
+3892.0    Greater Yellowlegs
+Name: taxon_name, dtype: object",0.8648,0.5829
+3855.0,"taxon_id
+3855.0       Calidris mauri
+3855.0    Western Sandpiper
+Name: taxon_name, dtype: object",0.8648,0.5829
+3857.0,"taxon_id
+3857.0    Calidris alpina
+3857.0             Dunlin
+Name: taxon_name, dtype: object",0.8648,0.5829
+3867.0,"taxon_id
+3867.0    Limnodromus
+3867.0     Dowitchers
+Name: taxon_name, dtype: object",0.8648,0.5829
+3836.0,"taxon_id
+3836.0    Calidris Sandpipers
+3836.0               Calidris
+Name: taxon_name, dtype: object",0.8648,0.5829
+3759.0,"taxon_id
+3759.0      Plegadis chihi
+3759.0    White-faced Ibis
+Name: taxon_name, dtype: object",0.8648,0.5829
+3874.0,"taxon_id
+3874.0    Shanks, Tattlers, and Allies
+3874.0                          Tringa
+Name: taxon_name, dtype: object",0.8648,0.5829
+4892.0,"taxon_id
+4892.0    Black-bellied Plover
+4892.0    Pluvialis squatarola
+Name: taxon_name, dtype: object",0.864,0.5926
+4933.0,Small Egrets and Herons,0.864,0.5926
+4937.0,"taxon_id
+4937.0     Egretta caerulea
+4937.0    Little Blue Heron
+Name: taxon_name, dtype: object",0.864,0.5926
+4938.0,"taxon_id
+4938.0    Egretta tricolor
+4938.0    Tricolored Heron
+Name: taxon_name, dtype: object",0.864,0.5926
+4929.0,"taxon_id
+4929.0    Herons, Egrets, and Bitterns
+4929.0                        Ardeidae
+Name: taxon_name, dtype: object",0.864,0.5926
+1.0,"taxon_id
+1.0     Animals
+1.0    Animalia
+Name: taxon_name, dtype: object",0.8614,0.5341
+162.0,"taxon_id
+162.0    Porzana carolina
+162.0                Sora
+Name: taxon_name, dtype: object",0.8614,0.5341
+473.0,"taxon_id
+473.0       American Coot
+473.0    Fulica americana
+Name: taxon_name, dtype: object",0.8614,0.5341
+3.0,"taxon_id
+3.0    Birds
+3.0     Aves
+Name: taxon_name, dtype: object",0.8614,0.5341
+3941.0,"taxon_id
+3941.0    Arenaria melanocephala
+3941.0           Black Turnstone
+Name: taxon_name, dtype: object",0.8544,0.5697
+3959.0,"taxon_id
+3959.0    Red-necked Phalarope
+3959.0      Phalaropus lobatus
+Name: taxon_name, dtype: object",0.8544,0.5697
+3894.0,"taxon_id
+3894.0     Curlews
+3894.0    Numenius
+Name: taxon_name, dtype: object",0.8544,0.5697
+4180.0,"taxon_id
+4180.0       Northern Fulmar
+4180.0    Fulmarus glacialis
+Name: taxon_name, dtype: object",0.8544,0.5697
+3906.0,"taxon_id
+3906.0    Numenius americanus
+3906.0     Long-billed Curlew
+Name: taxon_name, dtype: object",0.8544,0.5697
+3938.0,"taxon_id
+3938.0    Arenaria interpres
+3938.0       Ruddy Turnstone
+Name: taxon_name, dtype: object",0.8544,0.5697
+4105.0,"taxon_id
+4105.0      Puffinus opisthomelas
+4105.0    Black-vented Shearwater
+Name: taxon_name, dtype: object",0.8544,0.5697
+3954.0,"taxon_id
+3954.0      Limosa fedoa
+3954.0    Marbled Godwit
+Name: taxon_name, dtype: object",0.8544,0.5697
+4205.0,"taxon_id
+4205.0    Podiceps nigricollis
+4205.0             Eared Grebe
+Name: taxon_name, dtype: object",0.8544,0.5697
+4343.0,"taxon_id
+4343.0    Large White-headed Gulls
+4343.0                       Larus
+Name: taxon_name, dtype: object",0.8516,0.5265
+4345.0,"taxon_id
+4345.0    Larus occidentalis
+4345.0          Western Gull
+Name: taxon_name, dtype: object",0.8516,0.5265
+4334.0,"taxon_id
+4334.0       American White Pelican
+4334.0    Pelecanus erythrorhynchos
+Name: taxon_name, dtype: object",0.8516,0.5265
+4342.0,"taxon_id
+4342.0                       Laridae
+4342.0    Gulls, Terns, and Skimmers
+Name: taxon_name, dtype: object",0.8516,0.5265
+4328.0,"taxon_id
+4328.0    Pelecanus occidentalis
+4328.0             Brown Pelican
+Name: taxon_name, dtype: object",0.8467,0.514
+4324.0,"taxon_id
+4324.0     Pelicans
+4324.0    Pelecanus
+Name: taxon_name, dtype: object",0.8467,0.514
+4262.0,"taxon_id
+4262.0       Phalacrocoracidae
+4262.0    Cormorants and Shags
+Name: taxon_name, dtype: object",0.8467,0.514
+4491.0,"taxon_id
+4491.0    Stercorarius pomarinus
+4491.0           Pomarine Jaeger
+Name: taxon_name, dtype: object",0.8345,0.4964
+4353.0,"taxon_id
+4353.0    Heermann's Gull
+4353.0    Larus heermanni
+Name: taxon_name, dtype: object",0.8345,0.4964
+4364.0,"taxon_id
+4364.0    Larus delawarensis
+4364.0      Ring-billed Gull
+Name: taxon_name, dtype: object",0.8345,0.4964
+4496.0,"taxon_id
+4496.0     Black Skimmer
+4496.0    Rynchops niger
+Name: taxon_name, dtype: object",0.8345,0.4964
+4399.0,"taxon_id
+4399.0       Larus glaucescens
+4399.0    Glaucous-winged Gull
+Name: taxon_name, dtype: object",0.8345,0.4964
+4457.0,"taxon_id
+4457.0    Sterna forsteri
+4457.0     Forster's Tern
+Name: taxon_name, dtype: object",0.8345,0.4964
+4489.0,"taxon_id
+4489.0            Parasitic Jaeger
+4489.0    Stercorarius parasiticus
+Name: taxon_name, dtype: object",0.8345,0.4964
+4385.0,"taxon_id
+4385.0    Larus californicus
+4385.0       California Gull
+Name: taxon_name, dtype: object",0.8345,0.4964
+4940.0,"taxon_id
+4940.0    Egretta thula
+4940.0      Snowy Egret
+Name: taxon_name, dtype: object",0.8343,0.6004
+4234.0,"taxon_id
+4234.0           Clark's Grebe
+4234.0    Aechmophorus clarkii
+Name: taxon_name, dtype: object",0.8295,0.5491
+4209.0,"taxon_id
+4209.0    Podiceps auritus
+4209.0        Horned Grebe
+Name: taxon_name, dtype: object",0.8295,0.5491
+4235.0,"taxon_id
+4235.0                Western Grebe
+4235.0    Aechmophorus occidentalis
+Name: taxon_name, dtype: object",0.8295,0.5491
+4233.0,"taxon_id
+4233.0    Western and Clark's Grebes
+4233.0                  Aechmophorus
+Name: taxon_name, dtype: object",0.8295,0.5491
+4246.0,"taxon_id
+4246.0      Pied-billed Grebe
+4246.0    Podilymbus podiceps
+Name: taxon_name, dtype: object",0.8295,0.5491
+4948.0,"taxon_id
+4948.0        Reddish Egret
+4948.0    Egretta rufescens
+Name: taxon_name, dtype: object",0.828,0.5968
+4956.0,"taxon_id
+4956.0      Ardea herodias
+4956.0    Great Blue Heron
+Name: taxon_name, dtype: object",0.828,0.5968
+7018.0,"taxon_id
+7018.0      Anser anser
+7018.0    Greylag Goose
+Name: taxon_name, dtype: object",0.8156,0.5165
+7019.0,Anser albifrons,0.8156,0.5165
+7057.0,"taxon_id
+7057.0    Aythya valisineria
+7057.0            Canvasback
+Name: taxon_name, dtype: object",0.8156,0.5149
+6993.0,"taxon_id
+6993.0           Bufflehead
+6993.0    Bucephala albeola
+Name: taxon_name, dtype: object",0.8156,0.5165
+6933.0,"taxon_id
+6933.0    Northern Pintail
+6933.0          Anas acuta
+Name: taxon_name, dtype: object",0.8156,0.5165
+7054.0,"taxon_id
+7054.0    Aythya affinis
+7054.0      Lesser Scaup
+Name: taxon_name, dtype: object",0.8156,0.5149
+6937.0,"taxon_id
+6937.0          Anas crecca
+6937.0    Green-winged Teal
+Name: taxon_name, dtype: object",0.8156,0.5165
+7004.0,Common Merganser,0.8156,0.5165
+6996.0,"taxon_id
+6996.0           Mergus serrator
+6996.0    Red-breasted Merganser
+Name: taxon_name, dtype: object",0.8156,0.5165
+7006.0,"taxon_id
+7006.0    Grey Geese
+7006.0         Anser
+Name: taxon_name, dtype: object",0.8156,0.5165
+7087.0,"taxon_id
+7087.0    Branta bernicla
+7087.0              Brant
+Name: taxon_name, dtype: object",0.8156,0.5149
+7043.0,"taxon_id
+7043.0    Scaups, Pochards, and Allies
+7043.0                          Aythya
+Name: taxon_name, dtype: object",0.8156,0.5165
+7047.0,"taxon_id
+7047.0    Greater Scaup
+7047.0    Aythya marila
+Name: taxon_name, dtype: object",0.8156,0.5149
+6990.0,"taxon_id
+6990.0    Bucephala clangula
+6990.0      Common Goldeneye
+Name: taxon_name, dtype: object",0.8156,0.5165
+7044.0,"taxon_id
+7044.0    Ring-necked Duck
+7044.0     Aythya collaris
+Name: taxon_name, dtype: object",0.8156,0.5165
+7036.0,"taxon_id
+7036.0                Surf Scoter
+7036.0    Melanitta perspicillata
+Name: taxon_name, dtype: object",0.8156,0.5165
+7089.0,"taxon_id
+7089.0         Canada Goose
+7089.0    Branta canadensis
+Name: taxon_name, dtype: object",0.8156,0.5149
+7056.0,"taxon_id
+7056.0             Redhead
+7056.0    Aythya americana
+Name: taxon_name, dtype: object",0.8156,0.5149
+49804.0,"taxon_id
+49804.0     California Diaphana
+49804.0    Diaphana californica
+Name: taxon_name, dtype: object",0.8112,0.2843
+49857.0,"taxon_id
+49857.0    Aplysia vaccaria
+49857.0       Black Seahare
+Name: taxon_name, dtype: object",0.8112,0.2843
+49807.0,"taxon_id
+49807.0        Bulla gouldiana
+49807.0    Cloudy Bubble Snail
+Name: taxon_name, dtype: object",0.8112,0.2843
+49779.0,"taxon_id
+49779.0    Rictaxis punctocaelatus
+49779.0       Striped Barrel Snail
+Name: taxon_name, dtype: object",0.8112,0.2843
+49726.0,Cryptic Kelp Crab,0.8112,0.2843
+49786.0,Acteocina,0.8112,0.2843
+49814.0,Haminoea,0.8112,0.2843
+49848.0,"taxon_id
+49848.0    California Aglaja
+49848.0      Navanax inermis
+Name: taxon_name, dtype: object",0.8112,0.2843
+49724.0,"taxon_id
+49724.0    Epialtidae
+49724.0    Kelp Crabs
+Name: taxon_name, dtype: object",0.8112,0.2843
+49707.0,"taxon_id
+49707.0    Halictidae
+49707.0    Sweat Bees
+Name: taxon_name, dtype: object",0.8112,0.2843
+49812.0,"taxon_id
+49812.0        Haminoea vesicula
+49812.0    Blister Glassy-bubble
+Name: taxon_name, dtype: object",0.8112,0.2843
+49715.0,Eunicidae,0.8112,0.2843
+49723.0,"taxon_id
+49723.0    Northern Kelp Crab
+49723.0     Pugettia producta
+Name: taxon_name, dtype: object",0.8112,0.2843
+49725.0,Pugettia,0.8112,0.2843
+49815.0,"taxon_id
+49815.0    Haminoea virescens
+49815.0    Green Bubble Snail
+Name: taxon_name, dtype: object",0.8112,0.2843
+144490.0,"taxon_id
+144490.0    Wandering Tattler
+144490.0        Tringa incana
+Name: taxon_name, dtype: object",0.8008,0.5043
+144491.0,"taxon_id
+144491.0    Tringa semipalmata
+144491.0                Willet
+Name: taxon_name, dtype: object",0.8008,0.5043
+144479.0,"taxon_id
+144479.0     Common Gallinule
+144479.0    Gallinula galeata
+Name: taxon_name, dtype: object",0.8008,0.5043
+4981.0,"taxon_id
+4981.0    Black-crowned Night Heron
+4981.0        Nycticorax nycticorax
+Name: taxon_name, dtype: object",0.799,0.5767
+4999.0,"taxon_id
+4999.0    Yellow-crowned Night Heron
+4999.0           Nyctanassa violacea
+Name: taxon_name, dtype: object",0.799,0.5767
+558404.0,"taxon_id
+558404.0                 Spatula
+558404.0    Shovelers and Allies
+Name: taxon_name, dtype: object",0.7965,0.4609
+545281.0,"taxon_id
+545281.0    Salvia apiana × mellifera
+545281.0    white × black sage hybrid
+Name: taxon_name, dtype: object",0.7965,0.4609
+554358.0,"taxon_id
+554358.0    Hypanus dipterurus
+554358.0      Diamond Stingray
+Name: taxon_name, dtype: object",0.7965,0.4609
+545701.0,"taxon_id
+545701.0       Cheilanthoideae
+545701.0    lip fern subfamily
+Name: taxon_name, dtype: object",0.7965,0.4609
+553399.0,Acmaeodera acuta,0.7965,0.4609
+555971.0,"taxon_id
+555971.0    Mexican Fiddler Crab
+555971.0       Leptuca crenulata
+Name: taxon_name, dtype: object",0.7965,0.4609
+558433.0,"taxon_id
+558433.0    Blue-winged Teal
+558433.0     Spatula discors
+Name: taxon_name, dtype: object",0.7965,0.4609
+551646.0,Active Free-living Bristleworms,0.7965,0.4609
+553984.0,"taxon_id
+553984.0      Bluegrass Webworm Moth
+553984.0    Parapediasia teterrellus
+Name: taxon_name, dtype: object",0.7965,0.4609
+557237.0,"taxon_id
+557237.0    Puccinia cressae
+557237.0    alkali weed rust
+Name: taxon_name, dtype: object",0.7965,0.4609
+545183.0,Papilio,0.7965,0.4609
+554975.0,Hypsopygia phoezalis,0.7965,0.4609
+546318.0,"taxon_id
+546318.0                   Rophitinae
+546318.0    Shortface bees and allies
+Name: taxon_name, dtype: object",0.7965,0.4609
+545973.0,"taxon_id
+545973.0    Erythranthe nasuta
+545973.0      shy monkeyflower
+Name: taxon_name, dtype: object",0.7965,0.4609
+545305.0,"taxon_id
+545305.0      Cardamine occulta
+545305.0    Nursery bittercress
+Name: taxon_name, dtype: object",0.7965,0.4609
+551398.0,"taxon_id
+551398.0                    Lottioidea
+551398.0    Lottiid Limpets and Allies
+Name: taxon_name, dtype: object",0.7965,0.4609
+558434.0,"taxon_id
+558434.0         Cinnamon Teal
+558434.0    Spatula cyanoptera
+Name: taxon_name, dtype: object",0.7965,0.4609
+551714.0,Heteroscleromorpha,0.7965,0.4609
+558426.0,"taxon_id
+558426.0            Snow Goose
+558426.0    Anser caerulescens
+Name: taxon_name, dtype: object",0.7965,0.4609
+555602.0,"taxon_id
+555602.0          Elanus leucurus majusculus
+555602.0    North American White-tailed Kite
+Name: taxon_name, dtype: object",0.7965,0.4609
+551317.0,Imparidentia,0.7965,0.4609
+555775.0,Nudorthodes,0.7965,0.4609
+557774.0,Eleodes grandicollis,0.7965,0.4609
+558427.0,"taxon_id
+558427.0    Anser rossii
+558427.0    Ross's Goose
+Name: taxon_name, dtype: object",0.7965,0.4609
+546132.0,"taxon_id
+546132.0    Ctenolepisma longicaudatum
+546132.0        Long-tailed Silverfish
+Name: taxon_name, dtype: object",0.7965,0.4609
+556258.0,Chelostomoides,0.7965,0.4609
+552962.0,Poeae,0.7965,0.4609
+550960.0,Praestheceraeus bellostriatus,0.7965,0.4609
+551391.0,"taxon_id
+551391.0    Heterobranchia
+551391.0     Heterobranchs
+Name: taxon_name, dtype: object",0.7965,0.4609
+553820.0,Leucocoprinus tricolor,0.7965,0.4609
+4817.0,"taxon_id
+4817.0    Charadrius semipalmatus
+4817.0        Semipalmated Plover
+Name: taxon_name, dtype: object",0.7923,0.524
+4885.0,"taxon_id
+4885.0    Recurvirostra americana
+4885.0            American Avocet
+Name: taxon_name, dtype: object",0.7923,0.524
+4793.0,"taxon_id
+4793.0                Killdeer
+4793.0    Charadrius vociferus
+Name: taxon_name, dtype: object",0.7923,0.524
+4840.0,"taxon_id
+4840.0    American Oystercatcher
+4840.0      Haematopus palliatus
+Name: taxon_name, dtype: object",0.7923,0.524
+4838.0,"taxon_id
+4838.0    Haematopus bachmani
+4838.0    Black Oystercatcher
+Name: taxon_name, dtype: object",0.7923,0.524
+4836.0,"taxon_id
+4836.0      Black-necked Stilt
+4836.0    Himantopus mexicanus
+Name: taxon_name, dtype: object",0.7923,0.524
+145235.0,"taxon_id
+145235.0      Magnolia Warbler
+145235.0    Setophaga magnolia
+Name: taxon_name, dtype: object",0.7785,0.457
+145237.0,"taxon_id
+145237.0         Setophaga fusca
+145237.0    Blackburnian Warbler
+Name: taxon_name, dtype: object",0.7785,0.457
+145233.0,Northern Parula,0.7785,0.457
+144883.0,Winter Wren,0.7785,0.457
+145239.0,"taxon_id
+145239.0    Setophaga pensylvanica
+145239.0    Chestnut-sided Warbler
+Name: taxon_name, dtype: object",0.7785,0.457
+145236.0,Setophaga castanea,0.7785,0.457
+144542.0,"taxon_id
+144542.0    Thalasseus elegans
+144542.0          Elegant Tern
+Name: taxon_name, dtype: object",0.7785,0.457
+145225.0,Kentucky Warbler,0.7785,0.457
+144530.0,"taxon_id
+144530.0             Least Tern
+144530.0    Sternula antillarum
+Name: taxon_name, dtype: object",0.7785,0.457
+144816.0,"taxon_id
+144816.0    Mountain Chickadee
+144816.0       Poecile gambeli
+Name: taxon_name, dtype: object",0.7785,0.457
+145223.0,"taxon_id
+145223.0    MacGillivray's Warbler
+145223.0        Geothlypis tolmiei
+Name: taxon_name, dtype: object",0.7785,0.457
+144496.0,"taxon_id
+144496.0    Gallinago delicata
+144496.0        Wilson's Snipe
+Name: taxon_name, dtype: object",0.7785,0.457
+144539.0,"taxon_id
+144539.0            Royal Tern
+144539.0    Thalasseus maximus
+Name: taxon_name, dtype: object",0.7785,0.457
+145242.0,"taxon_id
+145242.0          Palm Warbler
+145242.0    Setophaga palmarum
+Name: taxon_name, dtype: object",0.7785,0.457
+145231.0,Cape May Warbler,0.7785,0.457
+144502.0,"taxon_id
+144502.0    Chroicocephalus philadelphia
+144502.0                Bonaparte's Gull
+Name: taxon_name, dtype: object",0.7785,0.457
+144537.0,"taxon_id
+144537.0    Hydroprogne caspia
+144537.0          Caspian Tern
+Name: taxon_name, dtype: object",0.7785,0.457
+143734.0,"taxon_id
+143734.0    Common Eupithecia Moth
+143734.0     Eupithecia miserulata
+Name: taxon_name, dtype: object",0.7404,0.4916
+144410.0,"taxon_id
+144410.0                               Spinus
+144410.0    Siskins and New World Goldfinches
+Name: taxon_name, dtype: object",0.7404,0.4916
+143470.0,"taxon_id
+143470.0       Alopecosa kochi
+143470.0    Koch's Wolf Spider
+Name: taxon_name, dtype: object",0.7404,0.4916
+143987.0,Cisthene faustinula,0.7404,0.4916
+143471.0,"taxon_id
+143471.0    Fox Spiders
+143471.0      Alopecosa
+Name: taxon_name, dtype: object",0.7404,0.4916
+143903.0,"taxon_id
+143903.0    Pacific Half-slipper Snail
+143903.0        Crepipatella lingulata
+Name: taxon_name, dtype: object",0.7404,0.4916
+144455.0,"taxon_id
+144455.0    Great Egret
+144455.0     Ardea alba
+Name: taxon_name, dtype: object",0.7404,0.4916
+143792.0,"taxon_id
+143792.0    Pistacia chinensis
+143792.0      Chinese pistache
+Name: taxon_name, dtype: object",0.7404,0.4916
+144222.0,White-winged Scoter,0.7404,0.4916
+144327.0,"taxon_id
+144327.0    Crested Terns
+144327.0       Thalasseus
+Name: taxon_name, dtype: object",0.7404,0.4916
+143968.0,Enicospilus,0.7404,0.4916
+143462.0,"taxon_id
+143462.0            Medetera
+143462.0    Woodpecker Flies
+Name: taxon_name, dtype: object",0.7404,0.4916
+143875.0,Amphibolips,0.7404,0.4916
+144018.0,"taxon_id
+144018.0    pink trailing iceplant
+144018.0        Delosperma cooperi
+Name: taxon_name, dtype: object",0.7404,0.4916
+143799.0,"taxon_id
+143799.0          blue elder
+143799.0    Sambucus cerulea
+Name: taxon_name, dtype: object",0.7404,0.4916
+143403.0,Myrmeleon,0.7404,0.4916
+144205.0,"taxon_id
+144205.0                     Belding's Sparrow
+144205.0    Passerculus sandwichensis beldingi
+Name: taxon_name, dtype: object",0.7404,0.4916
+143563.0,"taxon_id
+143563.0        Meadow Mushroom
+143563.0    Agaricus campestris
+Name: taxon_name, dtype: object",0.7404,0.4916
+6557.0,"taxon_id
+6557.0    Chaetura vauxi
+6557.0      Vaux's Swift
+Name: taxon_name, dtype: object",0.734,0.509
+6922.0,"taxon_id
+6922.0    Mallards, Pintails, and Allies
+6922.0                              Anas
+Name: taxon_name, dtype: object",0.734,0.509
+6363.0,"taxon_id
+6363.0     Selasphorus rufus
+6363.0    Rufous Hummingbird
+Name: taxon_name, dtype: object",0.734,0.509
+6915.0,"taxon_id
+6915.0    Cygnus buccinator
+6915.0       Trumpeter Swan
+Name: taxon_name, dtype: object",0.734,0.509
+6912.0,"taxon_id
+6912.0    Ducks, Geese, and Swans
+6912.0                   Anatidae
+Name: taxon_name, dtype: object",0.734,0.509
+6433.0,"taxon_id
+6433.0    Black-chinned Hummingbird
+6433.0        Archilochus alexandri
+Name: taxon_name, dtype: object",0.734,0.509
+6432.0,Ruby-throated Hummingbird,0.734,0.509
+6553.0,"taxon_id
+6553.0    Aeronautes saxatalis
+6553.0    White-throated Swift
+Name: taxon_name, dtype: object",0.734,0.509
+6930.0,"taxon_id
+6930.0    Anas platyrhynchos
+6930.0               Mallard
+Name: taxon_name, dtype: object",0.734,0.509
+6914.0,"taxon_id
+6914.0    Cygnus atratus
+6914.0        Black Swan
+Name: taxon_name, dtype: object",0.734,0.509
+111868.0,"taxon_id
+111868.0       Spotfin Croaker
+111868.0    Roncador stearnsii
+Name: taxon_name, dtype: object",0.7288,0.3813
+116719.0,Metacarcinus,0.7288,0.3813
+109885.0,"taxon_id
+109885.0         Sailfin Molly
+109885.0    Poecilia latipinna
+Name: taxon_name, dtype: object",0.7288,0.3813
+112485.0,"taxon_id
+112485.0           Queenfish
+112485.0    Seriphus politus
+Name: taxon_name, dtype: object",0.7288,0.3813
+114314.0,Red Saddlebags,0.7288,0.3813
+114782.0,"taxon_id
+114782.0    Haller's Round Ray
+114782.0      Urobatis halleri
+Name: taxon_name, dtype: object",0.7288,0.3813
+113051.0,"taxon_id
+113051.0    Squatina californica
+113051.0      Pacific Angelshark
+Name: taxon_name, dtype: object",0.7288,0.3813
+116999.0,"taxon_id
+116999.0               Osprey
+116999.0    Pandion haliaetus
+Name: taxon_name, dtype: object",0.7288,0.3813
+115200.0,Fantail sole,0.7288,0.3813
+115978.0,"taxon_id
+115978.0    Plestiodon skiltonianus interparietalis
+115978.0                             Coronado Skink
+Name: taxon_name, dtype: object",0.7288,0.3813
+108561.0,"taxon_id
+108561.0    Paralichthys californicus
+108561.0           California Halibut
+Name: taxon_name, dtype: object",0.7288,0.3813
+108551.0,"taxon_id
+108551.0               Spotted Sand Bass
+108551.0    Paralabrax maculatofasciatus
+Name: taxon_name, dtype: object",0.7288,0.3813
+116689.0,"taxon_id
+116689.0    Ceratostoma nuttalli
+116689.0     Nuttall's Hornmouth
+Name: taxon_name, dtype: object",0.7288,0.3813
+116658.0,"taxon_id
+116658.0       Torpedo Bug
+116658.0    Siphanta acuta
+Name: taxon_name, dtype: object",0.7288,0.3813
+108552.0,"taxon_id
+108552.0    Paralabrax nebulifer
+108552.0        Barred Sand Bass
+Name: taxon_name, dtype: object",0.7288,0.3813
+116721.0,"taxon_id
+116721.0       Graceful Rock Crab
+116721.0    Metacarcinus gracilis
+Name: taxon_name, dtype: object",0.7288,0.3813
+116840.0,"taxon_id
+116840.0        Lapland Longspur
+116840.0    Calcarius lapponicus
+Name: taxon_name, dtype: object",0.7288,0.3813
+109161.0,"taxon_id
+109161.0     Mexican Amberwing
+109161.0    Perithemis intensa
+Name: taxon_name, dtype: object",0.7288,0.3813
+114756.0,"taxon_id
+114756.0    Yellowfin Croaker
+114756.0     Umbrina roncador
+Name: taxon_name, dtype: object",0.7288,0.3813
+111467.0,"taxon_id
+111467.0         Shadow Goby
+111467.0    Quietula y-cauda
+Name: taxon_name, dtype: object",0.7288,0.3813
+114274.0,"taxon_id
+114274.0    Trachurus symmetricus
+114274.0    Pacific Jack Mackerel
+Name: taxon_name, dtype: object",0.7288,0.3813
+108547.0,"taxon_id
+108547.0                Kelp Bass
+108547.0    Paralabrax clathratus
+Name: taxon_name, dtype: object",0.7288,0.3813
+113700.0,"taxon_id
+113700.0    California Lizardfish
+113700.0        Synodus lucioceps
+Name: taxon_name, dtype: object",0.7288,0.3813
+96707.0,"taxon_id
+96707.0     Cantareus apertus
+96707.0    Green Garden Snail
+Name: taxon_name, dtype: object",0.7234,0.3886
+104964.0,"taxon_id
+104964.0    Blue-banded Goby
+104964.0    Lythrypnus dalli
+Name: taxon_name, dtype: object",0.7234,0.3886
+95982.0,Red-tailed Pennant,0.7234,0.3886
+98855.0,"taxon_id
+98855.0          Shiner Surfperch
+98855.0    Cymatogaster aggregata
+Name: taxon_name, dtype: object",0.7234,0.3886
+95064.0,"taxon_id
+95064.0    Finescale Triggerfish
+95064.0       Balistes polylepis
+Name: taxon_name, dtype: object",0.7234,0.3886
+97321.0,"taxon_id
+97321.0           Black Croaker
+97321.0    Cheilotrema saturnum
+Name: taxon_name, dtype: object",0.7234,0.3886
+97375.0,"taxon_id
+97375.0     Chilara taylori
+97375.0    Spotted Cusk-eel
+Name: taxon_name, dtype: object",0.7234,0.3886
+97759.0,"taxon_id
+97759.0      Blacksmith Chromis
+97759.0    Chromis punctipinnis
+Name: taxon_name, dtype: object",0.7234,0.3886
+101176.0,"taxon_id
+101176.0          School Shark
+101176.0    Galeorhinus galeus
+Name: taxon_name, dtype: object",0.7234,0.3886
+105388.0,"taxon_id
+105388.0    Medialuna californiensis
+105388.0                    Halfmoon
+Name: taxon_name, dtype: object",0.7234,0.3886
+106222.0,"taxon_id
+106222.0        Sea Mullet
+106222.0    Mugil cephalus
+Name: taxon_name, dtype: object",0.7234,0.3886
+108343.0,"taxon_id
+108343.0     Panoquina errans
+108343.0    Wandering Skipper
+Name: taxon_name, dtype: object",0.7234,0.3886
+96018.0,"taxon_id
+96018.0    Branchinecta sandiegonensis
+96018.0         San Diego Fairy Shrimp
+Name: taxon_name, dtype: object",0.7234,0.3886
+103210.0,"taxon_id
+103210.0                Bay Blenny
+103210.0    Hypsoblennius gentilis
+Name: taxon_name, dtype: object",0.7234,0.3886
+103899.0,Largemouth Blenny,0.7234,0.3886
+102081.0,"taxon_id
+102081.0                Rock Wrasse
+102081.0    Halichoeres semicinctus
+Name: taxon_name, dtype: object",0.7234,0.3886
+106254.0,"taxon_id
+106254.0    Mustelus californicus
+106254.0        Gray Smooth-hound
+Name: taxon_name, dtype: object",0.7234,0.3886
+103212.0,"taxon_id
+103212.0    Hypsoblennius jenkinsi
+103212.0             Mussel Blenny
+Name: taxon_name, dtype: object",0.7234,0.3886
+99897.0,"taxon_id
+99897.0      Familiar Bluet
+99897.0    Enallagma civile
+Name: taxon_name, dtype: object",0.7234,0.3886
+103211.0,"taxon_id
+103211.0          Notchbrow Blenny
+103211.0    Hypsoblennius gilberti
+Name: taxon_name, dtype: object",0.7234,0.3886
+102710.0,"taxon_id
+102710.0    Heterodontus francisci
+102710.0                Horn Shark
+Name: taxon_name, dtype: object",0.7234,0.3886
+104574.0,"taxon_id
+104574.0              Neon Skimmer
+104574.0    Libellula croceipennis
+Name: taxon_name, dtype: object",0.7234,0.3886
+101909.0,"taxon_id
+101909.0    California Butterfly Ray
+101909.0           Gymnura marmorata
+Name: taxon_name, dtype: object",0.7234,0.3886
+108454.0,"taxon_id
+108454.0                Reef Finspot
+108454.0    Paraclinus integripinnis
+Name: taxon_name, dtype: object",0.7234,0.3886
+107194.0,"taxon_id
+107194.0    Broadnose Sevengill Shark
+107194.0       Notorynchus cepedianus
+Name: taxon_name, dtype: object",0.7234,0.3886
+105579.0,"taxon_id
+105579.0        California Corbina
+105579.0    Menticirrhus undulatus
+Name: taxon_name, dtype: object",0.7234,0.3886
+108344.0,"taxon_id
+108344.0      Wandering Glider
+108344.0    Pantala flavescens
+Name: taxon_name, dtype: object",0.7234,0.3886
+558446.0,"taxon_id
+558446.0    Circus hudsonius
+558446.0    Northern Harrier
+Name: taxon_name, dtype: object",0.7155,0.419
+558438.0,"taxon_id
+558438.0    Northern Shoveler
+558438.0     Spatula clypeata
+Name: taxon_name, dtype: object",0.7155,0.419
+558441.0,"taxon_id
+558441.0    Mareca penelope
+558441.0    Eurasian Wigeon
+Name: taxon_name, dtype: object",0.7155,0.419
+558439.0,"taxon_id
+558439.0    Mareca strepera
+558439.0            Gadwall
+Name: taxon_name, dtype: object",0.7155,0.419
+559248.0,"taxon_id
+559248.0         Passerellidae
+559248.0    New World Sparrows
+Name: taxon_name, dtype: object",0.7155,0.419
+559207.0,Eugorgia rubens,0.7155,0.419
+4620.0,"taxon_id
+4620.0    Loons
+4620.0    Gavia
+Name: taxon_name, dtype: object",0.7137,0.4259
+4644.0,"taxon_id
+4644.0     Prairie Falcon
+4644.0    Falco mexicanus
+Name: taxon_name, dtype: object",0.7137,0.4259
+4647.0,"taxon_id
+4647.0    Peregrine Falcon
+4647.0    Falco peregrinus
+Name: taxon_name, dtype: object",0.7137,0.4259
+4756.0,"taxon_id
+4756.0    Cathartes aura
+4756.0    Turkey Vulture
+Name: taxon_name, dtype: object",0.7137,0.4259
+4665.0,"taxon_id
+4665.0    American Kestrel
+4665.0    Falco sparverius
+Name: taxon_name, dtype: object",0.7137,0.4259
+4742.0,Mycteria americana,0.7137,0.4259
+4553.0,"taxon_id
+4553.0    Cerorhinca monocerata
+4553.0        Rhinoceros Auklet
+Name: taxon_name, dtype: object",0.7137,0.4259
+4519.0,"taxon_id
+4519.0      Uria aalge
+4519.0    Common Murre
+Name: taxon_name, dtype: object",0.7137,0.4259
+4627.0,"taxon_id
+4627.0    Red-throated Loon
+4627.0       Gavia stellata
+Name: taxon_name, dtype: object",0.7137,0.4259
+4621.0,"taxon_id
+4621.0    Gavia pacifica
+4621.0      Pacific Loon
+Name: taxon_name, dtype: object",0.7137,0.4259
+4672.0,"taxon_id
+4672.0    Falco columbarius
+4672.0               Merlin
+Name: taxon_name, dtype: object",0.7137,0.4259
+4626.0,"taxon_id
+4626.0    Common Loon
+4626.0    Gavia immer
+Name: taxon_name, dtype: object",0.7137,0.4259
+82167.0,"taxon_id
+82167.0    Deathwatch, Spider, and Wood-borer Beetles
+82167.0                                      Ptinidae
+Name: taxon_name, dtype: object",0.6994,0.32
+82081.0,Theridion,0.6994,0.32
+81959.0,"taxon_id
+81959.0    Typical Weevil Wasps and Allies
+81959.0                           Cerceris
+Name: taxon_name, dtype: object",0.6994,0.32
+82067.0,"taxon_id
+82067.0                     Melyridae
+82067.0    Soft-winged Flower Beetles
+Name: taxon_name, dtype: object",0.6994,0.32
+81948.0,"taxon_id
+81948.0    True Puffballs
+81948.0           Bovista
+Name: taxon_name, dtype: object",0.6994,0.32
+81643.0,"taxon_id
+81643.0    Calyptraeidae
+81643.0    Slippersnails
+Name: taxon_name, dtype: object",0.6994,0.32
+81963.0,"taxon_id
+81963.0    Girella nigricans
+81963.0              Opaleye
+Name: taxon_name, dtype: object",0.6994,0.32
+82145.0,"taxon_id
+82145.0     Hemileuca
+82145.0    Sheepmoths
+Name: taxon_name, dtype: object",0.6994,0.32
+82089.0,"taxon_id
+82089.0    Tiger Moths
+82089.0       Arctiini
+Name: taxon_name, dtype: object",0.6994,0.32
+82055.0,Eremobates,0.6994,0.32
+81579.0,"taxon_id
+81579.0    Triangulate Combfoot
+81579.0    Steatoda triangulosa
+Name: taxon_name, dtype: object",0.6994,0.32
+81614.0,Pacific transparent sea squirt,0.6994,0.32
+81615.0,"taxon_id
+81615.0          Styela clava
+81615.0    Stalked Sea Squirt
+Name: taxon_name, dtype: object",0.6994,0.32
+81769.0,"taxon_id
+81769.0                   Blattodea
+81769.0    Cockroaches and Termites
+Name: taxon_name, dtype: object",0.6994,0.32
+81923.0,"taxon_id
+81923.0    Brown Marmorated Stink Bug
+81923.0             Halyomorpha halys
+Name: taxon_name, dtype: object",0.6994,0.32
+81778.0,"taxon_id
+81778.0    Diplosoma listerianum
+81778.0     Jelly Crust Tunicate
+Name: taxon_name, dtype: object",0.6994,0.32
+82087.0,Geron,0.6994,0.32
+81776.0,"taxon_id
+81776.0            Chain Tunicate
+81776.0    Botrylloides violaceus
+Name: taxon_name, dtype: object",0.6994,0.32
+82042.0,Orgyiini,0.6994,0.32
+81610.0,"taxon_id
+81610.0    Pacific Acorn Barnacle
+81610.0          Balanus glandula
+Name: taxon_name, dtype: object",0.6994,0.32
+81794.0,"taxon_id
+81794.0      Glandularia
+81794.0    mock vervains
+Name: taxon_name, dtype: object",0.6994,0.32
+82116.0,"taxon_id
+82116.0      Agelenopsis
+82116.0    Grass Spiders
+Name: taxon_name, dtype: object",0.6994,0.32
+81648.0,"taxon_id
+81648.0    Mytilus galloprovincialis
+81648.0         Mediterranean Mussel
+Name: taxon_name, dtype: object",0.6994,0.32
+81616.0,"taxon_id
+81616.0    Lumpy Sea Mats
+81616.0            Styela
+Name: taxon_name, dtype: object",0.6994,0.32
+81687.0,"taxon_id
+81687.0            Noctua pronuba
+81687.0    Large Yellow Underwing
+Name: taxon_name, dtype: object",0.6994,0.32
+82009.0,Stagmomantis,0.6994,0.32
+81554.0,"taxon_id
+81554.0    Ictalurus punctatus
+81554.0        Channel Catfish
+Name: taxon_name, dtype: object",0.6994,0.32
+81662.0,Lacinipolia,0.6994,0.32
+82177.0,"taxon_id
+82177.0    Hermetia illucens
+82177.0    Black Soldier Fly
+Name: taxon_name, dtype: object",0.6994,0.32
+81879.0,"taxon_id
+81879.0              oar weed
+81879.0    Laminaria farlowii
+Name: taxon_name, dtype: object",0.6994,0.32
+81486.0,Hoplia,0.6994,0.32
+81644.0,"taxon_id
+81644.0                Crepidula
+81644.0    Typical Slippersnails
+Name: taxon_name, dtype: object",0.6994,0.32
+81979.0,"taxon_id
+81979.0           Syritta pipiens
+81979.0    Thick-legged Hover Fly
+Name: taxon_name, dtype: object",0.6994,0.32
+2969.0,"taxon_id
+2969.0    Eurasian Collared-Dove
+2969.0     Streptopelia decaocto
+Name: taxon_name, dtype: object",0.6967,0.4528
+1409.0,"taxon_id
+1409.0          California Quail
+1409.0    Callipepla californica
+Name: taxon_name, dtype: object",0.6967,0.4528
+1986.0,"taxon_id
+1986.0    Geococcyx californianus
+1986.0         Greater Roadrunner
+Name: taxon_name, dtype: object",0.6967,0.4528
+906.0,"taxon_id
+906.0    Meleagris gallopavo
+906.0            Wild Turkey
+Name: taxon_name, dtype: object",0.6967,0.4528
+1204.0,"taxon_id
+1204.0    Indian Peafowl
+1204.0    Pavo cristatus
+Name: taxon_name, dtype: object",0.6967,0.4528
+2548.0,"taxon_id
+2548.0    Belted Kingfisher
+2548.0    Megaceryle alcyon
+Name: taxon_name, dtype: object",0.6967,0.4528
+3454.0,"taxon_id
+3454.0    Zenaida macroura
+3454.0       Mourning Dove
+Name: taxon_name, dtype: object",0.6967,0.4528
+3017.0,"taxon_id
+3017.0      Rock Pigeon
+3017.0    Columba livia
+Name: taxon_name, dtype: object",0.6967,0.4528
+2715.0,"taxon_id
+2715.0    Pigeons and Doves
+2715.0           Columbidae
+Name: taxon_name, dtype: object",0.6967,0.4528
+13633.0,"taxon_id
+13633.0            Oak Titmouse
+13633.0    Baeolophus inornatus
+Name: taxon_name, dtype: object",0.6825,0.3537
+13732.0,"taxon_id
+13732.0      American Pipit
+13732.0    Anthus rubescens
+Name: taxon_name, dtype: object",0.6825,0.3537
+13858.0,"taxon_id
+13858.0    Passer domesticus
+13858.0        House Sparrow
+Name: taxon_name, dtype: object",0.6825,0.3537
+13721.0,Red-throated Pipit,0.6825,0.3537
+13893.0,"taxon_id
+13893.0    Scaly-breasted Munia
+13893.0     Lonchura punctulata
+Name: taxon_name, dtype: object",0.6825,0.3537
+71191.0,"taxon_id
+71191.0    Mesembryanthemum nodiflorum
+71191.0               Slender Iceplant
+Name: taxon_name, dtype: object",0.682,0.3674
+71135.0,"taxon_id
+71135.0        silver beachweed
+71135.0    Ambrosia chamissonis
+Name: taxon_name, dtype: object",0.682,0.3674
+72388.0,"taxon_id
+72388.0        Syzygium
+72388.0    Waterberries
+Name: taxon_name, dtype: object",0.682,0.3674
+72431.0,Xylococcus,0.682,0.3674
+72215.0,Leptosyne,0.682,0.3674
+72029.0,"taxon_id
+72029.0    Camissoniopsis
+72029.0           Suncups
+Name: taxon_name, dtype: object",0.682,0.3674
+72295.0,"taxon_id
+72295.0    date palms
+72295.0       Phoenix
+Name: taxon_name, dtype: object",0.682,0.3674
+72225.0,"taxon_id
+72225.0    Fingerfigs
+72225.0     Malephora
+Name: taxon_name, dtype: object",0.682,0.3674
+72354.0,"taxon_id
+72354.0    Searsia
+72354.0     Karees
+Name: taxon_name, dtype: object",0.682,0.3674
+71991.0,"taxon_id
+71991.0     asphodels
+71991.0    Asphodelus
+Name: taxon_name, dtype: object",0.682,0.3674
+72232.0,"taxon_id
+72232.0    bottlebrushes
+72232.0        Melaleuca
+Name: taxon_name, dtype: object",0.682,0.3674
+72297.0,"taxon_id
+72297.0    Phyllospadix
+72297.0     surfgrasses
+Name: taxon_name, dtype: object",0.682,0.3674
+71983.0,Argyranthemum,0.682,0.3674
+72021.0,"taxon_id
+72021.0    Kopievas
+72021.0     Bulbine
+Name: taxon_name, dtype: object",0.682,0.3674
+72039.0,"taxon_id
+72039.0                         Cenchrus
+72039.0    sandburs and fountain grasses
+Name: taxon_name, dtype: object",0.682,0.3674
+71251.0,Gryllus,0.682,0.3674
+72418.0,"taxon_id
+72418.0      Vachellia
+72418.0    thorn trees
+Name: taxon_name, dtype: object",0.682,0.3674
+71154.0,"taxon_id
+71154.0    Oleander Aphid
+71154.0       Aphis nerii
+Name: taxon_name, dtype: object",0.682,0.3674
+72058.0,"taxon_id
+72058.0    stinkweed
+72058.0    Cleomella
+Name: taxon_name, dtype: object",0.682,0.3674
+72095.0,"taxon_id
+72095.0              Dimorphotheca
+72095.0    Afro-Australian daisies
+Name: taxon_name, dtype: object",0.682,0.3674
+71956.0,"taxon_id
+71956.0     Aloe
+71956.0    Aloes
+Name: taxon_name, dtype: object",0.682,0.3674
+71238.0,"taxon_id
+71238.0    Stenoplax heathiana
+71238.0         Heath's Chiton
+Name: taxon_name, dtype: object",0.682,0.3674
+72458.0,"taxon_id
+72458.0    Actitis macularius
+72458.0     Spotted Sandpiper
+Name: taxon_name, dtype: object",0.682,0.3674
+71999.0,Bahiopsis,0.682,0.3674
+71236.0,"taxon_id
+71236.0     Eighteen-scaled Worm
+71236.0    Halosydna brevisetosa
+Name: taxon_name, dtype: object",0.682,0.3674
+71261.0,"taxon_id
+71261.0    Hawks, Eagles, Kites, and Allies
+71261.0                     Accipitriformes
+Name: taxon_name, dtype: object",0.682,0.3674
+71275.0,"taxon_id
+71275.0    Mustards, Capers, and Allies
+71275.0                     Brassicales
+Name: taxon_name, dtype: object",0.682,0.3674
+5212.0,"taxon_id
+5212.0    Buteo jamaicensis
+5212.0      Red-tailed Hawk
+Name: taxon_name, dtype: object",0.6783,0.3647
+85399.0,Leucocoprinus,0.6726,0.3638
+90725.0,Paralabrax,0.6726,0.3638
+94130.0,"taxon_id
+94130.0    Anisotremus davidsonii
+94130.0              Xantic Sargo
+Name: taxon_name, dtype: object",0.6726,0.3638
+85532.0,"taxon_id
+85532.0    Opossum Shrimps
+85532.0             Mysida
+Name: taxon_name, dtype: object",0.6726,0.3638
+90567.0,"taxon_id
+90567.0    Typical Glass Snails
+90567.0               Oxychilus
+Name: taxon_name, dtype: object",0.6726,0.3638
+85553.0,"taxon_id
+85553.0       Snakes
+85553.0    Serpentes
+Name: taxon_name, dtype: object",0.6726,0.3638
+94802.0,"taxon_id
+94802.0    Atherinopsis californiensis
+94802.0                Jack Silverside
+Name: taxon_name, dtype: object",0.6726,0.3638
+86090.0,"taxon_id
+86090.0     Succineidae
+86090.0    Amber Snails
+Name: taxon_name, dtype: object",0.6726,0.3638
+86030.0,"taxon_id
+86030.0      Psychrolutidae
+86030.0    Fathead Sculpins
+Name: taxon_name, dtype: object",0.6726,0.3638
+85115.0,"taxon_id
+85115.0    Zapteryx exasperata
+85115.0      Banded Guitarfish
+Name: taxon_name, dtype: object",0.6726,0.3638
+94801.0,"taxon_id
+94801.0    Topsmelt Silverside
+94801.0     Atherinops affinis
+Name: taxon_name, dtype: object",0.6726,0.3638
+91306.0,Pristoceuthophilus,0.6726,0.3638
+91175.0,Pleuronichthys,0.6726,0.3638
+87902.0,"taxon_id
+87902.0    Smooth Land Slugs
+87902.0            Deroceras
+Name: taxon_name, dtype: object",0.6726,0.3638
+85035.0,"taxon_id
+85035.0    Spotted Orbweavers
+85035.0              Neoscona
+Name: taxon_name, dtype: object",0.6726,0.3638
+91779.0,Rimicola,0.6726,0.3638
+94840.0,"taxon_id
+94840.0    Atractoscion nobilis
+94840.0           White Seabass
+Name: taxon_name, dtype: object",0.6726,0.3638
+85552.0,"taxon_id
+85552.0    Lizards
+85552.0     Sauria
+Name: taxon_name, dtype: object",0.6726,0.3638
+87313.0,Cesonia,0.6726,0.3638
+89038.0,Hypsoblennius,0.6726,0.3638
+85362.0,"taxon_id
+85362.0    Great Golden Digger Wasp
+85362.0          Sphex ichneumoneus
+Name: taxon_name, dtype: object",0.6726,0.3638
+85525.0,Littorinimorpha,0.6726,0.3638
+94512.0,"taxon_id
+94512.0       California Spreadwing
+94512.0    Archilestes californicus
+Name: taxon_name, dtype: object",0.6726,0.3638
+85887.0,"taxon_id
+85887.0    Megascolecid Earthworms
+85887.0             Megascolecidae
+Name: taxon_name, dtype: object",0.6726,0.3638
+87076.0,Branchinecta,0.6726,0.3638
+86400.0,"taxon_id
+86400.0    North American Jerusalem Crickets
+86400.0                         Ammopelmatus
+Name: taxon_name, dtype: object",0.6726,0.3638
+85538.0,Podocopida,0.6726,0.3638
+85408.0,"taxon_id
+85408.0       Western Pondhawk
+85408.0    Erythemis collocata
+Name: taxon_name, dtype: object",0.6726,0.3638
+85259.0,"taxon_id
+85259.0                   Sciaridae
+85259.0    Dark-winged Fungus Gnats
+Name: taxon_name, dtype: object",0.6726,0.3638
+85493.0,"taxon_id
+85493.0    Crustaceans
+85493.0      Crustacea
+Name: taxon_name, dtype: object",0.6726,0.3638
+85398.0,"taxon_id
+85398.0           flowerpot parasol
+85398.0    Leucocoprinus birnbaumii
+Name: taxon_name, dtype: object",0.6726,0.3638
+85722.0,"taxon_id
+85722.0     Cypridids
+85722.0    Cyprididae
+Name: taxon_name, dtype: object",0.6726,0.3638
+6315.0,"taxon_id
+6315.0                            Calypte
+6315.0    Anna's and Costa's Hummingbirds
+Name: taxon_name, dtype: object",0.6722,0.3896
+6317.0,"taxon_id
+6317.0          Calypte anna
+6317.0    Anna's Hummingbird
+Name: taxon_name, dtype: object",0.6722,0.3896
+5562.0,"taxon_id
+5562.0    Hummingbirds
+5562.0     Trochilidae
+Name: taxon_name, dtype: object",0.6722,0.3896
+6316.0,"taxon_id
+6316.0    Costa's Hummingbird
+6316.0         Calypte costae
+Name: taxon_name, dtype: object",0.6722,0.3896
+5277.0,"taxon_id
+5277.0    White-tailed Kite
+5277.0      Elanus leucurus
+Name: taxon_name, dtype: object",0.6722,0.3896
+6141.0,Cynanthus latirostris,0.6722,0.3896
+5305.0,"taxon_id
+5305.0    Haliaeetus leucocephalus
+5305.0                  Bald Eagle
+Name: taxon_name, dtype: object",0.6722,0.3896
+58096.0,"taxon_id
+58096.0    Water Starworts
+58096.0        Callitriche
+Name: taxon_name, dtype: object",0.668,0.3354
+58058.0,"taxon_id
+58058.0    Heliotropium curassavicum
+58058.0            alkali heliotrope
+Name: taxon_name, dtype: object",0.668,0.3354
+58118.0,"taxon_id
+58118.0    Atriplex lentiformis
+58118.0            big saltbush
+Name: taxon_name, dtype: object",0.668,0.3354
+58086.0,"taxon_id
+58086.0    Sisymbrium orientale
+58086.0          eastern rocket
+Name: taxon_name, dtype: object",0.668,0.3354
+58105.0,Loeflingia squarrosa,0.668,0.3354
+58039.0,"taxon_id
+58039.0       Small Wirelettuce
+58039.0    Stephanomeria exigua
+Name: taxon_name, dtype: object",0.668,0.3354
+58112.0,"taxon_id
+58112.0      Atriplex
+58112.0    Saltbushes
+Name: taxon_name, dtype: object",0.668,0.3354
+58088.0,"taxon_id
+58088.0            sand fringepod
+58088.0    Thysanocarpus curvipes
+Name: taxon_name, dtype: object",0.668,0.3354
+58046.0,"taxon_id
+58046.0    neststraws
+58046.0    Stylocline
+Name: taxon_name, dtype: object",0.668,0.3354
+58093.0,"taxon_id
+58093.0    Winged Water-starwort
+58093.0    Callitriche marginata
+Name: taxon_name, dtype: object",0.668,0.3354
+58113.0,"taxon_id
+58113.0    Atriplex canescens
+58113.0     Fourwing Saltbush
+Name: taxon_name, dtype: object",0.668,0.3354
+58043.0,"taxon_id
+58043.0    Stylocline gnaphalioides
+58043.0       everlasting neststraw
+Name: taxon_name, dtype: object",0.668,0.3354
+58085.0,"taxon_id
+58085.0    Sisymbrium irio
+58085.0      London rocket
+Name: taxon_name, dtype: object",0.668,0.3354
+58090.0,"taxon_id
+58090.0          Mountain fringepod
+58090.0    Thysanocarpus laciniatus
+Name: taxon_name, dtype: object",0.668,0.3354
+58072.0,"taxon_id
+58072.0     Descurainia pinnata
+58072.0    Western Tansymustard
+Name: taxon_name, dtype: object",0.668,0.3354
+58062.0,"taxon_id
+58062.0    Plagiobothrys acanthocarpus
+58062.0            adobe popcornflower
+Name: taxon_name, dtype: object",0.668,0.3354
+58083.0,Lepidium lasiocarpum,0.668,0.3354
+58100.0,"taxon_id
+58100.0    Southern Honeysuckle
+58100.0     Lonicera subspicata
+Name: taxon_name, dtype: object",0.668,0.3354
+58091.0,Tropidocarpum gracile,0.668,0.3354
+9921.0,Scarlet Tanager,0.6653,0.3469
+9981.0,"taxon_id
+9981.0    Passerculus sandwichensis
+9981.0             Savannah Sparrow
+Name: taxon_name, dtype: object",0.6653,0.3469
+10094.0,"taxon_id
+10094.0    Dark-eyed Junco
+10094.0     Junco hyemalis
+Name: taxon_name, dtype: object",0.6653,0.3469
+9919.0,"taxon_id
+9919.0    Piranga ludoviciana
+9919.0        Western Tanager
+Name: taxon_name, dtype: object",0.6653,0.3469
+9958.0,"taxon_id
+9958.0        Aimophila ruficeps
+9958.0    Rufous-crowned Sparrow
+Name: taxon_name, dtype: object",0.6653,0.3469
+9924.0,"taxon_id
+9924.0    Hepatic Tanager
+9924.0      Piranga flava
+Name: taxon_name, dtype: object",0.6653,0.3469
+9915.0,"taxon_id
+9915.0    Summer Tanager
+9915.0     Piranga rubra
+Name: taxon_name, dtype: object",0.6653,0.3469
+1612742.0,"taxon_id
+1612742.0    Acmispon tomentosus glabriusculus
+1612742.0                     Heermann's lotus
+Name: taxon_name, dtype: object",0.6618,0.238
+1643959.0,S-banded Tiger Beetle,0.6618,0.238
+1617552.0,Oliaridus,0.6618,0.238
+1614913.0,Doto urak,0.6618,0.238
+1624661.0,"taxon_id
+1624661.0    Botta's Pocket Gopher
+1624661.0      Megascapheus bottae
+Name: taxon_name, dtype: object",0.6618,0.238
+1641209.0,Agariceae,0.6618,0.238
+1632273.0,"taxon_id
+1632273.0         Acanthomorpha
+1632273.0    Spiny-rayed fishes
+Name: taxon_name, dtype: object",0.6618,0.238
+1643852.0,Wetsalts Tiger Beetle,0.6618,0.238
+1624593.0,Megascapheus,0.6618,0.238
+1618284.0,Urticeae,0.6618,0.238
+1614278.0,Trachynia,0.6618,0.238
+1643963.0,"taxon_id
+1643963.0                  Mudflat Tiger Beetle
+1643963.0    Cicindelidia trifasciata sigmoidea
+Name: taxon_name, dtype: object",0.6618,0.238
+1624727.0,"taxon_id
+1624727.0    Southern California Pocket Gopher
+1624727.0               Megascapheus nigricans
+Name: taxon_name, dtype: object",0.6618,0.238
+1624659.0,Tenellia spadix,0.6618,0.238
+1616716.0,"taxon_id
+1616716.0           Lottia scabra
+1616716.0    Rough Limpet Complex
+Name: taxon_name, dtype: object",0.6618,0.238
+1624760.0,Megascapheus bottae,0.6618,0.238
+1650045.0,"taxon_id
+1650045.0         Banded Tegula
+1650045.0    Agathistoma eiseni
+Name: taxon_name, dtype: object",0.6618,0.238
+1641442.0,Salvia clevelandii × leucophylla,0.6618,0.238
+1640286.0,smoky dapperling,0.6618,0.238
+1613183.0,Western Bloodsucking Conenose,0.6618,0.238
+1618299.0,Cryptorhopalum triste,0.6618,0.238
+1640641.0,"taxon_id
+1640641.0        California Sand Star
+1640641.0    Astropecten californicus
+Name: taxon_name, dtype: object",0.6618,0.238
+5196.0,Buteo swainsoni,0.6616,0.3701
+5020.0,"taxon_id
+5020.0            Green Heron
+5020.0    Butorides virescens
+Name: taxon_name, dtype: object",0.6616,0.3701
+5074.0,"taxon_id
+5074.0    Aquila chrysaetos
+5074.0         Golden Eagle
+Name: taxon_name, dtype: object",0.6616,0.3701
+5067.0,"taxon_id
+5067.0    Hawks, Eagles, and Kites
+5067.0                Accipitridae
+Name: taxon_name, dtype: object",0.6616,0.3701
+5181.0,"taxon_id
+5181.0       Buteo regalis
+5181.0    Ferruginous Hawk
+Name: taxon_name, dtype: object",0.6616,0.3701
+5034.0,"taxon_id
+5034.0    Botaurus lentiginosus
+5034.0         American Bittern
+Name: taxon_name, dtype: object",0.6616,0.3701
+5097.0,"taxon_id
+5097.0    Accipiter striatus
+5097.0    Sharp-shinned Hawk
+Name: taxon_name, dtype: object",0.6616,0.3701
+5179.0,"taxon_id
+5179.0    Buteos
+5179.0     Buteo
+Name: taxon_name, dtype: object",0.6616,0.3701
+5180.0,"taxon_id
+5180.0     Zone-tailed Hawk
+5180.0    Buteo albonotatus
+Name: taxon_name, dtype: object",0.6616,0.3701
+5206.0,"taxon_id
+5206.0    Red-shouldered Hawk
+5206.0         Buteo lineatus
+Name: taxon_name, dtype: object",0.6616,0.3701
+58144.0,"taxon_id
+58144.0      smallseed sandmat
+58144.0    Euphorbia polycarpa
+Name: taxon_name, dtype: object",0.6559,0.321
+58171.0,"taxon_id
+58171.0         Erodium brachycarpum
+58171.0    Hairy-pitted Stork's-bill
+Name: taxon_name, dtype: object",0.6559,0.321
+58123.0,"taxon_id
+58123.0    sprawling saltbush
+58123.0    Atriplex suberecta
+Name: taxon_name, dtype: object",0.6559,0.321
+58125.0,"taxon_id
+58125.0    Fivehorn smotherweed
+58125.0     Bassia hyssopifolia
+Name: taxon_name, dtype: object",0.6559,0.321
+58135.0,"taxon_id
+58135.0    Aquatic pygmyweed
+58135.0    Crassula aquatica
+Name: taxon_name, dtype: object",0.6559,0.321
+58138.0,"taxon_id
+58138.0             Buffalo Gourd
+58138.0    Cucurbita foetidissima
+Name: taxon_name, dtype: object",0.6559,0.321
+58167.0,"taxon_id
+58167.0       Strawberry clover
+58167.0    Trifolium fragiferum
+Name: taxon_name, dtype: object",0.6559,0.321
+58170.0,"taxon_id
+58170.0    Sea Heaths
+58170.0     Frankenia
+Name: taxon_name, dtype: object",0.6559,0.321
+58168.0,"taxon_id
+58168.0        Alkali Heath
+58168.0    Frankenia salina
+Name: taxon_name, dtype: object",0.6559,0.321
+58137.0,"taxon_id
+58137.0       Dudleya lanceolata
+58137.0    lanceleaf liveforever
+Name: taxon_name, dtype: object",0.6559,0.321
+58127.0,"taxon_id
+58127.0       Chenopodium album
+58127.0    Common Lambsquarters
+Name: taxon_name, dtype: object",0.6559,0.321
+58133.0,"taxon_id
+58133.0            Alkali Weed
+58133.0    Cressa truxillensis
+Name: taxon_name, dtype: object",0.6559,0.321
+58126.0,"taxon_id
+58126.0    smotherweeds
+58126.0          Bassia
+Name: taxon_name, dtype: object",0.6559,0.321
+58139.0,"taxon_id
+58139.0    Cucurbita palmata
+58139.0         coyote melon
+Name: taxon_name, dtype: object",0.6559,0.321
+12936.0,"taxon_id
+12936.0     Mountain Bluebird
+12936.0    Sialia currucoides
+Name: taxon_name, dtype: object",0.6548,0.1921
+12937.0,"taxon_id
+12937.0     Sialia mexicana
+12937.0    Western Bluebird
+Name: taxon_name, dtype: object",0.6548,0.1921
+12878.0,"taxon_id
+12878.0    Catharus ustulatus
+12878.0     Swainson's Thrush
+Name: taxon_name, dtype: object",0.6548,0.1921
+12890.0,"taxon_id
+12890.0        Hermit Thrush
+12890.0    Catharus guttatus
+Name: taxon_name, dtype: object",0.6548,0.1921
+479803.0,"taxon_id
+479803.0    Four-speckled Hover Fly
+479803.0         Dioprosopa clavata
+Name: taxon_name, dtype: object",0.6507,0.311
+479640.0,"taxon_id
+479640.0    Pine Witches' Broom Phytoplasma
+479640.0                   Phytoplasma pini
+Name: taxon_name, dtype: object",0.6507,0.311
+475636.0,Petrospongium rugosum,0.6507,0.311
+475806.0,Dictyssa,0.6507,0.311
+478637.0,Curicaberis peninsulanus,0.6507,0.311
+479943.0,Ganoderma polychromum,0.6507,0.311
+474466.0,Trochoidea,0.6507,0.311
+475988.0,"taxon_id
+475988.0     sea urchins
+475988.0    Euechinoidea
+Name: taxon_name, dtype: object",0.6507,0.311
+479095.0,"taxon_id
+479095.0              Leukoma laciniata
+479095.0    Rough-sided Littleneck Clam
+Name: taxon_name, dtype: object",0.6507,0.311
+474590.0,"taxon_id
+474590.0    White-spotted Sea Goddess
+474590.0     Doriopsilla albopunctata
+Name: taxon_name, dtype: object",0.6507,0.311
+477019.0,Orsillinae,0.6507,0.311
+475115.0,Pink-footed Shearwater,0.6507,0.311
+479478.0,"taxon_id
+479478.0               gray moon sponge
+479478.0    Spheciospongia confoederata
+Name: taxon_name, dtype: object",0.6507,0.311
+479459.0,"taxon_id
+479459.0    San Diegan Legless Lizard
+479459.0           Anniella stebbinsi
+Name: taxon_name, dtype: object",0.6507,0.311
+480048.0,"taxon_id
+480048.0     Litaneutria pacifica
+480048.0    Pacific Ground Mantis
+Name: taxon_name, dtype: object",0.6507,0.311
+477975.0,Trichopolia,0.6507,0.311
+475762.0,Stenomorpha muricatula,0.6507,0.311
+479477.0,"taxon_id
+479477.0    Yellow-gilled Sea Goddess
+479477.0           Doriopsilla gemela
+Name: taxon_name, dtype: object",0.6507,0.311
+474464.0,Tegulidae,0.6507,0.311
+480298.0,"taxon_id
+480298.0    Cornu aspersum
+480298.0      Garden Snail
+Name: taxon_name, dtype: object",0.6507,0.311
+480129.0,Melanosmia,0.6507,0.311
+475633.0,Gymnopilus thiersii,0.6507,0.311
+16791.0,"taxon_id
+16791.0       Western Kingbird
+16791.0    Tyrannus verticalis
+Name: taxon_name, dtype: object",0.6496,0.3539
+17009.0,"taxon_id
+17009.0    Sayornis saya
+17009.0     Say's Phoebe
+Name: taxon_name, dtype: object",0.6496,0.3539
+17008.0,"taxon_id
+17008.0    Sayornis phoebe
+17008.0     Eastern Phoebe
+Name: taxon_name, dtype: object",0.6496,0.3539
+16787.0,"taxon_id
+16787.0    Tyrannus melancholicus
+16787.0         Tropical Kingbird
+Name: taxon_name, dtype: object",0.6496,0.3539
+16782.0,Tyrannus tyrannus,0.6496,0.3539
+17013.0,"taxon_id
+17013.0          Black Phoebe
+17013.0    Sayornis nigricans
+Name: taxon_name, dtype: object",0.6496,0.3493
+481693.0,"taxon_id
+481693.0      lip ferns
+481693.0    Myriopteris
+Name: taxon_name, dtype: object",0.6472,0.4849
+480661.0,"taxon_id
+480661.0    Pteropurpura festiva
+480661.0           Festive Murex
+Name: taxon_name, dtype: object",0.6472,0.4849
+481699.0,"taxon_id
+481699.0    Myriopteris clevelandii
+481699.0        Cleveland's Lipfern
+Name: taxon_name, dtype: object",0.6472,0.4849
+481260.0,Closterotomus norwegicus,0.6472,0.4849
+481959.0,"taxon_id
+481959.0    Sea Stars and Brittle Stars
+481959.0                      Asterozoa
+Name: taxon_name, dtype: object",0.6472,0.4849
+482578.0,"taxon_id
+482578.0          Gem Murex
+482578.0    Maxwellia gemma
+Name: taxon_name, dtype: object",0.6472,0.4849
+481729.0,"taxon_id
+481729.0      Newberry's lip fern
+481729.0    Myriopteris newberryi
+Name: taxon_name, dtype: object",0.6472,0.4849
+481504.0,"taxon_id
+481504.0        Nuttall Lucine
+481504.0    Lucinisca nuttalli
+Name: taxon_name, dtype: object",0.6472,0.4849
+480334.0,"taxon_id
+480334.0    Platycorypha nigrivirga
+480334.0               tipu psyllid
+Name: taxon_name, dtype: object",0.6472,0.4849
+480648.0,"taxon_id
+480648.0      Livid Macron
+480648.0    Macron lividus
+Name: taxon_name, dtype: object",0.6472,0.4849
+485010.0,"taxon_id
+485010.0     Green Stink Bug
+485010.0    Chinavia hilaris
+Name: taxon_name, dtype: object",0.6472,0.4849
+482628.0,Dictyopteris undulata,0.6472,0.4849
+483886.0,Cortinarius ohlone,0.6472,0.4849
+483236.0,"taxon_id
+483236.0    Lacewings and Allies
+483236.0         Hemerobiiformia
+Name: taxon_name, dtype: object",0.6472,0.4849
+481487.0,"taxon_id
+481487.0    Amiantis callosa
+481487.0         White Venus
+Name: taxon_name, dtype: object",0.6472,0.4849
+483619.0,"taxon_id
+483619.0         Spiny Prickly Cockle
+483619.0    Dallocardia quadragenaria
+Name: taxon_name, dtype: object",0.6472,0.4849
+483627.0,"taxon_id
+483627.0      Coastal Great Horned Owl
+483627.0    Bubo virginianus pacificus
+Name: taxon_name, dtype: object",0.6472,0.4849
+485176.0,"taxon_id
+485176.0     American Wigeon
+485176.0    Mareca americana
+Name: taxon_name, dtype: object",0.6472,0.4849
+117563.0,"taxon_id
+117563.0              Yellowfin Goby
+117563.0    Acanthogobius flavimanus
+Name: taxon_name, dtype: object",0.645,0.2723
+117542.0,"taxon_id
+117542.0           Speckled Sanddab
+117542.0    Citharichthys stigmaeus
+Name: taxon_name, dtype: object",0.645,0.2723
+117630.0,Lepidozona,0.645,0.2723
+117570.0,"taxon_id
+117570.0    Syngnathus californiensis
+117570.0                Kelp Pipefish
+Name: taxon_name, dtype: object",0.645,0.2723
+117548.0,"taxon_id
+117548.0    Gibbonsia elegans
+117548.0     Spotted Kelpfish
+Name: taxon_name, dtype: object",0.645,0.2723
+117560.0,"taxon_id
+117560.0        Dwarf Surfperch
+117560.0    Micrometrus minimus
+Name: taxon_name, dtype: object",0.645,0.2723
+117608.0,"taxon_id
+117608.0    California Butterclam
+117608.0       Saxidomus nuttalli
+Name: taxon_name, dtype: object",0.645,0.2723
+117554.0,"taxon_id
+117554.0    Embiotoca jacksoni
+117554.0       Black Surfperch
+Name: taxon_name, dtype: object",0.645,0.2723
+117731.0,"taxon_id
+117731.0    Antiopella barbarensis
+117731.0      cockscomb nudibranch
+Name: taxon_name, dtype: object",0.645,0.2723
+117711.0,"taxon_id
+117711.0       Pleurobrachia
+117711.0    Sea Gooseberries
+Name: taxon_name, dtype: object",0.645,0.2723
+117562.0,"taxon_id
+117562.0    Rhacochilus toxotes
+117562.0    Rubberlip surfperch
+Name: taxon_name, dtype: object",0.645,0.2723
+117551.0,"taxon_id
+117551.0          Barred Surfperch
+117551.0    Amphistichus argenteus
+Name: taxon_name, dtype: object",0.645,0.2723
+117564.0,"taxon_id
+117564.0         Arrow Goby
+117564.0    Clevelandia ios
+Name: taxon_name, dtype: object",0.645,0.2723
+117679.0,"taxon_id
+117679.0       Lumpy Rubble Crab
+117679.0    Paraxanthias taylori
+Name: taxon_name, dtype: object",0.645,0.2723
+117674.0,"taxon_id
+117674.0    Western Sea Slater
+117674.0    Ligia occidentalis
+Name: taxon_name, dtype: object",0.645,0.2723
+117553.0,"taxon_id
+117553.0    Brachyistius frenatus
+117553.0           Kelp Surfperch
+Name: taxon_name, dtype: object",0.645,0.2723
+117619.0,"taxon_id
+117619.0    Penitella penita
+117619.0    Flat-tip Piddock
+Name: taxon_name, dtype: object",0.645,0.2723
+117633.0,"taxon_id
+117633.0       Mossy Chiton
+117633.0    Mopalia muscosa
+Name: taxon_name, dtype: object",0.645,0.2723
+117622.0,"taxon_id
+117622.0    Nuttallia nuttallii
+117622.0            Purple Clam
+Name: taxon_name, dtype: object",0.645,0.2723
+117696.0,"taxon_id
+117696.0    Dendraster excentricus
+117696.0     Eccentric Sand Dollar
+Name: taxon_name, dtype: object",0.645,0.2723
+117572.0,"taxon_id
+117572.0     Leuresthes tenuis
+117572.0    California Grunion
+Name: taxon_name, dtype: object",0.645,0.2723
+117663.0,"taxon_id
+117663.0              Spiny Mole Crab
+117663.0    Blepharipoda occidentalis
+Name: taxon_name, dtype: object",0.645,0.2723
+117617.0,Hiatella arctica,0.645,0.2723
+117549.0,Striped Kelpfish,0.645,0.2723
+117705.0,"taxon_id
+117705.0      Pleurobrachia bachei
+117705.0    Pacific Sea Gooseberry
+Name: taxon_name, dtype: object",0.645,0.2723
+117612.0,"taxon_id
+117612.0      Macoma nasuta
+117612.0    Bent-nosed Clam
+Name: taxon_name, dtype: object",0.645,0.2723
+117649.0,"taxon_id
+117649.0    Trimusculus reticulatus
+117649.0               Button Shell
+Name: taxon_name, dtype: object",0.645,0.2723
+117541.0,"taxon_id
+117541.0          Brown Rockfish
+117541.0    Sebastes auriculatus
+Name: taxon_name, dtype: object",0.645,0.2723
+117766.0,"taxon_id
+117766.0         Pacific Harbor Seal
+117766.0    Phoca vitulina richardii
+Name: taxon_name, dtype: object",0.645,0.2723
+117561.0,"taxon_id
+117561.0        White Surfperch
+117561.0    Phanerodon furcatus
+Name: taxon_name, dtype: object",0.645,0.2723
+14886.0,"taxon_id
+14886.0    Northern Mockingbird
+14886.0       Mimus polyglottos
+Name: taxon_name, dtype: object",0.6445,0.3223
+14801.0,"taxon_id
+14801.0         Sitta carolinensis
+14801.0    White-breasted Nuthatch
+Name: taxon_name, dtype: object",0.6445,0.3223
+14906.0,"taxon_id
+14906.0    California Thrasher
+14906.0    Toxostoma redivivum
+Name: taxon_name, dtype: object",0.6445,0.3223
+13966.0,"taxon_id
+13966.0       Northern Red Bishop
+13966.0    Euplectes franciscanus
+Name: taxon_name, dtype: object",0.6445,0.3223
+14011.0,"taxon_id
+14011.0       Vidua macroura
+14011.0    Pin-tailed Whydah
+Name: taxon_name, dtype: object",0.6445,0.3223
+14850.0,"taxon_id
+14850.0    European Starling
+14850.0     Sturnus vulgaris
+Name: taxon_name, dtype: object",0.6445,0.3223
+14823.0,"taxon_id
+14823.0         Sitta canadensis
+14823.0    Red-breasted Nuthatch
+Name: taxon_name, dtype: object",0.6445,0.3223
+1439813.0,"taxon_id
+1439813.0        Bodianus pulcher
+1439813.0    California Sheephead
+Name: taxon_name, dtype: object",0.644,0.4361
+1428976.0,"taxon_id
+1428976.0            Bodega Tellin
+1428976.0    Megangulus bodegensis
+Name: taxon_name, dtype: object",0.644,0.4361
+1422986.0,"taxon_id
+1422986.0    Corallina berteroi
+1422986.0      Common Coralline
+Name: taxon_name, dtype: object",0.644,0.4361
+1452907.0,"taxon_id
+1452907.0      western lady's mantle
+1452907.0    Alchemilla occidentalis
+Name: taxon_name, dtype: object",0.644,0.4361
+1445652.0,"taxon_id
+1445652.0    Ctenolepisma lineatum
+1445652.0    Four-lined Silverfish
+Name: taxon_name, dtype: object",0.644,0.4361
+1451386.0,"taxon_id
+1451386.0    Brown-blotched Amydria Moth
+1451386.0           Amydria effrenatella
+Name: taxon_name, dtype: object",0.644,0.4361
+1454382.0,"taxon_id
+1454382.0    Double-crested Cormorant
+1454382.0         Nannopterum auritum
+Name: taxon_name, dtype: object",0.644,0.4361
+1449402.0,"taxon_id
+1449402.0                         Arguti
+1449402.0    Field Highbush Blackberries
+Name: taxon_name, dtype: object",0.644,0.4361
+1431249.0,"taxon_id
+1431249.0    Gambel's Deer Mouse
+1431249.0    Peromyscus gambelii
+Name: taxon_name, dtype: object",0.644,0.4361
+1426470.0,Suave Nomad Bee,0.644,0.4361
+1415106.0,Cleomella arborea arborea,0.644,0.4361
+1449404.0,Pacific Berries,0.644,0.4361
+1445056.0,"taxon_id
+1445056.0    Endectyon hispitumulus
+1445056.0      Bristly mound fields
+Name: taxon_name, dtype: object",0.644,0.4361
+1452334.0,Feron,0.644,0.4361
+1439808.0,"taxon_id
+1439808.0          Largemouth Bass
+1439808.0    Micropterus nigricans
+Name: taxon_name, dtype: object",0.644,0.4361
+1444494.0,"taxon_id
+1444494.0           Diadasia diminuta
+1444494.0    Globemallow chimney bees
+Name: taxon_name, dtype: object",0.644,0.4361
+1453832.0,Romneya coulteri × trichocalyx,0.644,0.4361
+1428311.0,"taxon_id
+1428311.0     Phrontis tiarula
+1428311.0    Western Mud Nassa
+Name: taxon_name, dtype: object",0.644,0.4361
+1450287.0,Lasioglossum gemmatum,0.644,0.4361
+1446718.0,Petalomonadida,0.644,0.4361
+1430475.0,"taxon_id
+1430475.0                 Powderblues
+1430475.0    Porcellionides pruinosus
+Name: taxon_name, dtype: object",0.644,0.4361
+6358.0,"taxon_id
+6358.0    Rufous, Allen's, and Allied Hummingbirds
+6358.0                                 Selasphorus
+Name: taxon_name, dtype: object",0.6403,0.3934
+6359.0,"taxon_id
+6359.0      Selasphorus sasin
+6359.0    Allen's Hummingbird
+Name: taxon_name, dtype: object",0.6403,0.3934
+1653073.0,"taxon_id
+1653073.0     Porter's Chromodorid
+1653073.0    Neptunazurea porterae
+Name: taxon_name, dtype: object",0.6382,0.2249
+1655734.0,"taxon_id
+1655734.0    Orienthella piunca
+1655734.0       Fisher's Aeolid
+Name: taxon_name, dtype: object",0.6382,0.2249
+1668631.0,"taxon_id
+1668631.0    Eubranchulus olivaceus
+1668631.0      Green Balloon Aeolid
+Name: taxon_name, dtype: object",0.6382,0.2249
+1670077.0,"taxon_id
+1670077.0         California Mantis
+1670077.0    Stagmomantis wheelerii
+Name: taxon_name, dtype: object",0.6382,0.2249
+1652206.0,"taxon_id
+1652206.0           Vireo swainsoni
+1652206.0    Western Warbling Vireo
+Name: taxon_name, dtype: object",0.6382,0.2249
+1659750.0,Neokolla bispinosa,0.6382,0.2249
+1665961.0,Sambucus nigra,0.6382,0.2249
+1664971.0,"taxon_id
+1664971.0    Pacific White-sided Dolphin
+1664971.0     Aethalodelphis obliquidens
+Name: taxon_name, dtype: object",0.6382,0.2249
+1671287.0,Pseudaletia unipuncta,0.6382,0.2249
+488990.0,"taxon_id
+488990.0    Eucalyptus Stem Gall Wasp
+488990.0             Leptocybe invasa
+Name: taxon_name, dtype: object",0.6359,0.2943
+488924.0,"taxon_id
+488924.0     Muroids
+488924.0    Muroidea
+Name: taxon_name, dtype: object",0.6359,0.2943
+485383.0,"taxon_id
+485383.0    California Golden Gorgonian
+485383.0            Muricea californica
+Name: taxon_name, dtype: object",0.6359,0.2943
+486567.0,"taxon_id
+486567.0       Western Eyed Sphinx
+486567.0    Smerinthus ophthalmica
+Name: taxon_name, dtype: object",0.6359,0.2943
+487141.0,"taxon_id
+487141.0    Epilucina californica
+487141.0        California Lucine
+Name: taxon_name, dtype: object",0.6359,0.2943
+488340.0,"taxon_id
+488340.0    Cumingia californica
+488340.0       California Semele
+Name: taxon_name, dtype: object",0.6359,0.2943
+489539.0,Gondwanocrypticus,0.6359,0.2943
+486971.0,"taxon_id
+486971.0      Primula clevelandii
+486971.0    Padre's Shooting Star
+Name: taxon_name, dtype: object",0.6359,0.2943
+486449.0,Inocybe insinuata,0.6359,0.2943
+486972.0,"taxon_id
+486972.0    Primula clevelandii clevelandii
+486972.0          Cleveland's Shooting Star
+Name: taxon_name, dtype: object",0.6359,0.2943
+486453.0,Colonus hesperus,0.6359,0.2943
+487557.0,"taxon_id
+487557.0             rosy navel
+487557.0    Contumyces rosellus
+Name: taxon_name, dtype: object",0.6359,0.2943
+485384.0,"taxon_id
+485384.0      brown gorgonian
+485384.0    Muricea fruticosa
+Name: taxon_name, dtype: object",0.6359,0.2943
+486566.0,Pseudomelatoma penicillata,0.6359,0.2943
+485954.0,Crepidula norrisiarum,0.6359,0.2943
+488823.0,"taxon_id
+488823.0       Corythucha confraterna
+488823.0    Western Sycamore Lace Bug
+Name: taxon_name, dtype: object",0.6359,0.2943
+489730.0,"taxon_id
+489730.0    Dotted Paropsine Leaf Beetle
+489730.0               Paropsis atomaria
+Name: taxon_name, dtype: object",0.6359,0.2943
+41736.0,"taxon_id
+41736.0    Eared Seals
+41736.0      Otariidae
+Name: taxon_name, dtype: object",0.6288,0.2576
+41663.0,"taxon_id
+41663.0    Common Raccoon
+41663.0     Procyon lotor
+Name: taxon_name, dtype: object",0.6288,0.2576
+41573.0,"taxon_id
+41573.0      Carnivora
+41573.0    Carnivorans
+Name: taxon_name, dtype: object",0.6288,0.2576
+41740.0,"taxon_id
+41740.0    Zalophus californianus
+41740.0       California Sea Lion
+Name: taxon_name, dtype: object",0.6288,0.2576
+41708.0,"taxon_id
+41708.0       Harbor Seal
+41708.0    Phoca vitulina
+Name: taxon_name, dtype: object",0.6288,0.2576
+11853.0,"taxon_id
+11853.0    Swallows and Martins
+11853.0            Hirundinidae
+Name: taxon_name, dtype: object",0.6266,0.3101
+10168.0,"taxon_id
+10168.0         Vesper Sparrow
+10168.0    Pooecetes gramineus
+Name: taxon_name, dtype: object",0.6266,0.3101
+11935.0,"taxon_id
+11935.0    Tachycineta bicolor
+11935.0           Tree Swallow
+Name: taxon_name, dtype: object",0.6266,0.3101
+10247.0,"taxon_id
+10247.0    Setophaga ruticilla
+10247.0      American Redstart
+Name: taxon_name, dtype: object",0.6266,0.3101
+10139.0,"taxon_id
+10139.0    Ammodramus savannarum
+10139.0      Grasshopper Sparrow
+Name: taxon_name, dtype: object",0.6266,0.3101
+10676.0,"taxon_id
+10676.0    Spiza americana
+10676.0         Dickcissel
+Name: taxon_name, dtype: object",0.6266,0.3101
+11989.0,"taxon_id
+11989.0    New World Blackbirds and Orioles
+11989.0                           Icteridae
+Name: taxon_name, dtype: object",0.6266,0.3101
+12727.0,"taxon_id
+12727.0    Turdus migratorius
+12727.0        American Robin
+Name: taxon_name, dtype: object",0.6266,0.3101
+10286.0,"taxon_id
+10286.0    Black-and-white Warbler
+10286.0            Mniotilta varia
+Name: taxon_name, dtype: object",0.6266,0.3101
+10373.0,"taxon_id
+10373.0          Molothrus ater
+10373.0    Brown-headed Cowbird
+Name: taxon_name, dtype: object",0.6266,0.3101
+10227.0,"taxon_id
+10227.0      Indigo Bunting
+10227.0    Passerina cyanea
+Name: taxon_name, dtype: object",0.6266,0.3101
+10470.0,"taxon_id
+10470.0    Xanthocephalus xanthocephalus
+10470.0          Yellow-headed Blackbird
+Name: taxon_name, dtype: object",0.6266,0.3101
+11858.0,"taxon_id
+11858.0    Petrochelidon pyrrhonota
+11858.0               Cliff Swallow
+Name: taxon_name, dtype: object",0.6266,0.3101
+12024.0,"taxon_id
+12024.0    Lanius ludovicianus
+12024.0      Loggerhead Shrike
+Name: taxon_name, dtype: object",0.6266,0.3101
+10271.0,"taxon_id
+10271.0    Pheucticus ludovicianus
+10271.0     Rose-breasted Grosbeak
+Name: taxon_name, dtype: object",0.6266,0.3101
+10325.0,"taxon_id
+10325.0    Euphagus cyanocephalus
+10325.0        Brewer's Blackbird
+Name: taxon_name, dtype: object",0.6266,0.3101
+11970.0,"taxon_id
+11970.0       Stelgidopteryx serripennis
+11970.0    Northern Rough-winged Swallow
+Name: taxon_name, dtype: object",0.6266,0.3101
+10234.0,"taxon_id
+10234.0    Passerina amoena
+10234.0      Lazuli Bunting
+Name: taxon_name, dtype: object",0.6266,0.3101
+10729.0,Prothonotary Warbler,0.6266,0.3101
+11931.0,"taxon_id
+11931.0      Violet-green Swallow
+11931.0    Tachycineta thalassina
+Name: taxon_name, dtype: object",0.6266,0.3101
+10479.0,"taxon_id
+10479.0            Lark Sparrow
+10479.0    Chondestes grammacus
+Name: taxon_name, dtype: object",0.6266,0.3101
+10243.0,"taxon_id
+10243.0          Icteria virens
+10243.0    Yellow-breasted Chat
+Name: taxon_name, dtype: object",0.6266,0.3101
+10274.0,"taxon_id
+10274.0        Black-headed Grosbeak
+10274.0    Pheucticus melanocephalus
+Name: taxon_name, dtype: object",0.6266,0.3101
+11901.0,"taxon_id
+11901.0    Hirundo rustica
+11901.0       Barn Swallow
+Name: taxon_name, dtype: object",0.6266,0.3101
+16768.0,"taxon_id
+16768.0    Kingbirds
+16768.0     Tyrannus
+Name: taxon_name, dtype: object",0.6079,0.3413
+16110.0,"taxon_id
+16110.0    Olive-sided Flycatcher
+16110.0          Contopus cooperi
+Name: taxon_name, dtype: object",0.6079,0.3413
+16447.0,"taxon_id
+16447.0    Vermilion Flycatcher
+16447.0    Pyrocephalus rubinus
+Name: taxon_name, dtype: object",0.6079,0.3413
+16597.0,"taxon_id
+16597.0                Empidonax
+16597.0    Empidonax Flycatchers
+Name: taxon_name, dtype: object",0.6079,0.3413
+16779.0,"taxon_id
+16779.0    Tyrannus vociferans
+16779.0      Cassin's Kingbird
+Name: taxon_name, dtype: object",0.6079,0.3413
+16598.0,"taxon_id
+16598.0      Western Flycatcher
+16598.0    Empidonax difficilis
+Name: taxon_name, dtype: object",0.6079,0.3413
+16624.0,"taxon_id
+16624.0     Empidonax hammondii
+16624.0    Hammond's Flycatcher
+Name: taxon_name, dtype: object",0.6079,0.3413
+16611.0,"taxon_id
+16611.0    Empidonax traillii
+16611.0     Willow Flycatcher
+Name: taxon_name, dtype: object",0.6079,0.3413
+15964.0,"taxon_id
+15964.0    Troglodytidae
+15964.0            Wrens
+Name: taxon_name, dtype: object",0.6079,0.3413
+15045.0,"taxon_id
+15045.0    Oreoscoptes montanus
+15045.0           Sage Thrasher
+Name: taxon_name, dtype: object",0.6079,0.3413
+16079.0,"taxon_id
+16079.0     Western Wood-Pewee
+16079.0    Contopus sordidulus
+Name: taxon_name, dtype: object",0.6079,0.3413
+16010.0,"taxon_id
+16010.0      Myiarchus cinerascens
+16010.0    Ash-throated Flycatcher
+Name: taxon_name, dtype: object",0.6079,0.3413
+15256.0,"taxon_id
+15256.0    Chamaea fasciata
+15256.0             Wrentit
+Name: taxon_name, dtype: object",0.6079,0.3413
+16622.0,Empidonax wrightii,0.6079,0.3413
+566720.0,"taxon_id
+566720.0    carpet crane's-bill
+566720.0       Geranium incanum
+Name: taxon_name, dtype: object",0.6053,0.3681
+605446.0,"taxon_id
+605446.0    Sunflowers and Allies
+605446.0              Heliantheae
+Name: taxon_name, dtype: object",0.6053,0.3681
+578118.0,Coquillettapis,0.6053,0.3681
+606634.0,Agapostemon,0.6053,0.3681
+574028.0,Calliopsis pugionis,0.6053,0.3681
+567954.0,Salicornieae,0.6053,0.3681
+603318.0,"taxon_id
+603318.0    Bandclaw Hermit Crab
+603318.0    Pagurus redondoensis
+Name: taxon_name, dtype: object",0.6053,0.3681
+604368.0,Zaolutus actius,0.6053,0.3681
+606556.0,Apantesis ursina,0.6053,0.3681
+578727.0,Nodularia,0.6053,0.3681
+603185.0,"taxon_id
+603185.0    Aceria aloinis
+603185.0    Aloe Gall Mite
+Name: taxon_name, dtype: object",0.6053,0.3681
+566167.0,Gosibius,0.6053,0.3681
+589815.0,"taxon_id
+589815.0            heart-leaf ice plant
+589815.0    Mesembryanthemum cordifolium
+Name: taxon_name, dtype: object",0.6053,0.3681
+607781.0,Pandalus gurneyi,0.6053,0.3681
+594639.0,"taxon_id
+594639.0    Spergularia bocconei
+594639.0       Greek Sea-spurrey
+Name: taxon_name, dtype: object",0.6053,0.3681
+571342.0,Callimelissodes,0.6053,0.3681
+569596.0,"taxon_id
+569596.0    Dimorphotheca jucunda
+569596.0               Cape daisy
+Name: taxon_name, dtype: object",0.6053,0.3681
+590726.0,"taxon_id
+590726.0                clockweed
+590726.0    Oenothera lindheimeri
+Name: taxon_name, dtype: object",0.6053,0.3681
+570504.0,Hainotis sharonae,0.6053,0.3681
+571383.0,Diandrena,0.6053,0.3681
+573995.0,Andrena nigripes,0.6053,0.3681
+578125.0,Synhalonia,0.6053,0.3681
+571440.0,Simandrena,0.6053,0.3681
+597395.0,"taxon_id
+597395.0    Typical Herons and Egrets
+597395.0                     Ardeinae
+Name: taxon_name, dtype: object",0.6053,0.3681
+568262.0,Cotylea,0.6053,0.3681
+605992.0,"taxon_id
+605992.0    Magallana gigas
+605992.0     Pacific Oyster
+Name: taxon_name, dtype: object",0.6053,0.3681
+571287.0,"taxon_id
+571287.0    madrones, bearberries, and allies
+571287.0                          Arbutoideae
+Name: taxon_name, dtype: object",0.6053,0.3681
+606933.0,"taxon_id
+606933.0                 Salticinae
+606933.0    Typical Jumping Spiders
+Name: taxon_name, dtype: object",0.6053,0.3681
+569269.0,Lasioglossum,0.6053,0.3681
+607510.0,"taxon_id
+607510.0    Pseudobatos productus
+607510.0    Shovelnose Guitarfish
+Name: taxon_name, dtype: object",0.6053,0.3681
+615594.0,"taxon_id
+615594.0    Zebra-perch Sea Chub
+615594.0        Kyphosus azureus
+Name: taxon_name, dtype: object",0.6053,0.3681
+571093.0,Megachiloides,0.6053,0.3681
+574731.0,Brassiceae,0.6053,0.3681
+602842.0,Paraprosopis,0.6053,0.3681
+574827.0,Crabronina,0.6053,0.3681

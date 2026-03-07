@@ -3,6 +3,8 @@ import joblib
 import numpy as np
 import pandas as pd
 from utils import load_data, ENV_COLS, FEATURE_COLS, SPECIES_COL
+import os
+os.makedirs("predictions", exist_ok=True)
 
 # we can change this to test different thresholds
 PRESENCE_THRESHOLD = 0.6
@@ -16,9 +18,9 @@ all_taxon_ids = df["taxon_id"].unique()
 
 RESERVES = {
     "scripps_coastal":   [-117.26, 32.86, -117.24, 32.88],
-    "kendall_frost":     [-117.26, 32.86, -117.24, 32.88],
-    "elliott_chaparral": [-117.26, 32.86, -117.24, 32.88],
-    "sweeney_granite":   [-117.26, 32.86, -117.24, 32.88],
+    "kendall_frost":     [-117.24, 32.78, -117.21, 32.81],
+    "elliott_chaparral": [-117.11, 32.87, -117.08, 32.90],
+    "dawson_los_monos_canyon": [-117.25, 32.88, -117.22, 32.91],
 }
 
 # ── PREDICT ───────────────────────────────────────────────────────────────────
