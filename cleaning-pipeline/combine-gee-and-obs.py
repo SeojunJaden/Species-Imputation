@@ -1,15 +1,6 @@
 #!/usr/bin/env python3
 """
-<<<<<<< Current (Your changes)
 This script combines environmental data from GeoTIFF files with observation data from CSV files.
-=======
-Extract environmental variables from GeoTIFFs at observation coordinates.
-
-Reads a cleaned observation CSV (lat/lon + taxon info), samples 10 environmental
-rasters at each point, and writes to data/ with taxon_name, lat, lon, taxon_id,
-plus elevation, slope, aspect, ndvi, landcover, impervious, bathymetry, soil_sand,
-soil_ph, soil_clay.
->>>>>>> Incoming (Background Agent changes)
 
 Usage:
   python combine-gee-and-obs.py <input.csv> [output.csv]
@@ -37,20 +28,29 @@ warnings.filterwarnings('ignore')
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
 
-TIFF_DIR = os.path.join(PROJECT_ROOT, "GEE Data", "drive-download-20260217T221411Z-1-001")
+TIFF_DIR = os.path.join(PROJECT_ROOT, "google-earth-data")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data")
 
+# All 18 GEE rasters (must match exports from get-gee-rasters.py)
 TIFF_FILES = {
     'elevation.tif': 'elevation',
     'slope.tif': 'slope',
     'aspect.tif': 'aspect',
     'ndvi.tif': 'ndvi',
     'landcover.tif': 'landcover',
+    'canopy_cover.tif': 'canopy_cover',
     'impervious.tif': 'impervious',
-    'bathymetry.tif': 'bathymetry',
+    'soil_clay.tif': 'soil_clay',
     'soil_sand.tif': 'soil_sand',
     'soil_ph.tif': 'soil_ph',
-    'soil_clay.tif': 'soil_clay'
+    'bathymetry.tif': 'bathymetry',
+    'temperature_mean.tif': 'temperature_mean',
+    'precipitation_annual.tif': 'precipitation_annual',
+    'temperature_seasonality.tif': 'temperature_seasonality',
+    'ndvi_seasonality.tif': 'ndvi_seasonality',
+    'topographic_wetness.tif': 'topographic_wetness',
+    'distance_to_coast.tif': 'distance_to_coast',
+    'distance_to_water.tif': 'distance_to_water',
 }
 
 
@@ -107,7 +107,11 @@ def process_csv_file(csv_path, tiff_dir, output_path):
         print(f"  ERROR: Need scientific_name or common_name for taxon_name.")
         return None
 
+    n_before = len(df)
     df = df.dropna(subset=['latitude', 'longitude'])
+    n_dropped = n_before - len(df)
+    if n_dropped:
+        print(f"  Dropped {n_dropped:,} rows with missing lat/lon (cannot extract env without coordinates)")
     print(f"  {len(df):,} observations with valid coordinates")
 
     if len(df) == 0:
@@ -151,6 +155,12 @@ def main():
 
     input_path = sys.argv[1]
     output_path = sys.argv[2] if len(sys.argv) > 2 else None
+
+    # Resolve paths relative to project root so same file is used regardless of cwd
+    if not os.path.isabs(input_path):
+        input_path = os.path.join(PROJECT_ROOT, input_path)
+    if output_path is not None and not os.path.isabs(output_path):
+        output_path = os.path.join(PROJECT_ROOT, output_path)
 
     if not os.path.exists(input_path):
         print(f"ERROR: Input file not found: {input_path}")

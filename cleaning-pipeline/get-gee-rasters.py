@@ -228,19 +228,7 @@ try:
 except Exception as e:
     print(f"✗ Error processing ndvi_seasonality: {str(e)}")
 
-# 16. Topographic wetness
-print("\n16. Processing topographic_wetness...")
-try:
-    elevation_twi = ee.Image('USGS/SRTMGL1_003')
-    slope_twi = ee.Terrain.slope(elevation_twi)
-    slope_rad = slope_twi.multiply(3.14159265 / 180)
-    tan_slope = slope_rad.tan().add(0.001)
-    topographic_wetness = elevation_twi.divide(tan_slope).clip(bbox)
-    export_raster(topographic_wetness, 'topographic_wetness', region=bbox)
-except Exception as e:
-    print(f"✗ Error processing topographic_wetness: {str(e)}")
-
-# 17. Distance to coast
+# 16. Distance to coast
 print("\n17. Processing distance_to_coast...")
 try:
     bathymetry_coast = ee.Image('NOAA/NGDC/ETOPO1').select('bedrock')
@@ -252,7 +240,7 @@ try:
 except Exception as e:
     print(f"✗ Error processing distance_to_coast: {str(e)}")
 
-# 18. Distance to water
+# 17. Distance to water
 print("\n18. Processing distance_to_water...")
 try:
     gsw = ee.Image('JRC/GSW1_4/GlobalSurfaceWater').select('max_extent')

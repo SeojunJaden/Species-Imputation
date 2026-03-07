@@ -208,3 +208,73 @@ Checking N_ESTIMATORS
 - learning_rate: 0.1
 - num_leaves: 63
 - min_child_samples: 100
+
+## LightGBM
+- Sample size: 150000
+- Background points: 290000
+- Folds: 10
+- Mean AUC: 0.7485
+- Std:      0.0030
+- Min AUC:  0.7436
+- Max AUC:  0.7529
+- n_estimators: 500
+- max_depth: -1
+- learning_rate: 0.1
+- num_leaves: 63
+- min_child_samples: 100
+
+## LightGBM
+- Sample size: 300000
+- Background points: 500000
+- Folds: 10
+- Mean AUC: 0.7553
+- Std:      0.0021
+- Min AUC:  0.7514
+- Max AUC:  0.7594
+- n_estimators: 500
+- max_depth: -1
+- learning_rate: 0.1
+- num_leaves: 63
+- min_child_samples: 100
+
+## LightGBM
+- Sample size: 300000
+- Background points: 600000
+- Folds: 10
+- Mean AUC: 0.7603
+- Std:      0.0012
+- Min AUC:  0.7584
+- Max AUC:  0.7626
+- n_estimators: 500
+- max_depth: -1
+- learning_rate: 0.1
+- num_leaves: 63
+- min_child_samples: 100
+
+## LightGBM
+- Sample size: 300000
+- Background points: 600000
+- Folds: 10
+- Mean AUC: 0.7656
+- Std:      0.0025
+- Min AUC:  0.7616
+- Max AUC:  0.7694
+- n_estimators: 500
+- max_depth: -1
+- learning_rate: 0.1
+- num_leaves: 63
+- min_child_samples: 100
+
+## LightGBM
+- Sample size: 300000
+- Background points: 600000
+- Folds: 10
+- Mean AUC: 0.7656
+- Std:      0.0025
+- Min AUC:  0.7616
+- Max AUC:  0.7694
+- n_estimators: 500
+- max_depth: -1
+- learning_rate: 0.1
+- num_leaves: 63
+- min_child_samples: 100

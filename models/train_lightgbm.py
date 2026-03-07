@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import roc_auc_score
 from lightgbm import LGBMClassifier
-
+import joblib
 
 from utils import get_train_data, write_results
 
@@ -12,8 +12,6 @@ X = X.values
 y = y.values
 
 RANDOM_SEED = 69
-
-
 
 """
 IMPORTANT FOR TUNING: TEST THESE PARAMETERS!
@@ -73,3 +71,17 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y)):
 
 # write results to output.md
 write_results("LightGBM", current_config, aucs)
+
+
+#save final model
+final_model = LGBMClassifier(
+    n_estimators=N_ESTIMATORS, 
+    max_depth=MAX_DEPTH, 
+    learning_rate=LEARNING_RATE,
+    num_leaves=NUM_LEAVES, 
+    min_child_samples=MIN_CHILD_SAMPLES,
+    random_state=RANDOM_SEED, 
+    n_jobs=-1,
+)
+final_model.fit(X, y)
+joblib.dump(final_model, "models/lightgbm_model.pkl")
