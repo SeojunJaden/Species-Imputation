@@ -1,16 +1,17 @@
 import numpy as np
 import pandas as pd
-import os
 
 # path relative to project root
-CSV_PATH = "../carsten-cleaning-pipeline/full_sd_obs_with_env_data.csv"
+CSV_PATH = "data/400k-obs-with-env.csv"
 
 SPECIES_COL = "taxon_id"
 
 ENV_COLS = [
-    "elevation", "slope", "aspect", "ndvi",
-    "landcover", "impervious", "bathymetry",
-    "soil_sand", "soil_ph", "soil_clay", "latitude", "longitude"
+    "elevation", "slope", "aspect", "ndvi", "landcover", "canopy_cover",
+    "impervious", "soil_clay", "soil_sand", "soil_ph", "bathymetry",
+    "temperature_mean", "precipitation_annual", "temperature_seasonality",
+    "ndvi_seasonality", "distance_to_coast",
+    "distance_to_water", "latitude", "longitude",
 ]
 
 FEATURE_COLS = ENV_COLS + [SPECIES_COL]
@@ -23,12 +24,12 @@ MIN_OBSERVATIONS = 5
 
 # num of background points; used to train model on points where species is absent
 #max background points  = ~300K
-N_BACKGROUND = 290_000
+N_BACKGROUND = 600000
 
 # number of samples 
 # max number of samples ~173K
 # cant do 170,000 points? seems like 160,000 is the best sampling size 
-SAMPLE_SIZE = 150_000
+SAMPLE_SIZE = 300000
 
 RANDOM_SEED = 69
 
@@ -91,7 +92,7 @@ def write_results(model_name, config, aucs):
         if key not in ["sample_size", "n_background", "n_folds"]:
             lines.append(f"- {key}: {val}")
 
-    with open(os.path.join(os.path.dirname(__file__), "results.md"), "a") as f:
+    with open("models/results.md", "a") as f:
         f.write("\n".join(lines) + "\n")
 
     print("\n".join(lines))
