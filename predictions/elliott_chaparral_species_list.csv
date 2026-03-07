@@ -1,0 +1,223 @@
+taxon_id,taxon_name,max_probability,mean_probability
+473.0,"taxon_id
+473.0       American Coot
+473.0    Fulica americana
+Name: taxon_name, dtype: object",0.7024,0.1403
+3.0,"taxon_id
+3.0    Birds
+3.0     Aves
+Name: taxon_name, dtype: object",0.7024,0.1403
+1.0,"taxon_id
+1.0     Animals
+1.0    Animalia
+Name: taxon_name, dtype: object",0.7024,0.1403
+162.0,"taxon_id
+162.0    Porzana carolina
+162.0                Sora
+Name: taxon_name, dtype: object",0.7024,0.1403
+1409.0,"taxon_id
+1409.0          California Quail
+1409.0    Callipepla californica
+Name: taxon_name, dtype: object",0.6368,0.2879
+3454.0,"taxon_id
+3454.0    Zenaida macroura
+3454.0       Mourning Dove
+Name: taxon_name, dtype: object",0.6368,0.2879
+2548.0,"taxon_id
+2548.0    Belted Kingfisher
+2548.0    Megaceryle alcyon
+Name: taxon_name, dtype: object",0.6368,0.2879
+1986.0,"taxon_id
+1986.0    Geococcyx californianus
+1986.0         Greater Roadrunner
+Name: taxon_name, dtype: object",0.6368,0.2879
+906.0,"taxon_id
+906.0    Meleagris gallopavo
+906.0            Wild Turkey
+Name: taxon_name, dtype: object",0.6368,0.2879
+2715.0,"taxon_id
+2715.0    Pigeons and Doves
+2715.0           Columbidae
+Name: taxon_name, dtype: object",0.6368,0.2879
+2969.0,"taxon_id
+2969.0    Eurasian Collared-Dove
+2969.0     Streptopelia decaocto
+Name: taxon_name, dtype: object",0.6368,0.2879
+1204.0,"taxon_id
+1204.0    Indian Peafowl
+1204.0    Pavo cristatus
+Name: taxon_name, dtype: object",0.6368,0.2879
+3017.0,"taxon_id
+3017.0      Rock Pigeon
+3017.0    Columba livia
+Name: taxon_name, dtype: object",0.6368,0.2879
+1196824.0,"taxon_id
+1196824.0    Dipterostemon capitatus capitatus
+1196824.0                         School Bells
+Name: taxon_name, dtype: object",0.6155,0.4536
+1196784.0,"taxon_id
+1196784.0                 Blue Dicks
+1196784.0    Dipterostemon capitatus
+Name: taxon_name, dtype: object",0.6155,0.4536
+1196623.0,Lolium,0.6155,0.4536
+1220374.0,"taxon_id
+1220374.0    crested needle grass
+1220374.0       Eriocoma coronata
+Name: taxon_name, dtype: object",0.6155,0.4536
+1190278.0,Epicauta straba,0.6155,0.4536
+1191149.0,Cerastes,0.6155,0.4536
+1232042.0,Xanthorioideae,0.6155,0.4536
+1191150.0,"taxon_id
+1191150.0                    Ceanothus
+1191150.0    Ceanothus subg. Ceanothus
+Name: taxon_name, dtype: object",0.6155,0.4536
+1204075.0,"taxon_id
+1204075.0                        Formica fusca
+1204075.0    fusca-group Field Ants and Allies
+Name: taxon_name, dtype: object",0.6155,0.4536
+1205565.0,Pellaea andromedifolia pubescens,0.6155,0.4536
+1235357.0,Lycosinae,0.6155,0.4536
+1203426.0,"taxon_id
+1203426.0    Sambucus mexicana
+1203426.0      Blue Elderberry
+Name: taxon_name, dtype: object",0.6155,0.4536
+6930.0,"taxon_id
+6930.0    Anas platyrhynchos
+6930.0               Mallard
+Name: taxon_name, dtype: object",0.6104,0.1092
+6433.0,"taxon_id
+6433.0    Black-chinned Hummingbird
+6433.0        Archilochus alexandri
+Name: taxon_name, dtype: object",0.6104,0.1092
+6432.0,Ruby-throated Hummingbird,0.6104,0.1092
+6553.0,"taxon_id
+6553.0    Aeronautes saxatalis
+6553.0    White-throated Swift
+Name: taxon_name, dtype: object",0.6104,0.1092
+6557.0,"taxon_id
+6557.0    Chaetura vauxi
+6557.0      Vaux's Swift
+Name: taxon_name, dtype: object",0.6104,0.1092
+6912.0,"taxon_id
+6912.0    Ducks, Geese, and Swans
+6912.0                   Anatidae
+Name: taxon_name, dtype: object",0.6104,0.1092
+6363.0,"taxon_id
+6363.0     Selasphorus rufus
+6363.0    Rufous Hummingbird
+Name: taxon_name, dtype: object",0.6104,0.1092
+6914.0,"taxon_id
+6914.0    Cygnus atratus
+6914.0        Black Swan
+Name: taxon_name, dtype: object",0.6104,0.1092
+6915.0,"taxon_id
+6915.0    Cygnus buccinator
+6915.0       Trumpeter Swan
+Name: taxon_name, dtype: object",0.6104,0.1092
+6922.0,"taxon_id
+6922.0    Mallards, Pintails, and Allies
+6922.0                              Anas
+Name: taxon_name, dtype: object",0.6104,0.1092
+7057.0,"taxon_id
+7057.0    Aythya valisineria
+7057.0            Canvasback
+Name: taxon_name, dtype: object",0.6089,0.0479
+7036.0,"taxon_id
+7036.0                Surf Scoter
+7036.0    Melanitta perspicillata
+Name: taxon_name, dtype: object",0.6089,0.048
+6937.0,"taxon_id
+6937.0          Anas crecca
+6937.0    Green-winged Teal
+Name: taxon_name, dtype: object",0.6089,0.048
+7043.0,"taxon_id
+7043.0    Scaups, Pochards, and Allies
+7043.0                          Aythya
+Name: taxon_name, dtype: object",0.6089,0.048
+6993.0,"taxon_id
+6993.0           Bufflehead
+6993.0    Bucephala albeola
+Name: taxon_name, dtype: object",0.6089,0.048
+7044.0,"taxon_id
+7044.0    Ring-necked Duck
+7044.0     Aythya collaris
+Name: taxon_name, dtype: object",0.6089,0.048
+7054.0,"taxon_id
+7054.0    Aythya affinis
+7054.0      Lesser Scaup
+Name: taxon_name, dtype: object",0.6089,0.0479
+6933.0,"taxon_id
+6933.0    Northern Pintail
+6933.0          Anas acuta
+Name: taxon_name, dtype: object",0.6089,0.048
+6996.0,"taxon_id
+6996.0           Mergus serrator
+6996.0    Red-breasted Merganser
+Name: taxon_name, dtype: object",0.6089,0.048
+7056.0,"taxon_id
+7056.0             Redhead
+7056.0    Aythya americana
+Name: taxon_name, dtype: object",0.6089,0.0479
+7089.0,"taxon_id
+7089.0         Canada Goose
+7089.0    Branta canadensis
+Name: taxon_name, dtype: object",0.6089,0.0479
+6990.0,"taxon_id
+6990.0    Bucephala clangula
+6990.0      Common Goldeneye
+Name: taxon_name, dtype: object",0.6089,0.048
+7018.0,"taxon_id
+7018.0      Anser anser
+7018.0    Greylag Goose
+Name: taxon_name, dtype: object",0.6089,0.048
+7019.0,Anser albifrons,0.6089,0.048
+7004.0,Common Merganser,0.6089,0.048
+7047.0,"taxon_id
+7047.0    Greater Scaup
+7047.0    Aythya marila
+Name: taxon_name, dtype: object",0.6089,0.0479
+7006.0,"taxon_id
+7006.0    Grey Geese
+7006.0         Anser
+Name: taxon_name, dtype: object",0.6089,0.048
+7087.0,"taxon_id
+7087.0    Branta bernicla
+7087.0              Brant
+Name: taxon_name, dtype: object",0.6089,0.0479
+5020.0,"taxon_id
+5020.0            Green Heron
+5020.0    Butorides virescens
+Name: taxon_name, dtype: object",0.6024,0.1899
+5206.0,"taxon_id
+5206.0    Red-shouldered Hawk
+5206.0         Buteo lineatus
+Name: taxon_name, dtype: object",0.6024,0.1899
+5179.0,"taxon_id
+5179.0    Buteos
+5179.0     Buteo
+Name: taxon_name, dtype: object",0.6024,0.1899
+5097.0,"taxon_id
+5097.0    Accipiter striatus
+5097.0    Sharp-shinned Hawk
+Name: taxon_name, dtype: object",0.6024,0.1899
+5181.0,"taxon_id
+5181.0       Buteo regalis
+5181.0    Ferruginous Hawk
+Name: taxon_name, dtype: object",0.6024,0.1899
+5180.0,"taxon_id
+5180.0     Zone-tailed Hawk
+5180.0    Buteo albonotatus
+Name: taxon_name, dtype: object",0.6024,0.1899
+5074.0,"taxon_id
+5074.0    Aquila chrysaetos
+5074.0         Golden Eagle
+Name: taxon_name, dtype: object",0.6024,0.1899
+5067.0,"taxon_id
+5067.0    Hawks, Eagles, and Kites
+5067.0                Accipitridae
+Name: taxon_name, dtype: object",0.6024,0.1899
+5034.0,"taxon_id
+5034.0    Botaurus lentiginosus
+5034.0         American Bittern
+Name: taxon_name, dtype: object",0.6024,0.1899
+5196.0,Buteo swainsoni,0.6024,0.1899
