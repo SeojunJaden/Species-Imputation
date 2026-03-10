@@ -34,6 +34,16 @@ LEARNING_RATE    = 0.1
 SUBSAMPLE        = 1.0
 COLSAMPLE_BYTREE = 1.0
 
+# this gets passed into write_results
+current_config = {
+    "n_folds": N_FOLDS,
+    "n_estimators": N_ESTIMATORS,
+    "max_depth": MAX_DEPTH,
+    "learning_rate": LEARNING_RATE,
+    "subsample": SUBSAMPLE,
+    "colsample_bytree": COLSAMPLE_BYTREE,
+}
+
 # get cross validiation indices
 kf = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=RANDOM_SEED)
 
@@ -61,14 +71,6 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X, y), 1):
     auc = roc_auc_score(y_test, probs)
     aucs.append(auc)
 
-current_config = {
-    "n_folds": N_FOLDS,
-    "N_ESTIMATORS": N_ESTIMATORS,
-    "MAX_DEPTH": MAX_DEPTH,
-    "LEARNING_RATE": LEARNING_RATE,
-    "SUBSAMPLE": SUBSAMPLE,
-    "COLSAMPLE_BYTREE": COLSAMPLE_BYTREE,
-}
 
 # write results to output.md
 write_results("XGBoost", current_config, aucs)
