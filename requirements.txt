@@ -1,6 +1,8 @@
+# for frontend
 streamlit
 folium
 streamlit-folium
+# for cleaning
 tqdm
 pandas
 rasterio
