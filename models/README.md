@@ -27,4 +27,5 @@ After tuning each model, we found that LightGBM model with the following paramet
 - learning_rate: 0.1  
 - num_leaves: 63  
 - min_child_samples: 100  
+
 This model is saved in this folder and imported into the script where we output predictions for each reserve.
