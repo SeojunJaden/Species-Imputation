@@ -1,0 +1,953 @@
+scientific_name,common_name,iconic_taxon_name,present_in_main,predicted_present,probability_of_presence,main_obs_count,backup_obs_count,Prediction_Result
+Cortaderia selloana,Pampas Grass,Plantae,0,1,0.8539269014434914,0.0,15,False Positive (Imputed/Missing)
+Otospermophilus beecheyi,California Ground Squirrel,Mammalia,0,1,0.7955685734490239,0.0,18,False Positive (Imputed/Missing)
+Populus fremontii,Frémont Cottonwood,Plantae,0,1,0.7722491611575085,0.0,12,False Positive (Imputed/Missing)
+Lathyrus vestitus alefeldii,San Diego Pea,Plantae,0,1,0.768902484947918,0.0,11,False Positive (Imputed/Missing)
+Cuscuta californica,California dodder,Plantae,0,1,0.7658411748898142,0.0,10,False Positive (Imputed/Missing)
+Sambucus cerulea,blue elder,Plantae,0,1,0.7537577245261065,0.0,11,False Positive (Imputed/Missing)
+Foeniculum vulgare,fennel,Plantae,0,1,0.7316917856030366,0.0,11,False Positive (Imputed/Missing)
+Vitis girdiana,desert wild grape,Plantae,0,1,0.7254871705212147,0.0,11,False Positive (Imputed/Missing)
+Trachemys scripta,Pond Slider,Reptilia,0,1,0.7236345699633974,0.0,13,False Positive (Imputed/Missing)
+Egretta thula,Snowy Egret,Aves,0,1,0.6900482909471002,0.0,30,False Positive (Imputed/Missing)
+Larus delawarensis,Ring-billed Gull,Aves,0,1,0.6892079380384495,0.0,44,False Positive (Imputed/Missing)
+Anser cygnoides domesticus,Domestic Swan Goose,Aves,0,1,0.6885714048539018,0.0,31,False Positive (Imputed/Missing)
+Fulica americana,American Coot,Aves,0,1,0.688379741159797,0.0,48,False Positive (Imputed/Missing)
+Mareca americana,American Wigeon,Aves,0,1,0.688379741159797,0.0,61,False Positive (Imputed/Missing)
+Nycticorax nycticorax,Black-crowned Night Heron,Aves,0,1,0.688379741159797,0.0,150,False Positive (Imputed/Missing)
+Nannopterum auritum,Double-crested Cormorant,Aves,0,1,0.6847303600572701,0.0,13,False Positive (Imputed/Missing)
+Podilymbus podiceps,Pied-billed Grebe,Aves,0,1,0.6688361726172428,0.0,13,False Positive (Imputed/Missing)
+Anser anser domesticus × cygnoides domesticus,Domestic Greylag × Domestic Swan Goose,Aves,0,1,0.6462784133877092,0.0,12,False Positive (Imputed/Missing)
+Amanita velosa,springtime amanita,Fungi,1,1,0.8774477834297767,2.0,19,True Positive (Underrepresented)
+Isocoma menziesii,Coastal Goldenbush,Plantae,1,1,0.8751111282434251,2.0,29,True Positive (Underrepresented)
+Amanita ocreata,Western Destroying Angel,Fungi,1,1,0.8745243593048633,1.0,13,True Positive (Underrepresented)
+Ambrosia psilostachya,western ragweed,Plantae,1,1,0.8677654041191555,2.0,17,True Positive (Underrepresented)
+Amanita,Amanita Sect. Amanita,Fungi,1,1,0.8669699894556508,1.0,11,True Positive (Underrepresented)
+Lactarius rufulus,Southern Candy Cap,Fungi,1,1,0.8663608407562634,2.0,13,True Positive (Underrepresented)
+Amanita novinupta,Blushing Bride Amanita,Fungi,1,1,0.8636516902270601,2.0,11,True Positive (Underrepresented)
+Verbena lasiostachys,western vervain,Plantae,1,1,0.8589266366622162,3.0,47,True Positive (Underrepresented)
+Xerocomellus dryophilus,oak-loving bolete,Fungi,1,1,0.8549432570025304,2.0,8,True Positive (Underrepresented)
+Volvopluteus gloiocephalus,Stubble Rosegill,Fungi,1,1,0.8482770898734593,2.0,9,True Positive (Underrepresented)
+Eschscholzia californica,California poppy,Plantae,1,1,0.8454328778957964,1.0,16,True Positive (Underrepresented)
+Helvella dryophila,Oak-loving Elfin Saddle,Fungi,1,1,0.8423142102223715,3.0,8,True Positive (Underrepresented)
+Baccharis sarothroides,Desert Broom,Plantae,1,1,0.8316337867597224,3.0,12,True Positive (Underrepresented)
+Suillellus amygdalinus,Liver Bolete,Fungi,1,1,0.8195494654331422,2.0,6,True Positive (Underrepresented)
+Datura wrightii,Sacred Datura,Plantae,1,1,0.8132748202494099,1.0,12,True Positive (Underrepresented)
+Boletaceae,boletes,Fungi,1,1,0.811609615905561,1.0,5,True Positive (Underrepresented)
+Hypomyces chrysospermus,bolete mould,Fungi,1,1,0.811609615905561,2.0,5,True Positive (Underrepresented)
+Lithobates catesbeianus,American Bullfrog,Amphibia,1,1,0.807956956892005,2.0,17,True Positive (Underrepresented)
+Hirschfeldia incana,Shortpod Mustard,Plantae,1,1,0.8057528880896322,2.0,12,True Positive (Underrepresented)
+Limenitis lorquini,Lorquin's Admiral,Insecta,1,1,0.793418646141949,3.0,17,True Positive (Underrepresented)
+Tricholoma,Knights,Fungi,1,1,0.7899432079768942,1.0,5,True Positive (Underrepresented)
+Verbena,vervains,Plantae,1,1,0.7862183825309044,2.0,11,True Positive (Underrepresented)
+Gymnopus dryophilus,Oak-loving Gymnopus,Fungi,1,1,0.7779793954185789,1.0,5,True Positive (Underrepresented)
+Pisolithus tinctorius,Dead Man's Foot,Fungi,1,1,0.7779793954185789,2.0,5,True Positive (Underrepresented)
+Deinandra fasciculata,Clustered Tarweed,Plantae,1,1,0.7775932004234797,1.0,12,True Positive (Underrepresented)
+Baccharis,Unknown,Plantae,1,1,0.7748883817311352,1.0,11,True Positive (Underrepresented)
+Trachemys scripta elegans,Red-eared Slider,Reptilia,1,1,0.768149973578736,1.0,17,True Positive (Underrepresented)
+Angiospermae,Flowering Plants,Plantae,1,1,0.7663801809842894,3.0,9,True Positive (Underrepresented)
+Sceloporus occidentalis,Western Fence Lizard,Reptilia,1,1,0.7615479632499313,3.0,13,True Positive (Underrepresented)
+Silybum marianum,milk thistle,Plantae,1,1,0.7607872838096106,2.0,8,True Positive (Underrepresented)
+Adelpha californica,California Sister,Insecta,1,1,0.7566766609261945,2.0,8,True Positive (Underrepresented)
+Corethrogyne filaginifolia,California Aster,Plantae,1,1,0.7537577245261065,1.0,11,True Positive (Underrepresented)
+Apium graveolens,Celery,Plantae,1,1,0.7535781641454949,1.0,10,True Positive (Underrepresented)
+Nymphalis antiopa,Mourning Cloak,Insecta,1,1,0.7512034833500634,2.0,7,True Positive (Underrepresented)
+Amphibolips quercuspomiformis,Live Oak Apple Gall Wasp,Insecta,1,1,0.74964498765878,3.0,6,True Positive (Underrepresented)
+Orgyia,Unknown,Insecta,1,1,0.7496155261656503,3.0,6,True Positive (Underrepresented)
+Apodemia virgulti,Behr's Metalmark,Insecta,1,1,0.747166899286878,1.0,8,True Positive (Underrepresented)
+Eleodes grandicollis,Unknown,Insecta,1,1,0.744301884018849,3.0,7,True Positive (Underrepresented)
+Andricus quercuscalifornicus,California Gall Wasp,Insecta,1,1,0.7422677178922367,2.0,5,True Positive (Underrepresented)
+Eleodes acuticauda,Unknown,Insecta,1,1,0.7422677178922367,1.0,5,True Positive (Underrepresented)
+Lupinus microcarpus,chick lupine,Plantae,1,1,0.7410491241763051,3.0,9,True Positive (Underrepresented)
+Neotoma macrotis,Big-eared Woodrat,Mammalia,1,1,0.7364207178958722,2.0,6,True Positive (Underrepresented)
+Silene laciniata,cardinal catchfly,Plantae,1,1,0.7356444543970697,2.0,5,True Positive (Underrepresented)
+Cortinariaceae,Unknown,Fungi,1,1,0.7342461381254426,2.0,4,True Positive (Underrepresented)
+Stagmomantis limbata,Arizona Mantis,Insecta,1,1,0.7327608115522672,1.0,5,True Positive (Underrepresented)
+Chaenactis glabriuscula,Common Yellow Chaenactis,Plantae,1,1,0.7318274128125604,1.0,8,True Positive (Underrepresented)
+Bromus diandrus,great brome,Plantae,1,1,0.7299164336577298,2.0,4,True Positive (Underrepresented)
+Medicago polymorpha,bur clover,Plantae,1,1,0.7299164336577298,2.0,4,True Positive (Underrepresented)
+Entoloma sericeum,Silky Pinkgill,Fungi,1,1,0.7289745370090233,2.0,3,True Positive (Underrepresented)
+Asclepias fascicularis,narrowleaf milkweed,Plantae,1,1,0.7281864022807388,1.0,7,True Positive (Underrepresented)
+Leymus condensatus,giant wild rye,Plantae,1,1,0.7269107925066116,3.0,4,True Positive (Underrepresented)
+Pseudognaphalium,rabbit-tobaccos,Plantae,1,1,0.7269107925066116,1.0,4,True Positive (Underrepresented)
+Lupinus latifolius,Broadleaf Lupine,Plantae,1,1,0.7265793505433412,1.0,5,True Positive (Underrepresented)
+Oloptum miliaceum,Smilo Grass,Plantae,1,1,0.7265793505433412,1.0,5,True Positive (Underrepresented)
+Diplacus,bush monkeyflowers,Plantae,1,1,0.7262765317191016,3.0,7,True Positive (Underrepresented)
+Amsinckia,Fiddlenecks,Plantae,1,1,0.7261752752766858,2.0,3,True Positive (Underrepresented)
+Blitum californicum,California Goosefoot,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Chlorogalum pomeridianum,wavy-leafed soap plant,Plantae,1,1,0.7261752752766858,3.0,3,True Positive (Underrepresented)
+Clematis ligusticifolia,Western White Clematis,Plantae,1,1,0.7261752752766858,2.0,3,True Positive (Underrepresented)
+Cyperus eragrostis,tall flatsedge,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Erodium botrys,Mediterranean Stork's-bill,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Galium,bedstraws,Plantae,1,1,0.7261752752766858,3.0,3,True Positive (Underrepresented)
+Hypochaeris glabra,Smooth Cat's Ear,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Melilotus indicus,small melilot,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Plagiobothrys nothofulvus,Rusty Popcornflower,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Salix laevigata,red willow,Plantae,1,1,0.7261752752766858,1.0,3,True Positive (Underrepresented)
+Scrophularia californica,California beeplant,Plantae,1,1,0.7261752752766858,2.0,3,True Positive (Underrepresented)
+Bromus rubens,Red Brome,Plantae,1,1,0.7256036184131712,1.0,5,True Positive (Underrepresented)
+Acmispon glaber glaber,Coastal Deerweed,Plantae,1,1,0.7254871705212147,2.0,11,True Positive (Underrepresented)
+Coprinopsis,Inkcaps,Fungi,1,1,0.7231811657832623,1.0,4,True Positive (Underrepresented)
+Crocanthemum scoparium,peak rushrose,Plantae,1,1,0.7212465271562638,2.0,7,True Positive (Underrepresented)
+Euphorbia polycarpa,smallseed sandmat,Plantae,1,1,0.7212465271562638,2.0,7,True Positive (Underrepresented)
+Encelia californica,California brittlebush,Plantae,1,1,0.7181758864648279,1.0,5,True Positive (Underrepresented)
+Rumex,docks and sorrels,Plantae,1,1,0.7181758864648279,3.0,5,True Positive (Underrepresented)
+Centaurea melitensis,Maltese star-thistle,Plantae,1,1,0.7169792589913804,1.0,5,True Positive (Underrepresented)
+Opuntia littoralis,Coastal Pricklypear,Plantae,1,1,0.7169792589913804,1.0,5,True Positive (Underrepresented)
+Ribes,currants and gooseberries,Plantae,1,1,0.7169792589913804,3.0,5,True Positive (Underrepresented)
+Salix,Willows,Plantae,1,1,0.7169792589913804,2.0,5,True Positive (Underrepresented)
+Buteo lineatus,Red-shouldered Hawk,Aves,1,1,0.7137337863053819,2.0,19,True Positive (Underrepresented)
+Opuntia,Prickly Pears,Plantae,1,1,0.7128498957502798,1.0,4,True Positive (Underrepresented)
+Phoradendron macrophyllum,broadleaf mistletoe,Plantae,1,1,0.7128498957502798,2.0,4,True Positive (Underrepresented)
+Melozone crissalis,California Towhee,Aves,1,1,0.7111097142084991,3.0,14,True Positive (Underrepresented)
+Anas platyrhynchos domesticus,Domestic Mallard,Aves,1,1,0.7097521157385287,1.0,27,True Positive (Underrepresented)
+Agrocybe pediades,Common Fieldcap,Fungi,1,1,0.7049371061361557,3.0,4,True Positive (Underrepresented)
+Salvia columbariae,Chia,Plantae,1,1,0.7047187997917694,2.0,5,True Positive (Underrepresented)
+Viola pedunculata,California Golden Violet,Plantae,1,1,0.7021086633571246,2.0,3,True Positive (Underrepresented)
+Melospiza melodia,Song Sparrow,Aves,1,1,0.7009346340176267,1.0,16,True Positive (Underrepresented)
+Corvus brachyrhynchos,American Crow,Aves,1,1,0.6984184086038974,1.0,19,True Positive (Underrepresented)
+Argiope aurantia,Yellow Garden Spider,Arachnida,1,1,0.690326114232438,1.0,5,True Positive (Underrepresented)
+Agelaius phoeniceus,Red-winged Blackbird,Aves,1,1,0.688379741159797,2.0,75,True Positive (Underrepresented)
+Anas platyrhynchos,Mallard,Aves,1,1,0.688379741159797,3.0,65,True Positive (Underrepresented)
+Gallinula galeata,Common Gallinule,Aves,1,1,0.688379741159797,1.0,84,True Positive (Underrepresented)
+Armadillidium vulgare,Common Pill Woodlouse,Animalia,1,1,0.6754486922552566,1.0,3,True Positive (Underrepresented)
+Cynipini,Oak Gall Wasps,Insecta,1,1,0.6680703631804115,1.0,4,True Positive (Underrepresented)
+Aphelocoma californica,California Scrub-Jay,Aves,1,1,0.6597642019208292,2.0,13,True Positive (Underrepresented)
+Insecta,Insects,Insecta,1,1,0.6596338553976945,2.0,4,True Positive (Underrepresented)
+Argiope argentata,Silver Garden Orbweaver,Arachnida,1,1,0.6562960046117814,2.0,3,True Positive (Underrepresented)
+Hypomyces,Unknown,Fungi,1,1,0.6467221649998046,2.0,3,True Positive (Underrepresented)
+Hypomyces microspermus,Unknown,Fungi,1,1,0.6467221649998046,3.0,3,True Positive (Underrepresented)
+Sayornis nigricans,Black Phoebe,Aves,1,1,0.6462784133877092,2.0,12,True Positive (Underrepresented)
+Tyrannus vociferans,Cassin's Kingbird,Aves,1,1,0.6290005826773524,2.0,6,True Positive (Underrepresented)
+Setophaga coronata,Yellow-rumped Warbler,Aves,1,1,0.6277871476304718,1.0,7,True Positive (Underrepresented)
+Eleodes osculans,Woolly Darkling Beetle,Insecta,1,1,0.6276644558829853,2.0,4,True Positive (Underrepresented)
+Aquarius remigis,North American Common Water Strider,Insecta,1,1,0.6257435195560682,1.0,3,True Positive (Underrepresented)
+Lepidoptera,Butterflies and Moths,Insecta,1,1,0.6257435195560682,1.0,3,True Positive (Underrepresented)
+Sidalcea,Checkerblooms,Plantae,1,1,0.6223610116292954,1.0,3,True Positive (Underrepresented)
+Agaricus campestris,Meadow Mushroom,Fungi,1,1,0.6150809826828447,1.0,2,True Positive (Underrepresented)
+Astraeus pteridis,giant hygroscopic earthstar,Fungi,1,1,0.6150809826828447,2.0,2,True Positive (Underrepresented)
+Cladonia chlorophaea,Mealy Pixie Cup,Fungi,1,1,0.6150809826828447,3.0,2,True Positive (Underrepresented)
+Cortinarius ohlone,Unknown,Fungi,1,1,0.6150809826828447,2.0,2,True Positive (Underrepresented)
+Exidia glandulosa,Black Witches' Butter,Fungi,1,1,0.6150809826828447,3.0,2,True Positive (Underrepresented)
+Hygrophorus roseobrunneus,Rosy Brown Waxy Cap,Fungi,1,1,0.6150809826828447,1.0,2,True Positive (Underrepresented)
+Laccaria,Deceivers,Fungi,1,1,0.6150809826828447,2.0,2,True Positive (Underrepresented)
+Lactarius,Common Milkcaps,Fungi,1,1,0.6150809826828447,3.0,2,True Positive (Underrepresented)
+Pleurotus ostreatus,Oyster Mushroom,Fungi,1,1,0.6150809826828447,2.0,2,True Positive (Underrepresented)
+Tremella mesenterica,witch's butter,Fungi,1,1,0.6150809826828447,1.0,2,True Positive (Underrepresented)
+Tricholoma terreum,Grey Knight,Fungi,1,1,0.6150809826828447,1.0,2,True Positive (Underrepresented)
+Tricholoma yatesii,Unknown,Fungi,1,1,0.6150809826828447,2.0,2,True Positive (Underrepresented)
+Sialia mexicana,Western Bluebird,Aves,1,1,0.6132511237387253,3.0,7,True Positive (Underrepresented)
+Neotomini,Pack Rats,Mammalia,1,1,0.5869184214239644,2.0,2,True Positive (Underrepresented)
+Procyon lotor,Common Raccoon,Mammalia,1,1,0.5869184214239644,3.0,2,True Positive (Underrepresented)
+Araneidae,Orbweavers,Arachnida,1,1,0.5813774513664484,1.0,3,True Positive (Underrepresented)
+Empidonax difficilis,Western Flycatcher,Aves,1,1,0.5807955770916391,1.0,4,True Positive (Underrepresented)
+Baccharis salicifolia,mule fat,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Baccharis salicifolia salicifolia,Unknown,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Calandrinia menziesii,redmaids,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Camissoniopsis micrantha,miniature suncup,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Castilleja exserta,purple owl's-clover,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Clematis,Clematis and leatherflowers,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Crocanthemum,Frostweeds,Plantae,1,1,0.5800645927714924,3.0,2,True Positive (Underrepresented)
+Galium porrigens,graceful bedstraw,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Isocoma,Jimmyweeds and Goldenbushes,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Linaria texana,Texas toadflax,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Lysimachia arvensis,scarlet pimpernel,Plantae,1,1,0.5800645927714924,3.0,2,True Positive (Underrepresented)
+Narcissus,daffodils,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Pentagramma viscosa,Sticky goldback fern,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Phacelia,Scorpionweeds,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Platanus,planes,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Sairocarpus pusillus,lesser snapdragon,Plantae,1,1,0.5800645927714924,1.0,2,True Positive (Underrepresented)
+Salvia,Sages,Plantae,1,1,0.5800645927714924,2.0,2,True Positive (Underrepresented)
+Fuligo septica,Dog Vomit Slime Mold,Protozoa,1,1,0.5770253861046735,2.0,2,True Positive (Underrepresented)
+Calypte anna,Anna's Hummingbird,Aves,1,1,0.5767586969404602,1.0,3,True Positive (Underrepresented)
+Myiarchus cinerascens,Ash-throated Flycatcher,Aves,1,1,0.5767586969404602,1.0,3,True Positive (Underrepresented)
+Erynnis tristis,Mournful Duskywing,Insecta,1,1,0.5606768069907959,1.0,3,True Positive (Underrepresented)
+Rhopalomyia audibertiae,White Sage Leaf Gall Midge,Insecta,1,1,0.5606768069907959,1.0,3,True Positive (Underrepresented)
+Crotalus oreganus helleri,Southern Pacific Rattlesnake,Reptilia,1,1,0.559821702973279,2.0,2,True Positive (Underrepresented)
+Elgaria multicarinata webbii,San Diego Alligator Lizard,Reptilia,1,1,0.559821702973279,1.0,2,True Positive (Underrepresented)
+Bolbitius titubans,yellow fieldcap,Fungi,1,1,0.546911104339156,1.0,2,True Positive (Underrepresented)
+Ageleninae,Typical Funnel Weavers,Arachnida,1,1,0.5442265782558576,1.0,2,True Positive (Underrepresented)
+Argia vivida,Vivid Dancer,Insecta,1,1,0.5389403431871611,3.0,2,True Positive (Underrepresented)
+Coelocnemis,Unknown,Insecta,1,1,0.5389403431871611,1.0,2,True Positive (Underrepresented)
+Euphilotes bernardino,Bernardino Blue,Insecta,1,1,0.5389403431871611,1.0,2,True Positive (Underrepresented)
+Leptotes marina,Marine Blue,Insecta,1,1,0.5389403431871611,3.0,2,True Positive (Underrepresented)
+Lon melane,Umber Skipper,Insecta,1,1,0.5389403431871611,1.0,2,True Positive (Underrepresented)
+Pontia protodice,Checkered White,Insecta,1,1,0.5389403431871611,2.0,2,True Positive (Underrepresented)
+Vanessa cardui,Painted Lady,Insecta,1,1,0.5389403431871611,1.0,2,True Positive (Underrepresented)
+Xylococcus bicolor,mission manzanita,Plantae,1,1,0.8856918278171647,25.0,21,True Positive (Well Documented)
+Eriophyllum confertiflorum,Golden Yarrow,Plantae,1,1,0.8849456578012606,10.0,21,True Positive (Well Documented)
+Cucurbita foetidissima,Buffalo Gourd,Plantae,1,1,0.8847074877724219,4.0,21,True Positive (Well Documented)
+Rhus integrifolia,lemonade berry,Plantae,1,1,0.8841094062074711,19.0,18,True Positive (Well Documented)
+Ribes indecorum,White-flowering Currant,Plantae,1,1,0.8839613177565178,7.0,24,True Positive (Well Documented)
+Toxicodendron diversilobum,Pacific poison oak,Plantae,1,1,0.8839613177565178,16.0,22,True Positive (Well Documented)
+Marah macrocarpa,Chilicothe,Plantae,1,1,0.8839337378622414,19.0,20,True Positive (Well Documented)
+Fungi,Fungi Including Lichens,Fungi,1,1,0.8817378745127523,22.0,17,True Positive (Well Documented)
+Ribes speciosum,Fuchsiaflower Gooseberry,Plantae,1,1,0.8812772440820326,19.0,25,True Positive (Well Documented)
+Omphalotus olivascens,western jack-o'-lantern,Fungi,1,1,0.8810188740953422,15.0,17,True Positive (Well Documented)
+Lactarius alnicola,golden milkcap,Fungi,1,1,0.8796405024779521,6.0,19,True Positive (Well Documented)
+Adenostoma fasciculatum,chamise,Plantae,1,1,0.8792340473830109,25.0,29,True Positive (Well Documented)
+Artemisia californica,California sagebrush,Plantae,1,1,0.8778319466378428,9.0,17,True Positive (Well Documented)
+Stereum hirsutum,hairy curtain crust,Fungi,1,1,0.8766691259120563,11.0,13,True Positive (Well Documented)
+Heteromeles arbutifolia,Toyon,Plantae,1,1,0.8739638514703271,18.0,16,True Positive (Well Documented)
+Croton setiger,turkey mullein,Plantae,1,1,0.8712700774087496,4.0,20,True Positive (Well Documented)
+Agaricales,Common Gilled Mushrooms and Allies,Fungi,1,1,0.8709310505327382,12.0,17,True Positive (Well Documented)
+Salvia mellifera,black sage,Plantae,1,1,0.8702173728407928,21.0,33,True Positive (Well Documented)
+Agaricomycetes,"Mushrooms, Bracket Fungi, Puffballs, and Allies",Fungi,1,1,0.8689511972132276,7.0,12,True Positive (Well Documented)
+Russula cremoricolor,Winter Russula,Fungi,1,1,0.8664890215456785,4.0,11,True Positive (Well Documented)
+Baccharis pilularis,coyote brush,Plantae,1,1,0.8657205648606233,10.0,31,True Positive (Well Documented)
+Salvia apiana,white sage,Plantae,1,1,0.8637093254010745,4.0,14,True Positive (Well Documented)
+Tricholoma dryophilum,Oak-loving Trich,Fungi,1,1,0.8630741366408614,5.0,9,True Positive (Well Documented)
+Quercus agrifolia,coast live oak,Plantae,1,1,0.8609896033414952,16.0,38,True Positive (Well Documented)
+Diplacus puniceus,red bush monkeyflower,Plantae,1,1,0.8589266366622162,14.0,42,True Positive (Well Documented)
+Eriogonum fasciculatum,California Buckwheat,Plantae,1,1,0.8589266366622162,17.0,44,True Positive (Well Documented)
+Marrubium vulgare,White Horehound,Plantae,1,1,0.8589266366622162,7.0,39,True Positive (Well Documented)
+Entoloma ferruginans,Bleachy Entoloma,Fungi,1,1,0.8550410347832079,5.0,9,True Positive (Well Documented)
+Acmispon glaber,deerweed,Plantae,1,1,0.8549875558071004,8.0,13,True Positive (Well Documented)
+Astraeus,Barometer Earthstars,Fungi,1,1,0.8512963158403245,4.0,10,True Positive (Well Documented)
+Amanita magniverrucata,Pinecone Amanita,Fungi,1,1,0.8498535970597954,4.0,9,True Positive (Well Documented)
+Platanus racemosa,western sycamore,Plantae,1,1,0.8490799561915304,15.0,13,True Positive (Well Documented)
+Rhamnus crocea,Redberry Buckthorn,Plantae,1,1,0.8490799561915304,7.0,13,True Positive (Well Documented)
+Zeltnera venusta,California Centaury,Plantae,1,1,0.8433139309541363,4.0,13,True Positive (Well Documented)
+Russula,brittlegills,Fungi,1,1,0.8420184340254789,6.0,7,True Positive (Well Documented)
+Malosma laurina,laurel sumac,Plantae,1,1,0.8317640586085437,7.0,13,True Positive (Well Documented)
+Agaricus,field and button mushrooms,Fungi,1,1,0.811609615905561,6.0,5,True Positive (Well Documented)
+Flavopunctelia flaventior,Speckled Greenshield,Fungi,1,1,0.811609615905561,4.0,5,True Positive (Well Documented)
+Yucca schidigera,Mojave Yucca,Plantae,1,1,0.7907337391506449,18.0,10,True Positive (Well Documented)
+Annulohypoxylon thouarsianum,Cramp Balls,Fungi,1,1,0.7899432079768942,16.0,5,True Positive (Well Documented)
+Magnoliopsida,Dicots,Plantae,1,1,0.777591068133248,7.0,9,True Positive (Well Documented)
+Quercus,oaks,Plantae,1,1,0.7764743275979746,6.0,12,True Positive (Well Documented)
+Lupinus longifolius,longleaf bush lupine,Plantae,1,1,0.7694541739513486,5.0,9,True Positive (Well Documented)
+Pseudognaphalium californicum,California cudweed,Plantae,1,1,0.7694541739513486,6.0,9,True Positive (Well Documented)
+Lupinus,lupines,Plantae,1,1,0.7631770599902468,9.0,9,True Positive (Well Documented)
+Sidalcea sparsifolia,Southern Checkerbloom,Plantae,1,1,0.7607872838096106,6.0,8,True Positive (Well Documented)
+Bombus vosnesenskii,Yellow-faced Bumble Bee,Insecta,1,1,0.7479538135967383,4.0,7,True Positive (Well Documented)
+Coprinopsis uliginicola,Unknown,Fungi,1,1,0.7463052932036265,5.0,6,True Positive (Well Documented)
+Schizophyllum commune,splitgill mushroom,Fungi,1,1,0.7442504823012907,9.0,5,True Positive (Well Documented)
+Lonicera subspicata,Southern Honeysuckle,Plantae,1,1,0.7415387803368048,4.0,8,True Positive (Well Documented)
+Cryptantha intermedia,Clearwater cryptantha,Plantae,1,1,0.7405316235333202,4.0,6,True Positive (Well Documented)
+Lonicera subspicata denudata,Johnston's honeysuckle,Plantae,1,1,0.739943932620721,5.0,9,True Positive (Well Documented)
+Lupinus truncatus,collared annual lupine,Plantae,1,1,0.7376148706131626,6.0,9,True Positive (Well Documented)
+Clarkia purpurea,Winecup Clarkia,Plantae,1,1,0.7357615323583704,5.0,6,True Positive (Well Documented)
+Phacelia parryi,Parry's phacelia,Plantae,1,1,0.7357615323583704,6.0,6,True Positive (Well Documented)
+Phaeoclavulina,Unknown,Fungi,1,1,0.7342461381254426,8.0,4,True Positive (Well Documented)
+Amsinckia menziesii,Common Fiddleneck,Plantae,1,1,0.7328586404508761,8.0,10,True Positive (Well Documented)
+Rhopalomyia californica,Coyote Brush Bud Gall Midge,Insecta,1,1,0.7327608115522672,4.0,5,True Positive (Well Documented)
+Pseudacris regilla,Pacific chorus frog,Amphibia,1,1,0.7310493643386822,14.0,8,True Positive (Well Documented)
+Canis latrans,Coyote,Mammalia,1,1,0.730638007002634,6.0,5,True Positive (Well Documented)
+Lynx rufus,Bobcat,Mammalia,1,1,0.730638007002634,6.0,5,True Positive (Well Documented)
+Camissoniopsis bistorta,California sun cup,Plantae,1,1,0.7301751732033205,4.0,6,True Positive (Well Documented)
+Plagiobothrys,Popcornflowers,Plantae,1,1,0.7299164336577298,4.0,4,True Positive (Well Documented)
+Flavoparmelia caperata,common greenshield lichen,Fungi,1,1,0.7289745370090233,7.0,3,True Positive (Well Documented)
+Lecanoromycetes,Common Lichens,Fungi,1,1,0.7289745370090233,6.0,3,True Positive (Well Documented)
+Stereum,Unknown,Fungi,1,1,0.7289745370090233,4.0,3,True Positive (Well Documented)
+Dipterostemon capitatus,Blue Dicks,Plantae,1,1,0.7269107925066116,6.0,4,True Positive (Well Documented)
+Plantae,Plants,Plantae,1,1,0.7269107925066116,4.0,4,True Positive (Well Documented)
+Hedypnois rhagadioloides,Cretanweed,Plantae,1,1,0.7261752752766858,4.0,3,True Positive (Well Documented)
+Pentagramma,Unknown,Plantae,1,1,0.7261752752766858,4.0,3,True Positive (Well Documented)
+Sisyrinchium bellum,western blue-eyed grass,Plantae,1,1,0.7261752752766858,8.0,3,True Positive (Well Documented)
+Urtica urens,Dwarf Nettle,Plantae,1,1,0.7261752752766858,4.0,3,True Positive (Well Documented)
+Phacelia distans,distant phacelia,Plantae,1,1,0.7208713429140288,4.0,7,True Positive (Well Documented)
+Astraeus hygrometricus,Hygroscopic Earthstar,Fungi,1,1,0.7177261898020859,8.0,4,True Positive (Well Documented)
+Carduus pycnocephalus,Italian thistle,Plantae,1,1,0.7169792589913804,4.0,5,True Positive (Well Documented)
+Crocanthemum aldersonii,Alderson's rushrose,Plantae,1,1,0.7169792589913804,5.0,5,True Positive (Well Documented)
+Poaceae,Grasses,Plantae,1,1,0.7169792589913804,6.0,5,True Positive (Well Documented)
+Washingtonia robusta,Mexican Fan Palm,Plantae,1,1,0.7169792589913804,5.0,5,True Positive (Well Documented)
+Stephanomeria diegensis,San Diego Wirelettuce,Plantae,1,1,0.7128498957502798,4.0,4,True Positive (Well Documented)
+Cantareus apertus,Green Garden Snail,Mollusca,1,1,0.7014566326297591,5.0,6,True Positive (Well Documented)
+Odocoileus hemionus,Mule Deer,Mammalia,1,1,0.6984180515852806,7.0,3,True Positive (Well Documented)
+Neotoma,Woodrats,Mammalia,1,1,0.6933985114485276,4.0,4,True Positive (Well Documented)
+Coccinella septempunctata,Seven-spotted Lady Beetle,Insecta,1,1,0.6596338553976945,4.0,4,True Positive (Well Documented)
+Parmelioideae,typical shield lichens,Fungi,1,1,0.6547867430720492,5.0,3,True Positive (Well Documented)
+Lupinus bicolor,Miniature Lupine,Plantae,1,1,0.6299714058666105,5.0,3,True Positive (Well Documented)
+Buteo jamaicensis,Red-tailed Hawk,Aves,1,1,0.6159322161966436,4.0,6,True Positive (Well Documented)
+Cladonia,pixie cup and reindeer lichens,Fungi,1,1,0.6150809826828447,5.0,2,True Positive (Well Documented)
+Fuscoporia gilva,Mustard Yellow Polypore,Fungi,1,1,0.6150809826828447,4.0,2,True Positive (Well Documented)
+Hericium coralloides,Coral tooth fungus,Fungi,1,1,0.6150809826828447,5.0,2,True Positive (Well Documented)
+Calasterella californica,California asterella,Plantae,1,1,0.5800645927714924,7.0,2,True Positive (Well Documented)
+Claytonia perfoliata,miner's lettuce,Plantae,1,1,0.5800645927714924,6.0,2,True Positive (Well Documented)
+Dryopteris arguta,coastal woodfern,Plantae,1,1,0.5800645927714924,23.0,2,True Positive (Well Documented)
+Erodium,stork's-bills,Plantae,1,1,0.5800645927714924,4.0,2,True Positive (Well Documented)
+Galium aparine,catchweed bedstraw,Plantae,1,1,0.5800645927714924,6.0,2,True Positive (Well Documented)
+Solanum parishii,Parish's nightshade,Plantae,1,1,0.5800645927714924,4.0,2,True Positive (Well Documented)
+Stellaria,chickweeds,Plantae,1,1,0.5800645927714924,4.0,2,True Positive (Well Documented)
+Melanerpes formicivorus,Acorn Woodpecker,Aves,1,1,0.5767586969404602,7.0,3,True Positive (Well Documented)
+Elgaria multicarinata,Southern Alligator Lizard,Reptilia,1,1,0.559821702973279,5.0,2,True Positive (Well Documented)
+Sayornis saya,Say's Phoebe,Aves,1,0,0.48485049383727613,2.0,2,False Negative
+Toxostoma redivivum,California Thrasher,Aves,1,0,0.48485049383727613,1.0,2,False Negative
+Parasola conopilea,conical brittlestem,Fungi,1,0,0.48202880355389294,1.0,2,False Negative
+Tulostoma,Stalked Puffballs,Fungi,1,0,0.42432858501155324,1.0,2,False Negative
+Agaricus deserticola,Gasteroid Agaricus,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Basidiomycota,Basidiomycete Fungi,Fungi,1,0,0.40089179084849236,3.0,1,False Negative
+Calvatia booniana,Western Giant Puffball,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Candolleomyces candolleanus,Pale Brittlestem,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Chromelosporium,Unknown,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Chrysothrix,Gold Dust Lichens,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Clitopilus hobsonii,Miller's oysterling,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Collybiopsis quercophila,Oak-leaf Pinwheel,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Cyathus olla,field bird's nest fungus,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Flavopunctelia,Speckled Greenshield Lichens,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Geastrum,Earthstars,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Hemimycena,Unknown,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Hygrophorus,Woodwaxes,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Laccaria amethysteo-occidentalis,Western Amethyst Laccaria,Fungi,1,0,0.40089179084849236,4.0,1,False Negative
+Laccaria fraterna,gumtree deceiver,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Lactarius rubidus,Candy Cap,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Lactarius xanthogalactus,Yellow-staining Milk Cap,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Lentinellus,Unknown,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Leratiomyces percevalii,Mulch Maids,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Lycoperdaceae,puffballs,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Lycoperdon marginatum,Peeling Puffball,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Marasmiineae,Unknown,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Marasmius plicatulus,red pinwheel,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Mycena californiensis,California Mycena,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Myxarium nucleatum,Crystal Brain Fungus,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Parmeliaceae,shield lichens and allies,Fungi,1,0,0.40089179084849236,3.0,1,False Negative
+Parmotrema,Ruffle Lichens,Fungi,1,0,0.40089179084849236,4.0,1,False Negative
+Parmotrema hypoleucinum,Lacy Powdered-ruffle,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Peziza,Cups,Fungi,1,0,0.40089179084849236,3.0,1,False Negative
+Phaeotremella foliacea,Leafy Brain,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Phloeomana speirea,Bark Bonnet,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Phylloscypha phyllogena,Common Brown Cup,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Pisolithus arhizus,Dyeball,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Polyporales,Shelf Fungi,Fungi,1,0,0.40089179084849236,3.0,1,False Negative
+Russula brevipes,Short-stemmed Russula,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Russula californiensis,Unknown,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Schizophyllum,Unknown,Fungi,1,0,0.40089179084849236,2.0,1,False Negative
+Trametes versicolor,turkey-tail,Fungi,1,0,0.40089179084849236,3.0,1,False Negative
+Tricholoma griseoviolaceum,Unknown,Fungi,1,0,0.40089179084849236,1.0,1,False Negative
+Zenaida macroura,Mourning Dove,Aves,1,0,0.34567934683355256,1.0,2,False Negative
+Artemisia,wormwoods and sagebrushes,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Astereae,asters and allies,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Aytoniaceae,Unknown,Plantae,1,0,0.32190383238340875,4.0,1,False Negative
+Boraginaceae,borage family,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Bryophyta,Mosses,Plantae,1,0,0.32190383238340875,2.0,1,False Negative
+Camissoniopsis,Suncups,Plantae,1,0,0.32190383238340875,7.0,1,False Negative
+Carduus,plumeless thistles,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Castilleja densiflora,dense-flowered owl's-clover,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Chaenactis artemisiifolia,Artemisia-leaved Chaenactis,Plantae,1,0,0.32190383238340875,3.0,1,False Negative
+Chorizanthe fimbriata,Fringed Spineflower,Plantae,1,0,0.32190383238340875,3.0,1,False Negative
+Convolvulus arvensis,field bindweed,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Dudleya pulverulenta,Chalk Dudleya,Plantae,1,0,0.32190383238340875,4.0,1,False Negative
+Epilobium canum,California fuchsia,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Erigeron canadensis,horseweed,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Erodium cicutarium,Redstem Stork's-bill,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Fraxinus,ashes,Plantae,1,0,0.32190383238340875,2.0,1,False Negative
+Fraxinus velutina,velvet ash,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Geranium dissectum,Cut-leaved crane's-bill,Plantae,1,0,0.32190383238340875,2.0,1,False Negative
+Hedera helix,common ivy,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Hirschfeldia,Unknown,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Liliopsida,Monocots,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Lupinus albifrons,Bush Lupine complex,Plantae,1,0,0.32190383238340875,4.0,1,False Negative
+Madieae,"tarweeds, silverswords, and allies",Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Mirabilis laevis,Wishbone Bush,Plantae,1,0,0.32190383238340875,2.0,1,False Negative
+Nasturtium officinale,watercress,Plantae,1,0,0.32190383238340875,5.0,1,False Negative
+Navarretia hamata,Hooked Pincushionplant,Plantae,1,0,0.32190383238340875,5.0,1,False Negative
+Pectocarya linearis,sagebrush combseed,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Ramosissimae,Unknown,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Rhamnus ilicifolia,hollyleaf redberry,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Sairocarpus nuttallianus,Nuttall's Snapdragon,Plantae,1,0,0.32190383238340875,2.0,1,False Negative
+Selaginella cinerascens,Ashy Spikemoss,Plantae,1,0,0.32190383238340875,3.0,1,False Negative
+Solanum umbelliferum,Unknown,Plantae,1,0,0.32190383238340875,2.0,1,False Negative
+Torilis arvensis,common hedge parsley,Plantae,1,0,0.32190383238340875,3.0,1,False Negative
+Uropappus lindleyi,silverpuffs,Plantae,1,0,0.32190383238340875,1.0,1,False Negative
+Vicia sativa,Common Vetch,Plantae,1,0,0.32190383238340875,3.0,1,False Negative
+Vinca major,greater periwinkle,Plantae,1,0,0.32190383238340875,13.0,1,False Negative
+Canidae,Canids,Mammalia,1,0,0.30836306447395995,1.0,1,False Negative
+Urocyon cinereoargenteus,Gray Fox,Mammalia,1,0,0.30836306447395995,2.0,1,False Negative
+Deroceras reticulatum,Milky Slug,Mollusca,1,0,0.27994667366106674,1.0,1,False Negative
+Life,Unknown,Unknown,1,0,0.27994667366106674,1.0,1,False Negative
+Procambarus clarkii,Red Swamp Crayfish,Animalia,1,0,0.27994667366106674,5.0,1,False Negative
+Masticophis lateralis lateralis,California Striped Racer,Reptilia,1,0,0.27454961989338306,1.0,1,False Negative
+Araneus,Angulate and Roundshouldered Orbweavers,Arachnida,1,0,0.2689166748490649,1.0,1,False Negative
+Araneus gemma,Gem-shaped Orbweaver,Arachnida,1,0,0.2689166748490649,2.0,1,False Negative
+Lycosidae,Wolf Spiders,Arachnida,1,0,0.2689166748490649,1.0,1,False Negative
+Trachelas pacificus,Bull-headed sac spider,Arachnida,1,0,0.2689166748490649,1.0,1,False Negative
+Cathartes aura,Turkey Vulture,Aves,1,0,0.21329837061801513,1.0,1,False Negative
+Mimus polyglottos,Northern Mockingbird,Aves,1,0,0.21329837061801513,1.0,1,False Negative
+Formicidae,Ants,Insecta,1,0,0.15885249123238837,3.0,1,False Negative
+Gerrini,Unknown,Insecta,1,0,0.15885249123238837,1.0,1,False Negative
+Listrus,Unknown,Insecta,1,0,0.15885249123238837,1.0,1,False Negative
+Pepsis thisbe,Thisbe's Tarantula-hawk Wasp,Insecta,1,0,0.15885249123238837,1.0,1,False Negative
+Stagmomantis,Unknown,Insecta,1,0,0.15885249123238837,1.0,1,False Negative
+Tipulidae,Large Crane Flies,Insecta,1,0,0.15885249123238837,1.0,1,False Negative
+Trifolium fragiferum,Strawberry clover,Plantae,0,0,0.4897907696031273,0.0,3,True Negative
+Aphelocoma californica obscura,Belding's Scrub-Jay,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Aythya collaris,Ring-necked Duck,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Corthylio calendula,Ruby-crowned Kinglet,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Dryobates nuttallii,Nuttall's Woodpecker,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Elanus leucurus,White-tailed Kite,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Icterus cucullatus,Hooded Oriole,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Leiothlypis celata,Orange-crowned Warbler,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Selasphorus sasin,Allen's Hummingbird,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Sitta carolinensis,White-breasted Nuthatch,Aves,0,0,0.48485049383727613,0.0,2,True Negative
+Euwallacea fornicatus,Polyphagous Shothole Borer Beetle Complex,Insecta,0,0,0.43824651448685215,0.0,3,True Negative
+Agaricus sylvaticus,Blushing Wood Mushroom,Fungi,0,0,0.42432858501155324,0.0,2,True Negative
+Hypomyces cervinigenus,Unknown,Fungi,0,0,0.42432858501155324,0.0,2,True Negative
+Marasmius albogriseus,Unknown,Fungi,0,0,0.42432858501155324,0.0,2,True Negative
+Panaeolus foenisecii,Mower's Mushroom,Fungi,0,0,0.42432858501155324,0.0,2,True Negative
+Pezizales,Unknown,Fungi,0,0,0.42432858501155324,0.0,2,True Negative
+Neotoma fuscipes,Dusky-footed Woodrat,Mammalia,0,0,0.4236315017301779,0.0,2,True Negative
+Cryptantha,Annual Cryptanthas,Plantae,0,0,0.4235093722314546,0.0,2,True Negative
+Daucus pusillus,American wild carrot,Plantae,0,0,0.4235093722314546,0.0,2,True Negative
+Erigeron bonariensis,Flax-leaved Horseweed,Plantae,0,0,0.4235093722314546,0.0,2,True Negative
+Lactuca serriola,prickly lettuce,Plantae,0,0,0.4235093722314546,0.0,2,True Negative
+Mirabilis laevis crassifolia,California Four o'Clock,Plantae,0,0,0.4235093722314546,0.0,2,True Negative
+Batrachoseps major,Southern California Slender Salamander,Amphibia,0,0,0.4068509926174506,0.0,2,True Negative
+Agaricaceae,Field Mushrooms and Allies,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Agaricus californicus,California Agaricus,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Agaricus hondensis,Felt-ringed Agaricus,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Agaricus xanthodermus,Yellow Stainer,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Alternaria,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Aureoboletus flaviporus,viscid bolete,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Boletales,boletes and allies,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Boletus barrowsii,Barrow's Bolete,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Bovista,True Puffballs,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Calonarius,Chalkland Webcaps,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Ceriporia spissa,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Chlorophyllum brunneum,Shaggy Parasol,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Chlorophyllum molybdites,Green-spored Parasol,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Clitocybe,Funnels,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Coltricia,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Conocybe,Conecaps,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Coprinellus bipellis,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Coprinus comatus,Shaggy Mane,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Cyathus,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Dacrymyces chrysospermus,Orange Jelly Spot,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Dacrymyces stillatus,Jelly Spot Fungus,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Entoloma lividoalbum,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Evernia prunastri,Oakmoss,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Flavoparmelia,greenshield lichens,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Glomeromycota,Glomeromycetes,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Gymnopilus aurantiophyllus,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Gymnopilus sapineus,Scaly Rustgill,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Gymnopilus ventricosus,Western Jumbo Gym,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Helvella crispa,White Saddle,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Helvella macropus,long-stalked gray cup,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Helvella solitaria,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Helvella vespertina,Western Black Elfin Saddle,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Inocybe,Fiber Caps,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Inocybe insinuata,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Lentinellus montanus,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Lentinellus ursinus,bear lentinus,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Lepiota,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Lepiota spheniscispora,Penguin-spored Lepiota,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Leucocoprinus ianthinus,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Leucocybe candicans,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Maculatinae,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Mucoromycetes,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Mycena,Bonnets,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Mycenaceae,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Mycogone rosea,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Pantherinae,Amanita ser. Pantherinae,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Parasola plicatilis,pleated inkcap,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Peziza arvernensis,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Peziza vesiculosa,blistered cup,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Pezizaceae,"Pezizas, Desert Truffles, and Allies",Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Phlegmacium glaucopus,greenfoot webcap,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Pluteus,Shields,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Pluteus exilis,Western Deer Mushroom,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Pruinomycena acicula,orange bonnet,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Psathyrella bipellis,Maroon Brittlestem,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Psathyrella longipes,Tall Psathyrella,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Punctularia atropurpurascens,Purple Fuzz,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Roanokenses,Amanita sect. Roanokenses,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Rubroboletus,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Rubroboletus satanas,Devil's Bolete,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Russula bicolor,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Russula cerolens,Pocket-stalked russula,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Russula maculata,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Scleroderma citrinum,common earthball,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Spodocybe trulliformis,dapper funnel,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Steccherinum ochraceum,Ochre Spreading Tooth,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Stropharia coronilla,Garland Roundhead,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Tapinella panuoides,Oyster Rollrim,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Trichaptum,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Tricholoma imbricatoides,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Validae,Amanita Sect. Validae,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Volvopluteus,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Xanthoparmelia,rock shield lichens,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Xanthoria parietina,Common Sunburst Lichen,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Xerocomellus mendocinensis,Unknown,Fungi,0,0,0.40089179084849236,0.0,1,True Negative
+Leptocybe invasa,Eucalyptus Stem Gall Wasp,Insecta,0,0,0.3983074275239672,0.0,4,True Negative
+Melissodes,Unknown,Insecta,0,0,0.3983074275239672,0.0,4,True Negative
+Corvus corax,Common Raven,Aves,0,0,0.39522061156011024,0.0,3,True Negative
+Glaucopsyche lygdamus,Silvery Blue,Insecta,0,0,0.36270122911162217,0.0,2,True Negative
+Sayapis,Unknown,Insecta,0,0,0.36270122911162217,0.0,2,True Negative
+Trirhabda geminata,Encelia Leaf Beetle,Insecta,0,0,0.36270122911162217,0.0,2,True Negative
+Matricaria discoidea,pineapple-weed,Plantae,0,0,0.35940574910260337,0.0,2,True Negative
+Sturnus vulgaris,European Starling,Aves,0,0,0.34567934683355256,0.0,2,True Negative
+Acer saccharinum,silver maple,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Achyrachaena mollis,Blow Wives,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Acmispon americanus americanus,Spanish clover,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Acmispon strigosus,strigose lotus,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Adolphia californica,California adolphia,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Aigeiros,Black Poplars and Allies,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Aizoaceae,Stone plants,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Amaranthus palmeri,Palmer's Amaranth,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Ambrosia,Ragweeds,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Amsinckia menziesii intermedia,Rancher's fiddleneck,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Amsinckia tessellata,Bristly Fiddleneck,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Apium,Celery and Marshwort,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Asclepias curassavica,tropical milkweed,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Asteraceae,"Sunflowers, Daisies, Asters, and Allies",Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Asterellopsis palmeri,Palmer's asterella,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Avena,Oats,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Baccharis sergiloides,desert baccharis,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Brodiaea filifolia,thread-leaved brodiaea,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cardueae,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Castilleja,Paintbrushes,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cenchrus clandestinus,Kikuyu Grass,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cenchrus setaceus,Fountain Grass,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Centaurea cyanus,Cornflower,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Chaenactis glabriuscula glabriuscula,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Chlorophyta,green algae,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cirsium vulgare,Bull Thistle,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Clarkia,Clarkias,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Clarkia amoena,Farewell-To-Spring,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Clutia,Cluts,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cotula australis,Common Cotula,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cryptantha muricata,pointed cryptantha,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cuscuta campestris,Field Dodder,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cynara cardunculus,Artichoke Thistle,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cynoglosseae,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Cyperaceae,Sedges,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Diplacus longiflorus,southern bush monkeyflower,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Dipterostemon,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Distichlis spicata,Saltgrass,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Encelia farinosa × californica,California brittlebush hybrid,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Erigeron foliosus foliosus,Thread stemmed fleabane,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Erigeron sumatrensis,tropical horseweed,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Eriogonum elongatum,Long-stemmed Buckwheat,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Eriogonum fasciculatum fasciculatum,Coastal California Buckwheat,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Erodium malacoides,Soft Stork's-bill,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Erodium moschatum,musk stork's-bill,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Eucalyptus cladocalyx,sugar gum,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Eucrypta chrysanthemifolia,common eucrypta,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Eucrypta chrysanthemifolia chrysanthemifolia,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Fabaceae,Legumes,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Geraniaceae,Geranium family,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Gilia angelensis,chaparral gilia,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Hazardia squarrosa,saw-toothed goldenbush,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Hypochaeris radicata,Common Cat's-ear,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Isocoma menziesii menziesii,Menzies' Goldenbush,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Johnstonella angustifolia,narrow-leaved cryptantha,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Juglans californica,Southern California Walnut,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Juncaceae,Rushes and Allies,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lemna,Duckweeds,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lemna minor,Common Duckweed,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lemnoideae,duckweeds,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lepidium didymum,Lesser swine-cress,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lepidium oblongum,Veiny Pepperweed,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Leptodictyum riparium,Streamside Leptodictyum Moss,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Ligustrum lucidum,tree privet,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Linum usitatissimum,common flax,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lotus tenuis,narrow-leaf bird's-foot trefoil,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lupinus microcarpus densiflorus,Dense-flowered Lupine,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lysimachia loeflingii,Blue Scarlet Pimpernel,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Lythrum hyssopifolia,Hyssop Loosestrife,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Malva multiflora,Cretan mallow,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Malva nicaeensis,bull mallow,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Melilotus,melilots and sweetclovers,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Melinis repens,Natal Grass,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Mentha spicata,spearmint,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Myrtales,"myrtles, evening primroses, and allies",Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Myrtoideae,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Navarretia hamata leptantha,Slender-Flowered Hooked Navarretia,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Nicotiana quadrivalvis,Indian tobacco,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Oenothera,"evening primroses, sundrops, and beeblossoms",Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Oenothera elata,tall evening primrose,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Opuntia leucotricha,Arborescent Pricklypear,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Oxalis corniculata,Creeping Woodsorrel,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Paspalum dilatatum,Dallis grass,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Pectocarya,combseeds,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Phacelia ramosissima,branching phacelia,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Polypogon monspeliensis,rabbitfoot grass,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Populus nigra,Black Poplar,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Populus trichocarpa,black cottonwood,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Pseudognaphalium beneolens,Fragrant Everlasting,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Pseudognaphalium microcephalum,Feltleaf Everlasting,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Pseudognaphalium stramineum,cottonbatting plant,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Quercus agrifolia agrifolia,California Live Oak,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Quercus berberidifolia × engelmannii,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Quercus dumosa,Nuttall's scrub oak,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Quercus wislizeni,interior live oak,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Ricinus communis,castor bean,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Robinia,Locust Trees,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Robinia hispida,Bristly locust,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Salsola,Russian Thistles,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Schoenoplectus,Schoenoplectus Bulrushes,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Scirpus,Scirpus Bulrushes,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Silene laciniata laciniata,Mexican pink,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Sisymbrium officinale,Hedge mustard,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Solanum nigrum,Black Nightshade Complex,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Solanum xanti,purple nightshade,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Sonchus,sow thistles,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Sonchus asper,prickly sowthistle,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Sonchus oleraceus,Common Sow-thistle,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Sorghum bicolor,Sorghums,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Stachys albens,whitestem hedgenettle,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Stephanomeria virgata,rod wirelettuce,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Stylocline gnaphalioides,everlasting neststraw,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Symphyotrichum subulatum,annual saltmarsh aster,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Tamarix,Tamarisks,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Taraxacum,common dandelions,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Taraxacum officinale,common dandelion,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Toxicodendron,poison ivies and oaks,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Trifolieae,Unknown,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Typha,Cattails,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Vitaceae,Grape Family,Plantae,0,0,0.32190383238340875,0.0,1,True Negative
+Mecaphesa,Unknown,Arachnida,0,0,0.31762360036004195,0.0,2,True Negative
+Chiroptera,Bats,Mammalia,0,0,0.30836306447395995,0.0,1,True Negative
+Geomyidae,Pocket Gophers,Mammalia,0,0,0.30836306447395995,0.0,1,True Negative
+Microtus californicus,California Vole,Mammalia,0,0,0.30836306447395995,0.0,1,True Negative
+Reithrodontomyini,Harvest and Deer Mice,Mammalia,0,0,0.30836306447395995,0.0,1,True Negative
+Anura,Frogs and Toads,Amphibia,0,0,0.27994667366106674,0.0,1,True Negative
+Argopecten ventricosus,Pacific Calico Scallop,Mollusca,0,0,0.27994667366106674,0.0,1,True Negative
+Haliotis fulgens,Green Abalone,Mollusca,0,0,0.27994667366106674,0.0,1,True Negative
+Julidae,Unknown,Animalia,0,0,0.27994667366106674,0.0,1,True Negative
+Leocarpus fragilis,insect-egg slime,Protozoa,0,0,0.27994667366106674,0.0,1,True Negative
+Limacoidea,Unknown,Mollusca,0,0,0.27994667366106674,0.0,1,True Negative
+Littorina scutulata,Checkered Periwinkle,Mollusca,0,0,0.27994667366106674,0.0,1,True Negative
+Lycogala,Wolfs Milk,Protozoa,0,0,0.27994667366106674,0.0,1,True Negative
+Myxomycetes,true slime molds,Protozoa,0,0,0.27994667366106674,0.0,1,True Negative
+Polydesmidae,Unknown,Animalia,0,0,0.27994667366106674,0.0,1,True Negative
+Scolopendra polymorpha,Common Desert Centipede,Animalia,0,0,0.27994667366106674,0.0,1,True Negative
+Stemonitis splendens,chocolate tube slime,Protozoa,0,0,0.27994667366106674,0.0,1,True Negative
+Taiyuna isantus,Unknown,Animalia,0,0,0.27994667366106674,0.0,1,True Negative
+Tylobolus claremontus,Unknown,Animalia,0,0,0.27994667366106674,0.0,1,True Negative
+Apalone spinifera,Spiny Softshell,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Crotalus ruber,Red Diamond Rattlesnake,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Deirochelyinae,Deirochelyine Turtles,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Emydidae,Pond and Box Turtles,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Graptemys pseudogeographica pseudogeographica,Northern False Map Turtle,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Hypsiglena ochrorhynchus klauberi,San Diego Nightsnake,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Lampropeltis californiae,California King Snake,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Pituophis catenifer annectens,San Diego Gopher Snake,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Plestiodon skiltonianus skiltonianus,Skilton's Skink,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Serpentes,Snakes,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Thamnophis hammondii,Two-striped Garter Snake,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Trachemys scripta scripta,Yellow-bellied Slider,Reptilia,0,0,0.27454961989338306,0.0,1,True Negative
+Aceria boycei,Ragweed Gall Mite,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Aceria paracalifornica,California Sagebrush Gall Mite,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Agelenopsis aperta,Desert Grass Spider,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Alopecosa kochi,Koch's Wolf Spider,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Aphonopelma,Unknown,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Araneae,Spiders,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Castianeira thalia,Unknown,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Catalinia castanea,Unknown,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Coriarachnini,Unknown,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Cyclosa turbinata,Humped Trashline Orbweaver,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Dendryphantina,Unknown,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Gnaphosidae,Stealthy Ground Spiders,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Latrodectus hesperus,Western Black Widow,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Lycosoidea,Wolf Spiders and Allies,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Misumenini,Unknown,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Neoscona,Spotted Orbweavers,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Oecobius navus,Wall Spider,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Oxyopes,Grass Lynx Spiders,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Paruroctonus silvestrii,California common scorpion,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Peucetia,Green Lynx Spiders,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Salticidae,Jumping Spiders,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Superstitionia donensis,Superstition Mountains Scorpion,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Tetranychus urticae,Twospotted Spider Mite,Arachnida,0,0,0.2689166748490649,0.0,1,True Negative
+Archilestes californicus,California Spreadwing,Insecta,0,0,0.2479433530472104,0.0,2,True Negative
+Accipitridae,"Hawks, Eagles, and Kites",Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Anas crecca,Green-winged Teal,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Anatidae,"Ducks, Geese, and Swans",Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Anser anser domesticus,Domestic Greylag Goose,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Anser cygnoides,Swan Goose,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Aves,Birds,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Bombycilla cedrorum,Cedar Waxwing,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Bubo virginianus,Great Horned Owl,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Bubo virginianus pacificus,Coastal Great Horned Owl,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Callipepla californica,California Quail,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Chondestes grammacus,Lark Sparrow,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Circus hudsonius,Northern Harrier,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Colaptes auratus,Northern Flicker,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Corvus,Crows and Ravens,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Geococcyx californianus,Greater Roadrunner,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Haemorhous mexicanus,House Finch,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Mareca penelope,Eurasian Wigeon,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Megaceryle alcyon,Belted Kingfisher,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Passer domesticus,House Sparrow,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Pelecanus erythrorhynchos,American White Pelican,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Polioptila caerulea,Blue-gray Gnatcatcher,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Porzana carolina,Sora,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Selasphorus,"Rufous, Allen's, and Allied Hummingbirds",Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Sternula antillarum browni,California Least Tern,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Sturnella neglecta,Western Meadowlark,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Trochilidae,Hummingbirds,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Troglodytes aedon,Northern House Wren,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Turdus migratorius,American Robin,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Tyrannus verticalis,Western Kingbird,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Xanthocephalus xanthocephalus,Yellow-headed Blackbird,Aves,0,0,0.21329837061801513,0.0,1,True Negative
+Achradocera,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Acridoidea,Short-horned Grasshoppers and Locusts,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Agapostemon,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Agromyzidae,Leaf-miner Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Agulla,Common Snakeflies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Alcidamea,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Ammophila,Thread-waisted Sand Wasps,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Andrena,Mining Bees,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Anthidiellum notatum robertsoni,California Rotund-Resin Bee,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Anthrenus lepidus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Aphididae,Aphids,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Aphis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Aphis nerii,Oleander Aphid,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Apodemia,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Ashmeadiella,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Bactericera maculipennis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Blapstinus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Blattella germanica,German Cockroach,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Bombyliidae,Bee Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Brachycera,Brachyceran Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Braconidae,Braconid Wasps,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Caladonus coquilletti,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Calliopsis obscurella,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Calliphora vicina,Blue Blowfly,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Calliphoridae,Blow Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Callirhytis perdens,Ruptured Twig Gall Wasp,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Callophrys augustinus iroides,Western Brown Elfin,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Calyptratae,Calyptrate Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Cercopoidea,Spittlebugs and Froghoppers,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Chilocorus,Twice-stabbed Lady Beetles,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Chimarocephala pacifica,Painted Meadow Grasshopper,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Chlorion aerarium,Steel-blue Cricket-hunter Wasp,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Chrysoperla,Common Green Lacewings,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Clastoptera lineatocollis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Coccinellini,Black-spotted Lady Beetles,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Colletes,Cellophane Bees,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Coniontis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Corythucha morrilli,Morrill Lace Bug,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Cotinis,Green June Beetles,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Cryptocephalus andrewsi,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Dasymutilla aureola,Pacific Velvet Ant,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Dendroctonus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Dermaptera,Earwigs,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Dione vanillae,Gulf Fritillary,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Diptera,Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Druon quercuslanigerum,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Dryocosmus minusculus,Pumpkin Gall Wasp,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Ectopsocidae,Outer Barklice,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Erynnis funeralis,Funereal Duskywing,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Erynnis pacuvius,Pacuvius Duskywing,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Eumenes crucifera,Cross Potter Wasp,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Eumorpha achemon,Achemon Sphinx,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Eupeodes volucris,Large-tailed Aphideater,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Euura,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Exoristinae,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Gnorimoschema baccharisella,Coyote Brush Stem Gall Moth,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Graphocephala atropunctata,Blue-green Sharpshooter,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Halictus tripartitus,Tripartite Sweat Bee,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Helicosmia,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Heliopetes ericetorum,Northern White-Skipper,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Hemeroplanis historialis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Hydrophorus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Hylaeus,Masked Bees,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Irbisia,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Iridopsis fragilaria,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Ischnura cervula,Pacific Forktail,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Isodontia philadelphica,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Junonia grisea,Gray Buckeye,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Lepidanthrax,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Libellula saturata,Flame Skimmer,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Litomegachile,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Lucilia,Greenbottle Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Megachile angelarum,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Melanosmia,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Micranthophora,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Microcentrum rhombifolium,Greater Anglewing,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Mordella hubbsi,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Nemognatha,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Neotephritis finalis,Sunflower Seed Maggot,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Nicrophorus marginatus,Margined Burying Beetle,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Odonata,Dragonflies and Damselflies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Oecanthus rileyi,Riley's Tree Cricket,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Oestroidea,"Bot Flies, Blow Flies, and Allies",Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Osmiini,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Ozophora,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Pantomorus cervinus,Fuller's rose weevil,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Peridroma saucia,Variegated Cutworm Moth,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Perithemis intensa,Mexican Amberwing,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Phloeodes diabolicus,Diabolical Ironclad Beetle,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Pimplinae,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Platynus brunneomarginatus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Poecilanthrax,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Polycaon,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Polycaon stoutii,Stout's Hardwood Borer,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Pompiloidea,"Spider Wasps, Velvet Ants, and Allies",Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Pontia,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Pterygota,Winged and Once-winged Insects,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Rabdophaga salicisbatatus,Potato Gall Midge,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Rhynchophorus palmarum,South American Palm Weevil,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Sarcophaga,Common Flesh Flies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Scudderia mexicana,Mexican Bush Katydid,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Siphanta,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Sitona hispidulus,Clover Weevil,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Slaterocoris,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Sphenophorus venatus,Hunting Billbug,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Spodoptera exigua,Beet Armyworm Moth,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Stagmomantis californica,California Mantis,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Stenamma,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Stenodynerus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Stigmella heteromelis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Strymon melinus,Gray Hairstreak,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Sympetrum corruptum,Variegated Meadowhawk,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Sympetrum illotum,Cardinal Meadowhawk,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Tenthredinidae,Common Sawflies,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Thaumatomyia,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Thecabius,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Thyridanthrax nugator,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Tortistilus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Toxomerus occidentalis,Western Calligrapher,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Trichobaris compacta,Datura Weevil,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Trirhabda,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Trirhabda luteocincta,Goldenbush beetle,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Trirhabda sericotrachyla,California sagebrush leaf beetle,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Vanessa annabella,West Coast Lady,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Vespidae,"Hornets, Paper Wasps, Potter Wasps, and Allies",Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Xylocopa sonorina,Valley Carpenter Bee,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Zadontomerus,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Zarhipis,Unknown,Insecta,0,0,0.15885249123238837,0.0,1,True Negative
+Laetiporus gilbertsonii,Western Hardwood Sulphur Shelf,Fungi,0,0,0.811609615905561,0.0,5,True Negative (Filtered)
+Trichostema lanceolatum,Vinegar Weed,Plantae,0,0,0.777591068133248,0.0,9,True Negative (Filtered)
+Apis mellifera,Western Honey Bee,Insecta,0,0,0.7475771184608445,0.0,8,True Negative (Filtered)
+Entoloma,Pinkgills,Fungi,0,0,0.7463052932036265,0.0,6,True Negative (Filtered)
+Orgyia vetusta,Western Tussock Moth,Insecta,0,0,0.7422677178922367,0.0,5,True Negative (Filtered)
+Vespula pensylvanica,Western Yellowjacket,Insecta,0,0,0.7398841426308227,0.0,6,True Negative (Filtered)
+Cirsium occidentale,Cobwebby Thistle,Plantae,0,0,0.7376475441820354,0.0,8,True Negative (Filtered)
+Helvella acetabulum,Vinegar Cup,Fungi,0,0,0.7358680738946156,0.0,6,True Negative (Filtered)
+Pachydiplax longipennis,Blue Dasher,Insecta,0,0,0.7337931890368381,0.0,6,True Negative (Filtered)
+Heterotheca grandiflora,Telegraphweed,Plantae,0,0,0.7318274128125604,0.0,8,True Negative (Filtered)
+Melilotus albus,White Sweetclover,Plantae,0,0,0.7313377566520607,0.0,9,True Negative (Filtered)
+Pseudognaphalium biolettii,two-color rabbit tobacco,Plantae,0,0,0.7313377566520607,0.0,9,True Negative (Filtered)
+Eucalyptus,eucalyptus,Plantae,0,0,0.7281769013384051,0.0,7,True Negative (Filtered)
+Galium nuttallii,San Diego bedstraw,Plantae,0,0,0.7269107925066116,0.0,4,True Negative (Filtered)
+Salix exigua,Narrowleaf Willow,Plantae,0,0,0.7269107925066116,0.0,4,True Negative (Filtered)
+Quercus berberidifolia,California scrub oak,Plantae,0,0,0.7265793505433412,0.0,5,True Negative (Filtered)
+Eucalyptus globulus,Tasmanian blue gum,Plantae,0,0,0.7262765317191016,0.0,7,True Negative (Filtered)
+Acmispon,deervetch,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Cistus creticus,Hoary Rock-rose,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Cortaderia,Pampas grasses,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Cupaniopsis anacardioides,Tuckeroo,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Erigeron foliosus,Leafy Fleabane,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Lonicera,honeysuckles,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Osmadenia tenella,False Rosinweed,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Oxalis pes-caprae,Bermuda buttercup,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Rhamnus,Buckthorns,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Tracheophyta,Vascular Plants,Plantae,0,0,0.7261752752766858,0.0,3,True Negative (Filtered)
+Lathyrus vestitus,Pacific pea,Plantae,0,0,0.7252762081043885,0.0,6,True Negative (Filtered)
+Artemisia palmeri,San Diego Sagewort,Plantae,0,0,0.7212465271562638,0.0,7,True Negative (Filtered)
+Encelia farinosa,Brittlebush,Plantae,0,0,0.7212465271562638,0.0,7,True Negative (Filtered)
+Lupinus hirsutissimus,Stinging Lupine,Plantae,0,0,0.7184655338141608,0.0,7,True Negative (Filtered)
+Eriophyllum confertiflorum confertiflorum,Unknown,Plantae,0,0,0.7181758864648279,0.0,5,True Negative (Filtered)
+Vitis californica,California wild grape,Plantae,0,0,0.7181758864648279,0.0,5,True Negative (Filtered)
+Collybia nuda,Blewit,Fungi,0,0,0.7177261898020859,0.0,4,True Negative (Filtered)
+Helvella compressa,Unknown,Fungi,0,0,0.7177261898020859,0.0,4,True Negative (Filtered)
+Naematelia aurantia,golden ear,Fungi,0,0,0.7177261898020859,0.0,4,True Negative (Filtered)
+Asteroideae,Unknown,Plantae,0,0,0.7169792589913804,0.0,5,True Negative (Filtered)
+Baccharis pilularis consanguinea,Chaparral Coyote Brush,Plantae,0,0,0.7169792589913804,0.0,5,True Negative (Filtered)
+Brassicaceae,mustard family,Plantae,0,0,0.7169792589913804,0.0,5,True Negative (Filtered)
+Populus,"poplars, cottonwoods, and aspens",Plantae,0,0,0.7169792589913804,0.0,5,True Negative (Filtered)
+Salix lasiolepis,Arroyo Willow,Plantae,0,0,0.7169792589913804,0.0,5,True Negative (Filtered)
+Typha domingensis,southern cattail,Plantae,0,0,0.7169792589913804,0.0,5,True Negative (Filtered)
+Dipterostemon capitatus capitatus,Unknown,Plantae,0,0,0.7128498957502798,0.0,4,True Negative (Filtered)
+Plantago major,greater plantain,Plantae,0,0,0.7128498957502798,0.0,4,True Negative (Filtered)
+Sylvilagus audubonii,Desert Cottontail,Mammalia,0,0,0.7125754539932455,0.0,5,True Negative (Filtered)
+Amanita pantherinoides,Western Panther,Fungi,0,0,0.7049371061361557,0.0,4,True Negative (Filtered)
+Acmispon americanus,Spanish clover,Plantae,0,0,0.7047187997917694,0.0,5,True Negative (Filtered)
+Diplacus × australis,San Diego Monkeyflower,Plantae,0,0,0.7047187997917694,0.0,5,True Negative (Filtered)
+Paropsisterna m-fuscum,Eucalyptus Leaf Beetle,Insecta,0,0,0.6910412838741066,0.0,6,True Negative (Filtered)
+Gambusia affinis,Western Mosquitofish,Actinopterygii,0,0,0.6880281066633638,0.0,4,True Negative (Filtered)
+Ammopelmatus,North American Jerusalem Crickets,Insecta,0,0,0.6596338553976945,0.0,4,True Negative (Filtered)
+Papilio rutulus,Western Tiger Swallowtail,Insecta,0,0,0.6596338553976945,0.0,4,True Negative (Filtered)
+Aculus tetanothrix,Willow Bead Gall Mite,Arachnida,0,0,0.6562960046117814,0.0,3,True Negative (Filtered)
+Laccaria laccata,deceiver,Fungi,0,0,0.6547867430720492,0.0,3,True Negative (Filtered)
+Helvella,Elfin Saddles,Fungi,0,0,0.6467221649998046,0.0,3,True Negative (Filtered)
+Agaricus brunneofibrillosus,Bleeding Brown Cypress Agaricus,Fungi,0,0,0.6377754095745277,0.0,4,True Negative (Filtered)
+Danaus plexippus,Monarch,Insecta,0,0,0.6332284868165149,0.0,5,True Negative (Filtered)
+Acmispon glaber brevialatus,short-winged deerweed,Plantae,0,0,0.6299714058666105,0.0,3,True Negative (Filtered)
+Helminthotheca echioides,bristly oxtongue,Plantae,0,0,0.6299714058666105,0.0,3,True Negative (Filtered)
+Trifolium repens,white clover,Plantae,0,0,0.6299714058666105,0.0,3,True Negative (Filtered)
+Pieris rapae,Small White,Insecta,0,0,0.6276644558829853,0.0,4,True Negative (Filtered)
+Bromus,bromes,Plantae,0,0,0.6270990333264326,0.0,4,True Negative (Filtered)
+Ochlodes sylvanoides,Woodland Skipper,Insecta,0,0,0.6257435195560682,0.0,3,True Negative (Filtered)
+Schistocerca nitens,Gray Bird Grasshopper,Insecta,0,0,0.6257435195560682,0.0,3,True Negative (Filtered)
+Falco sparverius,American Kestrel,Aves,0,0,0.6254845958743432,0.0,9,True Negative (Filtered)
+Pipilo maculatus,Spotted Towhee,Aves,0,0,0.621905023333824,0.0,7,True Negative (Filtered)
+Lonchura punctulata,Scaly-breasted Munia,Aves,0,0,0.6159322161966436,0.0,6,True Negative (Filtered)
+Icaricia acmon,Acmon Blue,Insecta,0,0,0.6158591667033783,0.0,4,True Negative (Filtered)
+Ardea herodias,Great Blue Heron,Aves,0,0,0.6156210077164597,0.0,8,True Negative (Filtered)
+Quiscalus mexicanus,Great-tailed Grackle,Aves,0,0,0.6156210077164597,0.0,8,True Negative (Filtered)
+Spinus psaltria,Lesser Goldfinch,Aves,0,0,0.6156210077164597,0.0,8,True Negative (Filtered)
+Agrocybe,Unknown,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Amanita calyptratoides,Candlestick Amanita,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Armillaria mellea,Honey Mushroom,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Caloboletus marshii,Ben's Bitter Bolete,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Chlorophyllum,Unknown,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Collybia brunneocephala,Brownit,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Conocybe apala,milky conecap,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Coprinopsis atramentaria,Common Ink Cap,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Hebeloma,Poisonpies,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Hebeloma crustuliniforme,Poison Pie,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Hygrophorus eburneus,Cowboy's Handkerchief,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Mycena tenerrima,frosty bonnet,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Nolanea,Unknown,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Pleurotus,Oyster Mushrooms,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Xerocomellus,Unknown,Fungi,0,0,0.6150809826828447,0.0,2,True Negative (Filtered)
+Ardea alba,Great Egret,Aves,0,0,0.6062610768351805,0.0,5,True Negative (Filtered)
+Butorides virescens,Green Heron,Aves,0,0,0.6062610768351805,0.0,5,True Negative (Filtered)
+Anas acuta,Northern Pintail,Aves,0,0,0.5924325479758132,0.0,6,True Negative (Filtered)
+Sceloporus occidentalis longipes,Great Basin Fence Lizard,Reptilia,0,0,0.5910497669810527,0.0,3,True Negative (Filtered)
+Sylvilagus bachmani,Brush Rabbit,Mammalia,0,0,0.5869184214239644,0.0,2,True Negative (Filtered)
+Pardosa,Thin-legged Wolf Spiders,Arachnida,0,0,0.5813774513664484,0.0,3,True Negative (Filtered)
+Astur cooperii,Cooper's Hawk,Aves,0,0,0.5807955770916391,0.0,4,True Negative (Filtered)
+Cardamine hirsuta,hairy bittercress,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Carduus pycnocephalus pycnocephalus,Unknown,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Cirsium,Plume Thistles,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Cucurbita,gourds,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Cuscuta,dodders,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Deinandra,Unknown,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Dittrichia graveolens,Stinkwort,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Fraxinus uhdei,Shamel Ash,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Galium angustifolium,Narrow-leaved Bedstraw,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Hesperocnide tenella,Western nettle,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Iva hayesiana,San Diego marsh-elder,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Lotus corniculatus,bird's-foot trefoil,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Lupinus succulentus,arroyo lupine,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Machaerantherinae,Unknown,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Malacothamnus fasciculatus,southern coastal bushmallow,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Mutarda nigra,Black Mustard,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Nicotiana glauca,tree tobacco,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Pellaea mucronata,bird's foot cliffbrake,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Pinus,pines,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Poales,"Grasses, Sedges, Cattails, and Allies",Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Rumex crispus,curled dock,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Salix gooddingii,Goodding's willow,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Salix lasiandra,Pacific Willow,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Scirpus microcarpus,Panicled Bulrush,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Solanum,nightshades,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Stephanomeria exigua,Small Wirelettuce,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Vitis,grapevines,Plantae,0,0,0.5800645927714924,0.0,2,True Negative (Filtered)
+Animalia,Animals,Animalia,0,0,0.5770253861046735,0.0,2,True Negative (Filtered)
+Vertebrata,Vertebrates,Animalia,0,0,0.5770253861046735,0.0,2,True Negative (Filtered)
+Aix sponsa,Wood Duck,Aves,0,0,0.5767586969404602,0.0,3,True Negative (Filtered)
+Anser,Grey Geese,Aves,0,0,0.5767586969404602,0.0,3,True Negative (Filtered)
+Geothlypis trichas,Common Yellowthroat,Aves,0,0,0.5767586969404602,0.0,3,True Negative (Filtered)
+Erynnis,Duskywings,Insecta,0,0,0.5606768069907959,0.0,3,True Negative (Filtered)
+Tenebrionidae,Darkling Beetles,Insecta,0,0,0.5606768069907959,0.0,3,True Negative (Filtered)
+Xenoglossa pruinosa,Pruinose Squash Bee,Insecta,0,0,0.5606768069907959,0.0,3,True Negative (Filtered)
+Anser anser × cygnoides,Greylag × Swan Goose,Aves,0,0,0.5573990258367731,0.0,4,True Negative (Filtered)
+Molothrus ater,Brown-headed Cowbird,Aves,0,0,0.5573990258367731,0.0,4,True Negative (Filtered)
+Zonotrichia leucophrys,White-crowned Sparrow,Aves,0,0,0.5573990258367731,0.0,4,True Negative (Filtered)
+Misumenoides formosipes,White-banded Crab Spider,Arachnida,0,0,0.5442265782558576,0.0,2,True Negative (Filtered)
+Neoscona crucifera,Spotted Orbweaver,Arachnida,0,0,0.5442265782558576,0.0,2,True Negative (Filtered)
+Peucetia viridans,Green Lynx Spider,Arachnida,0,0,0.5442265782558576,0.0,2,True Negative (Filtered)
+Phidippus johnsoni,Johnson's Jumping Spider,Arachnida,0,0,0.5442265782558576,0.0,2,True Negative (Filtered)
+Anthocharis sara,Sara Orangetip,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Callophrys dumetorum,Lotus Hairstreak,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Dryocosmus dubiosus,Two-horned Gall Wasp,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Eleodes,Unknown,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Heraclides rumiko,Western Giant Swallowtail,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Pepsis,New World Tarantula-hawk Wasps,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Perdita,Fairy Bees,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)
+Satyrium sylvinus,Sylvan Hairstreak,Insecta,0,0,0.5389403431871611,0.0,2,True Negative (Filtered)

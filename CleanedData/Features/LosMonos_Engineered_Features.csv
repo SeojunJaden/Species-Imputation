@@ -1,0 +1,953 @@
+scientific_name,backup_obs_count,backup_unique_users,backup_unique_days,lat_std,lon_std,backup_research_prop,iconic_taxon_name,common_name,present_in_main
+Accipitridae,1,1,1,0.0,0.0,0.0,Aves,"Hawks, Eagles, and Kites",0
+Acer saccharinum,1,1,1,0.0,0.0,0.0,Plantae,silver maple,0
+Aceria boycei,1,1,1,0.0,0.0,1.0,Arachnida,Ragweed Gall Mite,0
+Aceria paracalifornica,1,1,1,0.0,0.0,0.0,Arachnida,California Sagebrush Gall Mite,0
+Achradocera,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Achyrachaena mollis,1,1,1,0.0,0.0,0.0,Plantae,Blow Wives,0
+Acmispon,3,3,3,0.0023967488515927783,0.001114521533547704,0.0,Plantae,deervetch,0
+Acmispon americanus,5,3,5,0.0003249204046598381,0.000282873873600243,1.0,Plantae,Spanish clover,0
+Acmispon americanus americanus,1,1,1,0.0,0.0,1.0,Plantae,Spanish clover,0
+Acmispon glaber,13,12,12,0.0013931674285128618,0.0014850725515138876,0.8461538461538461,Plantae,deerweed,1
+Acmispon glaber brevialatus,3,2,3,0.0025951707768867866,0.0008510885868039067,1.0,Plantae,short-winged deerweed,0
+Acmispon glaber glaber,11,6,11,0.0017095564154567145,0.0012410790064522133,1.0,Plantae,Coastal Deerweed,1
+Acmispon strigosus,1,1,1,0.0,0.0,0.0,Plantae,strigose lotus,0
+Acridoidea,1,1,1,0.0,0.0,0.0,Insecta,Short-horned Grasshoppers and Locusts,0
+Aculus tetanothrix,3,3,3,0.0004643036981758512,5.8315550847176575e-05,0.3333333333333333,Arachnida,Willow Bead Gall Mite,0
+Adelpha californica,8,8,8,0.001058682425746727,0.0015782443263247352,1.0,Insecta,California Sister,1
+Adenostoma fasciculatum,29,21,22,0.0022121930843940116,0.0016997775072471425,0.9655172413793104,Plantae,chamise,1
+Adolphia californica,1,1,1,0.0,0.0,1.0,Plantae,California adolphia,0
+Agapostemon,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Agaricaceae,1,1,1,0.0,0.0,0.0,Fungi,Field Mushrooms and Allies,0
+Agaricales,17,10,8,0.0018979923972945426,0.0021521568884604156,0.0,Fungi,Common Gilled Mushrooms and Allies,1
+Agaricomycetes,12,10,10,0.0018299894525778283,0.0016477792903185462,0.0,Fungi,"Mushrooms, Bracket Fungi, Puffballs, and Allies",1
+Agaricus,5,5,5,0.0012752096402764961,0.0010470040038948138,0.0,Fungi,field and button mushrooms,1
+Agaricus brunneofibrillosus,4,2,4,0.0011836284223789198,0.0003489311485896937,1.0,Fungi,Bleeding Brown Cypress Agaricus,0
+Agaricus californicus,1,1,1,0.0,0.0,1.0,Fungi,California Agaricus,0
+Agaricus campestris,2,2,2,0.004058046502095704,0.00029502064688617056,0.0,Fungi,Meadow Mushroom,1
+Agaricus deserticola,1,1,1,0.0,0.0,0.0,Fungi,Gasteroid Agaricus,1
+Agaricus hondensis,1,1,1,0.0,0.0,0.0,Fungi,Felt-ringed Agaricus,0
+Agaricus sylvaticus,2,1,1,4.325138835539653e-05,4.3604871030644975e-05,0.0,Fungi,Blushing Wood Mushroom,0
+Agaricus xanthodermus,1,1,1,0.0,0.0,1.0,Fungi,Yellow Stainer,0
+Agelaius phoeniceus,75,31,59,0.0006662307922855226,0.00044983087032104225,0.9866666666666667,Aves,Red-winged Blackbird,1
+Ageleninae,2,2,2,0.0020335500072361187,0.0005347607462762688,0.5,Arachnida,Typical Funnel Weavers,1
+Agelenopsis aperta,1,1,1,0.0,0.0,0.0,Arachnida,Desert Grass Spider,0
+Agrocybe,2,2,2,0.0029060982791775433,0.003457911895423216,0.0,Fungi,Unknown,0
+Agrocybe pediades,4,3,4,0.002872517828178735,0.0007180212734971761,0.25,Fungi,Common Fieldcap,1
+Agromyzidae,1,1,1,0.0,0.0,0.0,Insecta,Leaf-miner Flies,0
+Agulla,1,1,1,0.0,0.0,0.0,Insecta,Common Snakeflies,0
+Aigeiros,1,1,1,0.0,0.0,0.0,Plantae,Black Poplars and Allies,0
+Aix sponsa,3,3,3,0.0005473908795206801,0.0002628906597748182,1.0,Aves,Wood Duck,0
+Aizoaceae,1,1,1,0.0,0.0,0.0,Plantae,Stone plants,0
+Alcidamea,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Alopecosa kochi,1,1,1,0.0,0.0,1.0,Arachnida,Koch's Wolf Spider,0
+Alternaria,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Amanita,11,9,9,0.001750822752327005,0.0014291976615717129,0.0,Fungi,Amanita Sect. Amanita,1
+Amanita calyptratoides,2,2,2,0.0007364160744282328,0.002344209522676248,0.5,Fungi,Candlestick Amanita,0
+Amanita magniverrucata,9,6,7,0.0023895998444501253,0.0016024928928868535,0.2222222222222222,Fungi,Pinecone Amanita,1
+Amanita novinupta,11,8,10,0.0016461597936085434,0.001116526438971595,0.7272727272727273,Fungi,Blushing Bride Amanita,1
+Amanita ocreata,13,11,12,0.0019536929896079728,0.0013455503210618163,0.8461538461538461,Fungi,Western Destroying Angel,1
+Amanita pantherinoides,4,3,4,0.001283499241426513,0.0003698360559718367,0.25,Fungi,Western Panther,0
+Amanita velosa,19,10,15,0.0017086464196556129,0.0011916925998516714,0.9473684210526315,Fungi,springtime amanita,1
+Amaranthus palmeri,1,1,1,0.0,0.0,0.0,Plantae,Palmer's Amaranth,0
+Ambrosia,1,1,1,0.0,0.0,0.0,Plantae,Ragweeds,0
+Ambrosia psilostachya,17,10,17,0.0018852540048645012,0.0012582977703477622,0.8823529411764706,Plantae,western ragweed,1
+Ammopelmatus,4,4,4,0.0008117566878254564,0.0004861240989605737,0.0,Insecta,North American Jerusalem Crickets,0
+Ammophila,1,1,1,0.0,0.0,0.0,Insecta,Thread-waisted Sand Wasps,0
+Amphibolips quercuspomiformis,6,5,6,0.0022815339229458075,0.0011657800462007144,0.3333333333333333,Insecta,Live Oak Apple Gall Wasp,1
+Amsinckia,3,3,3,0.002076874579884605,0.0009440432490208356,0.0,Plantae,Fiddlenecks,1
+Amsinckia menziesii,10,5,9,0.0012557893353214284,0.0010484954906468833,0.4,Plantae,Common Fiddleneck,1
+Amsinckia menziesii intermedia,1,1,1,0.0,0.0,0.0,Plantae,Rancher's fiddleneck,0
+Amsinckia tessellata,1,1,1,0.0,0.0,0.0,Plantae,Bristly Fiddleneck,0
+Anas acuta,6,3,5,0.00020491856364776153,0.0002793718620251699,1.0,Aves,Northern Pintail,0
+Anas crecca,1,1,1,0.0,0.0,1.0,Aves,Green-winged Teal,0
+Anas platyrhynchos,65,35,58,0.0007619454151954566,0.00032750153986668836,1.0,Aves,Mallard,1
+Anas platyrhynchos domesticus,27,17,23,0.0005209446138202136,0.0003516834436810631,1.0,Aves,Domestic Mallard,1
+Anatidae,1,1,1,0.0,0.0,0.0,Aves,"Ducks, Geese, and Swans",0
+Andrena,1,1,1,0.0,0.0,0.0,Insecta,Mining Bees,0
+Andricus quercuscalifornicus,5,5,5,0.0015734049645163713,0.000878818351973733,0.4,Insecta,California Gall Wasp,1
+Angiospermae,9,8,7,0.001802438972916302,0.001449736869094232,0.0,Plantae,Flowering Plants,1
+Animalia,2,2,2,0.0005790285299126024,0.001024317216672982,0.0,Animalia,Animals,0
+Annulohypoxylon thouarsianum,5,4,5,0.0020920778231781484,0.0016532034915111478,0.8,Fungi,Cramp Balls,1
+Anser,3,3,3,0.0002447561271017985,0.0014942409705766108,0.3333333333333333,Aves,Grey Geese,0
+Anser anser domesticus,1,1,1,0.0,0.0,1.0,Aves,Domestic Greylag Goose,0
+Anser anser domesticus × cygnoides domesticus,12,7,11,0.0001873220199223742,0.0001888088114366403,1.0,Aves,Domestic Greylag × Domestic Swan Goose,0
+Anser anser × cygnoides,4,3,4,0.0013812069254466087,0.0009505996069179372,1.0,Aves,Greylag × Swan Goose,0
+Anser cygnoides,1,1,1,0.0,0.0,1.0,Aves,Swan Goose,0
+Anser cygnoides domesticus,31,24,30,0.0008381145441214594,0.0005639510422261563,1.0,Aves,Domestic Swan Goose,0
+Anthidiellum notatum robertsoni,1,1,1,0.0,0.0,1.0,Insecta,California Rotund-Resin Bee,0
+Anthocharis sara,2,2,2,0.0007227810050783306,0.0019916840531949177,1.0,Insecta,Sara Orangetip,0
+Anthrenus lepidus,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Anura,1,1,1,0.0,0.0,0.0,Amphibia,Frogs and Toads,0
+Apalone spinifera,1,1,1,0.0,0.0,1.0,Reptilia,Spiny Softshell,0
+Aphelocoma californica,13,6,10,0.0017363357280768372,0.0012312263928884782,1.0,Aves,California Scrub-Jay,1
+Aphelocoma californica obscura,2,2,2,0.001379261839865761,0.0013304921194786726,1.0,Aves,Belding's Scrub-Jay,0
+Aphididae,1,1,1,0.0,0.0,0.0,Insecta,Aphids,0
+Aphis,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Aphis nerii,1,1,1,0.0,0.0,1.0,Insecta,Oleander Aphid,0
+Aphonopelma,1,1,1,0.0,0.0,0.0,Arachnida,Unknown,0
+Apis mellifera,8,6,8,0.0030899176484318735,0.0007291199108856411,1.0,Insecta,Western Honey Bee,0
+Apium,1,1,1,0.0,0.0,0.0,Plantae,Celery and Marshwort,0
+Apium graveolens,10,8,10,0.0020299979601653808,0.00035662159830364925,0.5,Plantae,Celery,1
+Apodemia,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Apodemia virgulti,8,5,5,0.0011684825373588991,0.0010655164797023107,0.75,Insecta,Behr's Metalmark,1
+Aquarius remigis,3,3,3,0.0007515056088019322,0.001161628831651332,1.0,Insecta,North American Common Water Strider,1
+Araneae,1,1,1,0.0,0.0,0.0,Arachnida,Spiders,0
+Araneidae,3,2,3,0.0005145684899824659,0.001228778376509153,0.0,Arachnida,Orbweavers,1
+Araneus,1,1,1,0.0,0.0,0.0,Arachnida,Angulate and Roundshouldered Orbweavers,1
+Araneus gemma,1,1,1,0.0,0.0,0.0,Arachnida,Gem-shaped Orbweaver,1
+Archilestes californicus,2,1,1,0.001174582923110949,0.000487117941977954,0.5,Insecta,California Spreadwing,0
+Ardea alba,5,4,5,0.0011704606986389324,0.00011777734623855465,1.0,Aves,Great Egret,0
+Ardea herodias,8,8,8,0.0007206459247658842,0.0009577825801239675,1.0,Aves,Great Blue Heron,0
+Argia vivida,2,2,2,0.0009229157708053144,5.989194436802655e-05,1.0,Insecta,Vivid Dancer,1
+Argiope argentata,3,3,3,0.0018951747636553244,0.0009549444011845774,1.0,Arachnida,Silver Garden Orbweaver,1
+Argiope aurantia,5,5,5,0.0022940439365437626,0.0013294494438023362,1.0,Arachnida,Yellow Garden Spider,1
+Argopecten ventricosus,1,1,1,0.0,0.0,0.0,Mollusca,Pacific Calico Scallop,0
+Armadillidium vulgare,3,3,2,0.001361027845148843,0.000433991817863553,1.0,Animalia,Common Pill Woodlouse,1
+Armillaria mellea,2,2,2,0.00028873524541507144,4.910460615370905e-05,0.0,Fungi,Honey Mushroom,0
+Artemisia,1,1,1,0.0,0.0,0.0,Plantae,wormwoods and sagebrushes,1
+Artemisia californica,17,15,14,0.0014287620428326958,0.00151892732354291,0.9411764705882353,Plantae,California sagebrush,1
+Artemisia palmeri,7,5,7,0.0018799762171893305,0.0004404678498878238,1.0,Plantae,San Diego Sagewort,0
+Asclepias curassavica,1,1,1,0.0,0.0,1.0,Plantae,tropical milkweed,0
+Asclepias fascicularis,7,4,7,0.0025463403769347753,0.000718215711928263,1.0,Plantae,narrowleaf milkweed,1
+Ashmeadiella,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Asteraceae,1,1,1,0.0,0.0,0.0,Plantae,"Sunflowers, Daisies, Asters, and Allies",0
+Astereae,1,1,1,0.0,0.0,0.0,Plantae,asters and allies,1
+Asterellopsis palmeri,1,1,1,0.0,0.0,1.0,Plantae,Palmer's asterella,0
+Asteroideae,5,5,5,0.002033979589235321,0.001942958301320476,0.0,Plantae,Unknown,0
+Astraeus,10,6,8,0.002024142259817627,0.0018913879658651047,0.0,Fungi,Barometer Earthstars,1
+Astraeus hygrometricus,4,4,4,0.0019268074196343182,0.00011326698905692669,0.25,Fungi,Hygroscopic Earthstar,1
+Astraeus pteridis,2,2,2,0.0007974985744729717,0.0017418396807524265,0.0,Fungi,giant hygroscopic earthstar,1
+Astur cooperii,4,4,4,0.000628487695810567,0.0009265878169263368,1.0,Aves,Cooper's Hawk,0
+Aureoboletus flaviporus,1,1,1,0.0,0.0,0.0,Fungi,viscid bolete,0
+Avena,1,1,1,0.0,0.0,0.0,Plantae,Oats,0
+Aves,1,1,1,0.0,0.0,0.0,Aves,Birds,0
+Aythya collaris,2,2,2,2.150926904721947e-05,8.314684793097148e-05,1.0,Aves,Ring-necked Duck,0
+Aytoniaceae,1,1,1,0.0,0.0,0.0,Plantae,Unknown,1
+Baccharis,11,9,9,0.0020942112168901494,0.0014009556386823693,0.0,Plantae,Unknown,1
+Baccharis pilularis,31,26,26,0.0021413148100130957,0.0014889241294957366,0.6774193548387096,Plantae,coyote brush,1
+Baccharis pilularis consanguinea,5,5,5,0.0016201415738171753,0.0010730645873289757,1.0,Plantae,Chaparral Coyote Brush,0
+Baccharis salicifolia,2,2,2,0.0011375011121388706,0.0009473016916540938,1.0,Plantae,mule fat,1
+Baccharis salicifolia salicifolia,2,2,2,0.005519439855250405,9.428066853190854e-06,1.0,Plantae,Unknown,1
+Baccharis sarothroides,12,11,12,0.001563616380661184,0.0014376275144178032,0.5833333333333334,Plantae,Desert Broom,1
+Baccharis sergiloides,1,1,1,0.0,0.0,0.0,Plantae,desert baccharis,0
+Bactericera maculipennis,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Basidiomycota,1,1,1,0.0,0.0,0.0,Fungi,Basidiomycete Fungi,1
+Batrachoseps major,2,1,2,0.0030719415480026987,0.00030994229703417624,1.0,Amphibia,Southern California Slender Salamander,0
+Blapstinus,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Blattella germanica,1,1,1,0.0,0.0,0.0,Insecta,German Cockroach,0
+Blitum californicum,3,3,3,0.0017233749879617213,0.0025052705037705877,1.0,Plantae,California Goosefoot,1
+Bolbitius titubans,2,2,1,0.0019814389244726185,0.0009767265968519,1.0,Fungi,yellow fieldcap,1
+Boletaceae,5,5,5,0.0018179426634827248,0.0020457854173317335,0.0,Fungi,boletes,1
+Boletales,1,1,1,0.0,0.0,0.0,Fungi,boletes and allies,0
+Boletus barrowsii,1,1,1,0.0,0.0,1.0,Fungi,Barrow's Bolete,0
+Bombus vosnesenskii,7,6,7,0.0020029216594801766,0.00132345294796493,1.0,Insecta,Yellow-faced Bumble Bee,1
+Bombycilla cedrorum,1,1,1,0.0,0.0,1.0,Aves,Cedar Waxwing,0
+Bombyliidae,1,1,1,0.0,0.0,0.0,Insecta,Bee Flies,0
+Boraginaceae,1,1,1,0.0,0.0,0.0,Plantae,borage family,1
+Bovista,1,1,1,0.0,0.0,0.0,Fungi,True Puffballs,0
+Brachycera,1,1,1,0.0,0.0,0.0,Insecta,Brachyceran Flies,0
+Braconidae,1,1,1,0.0,0.0,0.0,Insecta,Braconid Wasps,0
+Brassicaceae,5,5,5,0.001537366244244449,0.0005332203062468668,0.0,Plantae,mustard family,0
+Brodiaea filifolia,1,1,1,0.0,0.0,0.0,Plantae,thread-leaved brodiaea,0
+Bromus,4,2,4,0.0033075129905709463,0.0005517242004734686,0.0,Plantae,bromes,0
+Bromus diandrus,4,3,3,0.0022952255854589458,0.0003954249304503091,0.5,Plantae,great brome,1
+Bromus rubens,5,5,4,0.002609023112313133,0.0012661682684091983,0.8,Plantae,Red Brome,1
+Bryophyta,1,1,1,0.0,0.0,0.0,Plantae,Mosses,1
+Bubo virginianus,1,1,1,0.0,0.0,1.0,Aves,Great Horned Owl,0
+Bubo virginianus pacificus,1,1,1,0.0,0.0,1.0,Aves,Coastal Great Horned Owl,0
+Buteo jamaicensis,6,4,6,0.0026235504186920993,0.0015308031111949843,1.0,Aves,Red-tailed Hawk,1
+Buteo lineatus,19,15,19,0.0023066657404705315,0.000760151783188513,0.9473684210526315,Aves,Red-shouldered Hawk,1
+Butorides virescens,5,4,5,0.0011416339997197174,0.000829291164982494,1.0,Aves,Green Heron,0
+Caladonus coquilletti,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Calandrinia menziesii,2,2,2,0.0006069309634957053,0.0008956662089158009,1.0,Plantae,redmaids,1
+Calasterella californica,2,2,2,0.0017558198889244053,0.0006219390927938764,1.0,Plantae,California asterella,1
+Calliopsis obscurella,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Callipepla californica,1,1,1,0.0,0.0,1.0,Aves,California Quail,0
+Calliphora vicina,1,1,1,0.0,0.0,0.0,Insecta,Blue Blowfly,0
+Calliphoridae,1,1,1,0.0,0.0,0.0,Insecta,Blow Flies,0
+Callirhytis perdens,1,1,1,0.0,0.0,0.0,Insecta,Ruptured Twig Gall Wasp,0
+Callophrys augustinus iroides,1,1,1,0.0,0.0,1.0,Insecta,Western Brown Elfin,0
+Callophrys dumetorum,2,2,2,0.0007689940394698816,0.00047601396134343136,1.0,Insecta,Lotus Hairstreak,0
+Caloboletus marshii,2,2,2,0.0011195857133041883,0.0007165349187500304,0.5,Fungi,Ben's Bitter Bolete,0
+Calonarius,1,1,1,0.0,0.0,0.0,Fungi,Chalkland Webcaps,0
+Calvatia booniana,1,1,1,0.0,0.0,0.0,Fungi,Western Giant Puffball,1
+Calypte anna,3,3,3,0.0017301729218231572,0.0011113408508819983,1.0,Aves,Anna's Hummingbird,1
+Calyptratae,1,1,1,0.0,0.0,0.0,Insecta,Calyptrate Flies,0
+Camissoniopsis,1,1,1,0.0,0.0,0.0,Plantae,Suncups,1
+Camissoniopsis bistorta,6,3,6,0.001230996051044843,0.0013767174168297697,0.16666666666666666,Plantae,California sun cup,1
+Camissoniopsis micrantha,2,2,2,0.0007146903599912002,0.0005589211707651749,0.0,Plantae,miniature suncup,1
+Candolleomyces candolleanus,1,1,1,0.0,0.0,0.0,Fungi,Pale Brittlestem,1
+Canidae,1,1,1,0.0,0.0,0.0,Mammalia,Canids,1
+Canis latrans,5,5,5,0.00328342203951222,0.0008356440404813688,0.8,Mammalia,Coyote,1
+Cantareus apertus,6,4,4,0.0018314011495823449,0.0010031788715308138,1.0,Mollusca,Green Garden Snail,1
+Cardamine hirsuta,2,2,2,0.000634508127962695,0.00010842068276675703,1.0,Plantae,hairy bittercress,0
+Cardueae,1,1,1,0.0,0.0,0.0,Plantae,Unknown,0
+Carduus,1,1,1,0.0,0.0,0.0,Plantae,plumeless thistles,1
+Carduus pycnocephalus,5,5,5,0.0020336837641035145,0.0017821865413745457,0.2,Plantae,Italian thistle,1
+Carduus pycnocephalus pycnocephalus,2,2,2,0.0009751199088238938,0.0005168950570486486,1.0,Plantae,Unknown,0
+Castianeira thalia,1,1,1,0.0,0.0,0.0,Arachnida,Unknown,0
+Castilleja,1,1,1,0.0,0.0,0.0,Plantae,Paintbrushes,0
+Castilleja densiflora,1,1,1,0.0,0.0,1.0,Plantae,dense-flowered owl's-clover,1
+Castilleja exserta,2,2,2,0.0027056548613388987,0.0012977902693312702,1.0,Plantae,purple owl's-clover,1
+Catalinia castanea,1,1,1,0.0,0.0,1.0,Arachnida,Unknown,0
+Cathartes aura,1,1,1,0.0,0.0,1.0,Aves,Turkey Vulture,1
+Cenchrus clandestinus,1,1,1,0.0,0.0,0.0,Plantae,Kikuyu Grass,0
+Cenchrus setaceus,1,1,1,0.0,0.0,1.0,Plantae,Fountain Grass,0
+Centaurea cyanus,1,1,1,0.0,0.0,1.0,Plantae,Cornflower,0
+Centaurea melitensis,5,5,5,0.0023781456344654462,0.0007124332337627966,1.0,Plantae,Maltese star-thistle,1
+Cercopoidea,1,1,1,0.0,0.0,0.0,Insecta,Spittlebugs and Froghoppers,0
+Ceriporia spissa,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Chaenactis artemisiifolia,1,1,1,0.0,0.0,1.0,Plantae,Artemisia-leaved Chaenactis,1
+Chaenactis glabriuscula,8,6,8,0.0007944672265974333,0.0005810829850880676,1.0,Plantae,Common Yellow Chaenactis,1
+Chaenactis glabriuscula glabriuscula,1,1,1,0.0,0.0,1.0,Plantae,Unknown,0
+Chilocorus,1,1,1,0.0,0.0,0.0,Insecta,Twice-stabbed Lady Beetles,0
+Chimarocephala pacifica,1,1,1,0.0,0.0,1.0,Insecta,Painted Meadow Grasshopper,0
+Chiroptera,1,1,1,0.0,0.0,0.0,Mammalia,Bats,0
+Chlorion aerarium,1,1,1,0.0,0.0,0.0,Insecta,Steel-blue Cricket-hunter Wasp,0
+Chlorogalum pomeridianum,3,3,3,0.0008725665524521766,0.0024275998254556434,0.3333333333333333,Plantae,wavy-leafed soap plant,1
+Chlorophyllum,2,2,2,0.00039291569165360286,0.0006481812396580607,0.0,Fungi,Unknown,0
+Chlorophyllum brunneum,1,1,1,0.0,0.0,0.0,Fungi,Shaggy Parasol,0
+Chlorophyllum molybdites,1,1,1,0.0,0.0,1.0,Fungi,Green-spored Parasol,0
+Chlorophyta,1,1,1,0.0,0.0,0.0,Plantae,green algae,0
+Chondestes grammacus,1,1,1,0.0,0.0,1.0,Aves,Lark Sparrow,0
+Chorizanthe fimbriata,1,1,1,0.0,0.0,1.0,Plantae,Fringed Spineflower,1
+Chromelosporium,1,1,1,0.0,0.0,0.0,Fungi,Unknown,1
+Chrysoperla,1,1,1,0.0,0.0,0.0,Insecta,Common Green Lacewings,0
+Chrysothrix,1,1,1,0.0,0.0,0.0,Fungi,Gold Dust Lichens,1
+Circus hudsonius,1,1,1,0.0,0.0,1.0,Aves,Northern Harrier,0
+Cirsium,2,2,2,0.0008008856159587641,0.001427702826311966,0.0,Plantae,Plume Thistles,0
+Cirsium occidentale,8,7,7,0.0006388076702496561,0.0007892385874807739,0.875,Plantae,Cobwebby Thistle,0
+Cirsium vulgare,1,1,1,0.0,0.0,1.0,Plantae,Bull Thistle,0
+Cistus creticus,3,3,3,0.0036069453601646376,0.0008246983410375654,1.0,Plantae,Hoary Rock-rose,0
+Cladonia,2,2,2,0.001453304617264831,0.0002219444137320712,0.0,Fungi,pixie cup and reindeer lichens,1
+Cladonia chlorophaea,2,2,2,0.0003430153782297108,0.001157351579375206,0.0,Fungi,Mealy Pixie Cup,1
+Clarkia,1,1,1,0.0,0.0,0.0,Plantae,Clarkias,0
+Clarkia amoena,1,1,1,0.0,0.0,1.0,Plantae,Farewell-To-Spring,0
+Clarkia purpurea,6,6,6,0.0008709733819313623,0.0009341676502428444,1.0,Plantae,Winecup Clarkia,1
+Clastoptera lineatocollis,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Claytonia perfoliata,2,2,2,0.0028266792274945465,0.0004543695641879391,1.0,Plantae,miner's lettuce,1
+Clematis,2,2,2,9.846320507418718e-06,0.00019047625279116322,0.0,Plantae,Clematis and leatherflowers,1
+Clematis ligusticifolia,3,3,3,0.0005626671263135291,0.0014775076780249238,0.3333333333333333,Plantae,Western White Clematis,1
+Clitocybe,1,1,1,0.0,0.0,0.0,Fungi,Funnels,0
+Clitopilus hobsonii,1,1,1,0.0,0.0,0.0,Fungi,Miller's oysterling,1
+Clutia,1,1,1,0.0,0.0,0.0,Plantae,Cluts,0
+Coccinella septempunctata,4,4,4,0.0014984732903161276,0.0007493091271160092,1.0,Insecta,Seven-spotted Lady Beetle,1
+Coccinellini,1,1,1,0.0,0.0,0.0,Insecta,Black-spotted Lady Beetles,0
+Coelocnemis,2,2,2,0.0007849016793047177,0.00036775541815617477,0.0,Insecta,Unknown,1
+Colaptes auratus,1,1,1,0.0,0.0,1.0,Aves,Northern Flicker,0
+Colletes,1,1,1,0.0,0.0,0.0,Insecta,Cellophane Bees,0
+Collybia brunneocephala,2,2,2,0.0013106953216401652,0.0015405362089312357,0.0,Fungi,Brownit,0
+Collybia nuda,4,4,4,0.0018723730581438481,0.0010219088167857469,0.75,Fungi,Blewit,0
+Collybiopsis quercophila,1,1,1,0.0,0.0,0.0,Fungi,Oak-leaf Pinwheel,1
+Coltricia,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Coniontis,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Conocybe,1,1,1,0.0,0.0,0.0,Fungi,Conecaps,0
+Conocybe apala,2,2,2,3.535533905296461e-05,2.2391738310303827e-05,0.5,Fungi,milky conecap,0
+Convolvulus arvensis,1,1,1,0.0,0.0,0.0,Plantae,field bindweed,1
+Coprinellus bipellis,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Coprinopsis,4,3,3,0.0026222102039147096,0.0017891684322119527,0.0,Fungi,Inkcaps,1
+Coprinopsis atramentaria,2,2,2,0.003956307342024008,0.0006622354111954227,0.5,Fungi,Common Ink Cap,0
+Coprinopsis uliginicola,6,4,4,0.0016842175501531947,0.00045718989661914226,0.6666666666666666,Fungi,Unknown,1
+Coprinus comatus,1,1,1,0.0,0.0,1.0,Fungi,Shaggy Mane,0
+Corethrogyne filaginifolia,11,8,10,0.0018097122288747809,0.0011159161941989868,0.9090909090909091,Plantae,California Aster,1
+Coriarachnini,1,1,1,0.0,0.0,0.0,Arachnida,Unknown,0
+Cortaderia,3,3,3,0.0021273017466638265,9.354080549873755e-05,0.0,Plantae,Pampas grasses,0
+Cortaderia selloana,15,11,15,0.0016200597431455554,0.0015223452677906933,1.0,Plantae,Pampas Grass,0
+Corthylio calendula,2,2,2,0.00024168634009489128,0.0003512454647680435,1.0,Aves,Ruby-crowned Kinglet,0
+Cortinariaceae,4,4,3,0.0005471902814289886,0.00045315111042189206,0.0,Fungi,Unknown,1
+Cortinarius ohlone,2,2,2,0.000897593499152266,0.0003987296650185442,0.0,Fungi,Unknown,1
+Corvus,1,1,1,0.0,0.0,1.0,Aves,Crows and Ravens,0
+Corvus brachyrhynchos,19,6,16,0.001583776281210719,0.0005472696446025024,1.0,Aves,American Crow,1
+Corvus corax,3,1,3,0.0016551912648063323,0.0016372042377361378,1.0,Aves,Common Raven,0
+Corythucha morrilli,1,1,1,0.0,0.0,1.0,Insecta,Morrill Lace Bug,0
+Cotinis,1,1,1,0.0,0.0,0.0,Insecta,Green June Beetles,0
+Cotula australis,1,1,1,0.0,0.0,1.0,Plantae,Common Cotula,0
+Crocanthemum,2,2,2,0.0027478169516893932,0.00029109224444912805,0.0,Plantae,Frostweeds,1
+Crocanthemum aldersonii,5,5,5,0.002617877136018584,0.0014746215067950174,0.4,Plantae,Alderson's rushrose,1
+Crocanthemum scoparium,7,5,7,0.0026777749329668153,0.0009547223433234573,0.2857142857142857,Plantae,peak rushrose,1
+Crotalus oreganus helleri,2,2,2,0.004597160480548059,0.0005956902991279111,1.0,Reptilia,Southern Pacific Rattlesnake,1
+Crotalus ruber,1,1,1,0.0,0.0,1.0,Reptilia,Red Diamond Rattlesnake,0
+Croton setiger,20,11,20,0.0003614841793053392,0.0009371252477911104,1.0,Plantae,turkey mullein,1
+Cryptantha,2,1,2,0.0005411157270453209,0.0011290093960899486,0.0,Plantae,Annual Cryptanthas,0
+Cryptantha intermedia,6,4,6,0.0014474858403159226,0.00047566111139647353,0.3333333333333333,Plantae,Clearwater cryptantha,1
+Cryptantha muricata,1,1,1,0.0,0.0,0.0,Plantae,pointed cryptantha,0
+Cryptocephalus andrewsi,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Cucurbita,2,2,2,0.0036903557841990314,0.0006688059181241888,0.0,Plantae,gourds,0
+Cucurbita foetidissima,21,15,21,0.0009789059727877646,0.0003416082044629523,0.9523809523809523,Plantae,Buffalo Gourd,1
+Cupaniopsis anacardioides,3,3,3,0.004277223911994774,0.0007460453638282666,0.6666666666666666,Plantae,Tuckeroo,0
+Cuscuta,2,2,2,0.0026350817154818878,0.001027498419379093,0.0,Plantae,dodders,0
+Cuscuta californica,10,8,8,0.0016773021958154221,0.0015194607373227632,0.5,Plantae,California dodder,0
+Cuscuta campestris,1,1,1,0.0,0.0,0.0,Plantae,Field Dodder,0
+Cyathus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Cyathus olla,1,1,1,0.0,0.0,0.0,Fungi,field bird's nest fungus,1
+Cyclosa turbinata,1,1,1,0.0,0.0,0.0,Arachnida,Humped Trashline Orbweaver,0
+Cynara cardunculus,1,1,1,0.0,0.0,1.0,Plantae,Artichoke Thistle,0
+Cynipini,4,4,3,0.000978214379567545,0.000161095755670351,0.0,Insecta,Oak Gall Wasps,1
+Cynoglosseae,1,1,1,0.0,0.0,0.0,Plantae,Unknown,0
+Cyperaceae,1,1,1,0.0,0.0,0.0,Plantae,Sedges,0
+Cyperus eragrostis,3,3,3,0.001896924241990602,0.0003613590062206229,1.0,Plantae,tall flatsedge,1
+Dacrymyces chrysospermus,1,1,1,0.0,0.0,1.0,Fungi,Orange Jelly Spot,0
+Dacrymyces stillatus,1,1,1,0.0,0.0,0.0,Fungi,Jelly Spot Fungus,0
+Danaus plexippus,5,2,5,0.0005562445149751639,0.0018978914572532223,1.0,Insecta,Monarch,0
+Dasymutilla aureola,1,1,1,0.0,0.0,1.0,Insecta,Pacific Velvet Ant,0
+Datura wrightii,12,9,12,0.00043994655423408395,0.0005418500104863933,1.0,Plantae,Sacred Datura,1
+Daucus pusillus,2,1,2,0.001184403858489103,0.00030641765255989183,1.0,Plantae,American wild carrot,0
+Deinandra,2,2,2,0.0012686768446699712,0.0006395003018439585,0.0,Plantae,Unknown,0
+Deinandra fasciculata,12,5,12,0.0008494822686073329,0.0013327421850515503,1.0,Plantae,Clustered Tarweed,1
+Deirochelyinae,1,1,1,0.0,0.0,0.0,Reptilia,Deirochelyine Turtles,0
+Dendroctonus,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Dendryphantina,1,1,1,0.0,0.0,0.0,Arachnida,Unknown,0
+Dermaptera,1,1,1,0.0,0.0,0.0,Insecta,Earwigs,0
+Deroceras reticulatum,1,1,1,0.0,0.0,1.0,Mollusca,Milky Slug,1
+Dione vanillae,1,1,1,0.0,0.0,1.0,Insecta,Gulf Fritillary,0
+Diplacus,7,5,6,0.0009770293011249576,0.002531872397893356,0.0,Plantae,bush monkeyflowers,1
+Diplacus longiflorus,1,1,1,0.0,0.0,1.0,Plantae,southern bush monkeyflower,0
+Diplacus puniceus,42,27,37,0.001743839275444301,0.0014953554234490957,0.8809523809523809,Plantae,red bush monkeyflower,1
+Diplacus × australis,5,3,5,0.002227864188158883,0.0026035432968223053,1.0,Plantae,San Diego Monkeyflower,0
+Diptera,1,1,1,0.0,0.0,0.0,Insecta,Flies,0
+Dipterostemon,1,1,1,0.0,0.0,0.0,Plantae,Unknown,0
+Dipterostemon capitatus,4,4,4,0.0006328704912989317,0.0019797303461381974,1.0,Plantae,Blue Dicks,1
+Dipterostemon capitatus capitatus,4,3,4,0.0003828207554231898,0.00027384927019748044,1.0,Plantae,Unknown,0
+Distichlis spicata,1,1,1,0.0,0.0,1.0,Plantae,Saltgrass,0
+Dittrichia graveolens,2,2,2,0.0024397808731304684,7.374126706774641e-05,0.5,Plantae,Stinkwort,0
+Druon quercuslanigerum,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Dryobates nuttallii,2,2,2,0.0024313299571474527,0.0007652007651285512,1.0,Aves,Nuttall's Woodpecker,0
+Dryocosmus dubiosus,2,2,2,0.003484425783419517,0.0013218968122915525,1.0,Insecta,Two-horned Gall Wasp,0
+Dryocosmus minusculus,1,1,1,0.0,0.0,1.0,Insecta,Pumpkin Gall Wasp,0
+Dryopteris arguta,2,2,2,0.00043037424911972373,0.00026066452040914603,1.0,Plantae,coastal woodfern,1
+Dudleya pulverulenta,1,1,1,0.0,0.0,1.0,Plantae,Chalk Dudleya,1
+Ectopsocidae,1,1,1,0.0,0.0,0.0,Insecta,Outer Barklice,0
+Egretta thula,30,23,29,0.0009209577349169992,0.0004839959326928318,1.0,Aves,Snowy Egret,0
+Elanus leucurus,2,2,2,0.0019264054400862378,0.00032397214408118,1.0,Aves,White-tailed Kite,0
+Eleodes,2,2,2,0.001115789398422288,0.00040367502843455635,0.0,Insecta,Unknown,0
+Eleodes acuticauda,5,5,5,0.002125485713027434,0.0006665569666832923,0.6,Insecta,Unknown,1
+Eleodes grandicollis,7,6,5,0.002343722906461489,0.0014259484926294969,0.8571428571428571,Insecta,Unknown,1
+Eleodes osculans,4,3,3,0.0022850945046355093,0.0002374583538327646,1.0,Insecta,Woolly Darkling Beetle,1
+Elgaria multicarinata,2,2,2,0.000992186072406909,0.0012782304936752823,1.0,Reptilia,Southern Alligator Lizard,1
+Elgaria multicarinata webbii,2,2,2,0.0009565976002452265,2.5927201495370157e-05,1.0,Reptilia,San Diego Alligator Lizard,1
+Empidonax difficilis,4,4,4,0.002735415296992804,0.001528026897801938,1.0,Aves,Western Flycatcher,1
+Emydidae,1,1,1,0.0,0.0,0.0,Reptilia,Pond and Box Turtles,0
+Encelia californica,5,4,5,0.001627619975850944,0.002538764016063231,1.0,Plantae,California brittlebush,1
+Encelia farinosa,7,5,7,0.0002173970424097775,0.0006282181767955295,0.8571428571428571,Plantae,Brittlebush,0
+Encelia farinosa × californica,1,1,1,0.0,0.0,1.0,Plantae,California brittlebush hybrid,0
+Entoloma,6,4,4,0.002720272450346047,0.001175792039065842,0.0,Fungi,Pinkgills,0
+Entoloma ferruginans,9,7,8,0.0017522978986823522,0.0018410529271747345,0.2222222222222222,Fungi,Bleachy Entoloma,1
+Entoloma lividoalbum,1,1,1,0.0,0.0,1.0,Fungi,Unknown,0
+Entoloma sericeum,3,3,3,0.003178551794070111,0.001574039918730162,0.3333333333333333,Fungi,Silky Pinkgill,1
+Epilobium canum,1,1,1,0.0,0.0,1.0,Plantae,California fuchsia,1
+Erigeron bonariensis,2,1,2,0.002531795830037168,0.0034318248877820757,1.0,Plantae,Flax-leaved Horseweed,0
+Erigeron canadensis,1,1,1,0.0,0.0,1.0,Plantae,horseweed,1
+Erigeron foliosus,3,3,3,0.0013443266245917005,0.0007585299339447892,0.3333333333333333,Plantae,Leafy Fleabane,0
+Erigeron foliosus foliosus,1,1,1,0.0,0.0,0.0,Plantae,Thread stemmed fleabane,0
+Erigeron sumatrensis,1,1,1,0.0,0.0,0.0,Plantae,tropical horseweed,0
+Eriogonum elongatum,1,1,1,0.0,0.0,0.0,Plantae,Long-stemmed Buckwheat,0
+Eriogonum fasciculatum,44,28,34,0.002044878827732184,0.0016294432099072664,0.9545454545454546,Plantae,California Buckwheat,1
+Eriogonum fasciculatum fasciculatum,1,1,1,0.0,0.0,1.0,Plantae,Coastal California Buckwheat,0
+Eriophyllum confertiflorum,21,19,20,0.0013217153082950807,0.0012941021542076125,0.7142857142857143,Plantae,Golden Yarrow,1
+Eriophyllum confertiflorum confertiflorum,5,4,5,0.0012378030942790453,0.0012111899307071276,1.0,Plantae,Unknown,0
+Erodium,2,2,2,0.0005574409134300572,0.0012730089343653682,0.5,Plantae,stork's-bills,1
+Erodium botrys,3,3,3,0.0007259076577118802,0.0009501491505043986,1.0,Plantae,Mediterranean Stork's-bill,1
+Erodium cicutarium,1,1,1,0.0,0.0,1.0,Plantae,Redstem Stork's-bill,1
+Erodium malacoides,1,1,1,0.0,0.0,0.0,Plantae,Soft Stork's-bill,0
+Erodium moschatum,1,1,1,0.0,0.0,1.0,Plantae,musk stork's-bill,0
+Erynnis,3,2,3,0.0019473826064234146,0.001143982282423115,0.0,Insecta,Duskywings,0
+Erynnis funeralis,1,1,1,0.0,0.0,1.0,Insecta,Funereal Duskywing,0
+Erynnis pacuvius,1,1,1,0.0,0.0,0.0,Insecta,Pacuvius Duskywing,0
+Erynnis tristis,3,2,3,0.001879543849806461,0.001230984609358799,0.6666666666666666,Insecta,Mournful Duskywing,1
+Eschscholzia californica,16,9,15,0.001314959866810564,0.00030404524248039597,0.9375,Plantae,California poppy,1
+Eucalyptus,7,7,7,0.0016831950126296041,0.00030394401790985947,0.0,Plantae,eucalyptus,0
+Eucalyptus cladocalyx,1,1,1,0.0,0.0,0.0,Plantae,sugar gum,0
+Eucalyptus globulus,7,5,6,0.0008304282945826775,0.00012042830017848624,0.5714285714285714,Plantae,Tasmanian blue gum,0
+Eucrypta chrysanthemifolia,1,1,1,0.0,0.0,0.0,Plantae,common eucrypta,0
+Eucrypta chrysanthemifolia chrysanthemifolia,1,1,1,0.0,0.0,1.0,Plantae,Unknown,0
+Eumenes crucifera,1,1,1,0.0,0.0,1.0,Insecta,Cross Potter Wasp,0
+Eumorpha achemon,1,1,1,0.0,0.0,1.0,Insecta,Achemon Sphinx,0
+Eupeodes volucris,1,1,1,0.0,0.0,1.0,Insecta,Large-tailed Aphideater,0
+Euphilotes bernardino,2,2,2,0.0019272712216329296,0.0005132373350897433,0.5,Insecta,Bernardino Blue,1
+Euphorbia polycarpa,7,5,7,0.0013279606756143817,0.0006129952217496202,0.8571428571428571,Plantae,smallseed sandmat,1
+Euura,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Euwallacea fornicatus,3,2,1,5.112355545764584e-05,0.00016025585505766624,0.0,Insecta,Polyphagous Shothole Borer Beetle Complex,0
+Evernia prunastri,1,1,1,0.0,0.0,0.0,Fungi,Oakmoss,0
+Exidia glandulosa,2,2,2,0.0004705731989207491,6.0175211340373864e-05,0.5,Fungi,Black Witches' Butter,1
+Exoristinae,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Fabaceae,1,1,1,0.0,0.0,0.0,Plantae,Legumes,0
+Falco sparverius,9,6,9,0.0023540122323845105,0.00084597241623447,1.0,Aves,American Kestrel,0
+Flavoparmelia,1,1,1,0.0,0.0,0.0,Fungi,greenshield lichens,0
+Flavoparmelia caperata,3,3,3,0.002039232083616871,0.0018820119802066078,0.6666666666666666,Fungi,common greenshield lichen,1
+Flavopunctelia,1,1,1,0.0,0.0,0.0,Fungi,Speckled Greenshield Lichens,1
+Flavopunctelia flaventior,5,5,5,0.0010765743212211368,0.0018633211975217219,0.4,Fungi,Speckled Greenshield,1
+Foeniculum vulgare,11,7,10,0.001940816843595092,0.0012039295229984122,1.0,Plantae,fennel,0
+Formicidae,1,1,1,0.0,0.0,0.0,Insecta,Ants,1
+Fraxinus,1,1,1,0.0,0.0,0.0,Plantae,ashes,1
+Fraxinus uhdei,2,2,2,0.00014245698482646884,0.0001132613236585546,0.0,Plantae,Shamel Ash,0
+Fraxinus velutina,1,1,1,0.0,0.0,0.0,Plantae,velvet ash,1
+Fulica americana,48,27,43,0.0007936136346515376,0.00046055335906905893,1.0,Aves,American Coot,0
+Fuligo septica,2,2,2,0.0012335477797805869,0.0009981990963459676,0.0,Protozoa,Dog Vomit Slime Mold,1
+Fungi,17,13,14,0.0019265896624769171,0.0017910880543372453,0.0,Fungi,Fungi Including Lichens,1
+Fuscoporia gilva,2,2,2,0.002419876524347924,0.00045529820751635076,0.0,Fungi,Mustard Yellow Polypore,1
+Galium,3,3,3,0.001575237299268,0.0013448149127022332,0.0,Plantae,bedstraws,1
+Galium angustifolium,2,2,2,0.001302002080159516,0.0011148529061941392,0.5,Plantae,Narrow-leaved Bedstraw,0
+Galium aparine,2,2,2,1.0411440253506856e-06,5.499643198044451e-05,0.5,Plantae,catchweed bedstraw,1
+Galium nuttallii,4,4,4,0.0026034823016809045,0.0020681757709959726,0.5,Plantae,San Diego bedstraw,0
+Galium porrigens,2,2,2,0.0020912230505195518,0.0003001207959755747,0.0,Plantae,graceful bedstraw,1
+Gallinula galeata,84,40,73,0.0009076928312649681,0.00044056719222735437,1.0,Aves,Common Gallinule,1
+Gambusia affinis,4,3,3,0.0008317666275662233,0.00025775160297781814,1.0,Actinopterygii,Western Mosquitofish,0
+Geastrum,1,1,1,0.0,0.0,0.0,Fungi,Earthstars,1
+Geococcyx californianus,1,1,1,0.0,0.0,1.0,Aves,Greater Roadrunner,0
+Geomyidae,1,1,1,0.0,0.0,0.0,Mammalia,Pocket Gophers,0
+Geothlypis trichas,3,3,3,0.0022726595946849656,0.0003717096233245113,1.0,Aves,Common Yellowthroat,0
+Geraniaceae,1,1,1,0.0,0.0,0.0,Plantae,Geranium family,0
+Geranium dissectum,1,1,1,0.0,0.0,1.0,Plantae,Cut-leaved crane's-bill,1
+Gerrini,1,1,1,0.0,0.0,1.0,Insecta,Unknown,1
+Gilia angelensis,1,1,1,0.0,0.0,1.0,Plantae,chaparral gilia,0
+Glaucopsyche lygdamus,2,1,2,0.0007424621202479127,0.0007966736637091505,0.5,Insecta,Silvery Blue,0
+Glomeromycota,1,1,1,0.0,0.0,0.0,Fungi,Glomeromycetes,0
+Gnaphosidae,1,1,1,0.0,0.0,0.0,Arachnida,Stealthy Ground Spiders,0
+Gnorimoschema baccharisella,1,1,1,0.0,0.0,1.0,Insecta,Coyote Brush Stem Gall Moth,0
+Graphocephala atropunctata,1,1,1,0.0,0.0,1.0,Insecta,Blue-green Sharpshooter,0
+Graptemys pseudogeographica pseudogeographica,1,1,1,0.0,0.0,1.0,Reptilia,Northern False Map Turtle,0
+Gymnopilus aurantiophyllus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Gymnopilus sapineus,1,1,1,0.0,0.0,0.0,Fungi,Scaly Rustgill,0
+Gymnopilus ventricosus,1,1,1,0.0,0.0,1.0,Fungi,Western Jumbo Gym,0
+Gymnopus dryophilus,5,3,5,0.0007878422937286413,0.0012835511597035253,0.2,Fungi,Oak-loving Gymnopus,1
+Haemorhous mexicanus,1,1,1,0.0,0.0,1.0,Aves,House Finch,0
+Halictus tripartitus,1,1,1,0.0,0.0,1.0,Insecta,Tripartite Sweat Bee,0
+Haliotis fulgens,1,1,1,0.0,0.0,1.0,Mollusca,Green Abalone,0
+Hazardia squarrosa,1,1,1,0.0,0.0,0.0,Plantae,saw-toothed goldenbush,0
+Hebeloma,2,2,2,0.0003173944246777219,0.00026006213614893504,0.0,Fungi,Poisonpies,0
+Hebeloma crustuliniforme,2,2,2,0.0016518800004176645,0.0007192847863140747,0.0,Fungi,Poison Pie,0
+Hedera helix,1,1,1,0.0,0.0,1.0,Plantae,common ivy,1
+Hedypnois rhagadioloides,3,3,3,0.002192847176403775,0.000366988538847407,1.0,Plantae,Cretanweed,1
+Helicosmia,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Heliopetes ericetorum,1,1,1,0.0,0.0,1.0,Insecta,Northern White-Skipper,0
+Helminthotheca echioides,3,2,3,0.0015131555935888332,0.0010143537543718865,0.6666666666666666,Plantae,bristly oxtongue,0
+Helvella,3,2,2,0.0015309069094685864,0.0004244814911180824,0.0,Fungi,Elfin Saddles,0
+Helvella acetabulum,6,3,4,0.0014486036165973952,0.00021661052067758801,0.8333333333333334,Fungi,Vinegar Cup,0
+Helvella compressa,4,4,4,0.0019466040389920112,0.0020766384064273427,0.0,Fungi,Unknown,0
+Helvella crispa,1,1,1,0.0,0.0,1.0,Fungi,White Saddle,0
+Helvella dryophila,8,6,8,0.0013742693930038435,0.001308650579666054,0.625,Fungi,Oak-loving Elfin Saddle,1
+Helvella macropus,1,1,1,0.0,0.0,0.0,Fungi,long-stalked gray cup,0
+Helvella solitaria,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Helvella vespertina,1,1,1,0.0,0.0,1.0,Fungi,Western Black Elfin Saddle,0
+Hemeroplanis historialis,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Hemimycena,1,1,1,0.0,0.0,0.0,Fungi,Unknown,1
+Heraclides rumiko,2,2,2,0.0031091956808977934,0.00026148808768881296,1.0,Insecta,Western Giant Swallowtail,0
+Hericium coralloides,2,2,2,0.0007542079416992769,0.0006615377089332212,1.0,Fungi,Coral tooth fungus,1
+Hesperocnide tenella,2,2,2,5.586581977578707e-05,7.354377214626131e-05,1.0,Plantae,Western nettle,0
+Heteromeles arbutifolia,16,12,14,0.0014574059619245916,0.00165255215951594,1.0,Plantae,Toyon,1
+Heterotheca grandiflora,8,6,8,0.0006737617179354136,0.0023189632357184854,1.0,Plantae,Telegraphweed,0
+Hirschfeldia,1,1,1,0.0,0.0,0.0,Plantae,Unknown,1
+Hirschfeldia incana,12,11,11,0.0021035622484796785,0.0008381156294364391,0.5833333333333334,Plantae,Shortpod Mustard,1
+Hydrophorus,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Hygrophorus,1,1,1,0.0,0.0,0.0,Fungi,Woodwaxes,1
+Hygrophorus eburneus,2,2,2,0.0018266924944916,0.00019798989873478644,0.5,Fungi,Cowboy's Handkerchief,0
+Hygrophorus roseobrunneus,2,2,2,0.0006697872409083894,0.0003775164615912873,0.0,Fungi,Rosy Brown Waxy Cap,1
+Hylaeus,1,1,1,0.0,0.0,0.0,Insecta,Masked Bees,0
+Hypochaeris glabra,3,3,3,0.00110560780009832,0.000497637236876489,0.6666666666666666,Plantae,Smooth Cat's Ear,1
+Hypochaeris radicata,1,1,1,0.0,0.0,0.0,Plantae,Common Cat's-ear,0
+Hypomyces,3,2,2,0.0019282328435688892,0.00030988496067692393,0.0,Fungi,Unknown,1
+Hypomyces cervinigenus,2,1,1,0.0009938385809531028,0.0006092902959835889,1.0,Fungi,Unknown,0
+Hypomyces chrysospermus,5,5,5,0.001854800147613947,0.0018487028892143261,0.8,Fungi,bolete mould,1
+Hypomyces microspermus,3,2,2,0.00034471700066863374,0.0004065857927287774,0.3333333333333333,Fungi,Unknown,1
+Hypsiglena ochrorhynchus klauberi,1,1,1,0.0,0.0,1.0,Reptilia,San Diego Nightsnake,0
+Icaricia acmon,4,3,4,0.0006319823185335168,0.0007986280698981132,0.75,Insecta,Acmon Blue,0
+Icterus cucullatus,2,2,2,0.002070157420278434,0.00016069701638738877,1.0,Aves,Hooded Oriole,0
+Inocybe,1,1,1,0.0,0.0,0.0,Fungi,Fiber Caps,0
+Inocybe insinuata,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Insecta,4,4,4,0.000574209488646037,0.0003814147459939258,0.0,Insecta,Insects,1
+Irbisia,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Iridopsis fragilaria,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Ischnura cervula,1,1,1,0.0,0.0,1.0,Insecta,Pacific Forktail,0
+Isocoma,2,2,2,0.001677375159676689,0.0012834011412977625,0.0,Plantae,Jimmyweeds and Goldenbushes,1
+Isocoma menziesii,29,20,28,0.001745677060516511,0.001358042186393112,0.5862068965517241,Plantae,Coastal Goldenbush,1
+Isocoma menziesii menziesii,1,1,1,0.0,0.0,0.0,Plantae,Menzies' Goldenbush,0
+Isodontia philadelphica,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Iva hayesiana,2,2,2,1.964335566936692e-05,1.9969119761523704e-05,0.5,Plantae,San Diego marsh-elder,0
+Johnstonella angustifolia,1,1,1,0.0,0.0,1.0,Plantae,narrow-leaved cryptantha,0
+Juglans californica,1,1,1,0.0,0.0,0.0,Plantae,Southern California Walnut,0
+Julidae,1,1,1,0.0,0.0,0.0,Animalia,Unknown,0
+Juncaceae,1,1,1,0.0,0.0,0.0,Plantae,Rushes and Allies,0
+Junonia grisea,1,1,1,0.0,0.0,1.0,Insecta,Gray Buckeye,0
+Laccaria,2,2,2,0.002873564084045503,0.0004926177477978852,0.0,Fungi,Deceivers,1
+Laccaria amethysteo-occidentalis,1,1,1,0.0,0.0,0.0,Fungi,Western Amethyst Laccaria,1
+Laccaria fraterna,1,1,1,0.0,0.0,0.0,Fungi,gumtree deceiver,1
+Laccaria laccata,3,2,3,0.0014463263160359365,0.002272809201107153,0.0,Fungi,deceiver,0
+Lactarius,2,2,2,0.001543889097160439,0.00019995409995079557,0.0,Fungi,Common Milkcaps,1
+Lactarius alnicola,19,15,15,0.0017671571648801097,0.001881775691940442,0.7368421052631579,Fungi,golden milkcap,1
+Lactarius rubidus,1,1,1,0.0,0.0,0.0,Fungi,Candy Cap,1
+Lactarius rufulus,13,8,11,0.0014541408358948143,0.0008574925174373415,0.3076923076923077,Fungi,Southern Candy Cap,1
+Lactarius xanthogalactus,1,1,1,0.0,0.0,1.0,Fungi,Yellow-staining Milk Cap,1
+Lactuca serriola,2,1,2,0.0002357022368218077,0.002320488777172532,1.0,Plantae,prickly lettuce,0
+Laetiporus gilbertsonii,5,5,5,0.0013878581944071424,0.00026724980127847207,1.0,Fungi,Western Hardwood Sulphur Shelf,0
+Lampropeltis californiae,1,1,1,0.0,0.0,1.0,Reptilia,California King Snake,0
+Larus delawarensis,44,22,34,0.0005201673151177585,0.0003826957418524853,1.0,Aves,Ring-billed Gull,0
+Lathyrus vestitus,6,5,5,0.0005743413479932764,0.001185910683523582,1.0,Plantae,Pacific pea,0
+Lathyrus vestitus alefeldii,11,9,10,0.000777779263516429,0.00010093955399261639,1.0,Plantae,San Diego Pea,0
+Latrodectus hesperus,1,1,1,0.0,0.0,1.0,Arachnida,Western Black Widow,0
+Lecanoromycetes,3,3,3,0.0012288145739869436,0.0003106984764780153,0.0,Fungi,Common Lichens,1
+Leiothlypis celata,2,2,2,0.0004322883164620547,0.0007036975365468529,1.0,Aves,Orange-crowned Warbler,0
+Lemna,1,1,1,0.0,0.0,0.0,Plantae,Duckweeds,0
+Lemna minor,1,1,1,0.0,0.0,0.0,Plantae,Common Duckweed,0
+Lemnoideae,1,1,1,0.0,0.0,0.0,Plantae,duckweeds,0
+Lentinellus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,1
+Lentinellus montanus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Lentinellus ursinus,1,1,1,0.0,0.0,1.0,Fungi,bear lentinus,0
+Leocarpus fragilis,1,1,1,0.0,0.0,0.0,Protozoa,insect-egg slime,0
+Lepidanthrax,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Lepidium didymum,1,1,1,0.0,0.0,1.0,Plantae,Lesser swine-cress,0
+Lepidium oblongum,1,1,1,0.0,0.0,1.0,Plantae,Veiny Pepperweed,0
+Lepidoptera,3,3,3,0.0034695234141504834,0.0015185029919325896,0.0,Insecta,Butterflies and Moths,1
+Lepiota,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Lepiota spheniscispora,1,1,1,0.0,0.0,1.0,Fungi,Penguin-spored Lepiota,0
+Leptocybe invasa,4,1,4,0.0003567919381940451,3.5237298734200844e-05,0.0,Insecta,Eucalyptus Stem Gall Wasp,0
+Leptodictyum riparium,1,1,1,0.0,0.0,1.0,Plantae,Streamside Leptodictyum Moss,0
+Leptotes marina,2,2,2,0.002602545823295945,0.0014122494318607058,1.0,Insecta,Marine Blue,1
+Leratiomyces percevalii,1,1,1,0.0,0.0,0.0,Fungi,Mulch Maids,1
+Leucocoprinus ianthinus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Leucocybe candicans,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Leymus condensatus,4,4,4,0.0014817229817760092,0.00043552891375886845,0.25,Plantae,giant wild rye,1
+Libellula saturata,1,1,1,0.0,0.0,1.0,Insecta,Flame Skimmer,0
+Life,1,1,1,0.0,0.0,0.0,Unknown,Unknown,1
+Ligustrum lucidum,1,1,1,0.0,0.0,1.0,Plantae,tree privet,0
+Liliopsida,1,1,1,0.0,0.0,0.0,Plantae,Monocots,1
+Limacoidea,1,1,1,0.0,0.0,0.0,Mollusca,Unknown,0
+Limenitis lorquini,17,11,16,0.0013935632369480085,0.0003575562649135154,1.0,Insecta,Lorquin's Admiral,1
+Linaria texana,2,2,2,0.0034774290325304907,0.000862177207494744,1.0,Plantae,Texas toadflax,1
+Linum usitatissimum,1,1,1,0.0,0.0,1.0,Plantae,common flax,0
+Listrus,1,1,1,0.0,0.0,0.0,Insecta,Unknown,1
+Lithobates catesbeianus,17,17,17,0.0010311558901157593,0.0007444892594792884,1.0,Amphibia,American Bullfrog,1
+Litomegachile,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Littorina scutulata,1,1,1,0.0,0.0,0.0,Mollusca,Checkered Periwinkle,0
+Lon melane,2,2,2,5.3173510708493874e-05,3.7640425327704845e-05,1.0,Insecta,Umber Skipper,1
+Lonchura punctulata,6,4,6,0.0010980369851727946,0.00033025996672716887,0.8333333333333334,Aves,Scaly-breasted Munia,0
+Lonicera,3,3,3,0.0008665769377687005,0.003077744284037527,0.0,Plantae,honeysuckles,0
+Lonicera subspicata,8,7,8,0.0015554952079269181,0.000974062519424597,0.625,Plantae,Southern Honeysuckle,1
+Lonicera subspicata denudata,9,4,9,0.0016558427941858063,0.0007077604736822404,1.0,Plantae,Johnston's honeysuckle,1
+Lotus corniculatus,2,2,2,0.00047224663782437367,0.0006807611138944571,0.5,Plantae,bird's-foot trefoil,0
+Lotus tenuis,1,1,1,0.0,0.0,0.0,Plantae,narrow-leaf bird's-foot trefoil,0
+Lucilia,1,1,1,0.0,0.0,0.0,Insecta,Greenbottle Flies,0
+Lupinus,9,8,9,0.0015473150239089153,0.0015851522235627953,0.0,Plantae,lupines,1
+Lupinus albifrons,1,1,1,0.0,0.0,0.0,Plantae,Bush Lupine complex,1
+Lupinus bicolor,3,2,3,0.0002504715853387309,0.0002494790952440836,1.0,Plantae,Miniature Lupine,1
+Lupinus hirsutissimus,7,6,7,0.0016639573786000497,0.000951696615785802,0.8571428571428571,Plantae,Stinging Lupine,0
+Lupinus latifolius,5,4,4,0.0003317638161520738,5.292352416469875e-05,0.2,Plantae,Broadleaf Lupine,1
+Lupinus longifolius,9,8,8,0.0015650629539742443,0.000714041729285778,0.2222222222222222,Plantae,longleaf bush lupine,1
+Lupinus microcarpus,9,7,9,0.00128543624263205,0.0005332381737394301,0.3333333333333333,Plantae,chick lupine,1
+Lupinus microcarpus densiflorus,1,1,1,0.0,0.0,0.0,Plantae,Dense-flowered Lupine,0
+Lupinus succulentus,2,2,2,0.0006334703073407471,0.0014345466299903109,0.5,Plantae,arroyo lupine,0
+Lupinus truncatus,9,6,8,0.0005910680051380256,0.0005603552240127608,1.0,Plantae,collared annual lupine,1
+Lycogala,1,1,1,0.0,0.0,0.0,Protozoa,Wolfs Milk,0
+Lycoperdaceae,1,1,1,0.0,0.0,0.0,Fungi,puffballs,1
+Lycoperdon marginatum,1,1,1,0.0,0.0,1.0,Fungi,Peeling Puffball,1
+Lycosidae,1,1,1,0.0,0.0,0.0,Arachnida,Wolf Spiders,1
+Lycosoidea,1,1,1,0.0,0.0,0.0,Arachnida,Wolf Spiders and Allies,0
+Lynx rufus,5,5,5,0.0017603214835814251,0.001244653585928368,0.6,Mammalia,Bobcat,1
+Lysimachia arvensis,2,2,2,0.0025749831545204245,0.0012221169036905003,1.0,Plantae,scarlet pimpernel,1
+Lysimachia loeflingii,1,1,1,0.0,0.0,1.0,Plantae,Blue Scarlet Pimpernel,0
+Lythrum hyssopifolia,1,1,1,0.0,0.0,1.0,Plantae,Hyssop Loosestrife,0
+Machaerantherinae,2,2,2,0.00148208160052195,3.623922239407236e-06,0.0,Plantae,Unknown,0
+Maculatinae,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Madieae,1,1,1,0.0,0.0,0.0,Plantae,"tarweeds, silverswords, and allies",1
+Magnoliopsida,9,9,9,0.0020690970107264685,0.0013239692145603154,0.0,Plantae,Dicots,1
+Malacothamnus fasciculatus,2,2,2,0.0001732130185382062,0.00010780571199223876,1.0,Plantae,southern coastal bushmallow,0
+Malosma laurina,13,9,13,0.0019201245900538704,0.0011099737486117997,1.0,Plantae,laurel sumac,1
+Malva multiflora,1,1,1,0.0,0.0,1.0,Plantae,Cretan mallow,0
+Malva nicaeensis,1,1,1,0.0,0.0,1.0,Plantae,bull mallow,0
+Marah macrocarpa,20,13,17,0.0014563395519747798,0.0011932718279738157,1.0,Plantae,Chilicothe,1
+Marasmiineae,1,1,1,0.0,0.0,0.0,Fungi,Unknown,1
+Marasmius albogriseus,2,1,1,0.002526142935587699,5.331882115274609e-05,1.0,Fungi,Unknown,0
+Marasmius plicatulus,1,1,1,0.0,0.0,1.0,Fungi,red pinwheel,1
+Mareca americana,61,33,54,0.0005160764567240352,0.0004153429139719094,1.0,Aves,American Wigeon,0
+Mareca penelope,1,1,1,0.0,0.0,1.0,Aves,Eurasian Wigeon,0
+Marrubium vulgare,39,29,32,0.001796027174078826,0.0015157863006418292,1.0,Plantae,White Horehound,1
+Masticophis lateralis lateralis,1,1,1,0.0,0.0,1.0,Reptilia,California Striped Racer,1
+Matricaria discoidea,2,1,1,0.002651650429454678,0.0006151828996316163,1.0,Plantae,pineapple-weed,0
+Mecaphesa,2,1,1,0.0,0.0,0.0,Arachnida,Unknown,0
+Medicago polymorpha,4,3,3,0.0038747247141736937,0.0008817259118721379,1.0,Plantae,bur clover,1
+Megaceryle alcyon,1,1,1,0.0,0.0,1.0,Aves,Belted Kingfisher,0
+Megachile angelarum,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Melanerpes formicivorus,3,3,3,0.0005533252190132607,0.0016614878091918343,1.0,Aves,Acorn Woodpecker,1
+Melanosmia,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Melilotus,1,1,1,0.0,0.0,0.0,Plantae,melilots and sweetclovers,0
+Melilotus albus,9,6,9,0.0005449907918918264,0.00016131214348762357,1.0,Plantae,White Sweetclover,0
+Melilotus indicus,3,3,3,0.00202641483538706,0.0011525303619455815,1.0,Plantae,small melilot,1
+Melinis repens,1,1,1,0.0,0.0,1.0,Plantae,Natal Grass,0
+Melissodes,4,1,4,0.0014434743175304418,0.00028669397171048614,0.0,Insecta,Unknown,0
+Melospiza melodia,16,8,13,0.0013463202626011954,0.0006454305268378252,1.0,Aves,Song Sparrow,1
+Melozone crissalis,14,11,14,0.0020182381396000345,0.0009109537833907613,1.0,Aves,California Towhee,1
+Mentha spicata,1,1,1,0.0,0.0,0.0,Plantae,spearmint,0
+Micranthophora,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Microcentrum rhombifolium,1,1,1,0.0,0.0,1.0,Insecta,Greater Anglewing,0
+Microtus californicus,1,1,1,0.0,0.0,0.0,Mammalia,California Vole,0
+Mimus polyglottos,1,1,1,0.0,0.0,1.0,Aves,Northern Mockingbird,1
+Mirabilis laevis,1,1,1,0.0,0.0,1.0,Plantae,Wishbone Bush,1
+Mirabilis laevis crassifolia,2,1,2,0.00021012385109905616,7.660087760326234e-05,1.0,Plantae,California Four o'Clock,0
+Misumenini,1,1,1,0.0,0.0,0.0,Arachnida,Unknown,0
+Misumenoides formosipes,2,2,2,0.004566731271587482,0.0028260701257155903,1.0,Arachnida,White-banded Crab Spider,0
+Molothrus ater,4,3,4,0.0005817861598127946,0.00010237668210115859,1.0,Aves,Brown-headed Cowbird,0
+Mordella hubbsi,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Mucoromycetes,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Mutarda nigra,2,2,2,0.0018177221378643403,0.0006191210601355101,1.0,Plantae,Black Mustard,0
+Mycena,1,1,1,0.0,0.0,0.0,Fungi,Bonnets,0
+Mycena californiensis,1,1,1,0.0,0.0,0.0,Fungi,California Mycena,1
+Mycena tenerrima,2,2,2,0.00035744247789171754,0.0001414213562420042,0.0,Fungi,frosty bonnet,0
+Mycenaceae,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Mycogone rosea,1,1,1,0.0,0.0,1.0,Fungi,Unknown,0
+Myiarchus cinerascens,3,3,3,0.0017912457412989843,0.0002889263609281872,1.0,Aves,Ash-throated Flycatcher,1
+Myrtales,1,1,1,0.0,0.0,0.0,Plantae,"myrtles, evening primroses, and allies",0
+Myrtoideae,1,1,1,0.0,0.0,0.0,Plantae,Unknown,0
+Myxarium nucleatum,1,1,1,0.0,0.0,0.0,Fungi,Crystal Brain Fungus,1
+Myxomycetes,1,1,1,0.0,0.0,0.0,Protozoa,true slime molds,0
+Naematelia aurantia,4,4,4,0.0006080487481988359,0.00019974594812079534,0.5,Fungi,golden ear,0
+Nannopterum auritum,13,10,12,0.0005715633216553713,0.00030155614699545246,1.0,Aves,Double-crested Cormorant,0
+Narcissus,2,2,2,8.838834764622833e-05,2.003466856933145e-05,0.0,Plantae,daffodils,1
+Nasturtium officinale,1,1,1,0.0,0.0,1.0,Plantae,watercress,1
+Navarretia hamata,1,1,1,0.0,0.0,0.0,Plantae,Hooked Pincushionplant,1
+Navarretia hamata leptantha,1,1,1,0.0,0.0,1.0,Plantae,Slender-Flowered Hooked Navarretia,0
+Nemognatha,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Neoscona,1,1,1,0.0,0.0,0.0,Arachnida,Spotted Orbweavers,0
+Neoscona crucifera,2,2,2,0.005872267259317114,0.0010264786299727646,0.0,Arachnida,Spotted Orbweaver,0
+Neotephritis finalis,1,1,1,0.0,0.0,1.0,Insecta,Sunflower Seed Maggot,0
+Neotoma,4,3,3,0.00279508830937151,0.0012214607048780597,0.25,Mammalia,Woodrats,1
+Neotoma fuscipes,2,1,2,0.0004066792423074848,0.0003748549116677525,0.0,Mammalia,Dusky-footed Woodrat,0
+Neotoma macrotis,6,5,6,0.002167461711548249,0.001218230583620832,0.3333333333333333,Mammalia,Big-eared Woodrat,1
+Neotomini,2,2,2,2.2006789376920826e-05,1.3150984045130789e-05,0.0,Mammalia,Pack Rats,1
+Nicotiana glauca,2,2,2,0.001193063158841447,0.0033735186303827333,1.0,Plantae,tree tobacco,0
+Nicotiana quadrivalvis,1,1,1,0.0,0.0,1.0,Plantae,Indian tobacco,0
+Nicrophorus marginatus,1,1,1,0.0,0.0,0.0,Insecta,Margined Burying Beetle,0
+Nolanea,2,2,2,0.00035143440370053657,0.002206767126988971,0.0,Fungi,Unknown,0
+Nycticorax nycticorax,150,78,110,0.0008191171871065775,0.00041577994376536617,1.0,Aves,Black-crowned Night Heron,0
+Nymphalis antiopa,7,7,7,0.0009773199490909026,0.000883929667184977,1.0,Insecta,Mourning Cloak,1
+Ochlodes sylvanoides,3,3,3,0.002298542458204152,0.0020655230836008312,0.3333333333333333,Insecta,Woodland Skipper,0
+Odocoileus hemionus,3,3,3,0.00041691981717218547,0.00037966361280543273,0.3333333333333333,Mammalia,Mule Deer,1
+Odonata,1,1,1,0.0,0.0,0.0,Insecta,Dragonflies and Damselflies,0
+Oecanthus rileyi,1,1,1,0.0,0.0,1.0,Insecta,Riley's Tree Cricket,0
+Oecobius navus,1,1,1,0.0,0.0,0.0,Arachnida,Wall Spider,0
+Oenothera,1,1,1,0.0,0.0,0.0,Plantae,"evening primroses, sundrops, and beeblossoms",0
+Oenothera elata,1,1,1,0.0,0.0,1.0,Plantae,tall evening primrose,0
+Oestroidea,1,1,1,0.0,0.0,0.0,Insecta,"Bot Flies, Blow Flies, and Allies",0
+Oloptum miliaceum,5,4,4,0.0013099093062695205,0.00040309835154884104,0.6,Plantae,Smilo Grass,1
+Omphalotus olivascens,17,17,14,0.0017046337778713221,0.0014016502146590513,0.9411764705882353,Fungi,western jack-o'-lantern,1
+Opuntia,4,3,4,0.0025919662892241453,0.0022580364644288107,0.0,Plantae,Prickly Pears,1
+Opuntia leucotricha,1,1,1,0.0,0.0,1.0,Plantae,Arborescent Pricklypear,0
+Opuntia littoralis,5,5,5,0.00027832877676004436,0.00014409372361212303,0.0,Plantae,Coastal Pricklypear,1
+Orgyia,6,6,6,0.0006401558293393722,0.001750508431062864,0.0,Insecta,Unknown,1
+Orgyia vetusta,5,5,5,0.0006877844961975497,0.0011853757055943566,0.2,Insecta,Western Tussock Moth,0
+Osmadenia tenella,3,3,3,5.02961189997005e-05,7.758546004047911e-05,1.0,Plantae,False Rosinweed,0
+Osmiini,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Otospermophilus beecheyi,18,10,14,0.001200600889922309,0.0004397831092452804,1.0,Mammalia,California Ground Squirrel,0
+Oxalis corniculata,1,1,1,0.0,0.0,0.0,Plantae,Creeping Woodsorrel,0
+Oxalis pes-caprae,3,3,3,3.1928901686920764e-05,7.783976897202821e-05,1.0,Plantae,Bermuda buttercup,0
+Oxyopes,1,1,1,0.0,0.0,0.0,Arachnida,Grass Lynx Spiders,0
+Ozophora,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Pachydiplax longipennis,6,4,5,0.0021025699725729036,0.0005677685265226284,1.0,Insecta,Blue Dasher,0
+Panaeolus foenisecii,2,1,1,0.0015988862362502354,0.0005656854249479196,1.0,Fungi,Mower's Mushroom,0
+Pantherinae,1,1,1,0.0,0.0,0.0,Fungi,Amanita ser. Pantherinae,0
+Pantomorus cervinus,1,1,1,0.0,0.0,0.0,Insecta,Fuller's rose weevil,0
+Papilio rutulus,4,4,4,0.0016374006487738341,0.00047309131628077325,1.0,Insecta,Western Tiger Swallowtail,0
+Parasola conopilea,2,1,2,0.0011059150057771017,0.0005244374822393912,0.0,Fungi,conical brittlestem,1
+Parasola plicatilis,1,1,1,0.0,0.0,0.0,Fungi,pleated inkcap,0
+Pardosa,3,2,3,0.001071231591513214,0.0007087588672699037,0.0,Arachnida,Thin-legged Wolf Spiders,0
+Parmeliaceae,1,1,1,0.0,0.0,0.0,Fungi,shield lichens and allies,1
+Parmelioideae,3,2,3,0.0020471266731332967,0.0009705501406216118,0.0,Fungi,typical shield lichens,1
+Parmotrema,1,1,1,0.0,0.0,0.0,Fungi,Ruffle Lichens,1
+Parmotrema hypoleucinum,1,1,1,0.0,0.0,0.0,Fungi,Lacy Powdered-ruffle,1
+Paropsisterna m-fuscum,6,4,4,0.0006526926057564172,4.4832160307569276e-05,1.0,Insecta,Eucalyptus Leaf Beetle,0
+Paruroctonus silvestrii,1,1,1,0.0,0.0,1.0,Arachnida,California common scorpion,0
+Paspalum dilatatum,1,1,1,0.0,0.0,1.0,Plantae,Dallis grass,0
+Passer domesticus,1,1,1,0.0,0.0,1.0,Aves,House Sparrow,0
+Pectocarya,1,1,1,0.0,0.0,0.0,Plantae,combseeds,0
+Pectocarya linearis,1,1,1,0.0,0.0,0.0,Plantae,sagebrush combseed,1
+Pelecanus erythrorhynchos,1,1,1,0.0,0.0,1.0,Aves,American White Pelican,0
+Pellaea mucronata,2,2,2,0.002355019134744711,0.001177332790672481,1.0,Plantae,bird's foot cliffbrake,0
+Pentagramma,3,3,3,0.0017428320873721637,0.0009464648650712855,0.0,Plantae,Unknown,1
+Pentagramma viscosa,2,2,2,0.0016313869852350386,0.002107706699540783,1.0,Plantae,Sticky goldback fern,1
+Pepsis,2,2,2,0.0024113865053554174,0.0008891222892042072,0.0,Insecta,New World Tarantula-hawk Wasps,0
+Pepsis thisbe,1,1,1,0.0,0.0,0.0,Insecta,Thisbe's Tarantula-hawk Wasp,1
+Perdita,2,2,2,0.0018707732483927001,0.0006645253058042093,0.0,Insecta,Fairy Bees,0
+Peridroma saucia,1,1,1,0.0,0.0,0.0,Insecta,Variegated Cutworm Moth,0
+Perithemis intensa,1,1,1,0.0,0.0,1.0,Insecta,Mexican Amberwing,0
+Peucetia,1,1,1,0.0,0.0,0.0,Arachnida,Green Lynx Spiders,0
+Peucetia viridans,2,2,2,0.0018355371275353227,0.001926953942817825,1.0,Arachnida,Green Lynx Spider,0
+Peziza,1,1,1,0.0,0.0,0.0,Fungi,Cups,1
+Peziza arvernensis,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Peziza vesiculosa,1,1,1,0.0,0.0,0.0,Fungi,blistered cup,0
+Pezizaceae,1,1,1,0.0,0.0,0.0,Fungi,"Pezizas, Desert Truffles, and Allies",0
+Pezizales,2,1,1,0.0008013876617772638,0.0001885618318916442,0.0,Fungi,Unknown,0
+Phacelia,2,2,2,0.000294627778356183,0.00019209729507671053,0.0,Plantae,Scorpionweeds,1
+Phacelia distans,7,7,5,0.0015420387801177839,0.00037530300380559864,0.8571428571428571,Plantae,distant phacelia,1
+Phacelia parryi,6,6,6,0.0014684274667445697,0.0012035621068778165,1.0,Plantae,Parry's phacelia,1
+Phacelia ramosissima,1,1,1,0.0,0.0,0.0,Plantae,branching phacelia,0
+Phaeoclavulina,4,4,3,0.001082118126975675,0.002454495450342705,0.0,Fungi,Unknown,1
+Phaeotremella foliacea,1,1,1,0.0,0.0,1.0,Fungi,Leafy Brain,1
+Phidippus johnsoni,2,2,2,0.0004914328489658418,0.0007437252250863776,0.5,Arachnida,Johnson's Jumping Spider,0
+Phlegmacium glaucopus,1,1,1,0.0,0.0,0.0,Fungi,greenfoot webcap,0
+Phloeodes diabolicus,1,1,1,0.0,0.0,1.0,Insecta,Diabolical Ironclad Beetle,0
+Phloeomana speirea,1,1,1,0.0,0.0,0.0,Fungi,Bark Bonnet,1
+Phoradendron macrophyllum,4,3,4,0.0023041837473823054,0.00043207385798426626,0.75,Plantae,broadleaf mistletoe,1
+Phylloscypha phyllogena,1,1,1,0.0,0.0,0.0,Fungi,Common Brown Cup,1
+Pieris rapae,4,3,3,0.000757853758836337,0.00111332217753768,1.0,Insecta,Small White,0
+Pimplinae,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Pinus,2,2,2,9.816996788409553e-05,0.00010842308691745124,0.0,Plantae,pines,0
+Pipilo maculatus,7,6,7,0.001973627359067556,0.0004658317123734664,1.0,Aves,Spotted Towhee,0
+Pisolithus arhizus,1,1,1,0.0,0.0,0.0,Fungi,Dyeball,1
+Pisolithus tinctorius,5,3,5,0.0006541178876054587,0.0020790606676722926,0.0,Fungi,Dead Man's Foot,1
+Pituophis catenifer annectens,1,1,1,0.0,0.0,1.0,Reptilia,San Diego Gopher Snake,0
+Plagiobothrys,4,3,3,0.0017504286355559929,0.0015660529554033624,0.0,Plantae,Popcornflowers,1
+Plagiobothrys nothofulvus,3,3,3,0.001969791597960767,0.0008733178983481043,0.3333333333333333,Plantae,Rusty Popcornflower,1
+Plantae,4,4,4,0.0011548236514446325,0.0025927900999834974,0.0,Plantae,Plants,1
+Plantago major,4,3,4,0.001076257535254537,0.0016418657287302716,1.0,Plantae,greater plantain,0
+Platanus,2,2,2,0.0014514333298825332,0.0015980519209692146,0.0,Plantae,planes,1
+Platanus racemosa,13,10,13,0.002226121724021758,0.0018974431672124448,0.9230769230769231,Plantae,western sycamore,1
+Platynus brunneomarginatus,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Plestiodon skiltonianus skiltonianus,1,1,1,0.0,0.0,1.0,Reptilia,Skilton's Skink,0
+Pleurotus,2,2,2,0.0028320992716805455,0.0009591781864368725,0.0,Fungi,Oyster Mushrooms,0
+Pleurotus ostreatus,2,2,2,0.0024709060872918076,0.0027168614431519952,0.5,Fungi,Oyster Mushroom,1
+Pluteus,1,1,1,0.0,0.0,0.0,Fungi,Shields,0
+Pluteus exilis,1,1,1,0.0,0.0,0.0,Fungi,Western Deer Mushroom,0
+Poaceae,5,5,5,0.002152875341784417,0.0016377201620255588,0.0,Plantae,Grasses,1
+Poales,2,2,2,4.597834565783467e-05,0.001887713759096582,0.0,Plantae,"Grasses, Sedges, Cattails, and Allies",0
+Podilymbus podiceps,13,5,12,0.0002774665933646648,0.00016245958118361704,1.0,Aves,Pied-billed Grebe,0
+Poecilanthrax,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Polioptila caerulea,1,1,1,0.0,0.0,0.0,Aves,Blue-gray Gnatcatcher,0
+Polycaon,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Polycaon stoutii,1,1,1,0.0,0.0,0.0,Insecta,Stout's Hardwood Borer,0
+Polydesmidae,1,1,1,0.0,0.0,0.0,Animalia,Unknown,0
+Polypogon monspeliensis,1,1,1,0.0,0.0,1.0,Plantae,rabbitfoot grass,0
+Polyporales,1,1,1,0.0,0.0,0.0,Fungi,Shelf Fungi,1
+Pompiloidea,1,1,1,0.0,0.0,0.0,Insecta,"Spider Wasps, Velvet Ants, and Allies",0
+Pontia,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Pontia protodice,2,2,2,3.390789148274509e-06,1.2290505806016955e-05,0.5,Insecta,Checkered White,1
+Populus,5,5,5,0.0010470191016258958,0.0001354243564231656,0.0,Plantae,"poplars, cottonwoods, and aspens",0
+Populus fremontii,12,8,11,0.0013425716485338261,0.0003269921247462016,0.75,Plantae,Frémont Cottonwood,0
+Populus nigra,1,1,1,0.0,0.0,0.0,Plantae,Black Poplar,0
+Populus trichocarpa,1,1,1,0.0,0.0,1.0,Plantae,black cottonwood,0
+Porzana carolina,1,1,1,0.0,0.0,1.0,Aves,Sora,0
+Procambarus clarkii,1,1,1,0.0,0.0,1.0,Animalia,Red Swamp Crayfish,1
+Procyon lotor,2,2,2,0.002922219889526997,0.0013151520742475348,1.0,Mammalia,Common Raccoon,1
+Pruinomycena acicula,1,1,1,0.0,0.0,1.0,Fungi,orange bonnet,0
+Psathyrella bipellis,1,1,1,0.0,0.0,0.0,Fungi,Maroon Brittlestem,0
+Psathyrella longipes,1,1,1,0.0,0.0,1.0,Fungi,Tall Psathyrella,0
+Pseudacris regilla,8,6,7,0.002488412623564789,0.001550916198899284,1.0,Amphibia,Pacific chorus frog,1
+Pseudognaphalium,4,4,4,0.0018414052289452611,0.0009929436962540907,0.0,Plantae,rabbit-tobaccos,1
+Pseudognaphalium beneolens,1,1,1,0.0,0.0,1.0,Plantae,Fragrant Everlasting,0
+Pseudognaphalium biolettii,9,6,9,0.002027592213328959,0.0008084115963536649,0.8888888888888888,Plantae,two-color rabbit tobacco,0
+Pseudognaphalium californicum,9,8,8,0.001597535940631941,0.0013408389780474768,0.8888888888888888,Plantae,California cudweed,1
+Pseudognaphalium microcephalum,1,1,1,0.0,0.0,0.0,Plantae,Feltleaf Everlasting,0
+Pseudognaphalium stramineum,1,1,1,0.0,0.0,0.0,Plantae,cottonbatting plant,0
+Pterygota,1,1,1,0.0,0.0,0.0,Insecta,Winged and Once-winged Insects,0
+Punctularia atropurpurascens,1,1,1,0.0,0.0,0.0,Fungi,Purple Fuzz,0
+Quercus,12,8,9,0.0018710056855409524,0.0010807004774593936,0.0,Plantae,oaks,1
+Quercus agrifolia,38,28,29,0.0020531475237025223,0.0012351774907561658,0.6052631578947368,Plantae,coast live oak,1
+Quercus agrifolia agrifolia,1,1,1,0.0,0.0,1.0,Plantae,California Live Oak,0
+Quercus berberidifolia,5,4,4,0.0015484295008353593,0.00036908360809791857,0.0,Plantae,California scrub oak,0
+Quercus berberidifolia × engelmannii,1,1,1,0.0,0.0,0.0,Plantae,Unknown,0
+Quercus dumosa,1,1,1,0.0,0.0,1.0,Plantae,Nuttall's scrub oak,0
+Quercus wislizeni,1,1,1,0.0,0.0,0.0,Plantae,interior live oak,0
+Quiscalus mexicanus,8,8,8,0.0005493704941970857,0.00027089770479615533,1.0,Aves,Great-tailed Grackle,0
+Rabdophaga salicisbatatus,1,1,1,0.0,0.0,1.0,Insecta,Potato Gall Midge,0
+Ramosissimae,1,1,1,0.0,0.0,0.0,Plantae,Unknown,1
+Reithrodontomyini,1,1,1,0.0,0.0,0.0,Mammalia,Harvest and Deer Mice,0
+Rhamnus,3,3,3,0.002959451170383583,0.0027694383615815762,0.0,Plantae,Buckthorns,0
+Rhamnus crocea,13,10,13,0.002632198203123825,0.0006728616749523915,0.7692307692307693,Plantae,Redberry Buckthorn,1
+Rhamnus ilicifolia,1,1,1,0.0,0.0,1.0,Plantae,hollyleaf redberry,1
+Rhopalomyia audibertiae,3,2,3,0.0018787822075322367,0.00042359902586801566,0.0,Insecta,White Sage Leaf Gall Midge,1
+Rhopalomyia californica,5,4,5,0.0007797235681538279,0.00048436185276557207,1.0,Insecta,Coyote Brush Bud Gall Midge,1
+Rhus integrifolia,18,14,17,0.0015348156391749282,0.0017315375629024016,1.0,Plantae,lemonade berry,1
+Rhynchophorus palmarum,1,1,1,0.0,0.0,0.0,Insecta,South American Palm Weevil,0
+Ribes,5,5,5,0.0016767786217457307,0.0006095680398106289,0.0,Plantae,currants and gooseberries,1
+Ribes indecorum,24,18,21,0.002022355437535396,0.0004637132264163131,0.75,Plantae,White-flowering Currant,1
+Ribes speciosum,25,21,22,0.0017830173585557112,0.001203655642270927,0.76,Plantae,Fuchsiaflower Gooseberry,1
+Ricinus communis,1,1,1,0.0,0.0,1.0,Plantae,castor bean,0
+Roanokenses,1,1,1,0.0,0.0,0.0,Fungi,Amanita sect. Roanokenses,0
+Robinia,1,1,1,0.0,0.0,0.0,Plantae,Locust Trees,0
+Robinia hispida,1,1,1,0.0,0.0,1.0,Plantae,Bristly locust,0
+Rubroboletus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Rubroboletus satanas,1,1,1,0.0,0.0,0.0,Fungi,Devil's Bolete,0
+Rumex,5,4,5,0.001457335308377131,0.0015982012922919446,0.0,Plantae,docks and sorrels,1
+Rumex crispus,2,2,2,0.0026167006161278024,0.0004919789475316618,1.0,Plantae,curled dock,0
+Russula,7,7,7,0.001863067300349113,0.0013773483996918144,0.0,Fungi,brittlegills,1
+Russula bicolor,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Russula brevipes,1,1,1,0.0,0.0,0.0,Fungi,Short-stemmed Russula,1
+Russula californiensis,1,1,1,0.0,0.0,1.0,Fungi,Unknown,1
+Russula cerolens,1,1,1,0.0,0.0,0.0,Fungi,Pocket-stalked russula,0
+Russula cremoricolor,11,8,9,0.0022126849053337528,0.001990806817674148,0.2727272727272727,Fungi,Winter Russula,1
+Russula maculata,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Sairocarpus nuttallianus,1,1,1,0.0,0.0,1.0,Plantae,Nuttall's Snapdragon,1
+Sairocarpus pusillus,2,2,2,0.00031741082955389065,1.7309974008780327e-05,1.0,Plantae,lesser snapdragon,1
+Salix,5,5,5,0.0014187101844176948,0.0023456351769251846,0.0,Plantae,Willows,1
+Salix exigua,4,4,4,3.525100066980519e-05,7.640052156694567e-05,0.75,Plantae,Narrowleaf Willow,0
+Salix gooddingii,2,2,2,2.1831426893237748e-05,5.50348985925238e-05,0.0,Plantae,Goodding's willow,0
+Salix laevigata,3,3,3,0.0006606510751370224,0.000478102341486442,0.6666666666666666,Plantae,red willow,1
+Salix lasiandra,2,2,2,0.002329099782126469,0.0002821290296047176,0.0,Plantae,Pacific Willow,0
+Salix lasiolepis,5,5,5,0.001276488302399923,0.00027223068705116004,0.4,Plantae,Arroyo Willow,0
+Salsola,1,1,1,0.0,0.0,0.0,Plantae,Russian Thistles,0
+Salticidae,1,1,1,0.0,0.0,0.0,Arachnida,Jumping Spiders,0
+Salvia,2,2,2,0.003233235433219461,0.0003733460872163112,0.0,Plantae,Sages,1
+Salvia apiana,14,12,14,0.0017104010246207888,0.001546592968268428,0.9285714285714286,Plantae,white sage,1
+Salvia columbariae,5,3,5,0.0005665620000984544,0.0011102237162207561,1.0,Plantae,Chia,1
+Salvia mellifera,33,25,22,0.0016748719718632516,0.0013763694522576156,0.9090909090909091,Plantae,black sage,1
+Sambucus cerulea,11,8,10,0.0018997319557233975,0.0008183424045208262,1.0,Plantae,blue elder,0
+Sarcophaga,1,1,1,0.0,0.0,0.0,Insecta,Common Flesh Flies,0
+Satyrium sylvinus,2,2,2,0.0008937436562788329,8.053161348910762e-05,1.0,Insecta,Sylvan Hairstreak,0
+Sayapis,2,1,2,0.001587191680043493,0.002158430014541285,0.0,Insecta,Unknown,0
+Sayornis nigricans,12,7,11,0.0010614076983770258,0.0009086947542333804,1.0,Aves,Black Phoebe,1
+Sayornis saya,2,2,2,0.0012765136384117004,0.00034290231186237286,1.0,Aves,Say's Phoebe,1
+Sceloporus occidentalis,13,12,13,0.0024502134340223572,0.0009348407248571044,1.0,Reptilia,Western Fence Lizard,1
+Sceloporus occidentalis longipes,3,2,3,0.000495159327219239,0.001424931914411494,1.0,Reptilia,Great Basin Fence Lizard,0
+Schistocerca nitens,3,3,3,0.0008426399521818752,0.0021841925415949383,1.0,Insecta,Gray Bird Grasshopper,0
+Schizophyllum,1,1,1,0.0,0.0,0.0,Fungi,Unknown,1
+Schizophyllum commune,5,4,4,0.0016045343301428962,0.0022345228137864107,1.0,Fungi,splitgill mushroom,1
+Schoenoplectus,1,1,1,0.0,0.0,0.0,Plantae,Schoenoplectus Bulrushes,0
+Scirpus,1,1,1,0.0,0.0,0.0,Plantae,Scirpus Bulrushes,0
+Scirpus microcarpus,2,2,2,4.9664846856322946e-05,5.347141478614246e-05,0.5,Plantae,Panicled Bulrush,0
+Scleroderma citrinum,1,1,1,0.0,0.0,1.0,Fungi,common earthball,0
+Scolopendra polymorpha,1,1,1,0.0,0.0,1.0,Animalia,Common Desert Centipede,0
+Scrophularia californica,3,3,3,0.002959722235717697,0.001053767727810722,1.0,Plantae,California beeplant,1
+Scudderia mexicana,1,1,1,0.0,0.0,0.0,Insecta,Mexican Bush Katydid,0
+Selaginella cinerascens,1,1,1,0.0,0.0,1.0,Plantae,Ashy Spikemoss,1
+Selasphorus,1,1,1,0.0,0.0,1.0,Aves,"Rufous, Allen's, and Allied Hummingbirds",0
+Selasphorus sasin,2,2,2,0.002022807287464642,0.0004707987659875382,1.0,Aves,Allen's Hummingbird,0
+Serpentes,1,1,1,0.0,0.0,0.0,Reptilia,Snakes,0
+Setophaga coronata,7,5,6,0.0027936998395478177,0.000738112797001986,1.0,Aves,Yellow-rumped Warbler,1
+Sialia mexicana,7,4,5,0.002690493752239199,0.0005974444789134837,1.0,Aves,Western Bluebird,1
+Sidalcea,3,3,1,0.0009842429529522473,0.0001701992930282763,0.0,Plantae,Checkerblooms,1
+Sidalcea sparsifolia,8,8,7,0.0007688987688825923,0.00011934450309913123,0.25,Plantae,Southern Checkerbloom,1
+Silene laciniata,5,4,3,0.001045767459413156,0.0004180084812131424,1.0,Plantae,cardinal catchfly,1
+Silene laciniata laciniata,1,1,1,0.0,0.0,1.0,Plantae,Mexican pink,0
+Silybum marianum,8,8,7,0.0013134778199678761,0.0009236917833449628,1.0,Plantae,milk thistle,1
+Siphanta,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Sisymbrium officinale,1,1,1,0.0,0.0,0.0,Plantae,Hedge mustard,0
+Sisyrinchium bellum,3,3,3,0.0010881701742615978,0.0003747821528047412,1.0,Plantae,western blue-eyed grass,1
+Sitona hispidulus,1,1,1,0.0,0.0,1.0,Insecta,Clover Weevil,0
+Sitta carolinensis,2,2,2,0.0030634384475324017,0.0003698827489138207,1.0,Aves,White-breasted Nuthatch,0
+Slaterocoris,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Solanum,2,2,2,0.0012415378035606607,0.0004999623952344555,0.0,Plantae,nightshades,0
+Solanum nigrum,1,1,1,0.0,0.0,0.0,Plantae,Black Nightshade Complex,0
+Solanum parishii,2,2,2,8.970215198355154e-06,1.5980683957559483e-05,0.0,Plantae,Parish's nightshade,1
+Solanum umbelliferum,1,1,1,0.0,0.0,0.0,Plantae,Unknown,1
+Solanum xanti,1,1,1,0.0,0.0,0.0,Plantae,purple nightshade,0
+Sonchus,1,1,1,0.0,0.0,0.0,Plantae,sow thistles,0
+Sonchus asper,1,1,1,0.0,0.0,1.0,Plantae,prickly sowthistle,0
+Sonchus oleraceus,1,1,1,0.0,0.0,0.0,Plantae,Common Sow-thistle,0
+Sorghum bicolor,1,1,1,0.0,0.0,1.0,Plantae,Sorghums,0
+Sphenophorus venatus,1,1,1,0.0,0.0,0.0,Insecta,Hunting Billbug,0
+Spinus psaltria,8,8,8,0.0022329092929623336,0.0009746695390807175,1.0,Aves,Lesser Goldfinch,0
+Spodocybe trulliformis,1,1,1,0.0,0.0,0.0,Fungi,dapper funnel,0
+Spodoptera exigua,1,1,1,0.0,0.0,0.0,Insecta,Beet Armyworm Moth,0
+Stachys albens,1,1,1,0.0,0.0,0.0,Plantae,whitestem hedgenettle,0
+Stagmomantis,1,1,1,0.0,0.0,0.0,Insecta,Unknown,1
+Stagmomantis californica,1,1,1,0.0,0.0,1.0,Insecta,California Mantis,0
+Stagmomantis limbata,5,4,5,0.0034489035214853203,0.0015015450903240848,0.8,Insecta,Arizona Mantis,1
+Steccherinum ochraceum,1,1,1,0.0,0.0,0.0,Fungi,Ochre Spreading Tooth,0
+Stellaria,2,2,2,0.0007640288770724067,0.00034530619207864507,0.0,Plantae,chickweeds,1
+Stemonitis splendens,1,1,1,0.0,0.0,0.0,Protozoa,chocolate tube slime,0
+Stenamma,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Stenodynerus,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Stephanomeria diegensis,4,3,4,0.0013655001126543491,0.0016779425610140156,0.25,Plantae,San Diego Wirelettuce,1
+Stephanomeria exigua,2,2,2,0.0012060884900149812,0.0015697747207711233,0.0,Plantae,Small Wirelettuce,0
+Stephanomeria virgata,1,1,1,0.0,0.0,0.0,Plantae,rod wirelettuce,0
+Stereum,3,3,3,0.0009830364687727134,0.0024622450770344284,0.0,Fungi,Unknown,1
+Stereum hirsutum,13,10,13,0.0014595442372807065,0.0017559516048296767,0.5384615384615384,Fungi,hairy curtain crust,1
+Sternula antillarum browni,1,1,1,0.0,0.0,1.0,Aves,California Least Tern,0
+Stigmella heteromelis,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Stropharia coronilla,1,1,1,0.0,0.0,1.0,Fungi,Garland Roundhead,0
+Strymon melinus,1,1,1,0.0,0.0,1.0,Insecta,Gray Hairstreak,0
+Sturnella neglecta,1,1,1,0.0,0.0,1.0,Aves,Western Meadowlark,0
+Sturnus vulgaris,2,1,2,0.002842190816824897,0.0005594994426859206,1.0,Aves,European Starling,0
+Stylocline gnaphalioides,1,1,1,0.0,0.0,0.0,Plantae,everlasting neststraw,0
+Suillellus amygdalinus,6,5,6,0.0015612858827321722,0.001506326487063095,0.5,Fungi,Liver Bolete,1
+Superstitionia donensis,1,1,1,0.0,0.0,1.0,Arachnida,Superstition Mountains Scorpion,0
+Sylvilagus audubonii,5,5,4,0.0010355205959977354,0.0005367243222080413,1.0,Mammalia,Desert Cottontail,0
+Sylvilagus bachmani,2,2,2,0.00033976480835895486,6.48181451798905e-05,1.0,Mammalia,Brush Rabbit,0
+Sympetrum corruptum,1,1,1,0.0,0.0,0.0,Insecta,Variegated Meadowhawk,0
+Sympetrum illotum,1,1,1,0.0,0.0,1.0,Insecta,Cardinal Meadowhawk,0
+Symphyotrichum subulatum,1,1,1,0.0,0.0,1.0,Plantae,annual saltmarsh aster,0
+Taiyuna isantus,1,1,1,0.0,0.0,0.0,Animalia,Unknown,0
+Tamarix,1,1,1,0.0,0.0,1.0,Plantae,Tamarisks,0
+Tapinella panuoides,1,1,1,0.0,0.0,0.0,Fungi,Oyster Rollrim,0
+Taraxacum,1,1,1,0.0,0.0,0.0,Plantae,common dandelions,0
+Taraxacum officinale,1,1,1,0.0,0.0,0.0,Plantae,common dandelion,0
+Tenebrionidae,3,2,3,0.0011544325500276174,0.0022409363791282737,0.0,Insecta,Darkling Beetles,0
+Tenthredinidae,1,1,1,0.0,0.0,0.0,Insecta,Common Sawflies,0
+Tetranychus urticae,1,1,1,0.0,0.0,0.0,Arachnida,Twospotted Spider Mite,0
+Thamnophis hammondii,1,1,1,0.0,0.0,1.0,Reptilia,Two-striped Garter Snake,0
+Thaumatomyia,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Thecabius,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Thyridanthrax nugator,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Tipulidae,1,1,1,0.0,0.0,0.0,Insecta,Large Crane Flies,1
+Torilis arvensis,1,1,1,0.0,0.0,1.0,Plantae,common hedge parsley,1
+Tortistilus,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Toxicodendron,1,1,1,0.0,0.0,0.0,Plantae,poison ivies and oaks,0
+Toxicodendron diversilobum,22,19,21,0.0010528696765597424,0.0017744102635089722,0.9545454545454546,Plantae,Pacific poison oak,1
+Toxomerus occidentalis,1,1,1,0.0,0.0,1.0,Insecta,Western Calligrapher,0
+Toxostoma redivivum,2,2,2,0.0007972976147342525,1.8499539743453575e-05,1.0,Aves,California Thrasher,1
+Trachelas pacificus,1,1,1,0.0,0.0,0.0,Arachnida,Bull-headed sac spider,1
+Trachemys scripta,13,7,12,0.0009703004138229474,0.000775339175925531,1.0,Reptilia,Pond Slider,0
+Trachemys scripta elegans,17,12,17,0.0003119799101810509,0.00019784236821379753,1.0,Reptilia,Red-eared Slider,1
+Trachemys scripta scripta,1,1,1,0.0,0.0,1.0,Reptilia,Yellow-bellied Slider,0
+Tracheophyta,3,3,3,0.002512924233914689,0.0029712750383796157,0.0,Plantae,Vascular Plants,0
+Trametes versicolor,1,1,1,0.0,0.0,1.0,Fungi,turkey-tail,1
+Tremella mesenterica,2,2,2,0.0028086876732569977,0.001408162001124306,0.0,Fungi,witch's butter,1
+Trichaptum,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Trichobaris compacta,1,1,1,0.0,0.0,0.0,Insecta,Datura Weevil,0
+Tricholoma,5,4,5,0.0022011420147498204,0.0018674791305586618,0.0,Fungi,Knights,1
+Tricholoma dryophilum,9,8,8,0.0015767584405346215,0.001118733028273353,0.2222222222222222,Fungi,Oak-loving Trich,1
+Tricholoma griseoviolaceum,1,1,1,0.0,0.0,0.0,Fungi,Unknown,1
+Tricholoma imbricatoides,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Tricholoma terreum,2,2,2,0.0017705618632257011,0.0011170763327750675,0.5,Fungi,Grey Knight,1
+Tricholoma yatesii,2,2,2,3.718815982318309e-06,0.0016201178951898737,0.5,Fungi,Unknown,1
+Trichostema lanceolatum,9,9,9,0.00019067630001963414,0.0008691711324569233,1.0,Plantae,Vinegar Weed,0
+Trifolieae,1,1,1,0.0,0.0,0.0,Plantae,Unknown,0
+Trifolium fragiferum,3,1,3,0.00029687638983425316,0.0002619354097743797,1.0,Plantae,Strawberry clover,0
+Trifolium repens,3,2,3,0.0006508522698346109,0.000742605748059213,1.0,Plantae,white clover,0
+Trirhabda,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Trirhabda geminata,2,1,2,0.0005676180184944748,0.0012050872268078527,0.5,Insecta,Encelia Leaf Beetle,0
+Trirhabda luteocincta,1,1,1,0.0,0.0,1.0,Insecta,Goldenbush beetle,0
+Trirhabda sericotrachyla,1,1,1,0.0,0.0,1.0,Insecta,California sagebrush leaf beetle,0
+Trochilidae,1,1,1,0.0,0.0,0.0,Aves,Hummingbirds,0
+Troglodytes aedon,1,1,1,0.0,0.0,1.0,Aves,Northern House Wren,0
+Tulostoma,2,1,1,0.00034085728833584296,0.0004679648941409871,0.0,Fungi,Stalked Puffballs,1
+Turdus migratorius,1,1,1,0.0,0.0,1.0,Aves,American Robin,0
+Tylobolus claremontus,1,1,1,0.0,0.0,0.0,Animalia,Unknown,0
+Typha,1,1,1,0.0,0.0,0.0,Plantae,Cattails,0
+Typha domingensis,5,5,5,0.00017360485661012506,9.678418213375113e-05,0.0,Plantae,southern cattail,0
+Tyrannus verticalis,1,1,1,0.0,0.0,1.0,Aves,Western Kingbird,0
+Tyrannus vociferans,6,5,5,0.002044324383087309,0.00033582020119964486,1.0,Aves,Cassin's Kingbird,1
+Urocyon cinereoargenteus,1,1,1,0.0,0.0,1.0,Mammalia,Gray Fox,1
+Uropappus lindleyi,1,1,1,0.0,0.0,1.0,Plantae,silverpuffs,1
+Urtica urens,3,3,3,0.0023291222893549904,0.0017926360390094767,1.0,Plantae,Dwarf Nettle,1
+Validae,1,1,1,0.0,0.0,0.0,Fungi,Amanita Sect. Validae,0
+Vanessa annabella,1,1,1,0.0,0.0,1.0,Insecta,West Coast Lady,0
+Vanessa cardui,2,2,2,4.714047565215213e-05,0.0038773021599453937,1.0,Insecta,Painted Lady,1
+Verbena,11,10,10,0.002001391777422525,0.0009961985586396875,0.0,Plantae,vervains,1
+Verbena lasiostachys,47,25,40,0.0017907238073854735,0.0010954735313074492,0.7872340425531915,Plantae,western vervain,1
+Vertebrata,2,2,2,0.00261071481580584,0.00021492892451807326,0.0,Animalia,Vertebrates,0
+Vespidae,1,1,1,0.0,0.0,0.0,Insecta,"Hornets, Paper Wasps, Potter Wasps, and Allies",0
+Vespula pensylvanica,6,4,6,0.002540741552449423,0.0020398945452477653,0.8333333333333334,Insecta,Western Yellowjacket,0
+Vicia sativa,1,1,1,0.0,0.0,1.0,Plantae,Common Vetch,1
+Vinca major,1,1,1,0.0,0.0,1.0,Plantae,greater periwinkle,1
+Viola pedunculata,3,3,2,5.337001902079704e-05,4.6863718350779734e-05,1.0,Plantae,California Golden Violet,1
+Vitaceae,1,1,1,0.0,0.0,0.0,Plantae,Grape Family,0
+Vitis,2,2,2,0.0002579101273738886,1.1950104601022455e-05,0.0,Plantae,grapevines,0
+Vitis californica,5,4,5,0.0009997133565939399,8.968058911806555e-05,0.2,Plantae,California wild grape,0
+Vitis girdiana,11,6,11,0.0018639930973083942,0.0009578575327224596,0.6363636363636364,Plantae,desert wild grape,0
+Volvopluteus,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Volvopluteus gloiocephalus,9,7,5,0.0005214085249180668,0.00048303472498766465,0.8888888888888888,Fungi,Stubble Rosegill,1
+Washingtonia robusta,5,5,5,0.0021309080705625384,0.002355689560151067,0.6,Plantae,Mexican Fan Palm,1
+Xanthocephalus xanthocephalus,1,1,1,0.0,0.0,1.0,Aves,Yellow-headed Blackbird,0
+Xanthoparmelia,1,1,1,0.0,0.0,0.0,Fungi,rock shield lichens,0
+Xanthoria parietina,1,1,1,0.0,0.0,1.0,Fungi,Common Sunburst Lichen,0
+Xenoglossa pruinosa,3,2,3,0.0010861749250938892,0.0002339718550567125,1.0,Insecta,Pruinose Squash Bee,0
+Xerocomellus,2,2,2,0.0003051703161951596,0.00024079644620119764,0.0,Fungi,Unknown,0
+Xerocomellus dryophilus,8,8,8,0.0017280948349238407,0.0014481167123521117,0.25,Fungi,oak-loving bolete,1
+Xerocomellus mendocinensis,1,1,1,0.0,0.0,0.0,Fungi,Unknown,0
+Xylococcus bicolor,21,15,20,0.001706896176220926,0.0012698150190966005,0.9523809523809523,Plantae,mission manzanita,1
+Xylocopa sonorina,1,1,1,0.0,0.0,1.0,Insecta,Valley Carpenter Bee,0
+Yucca schidigera,10,10,9,0.001931813279441992,0.0010176525786012324,1.0,Plantae,Mojave Yucca,1
+Zadontomerus,1,1,1,0.0,0.0,1.0,Insecta,Unknown,0
+Zarhipis,1,1,1,0.0,0.0,0.0,Insecta,Unknown,0
+Zeltnera venusta,13,11,12,0.0014672458851461238,0.0006649289238470988,1.0,Plantae,California Centaury,1
+Zenaida macroura,2,1,2,0.0,0.0,1.0,Aves,Mourning Dove,1
+Zonotrichia leucophrys,4,3,4,0.002190620053533328,0.0006925515025932341,1.0,Aves,White-crowned Sparrow,0
