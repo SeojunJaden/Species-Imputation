@@ -1,12 +1,12 @@
 """
 This Google Earth Engine Script exports environmental rasters 
 
-This script exports 18 environmental layers (17 terrestrial + 1 ocean)
+This script exports 17 environmental layers (16 terrestrial + 1 ocean)
 
-Area: San Diego coastal area from Oceanside to Mission Bay
+Area: San Diego coastal area from Oceanside to Mission Bay, containing all 4 ucsd natural reserves
 Bounding Box: [-117.4, 32.7, -116.9, 33.2]
-Resolution: 30 meters
-Format: GeoTIFF
+Collects data every 30 meters
+Exports files as .tif
 Destination: Google Drive folder 'sd_species_rasters' (and are in google-earth-data folder)
 """
 
@@ -18,14 +18,12 @@ ee.Initialize(project='species-imputation')
 # San Diego coastal area bbox
 bbox = ee.Geometry.Rectangle([-117.4, 32.7, -116.9, 33.2])
 
-print("=" * 70)
+print()
 print("Google Earth Engine Raster Export for San Diego Coastal Reserves")
-print("=" * 70)
+print()
 print(f"Bounding Box: [-117.4, 32.7, -116.9, 33.2]")
 print(f"Export folder: 'sd_species_rasters'")
 print(f"Resolution: 30 meters")
-print(f"CRS: EPSG:4326")
-print("=" * 70)
 print()
 
 
@@ -68,7 +66,7 @@ def export_raster(image, description, folder='sd_species_rasters',
 
 
 print("TERRESTRIAL LAYERS")
-print("-" * 70)
+print()
 
 # 1. Elevation
 print("\n1. Processing elevation...")
@@ -161,9 +159,9 @@ try:
 except Exception as e:
     print(f"✗ Error loading soil_ph dataset: {str(e)}")
 
-print("\n" + "=" * 70)
+print()
 print("OCEAN LAYER")
-print("-" * 70)
+print()
 
 # 11. Bathymetry
 print("\n11. Processing bathymetry...")
@@ -173,9 +171,9 @@ try:
 except Exception as e:
     print(f"✗ Error loading bathymetry dataset: {str(e)}")
 
-print("\n" + "=" * 70)
+print()
 print("ADDITIONAL TERRESTRIAL LAYERS")
-print("-" * 70)
+print()
 
 # 12. Temperature mean
 print("\n12. Processing temperature_mean...")
@@ -229,7 +227,7 @@ except Exception as e:
     print(f"✗ Error processing ndvi_seasonality: {str(e)}")
 
 # 16. Distance to coast
-print("\n17. Processing distance_to_coast...")
+print("\n16. Processing distance_to_coast...")
 try:
     bathymetry_coast = ee.Image('NOAA/NGDC/ETOPO1').select('bedrock')
     coast_mask = bathymetry_coast.gte(-2).And(bathymetry_coast.lte(2)).selfMask()
@@ -241,7 +239,7 @@ except Exception as e:
     print(f"✗ Error processing distance_to_coast: {str(e)}")
 
 # 17. Distance to water
-print("\n18. Processing distance_to_water...")
+print("\n17. Processing distance_to_water...")
 try:
     gsw = ee.Image('JRC/GSW1_4/GlobalSurfaceWater').select('max_extent')
     water_mask = gsw.gt(0).selfMask()
@@ -252,20 +250,17 @@ try:
 except Exception as e:
     print(f"✗ Error processing distance_to_water: {str(e)}")
 
-print("\n" + "=" * 70)
+print()
 print("EXPORT SUMMARY")
-print("=" * 70)
+print()
 print("All export tasks have been submitted to Google Earth Engine.")
 print("Exports will appear in Google Drive folder: 'sd_species_rasters'")
 print()
-print("Total layers exported: 18")
-print("  - Terrestrial: 17 layers")
+print("Total layers exported: 17")
+print("  - Terrestrial: 16 layers")
 print("  - Ocean: 1 layer")
-print()
-print("Expected export time: 30-60 minutes")
-print("File size per layer: ~10-50 MB")
 print()
 print("To check export status:")
 print("  1. Visit: https://code.earthengine.google.com/tasks")
 print("  2. Or use: ee.batch.Task.list()")
-print("=" * 70)
+print()

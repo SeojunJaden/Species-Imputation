@@ -5,7 +5,6 @@ This script combines environmental data from GeoTIFF files with observation data
 Usage:
   python combine-gee-and-obs.py <input.csv> [output.csv]
 
-  If output is omitted, writes to data/{input_basename}_with_env_data.csv
   Example: python combine-gee-and-obs.py data/first-200k-obs-cleaned.csv data/first-200k-obs-clean-with-env.csv
 """
 
@@ -48,7 +47,6 @@ TIFF_FILES = {
     'precipitation_annual.tif': 'precipitation_annual',
     'temperature_seasonality.tif': 'temperature_seasonality',
     'ndvi_seasonality.tif': 'ndvi_seasonality',
-    'topographic_wetness.tif': 'topographic_wetness',
     'distance_to_coast.tif': 'distance_to_coast',
     'distance_to_water.tif': 'distance_to_water',
 }
