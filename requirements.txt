@@ -1,3 +1,14 @@
+# Frontend
 streamlit
 folium
 streamlit-folium
+# Data cleaning
+tqdm
+pandas
+rasterio
+numpy
+# Models/ (train_xgboost.py, etc.)
+RandomForest
+XGBoost
+LightGBM
+scikit-learn
