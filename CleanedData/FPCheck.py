@@ -100,21 +100,3 @@ for main_name, main_file, backup_file in pairs:
     print(f"❌ False Negatives (Observed but Predicted Absent):     {FN}  <-- (Model missed these)")
     print(f"🌟 False Positives (Not Observed but Predicted Present): {FP}  <-- (Your Imputed/New Species!)")
     print(f"✔️ True Negatives (Not Observed & Predicted Absent):     {TN}  <-- (Correctly ignored)")
-    
-    # Save the detailed lists out to CSV so you can analyze the specific species
-    output_df = df_features[['scientific_name', 'iconic_taxon_name', 'present_in_main', 'predicted_present', 'backup_obs_count']]
-    
-    # Map to labels for easy reading
-    conditions = [
-        (output_df['present_in_main'] == 1) & (output_df['predicted_present'] == 1),
-        (output_df['present_in_main'] == 0) & (output_df['predicted_present'] == 1),
-        (output_df['present_in_main'] == 1) & (output_df['predicted_present'] == 0),
-        (output_df['present_in_main'] == 0) & (output_df['predicted_present'] == 0)
-    ]
-    choices = ['True Positive', 'False Positive (Imputed)', 'False Negative', 'True Negative']
-    output_df['Prediction_Result'] = np.select(conditions, choices, default='Unknown')
-    
-    # Export to CSV
-    export_name = f"{main_name}_Prediction_Results.csv"
-    output_df.to_csv(export_name, index=False)
-    print(f"\n[i] Detailed species prediction list saved to '{export_name}'")
