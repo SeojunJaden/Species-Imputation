@@ -1,0 +1,5 @@
+Reserve,Mean_AUC,Min_AUC,Max_AUC,Std_Dev_AUC
+Scripps,0.8477,0.8367,0.8664,0.0132
+ElliottChaparral,0.8774,0.8701,0.8849,0.0061
+LosMonos,0.8057,0.7608,0.8493,0.0305
+MissionBay,0.7985,0.7755,0.8351,0.0213
