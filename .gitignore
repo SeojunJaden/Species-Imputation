@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 irrelevant/
+
+# Internal working docs — kept local, not published to the public repo.
+# (planning notes, running progress log, and the agent pointer to it)
+planning/
+progress.md
+CLAUDE.md
