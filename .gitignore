@@ -9,3 +9,23 @@ planning/
 progress.md
 CLAUDE.md
 METHODOLOGY.md
+AGENDA.md
+
+# Kellie's hand-drawn approximate partner boundary — local only, not for the public repo.
+Sweetwater Marsh.kml
+
+# Large local data, not committed (size; see METHODOLOGY). Regenerable by script:
+# RefreshedData/ via cleaning-pipeline/pull_inat_api.py, google-earth-data-v2/ via
+# cleaning-pipeline/download_gee_rasters_v2.py.
+RefreshedData/
+google-earth-data-v2/
+
+# Private to Kylan -- never published: species lists / predictions (v2 onward) and the
+# scripts that write and package the documents sent to our advisor.
+CleanedData/FieldLists_v2/
+CleanedData/FinalPredictions_v2/
+CleanedData/FinalPredictions_v2_Clean/
+CleanedData/TaxonomicCleanup_Report.md
+CleanedData/write_field_list_doc.py
+CleanedData/write_field_list_pdf.py
+CleanedData/stage_for_kellie.py

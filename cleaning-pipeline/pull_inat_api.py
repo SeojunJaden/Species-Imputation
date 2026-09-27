@@ -14,6 +14,10 @@ How each reserve is scoped:
     The exact polygon filter is applied later by the modeling step, as before.
   - DONOR ("partner") reserves: the same iNaturalist place the original export used,
     identified by matching sampled observation IDs from the old files to place IDs.
+    Sweetwater Marsh is the exception - it is a new partner with a boundary Kellie drew,
+    so it is scoped from a polygon like a target. Its KML is a loose local file rather
+    than a member of ReserveExtents.zip, because the zip is committed to the public repo
+    and that boundary is kept local (see kml_path below).
 
 Filter matches the original export: verifiable=true (research + needs_id grades;
 casual/captive excluded). Raw CSVs keep the original export's column names.
@@ -60,6 +64,10 @@ RESERVES = {
     # This box reproduces it: 4,277 verifiable obs created before the export vs 4,279 in the old file.
     "BuenaVista":       dict(role="donor", raw="BuenaVistaData.csv",
                              bbox=dict(swlat=33.1514, swlng=-117.2492, nelat=33.1606, nelng=-117.2416)),
+    # Replaces TijuanaRiver as MissionBay's (Kendall-Frost's) partner, chosen by Kellie Sep 14.
+    # Scoped from her approximate boundary; kml_path is gitignored and stays out of the repo.
+    "SweetwaterMarsh":  dict(role="donor", raw="SweetwaterMarshData.csv",
+                             kml_path="Sweetwater Marsh.kml", polygon="Sweetwater polygon unofficial"),
 }
 
 RAW_COLUMNS = [
@@ -149,12 +157,24 @@ def to_row(o):
     }
 
 
-def scope_params(name, cfg):
-    if cfg["role"] == "donor":
-        return {"place_id": cfg["place_id"]} if "place_id" in cfg else dict(cfg["bbox"])
+def polygon_kml_bytes(cfg):
+    """KML for a polygon-scoped reserve: a loose local file, else a ReserveExtents.zip member."""
+    if "kml_path" in cfg:
+        with open(os.path.join(ROOT, cfg["kml_path"]), "rb") as f:
+            return f.read()
     kz = zipfile.ZipFile(os.path.join(ROOT, "ReserveExtents.zip"))
     members = {os.path.basename(n): n for n in kz.namelist() if n.endswith(".kml")}
-    rings = parse_polygons(kz.read(members[cfg["kml"]]))[cfg["polygon"]]
+    return kz.read(members[cfg["kml"]])
+
+
+def scope_params(name, cfg):
+    # Dispatch on how the reserve is scoped, not on its role: Sweetwater Marsh is a
+    # donor that is scoped by polygon, so role alone no longer determines this.
+    if "place_id" in cfg:
+        return {"place_id": cfg["place_id"]}
+    if "bbox" in cfg:
+        return dict(cfg["bbox"])
+    rings = parse_polygons(polygon_kml_bytes(cfg))[cfg["polygon"]]
     lons = [p[0] for r in rings for p in r]
     lats = [p[1] for r in rings for p in r]
     b = BBOX_BUFFER_DEG
