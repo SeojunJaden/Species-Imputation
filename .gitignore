@@ -23,6 +23,10 @@ google-earth-data-v2/
 # Private to Kylan -- never published: species lists / predictions (v2 onward) and the
 # scripts that write and package the documents sent to our advisor.
 CleanedData/FieldLists_v2/
+CleanedData/FinalPredictions/
+CleanedData/FinalPredictions_Unofficial/
+CleanedData/FinalPredictionsTest/
+predictions/
 CleanedData/FinalPredictions_v2/
 CleanedData/FinalPredictions_v2_Clean/
 CleanedData/TaxonomicCleanup_Report.md
