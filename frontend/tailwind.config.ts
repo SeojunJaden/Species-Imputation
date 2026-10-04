@@ -41,6 +41,20 @@ const config: Config = {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        // The two kinds of species record the site distinguishes (see components/site/legend.tsx).
+        observed: {
+          DEFAULT: 'hsl(var(--observed))',
+          soft: 'hsl(var(--observed-soft))',
+        },
+        predicted: {
+          DEFAULT: 'hsl(var(--predicted))',
+          soft: 'hsl(var(--predicted-soft))',
+        },
+        forest: {
+          DEFAULT: 'hsl(var(--forest))',
+          deep: 'hsl(var(--forest-deep))',
+        },
+        parchment: 'hsl(var(--parchment))',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -64,6 +78,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-fraunces)', 'Georgia', 'serif'],
         mono: ['var(--font-jetbrains-mono)', 'monospace'],
       },
       borderRadius: {

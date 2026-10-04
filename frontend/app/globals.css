@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Field-guide palette: parchment paper, forest ink, sage for what has been seen,
+   ochre for what the model expects. */
+@layer base {
+  :root {
+    --background: 42 38% 95%;
+    --foreground: 150 18% 13%;
+    --card: 44 45% 98%;
+    --card-foreground: 150 18% 13%;
+    --popover: 44 45% 98%;
+    --popover-foreground: 150 18% 13%;
+    --primary: 152 32% 27%;
+    --primary-foreground: 44 45% 97%;
+    --secondary: 40 30% 89%;
+    --secondary-foreground: 150 18% 18%;
+    --muted: 40 26% 90%;
+    --muted-foreground: 150 8% 38%;
+    --accent: 36 62% 47%;
+    --accent-foreground: 44 45% 98%;
+    --destructive: 4 62% 46%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 38 24% 81%;
+    --input: 38 24% 81%;
+    --ring: 152 32% 32%;
+    --radius: 0.75rem;
+
+    --observed: 146 38% 34%;
+    --observed-soft: 140 30% 88%;
+    --predicted: 34 72% 44%;
+    --predicted-soft: 40 80% 91%;
+    --forest: 155 30% 20%;
+    --forest-deep: 158 34% 12%;
+    --parchment: 42 38% 95%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer components {
+  /* Topographic contour lines, tinted with the current text colour. */
+  .topo {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-color: currentColor;
+    -webkit-mask: url("/topo.svg") center / cover no-repeat;
+    mask: url("/topo.svg") center / cover no-repeat;
+  }
+  /* Faint paper grain for parchment sections. */
+  .paper {
+    background-image:
+      radial-gradient(hsl(38 30% 70% / 0.18) 1px, transparent 1px),
+      radial-gradient(hsl(38 30% 60% / 0.12) 1px, transparent 1px);
+    background-size: 22px 22px, 31px 31px;
+    background-position: 0 0, 11px 7px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Leaflet chrome, restyled to match the site. */
+.leaflet-container {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  background: hsl(var(--muted));
+}
+.leaflet-control-zoom a,
+.leaflet-control-layers {
+  background: hsl(var(--card)) !important;
+  color: hsl(var(--foreground)) !important;
+  border-color: hsl(var(--border)) !important;
+}
+.leaflet-control-layers {
+  border-radius: 10px !important;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.12) !important;
+}
+.reserve-tooltip {
+  background: hsl(var(--card)) !important;
+  border: 1px solid hsl(var(--border)) !important;
+  border-radius: 10px !important;
+  padding: 8px 12px !important;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.15) !important;
+  color: hsl(var(--foreground)) !important;
+}
+.reserve-label {
+  background: none !important;
+  border: none !important;
+}
+.reserve-pin {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.reserve-pin .dot {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: var(--c);
+  border: 3px solid #fffaf0;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.35);
+}
+.reserve-pin .name {
+  padding: 3px 8px;
+  border-radius: 9999px;
+  background: rgb(255 250 240 / 0.92);
+  color: hsl(var(--foreground));
+  font: 600 12px/1.2 var(--font-inter), system-ui, sans-serif;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.2);
+}
