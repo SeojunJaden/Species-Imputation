@@ -35,6 +35,18 @@ CleanedData/FinalPredictions_v2.1_Clean/
 CleanedData/FieldLists_v2.1/
 CleanedData/TaxonomicCleanup_Report_v2.1.md
 CleanedData/Backtest_v2.1/
+CleanedData/FinalPredictions_v2.2/
+CleanedData/FinalPredictions_v2.2_Clean/
+CleanedData/FieldLists_v2.2/
+CleanedData/TaxonomicCleanup_Report_v2.2.md
+CleanedData/Backtest_v2.2/
 CleanedData/write_field_list_doc.py
 CleanedData/write_field_list_pdf.py
 CleanedData/stage_for_kellie.py
+
+# Frontend build artifacts
+node_modules/
+.next/
+next-env.d.ts
+.playwright-mcp/
+*.tsbuildinfo

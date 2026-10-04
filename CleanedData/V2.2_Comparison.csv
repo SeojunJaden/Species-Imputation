@@ -1,0 +1,5 @@
+reserve,partner,study_obs,study_date_only,study_names,partner_obs_dropped_in_study,candidate_pool,imputed_missing,v1_candidate_pool,v1_imputed_missing,habitat_blind
+Scripps,Torrey Pines State Reserve,4562,134,982,0,4277,306,4004,331,False
+ElliottChaparral,Mission Trails Regional Park,3118,4,873,0,6819,730,6515,699,False
+LosMonos,Buena Vista Park,2968,100,891,711,985,8,952,10,False
+MissionBay,Sweetwater Marsh,4959,74,909,0,1218,25,2880,328,False

@@ -26,6 +26,13 @@ reproducible from the untouched *_v2 folders:
   - the label is rolled up the iNat taxonomy: a species counts as recorded when
     anything at or below it (a subspecies, say) was recorded at the reserve.
 
+v2.2 (Oct 3 2026) changes only how species are scored. Each species' probability
+is out-of-fold -- from forests that never saw its own label -- averaged over
+REPEATS fold splits and forest seeds. In-sample scoring measured as harmless in
+the backtest, but it cannot be defended in a paper. The top of each list is a
+plateau of near-equal scores that a single seed reshuffled (METHODOLOGY 6);
+averaging over 20 repeats makes it reproducible to ~24 of the top 25.
+
 A pair whose partner has no usable habitat data is SKIPPED rather than quietly
 modelled on zeros -- that silent failure is what made Kendall-Frost
 habitat-blind in v1. Pass --allow-habitat-blind to run it anyway.
@@ -34,8 +41,8 @@ Usage:
   python CleanedData/run_v2_analysis.py [Reserve ...] [--allow-habitat-blind]
 
 Outputs:
-  CleanedData/FinalPredictions_v2.1/<Reserve>_Final_Predictions.csv
-  CleanedData/V2.1_Comparison.csv / .md    (v2.1 vs the v1 unofficial-extent run)
+  CleanedData/FinalPredictions_v2.2/<Reserve>_Final_Predictions.csv
+  CleanedData/V2.2_Comparison.csv / .md    (v2.2 vs the v1 unofficial-extent run)
 """
 
 import io
@@ -48,6 +55,7 @@ import zipfile
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import StratifiedKFold
 
 warnings.filterwarnings("ignore")
 
@@ -57,7 +65,7 @@ CLEANED = os.path.join(ROOT, "CleanedData")
 V2 = os.path.join(ROOT, "RefreshedData", "2026-09-14")
 V2_RAW, V2_FILTERED, V2_ENV = (os.path.join(V2, d) for d in ("raw", "filtered", "env"))
 TAXONOMY = os.path.join(V2, "taxonomy.json")
-RUN = "v2.1"
+RUN = "v2.2"
 OUT_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}")
 COMPARISON = os.path.join(CLEANED, f"V{RUN[1:]}_Comparison")
 V1_DIR = os.path.join(CLEANED, "FinalPredictions_Unofficial")
@@ -87,6 +95,9 @@ UNDERREPRESENTED_THRESHOLD = 3
 MIN_PARTNER_OBS = 10          # imputed species below this are demoted to noise
 ENV_FEATURES = ["avg_elevation", "avg_slope", "avg_ndvi",
                 "avg_soil_sand", "avg_soil_ph", "avg_soil_clay"]
+EFFORT_FEATURES = ["log_obs_count", "backup_unique_users", "backup_unique_days"]
+FOLDS = 5
+REPEATS = 20                  # fold splits x forest seeds averaged per species
 
 
 # ---------------------------------------------------------------- KML parsing
@@ -294,16 +305,37 @@ def build_environmental_features(study, partner_df):
     return features
 
 
-def run_model(features):
-    feature_cols_ml = ["log_obs_count", "backup_unique_users", "backup_unique_days"] + ENV_FEATURES
+def new_forest(seed):
+    return RandomForestClassifier(n_estimators=300, max_depth=8, min_samples_leaf=10,
+                                  random_state=seed, class_weight="balanced", n_jobs=-1)
+
+
+def design_matrix(features, numeric=None):
+    """Numeric features plus one-hot taxon group (the full feature set by default)."""
+    numeric = EFFORT_FEATURES + ENV_FEATURES if numeric is None else numeric
     X_cat = pd.get_dummies(features["iconic_taxon_name"], prefix="taxon", drop_first=True)
-    X = pd.concat([features[feature_cols_ml], X_cat], axis=1)
+    return pd.concat([features[numeric], X_cat], axis=1)
+
+
+def score(X, y, repeats=REPEATS):
+    """
+    Out-of-fold probability of presence, averaged over `repeats` runs.
+
+    Every species is scored only by forests trained without it, so its own label
+    never feeds its score. Each repeat uses a fresh fold split and forest seed.
+    """
+    p = np.zeros(len(y))
+    for k in range(repeats):
+        for tr, te in StratifiedKFold(FOLDS, shuffle=True, random_state=k).split(X, y):
+            p[te] += new_forest(k).fit(X.iloc[tr], y.iloc[tr]).predict_proba(X.iloc[te])[:, 1]
+    return p / repeats
+
+
+def run_model(features):
+    X = design_matrix(features)
     y = features["present_in_main"]
-    rf = RandomForestClassifier(n_estimators=300, max_depth=8, min_samples_leaf=10,
-                                random_state=42, class_weight="balanced")
-    rf.fit(X, y)
     features = features.copy()
-    features["probability_of_presence"] = rf.predict_proba(X)[:, 1]
+    features["probability_of_presence"] = score(X, y)
     features["predicted_present"] = (features["probability_of_presence"] >= 0.5).astype(int)
 
     out = features[["scientific_name", "common_name", "iconic_taxon_name",

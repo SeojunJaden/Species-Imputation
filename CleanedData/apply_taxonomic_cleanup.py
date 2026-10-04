@@ -25,8 +25,8 @@ Usage:
   python CleanedData/apply_taxonomic_cleanup.py [Reserve ...]
 
 Outputs:
-  CleanedData/FinalPredictions_v2.1_Clean/<Reserve>_Final_Predictions.csv
-  CleanedData/TaxonomicCleanup_Report_v2.1.md
+  CleanedData/FinalPredictions_v2.2_Clean/<Reserve>_Final_Predictions.csv
+  CleanedData/TaxonomicCleanup_Report_v2.2.md
 """
 
 import json
@@ -41,7 +41,7 @@ CLEANED = os.path.join(ROOT, "CleanedData")
 V2 = os.path.join(ROOT, "RefreshedData", "2026-09-14")
 FILTERED = os.path.join(V2, "filtered")
 TAXONOMY = os.path.join(V2, "taxonomy.json")
-RUN = "v2.1"                     # the audit-fixed run (METHODOLOGY 6, Sep 29)
+RUN = "v2.2"                     # audit fixes + out-of-fold scoring (METHODOLOGY 6)
 IN_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}")
 OUT_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}_Clean")
 REPORT = os.path.join(CLEANED, f"TaxonomicCleanup_Report_{RUN}.md")

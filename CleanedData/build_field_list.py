@@ -12,8 +12,8 @@ Decisions behind this (Kylan, Sep 22):
 
 Our advisor asked (Sep 25) that clearly non-native species be omitted; unknown
 origin is fine to keep. Reserves with omit_introduced=True hold introduced species out
-of the short list (they stay in the appendix, flagged). Only Kendall-Frost has it so
-far -- the three lists already sent are left exactly as sent.
+of the short list (they stay in the appendix, flagged). Kendall-Frost had it from the
+start (Sep 26); since v2.2 (Oct 3) all four reserves do.
 
 `manual_introduced` covers species iNat gives no California status for but that are
 clearly non-native (Kylan, Sep 26: Atriplex lindleyi, an Australian saltbush). They are
@@ -31,8 +31,8 @@ Usage:
   python CleanedData/build_field_list.py [Reserve ...]
 
 Outputs:
-  CleanedData/FieldLists_v2.1/<Reserve>_Field_List.csv     (the ~25)
-  CleanedData/FieldLists_v2.1/<Reserve>_All_Imputed.csv    (the full appendix)
+  CleanedData/FieldLists_v2.2/<Reserve>_Field_List.csv     (the ~25)
+  CleanedData/FieldLists_v2.2/<Reserve>_All_Imputed.csv    (the full appendix)
 """
 
 import json
@@ -49,7 +49,7 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLEANED = os.path.join(ROOT, "CleanedData")
 V2 = os.path.join(ROOT, "RefreshedData", "2026-09-14")
-RUN = "v2.1"                     # the audit-fixed run (METHODOLOGY 6, Sep 29)
+RUN = "v2.2"                     # audit fixes + out-of-fold scoring (METHODOLOGY 6)
 IN_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}_Clean")
 OUT_DIR = os.path.join(CLEANED, f"FieldLists_{RUN}")
 EST_CACHE = os.path.join(V2, "establishment.json")
@@ -68,13 +68,14 @@ RESERVES = {
     "Scripps": dict(label="Scripps Coastal Reserve (upland)", partner="TorreyPines",
                     raw="ScrippsData.csv", kml="Scripps Coastal Reserve Extent.kml",
                     polygon="unofficial upland extent",
-                    out_of_scope_groups=["Mollusca", "Actinopterygii", "Animalia"]),
+                    out_of_scope_groups=["Mollusca", "Actinopterygii", "Animalia"],
+                    omit_introduced=True),
     "ElliottChaparral": dict(label="Elliott Chaparral Reserve", partner="MissionTrails",
                              raw="ElliottChaparralData.csv", kml="Elliott extent.kml",
-                             polygon="Unofficial extent"),
+                             polygon="Unofficial extent", omit_introduced=True),
     "LosMonos": dict(label="Dawson Los Monos Canyon Reserve", partner="BuenaVista",
                      raw="LosMonosCanyonData.csv", kml="Dawson Extent.kml",
-                     polygon="unofficial extent"),
+                     polygon="unofficial extent", omit_introduced=True),
     "MissionBay": dict(label="Kendall-Frost Mission Bay Marsh Reserve",
                        partner="SweetwaterMarsh", raw="MissionBayData.csv",
                        kml="Kendall Frost Extent.kml", polygon="Unofficial extent",
