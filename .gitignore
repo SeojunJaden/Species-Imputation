@@ -30,6 +30,11 @@ predictions/
 CleanedData/FinalPredictions_v2/
 CleanedData/FinalPredictions_v2_Clean/
 CleanedData/TaxonomicCleanup_Report.md
+CleanedData/FinalPredictions_v2.1/
+CleanedData/FinalPredictions_v2.1_Clean/
+CleanedData/FieldLists_v2.1/
+CleanedData/TaxonomicCleanup_Report_v2.1.md
+CleanedData/Backtest_v2.1/
 CleanedData/write_field_list_doc.py
 CleanedData/write_field_list_pdf.py
 CleanedData/stage_for_kellie.py

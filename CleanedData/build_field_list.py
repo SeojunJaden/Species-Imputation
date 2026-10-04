@@ -31,8 +31,8 @@ Usage:
   python CleanedData/build_field_list.py [Reserve ...]
 
 Outputs:
-  CleanedData/FieldLists_v2/<Reserve>_Field_List.csv     (the ~25)
-  CleanedData/FieldLists_v2/<Reserve>_All_Imputed.csv    (the full appendix)
+  CleanedData/FieldLists_v2.1/<Reserve>_Field_List.csv     (the ~25)
+  CleanedData/FieldLists_v2.1/<Reserve>_All_Imputed.csv    (the full appendix)
 """
 
 import json
@@ -49,8 +49,9 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLEANED = os.path.join(ROOT, "CleanedData")
 V2 = os.path.join(ROOT, "RefreshedData", "2026-09-14")
-IN_DIR = os.path.join(CLEANED, "FinalPredictions_v2_Clean")
-OUT_DIR = os.path.join(CLEANED, "FieldLists_v2")
+RUN = "v2.1"                     # the audit-fixed run (METHODOLOGY 6, Sep 29)
+IN_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}_Clean")
+OUT_DIR = os.path.join(CLEANED, f"FieldLists_{RUN}")
 EST_CACHE = os.path.join(V2, "establishment.json")
 RESERVE_ZIP = os.path.join(ROOT, "ReserveExtents.zip")
 

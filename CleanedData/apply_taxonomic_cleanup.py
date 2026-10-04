@@ -25,8 +25,8 @@ Usage:
   python CleanedData/apply_taxonomic_cleanup.py [Reserve ...]
 
 Outputs:
-  CleanedData/FinalPredictions_v2_Clean/<Reserve>_Final_Predictions.csv
-  CleanedData/TaxonomicCleanup_Report.md
+  CleanedData/FinalPredictions_v2.1_Clean/<Reserve>_Final_Predictions.csv
+  CleanedData/TaxonomicCleanup_Report_v2.1.md
 """
 
 import json
@@ -41,8 +41,10 @@ CLEANED = os.path.join(ROOT, "CleanedData")
 V2 = os.path.join(ROOT, "RefreshedData", "2026-09-14")
 FILTERED = os.path.join(V2, "filtered")
 TAXONOMY = os.path.join(V2, "taxonomy.json")
-IN_DIR = os.path.join(CLEANED, "FinalPredictions_v2")
-OUT_DIR = os.path.join(CLEANED, "FinalPredictions_v2_Clean")
+RUN = "v2.1"                     # the audit-fixed run (METHODOLOGY 6, Sep 29)
+IN_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}")
+OUT_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}_Clean")
+REPORT = os.path.join(CLEANED, f"TaxonomicCleanup_Report_{RUN}.md")
 
 # reserve -> partner, because the candidate pool (and so every name in the
 # prediction file) comes from the partner's observations.
@@ -113,7 +115,9 @@ def merge_group(g, taxa):
     row["main_obs_count"] = g["main_obs_count"].sum()
     row["backup_obs_count"] = backup.sum()
     row["probability_of_presence"] = g["probability_of_presence"].max()
-    row["present_in_main"] = int(row["main_obs_count"] > 0)
+    # Since v2.1 a row can be "recorded" with a zero exact-name count (the record
+    # is filed under a finer taxon), so keep any merged row's label.
+    row["present_in_main"] = int(g["present_in_main"].max() > 0 or row["main_obs_count"] > 0)
     row["predicted_present"] = int(g["predicted_present"].max())
     # Prefer a real common name over the "Unknown" placeholder.
     named = g[g["common_name"].notna() & (g["common_name"] != "Unknown")]
@@ -251,7 +255,7 @@ def main():
             lines.append("| " + " | ".join(str(row[c]) for c in cols) + " |")
         return "\n".join(lines)
 
-    with open(os.path.join(CLEANED, "TaxonomicCleanup_Report.md"), "w") as f:
+    with open(REPORT, "w") as f:
         f.write("# Taxonomic cleanup of the v2 predictions\n\n")
         f.write("Kellie's three rules, applied per reserve (her Jul 23 clarification):\n")
         f.write("1. drop a genus/family when something inside it is on that reserve's list;\n")
@@ -265,7 +269,7 @@ def main():
         for r, ex in examples.items():
             f.write(f"\n## {r} -- examples of coarse taxa dropped by rule 1\n\n")
             f.write(md_table(ex) + "\n")
-    print("\n[+] CleanedData/TaxonomicCleanup_Report.md")
+    print(f"\n[+] {os.path.relpath(REPORT, ROOT)}")
     print(rep.to_string(index=False))
 
 

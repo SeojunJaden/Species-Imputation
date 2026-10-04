@@ -14,6 +14,18 @@ boundaries; what changes is the data and one pairing:
     marks out-of-raster observations empty instead of 0.0;
   - the pandas 3.0.2 fillna no-op is fixed (see fill_missing below).
 
+v2.1 (Sep 30 2026) fixes three problems found by the Sep 29 leakage audit
+(METHODOLOGY 6). Outputs go to new *_v2.1 paths so the v2 lists already sent stay
+reproducible from the untouched *_v2 folders:
+
+  - partner observations that fall inside the study reserve's polygon are
+    dropped. Buena Vista's bbox reaches into Dawson, which put Dawson's own
+    records into its partner's features and candidate pool;
+  - the "recorded at the reserve" label uses every in-polygon record, not only
+    the ones surviving the 5-min dedup, which drops date-only records;
+  - the label is rolled up the iNat taxonomy: a species counts as recorded when
+    anything at or below it (a subspecies, say) was recorded at the reserve.
+
 A pair whose partner has no usable habitat data is SKIPPED rather than quietly
 modelled on zeros -- that silent failure is what made Kendall-Frost
 habitat-blind in v1. Pass --allow-habitat-blind to run it anyway.
@@ -22,8 +34,8 @@ Usage:
   python CleanedData/run_v2_analysis.py [Reserve ...] [--allow-habitat-blind]
 
 Outputs:
-  CleanedData/FinalPredictions_v2/<Reserve>_Final_Predictions.csv
-  CleanedData/V2_Comparison.csv / .md      (v2 vs the v1 unofficial-extent run)
+  CleanedData/FinalPredictions_v2.1/<Reserve>_Final_Predictions.csv
+  CleanedData/V2.1_Comparison.csv / .md    (v2.1 vs the v1 unofficial-extent run)
 """
 
 import io
@@ -44,7 +56,10 @@ RESERVE_ZIP = os.path.join(ROOT, "ReserveExtents.zip")
 CLEANED = os.path.join(ROOT, "CleanedData")
 V2 = os.path.join(ROOT, "RefreshedData", "2026-09-14")
 V2_RAW, V2_FILTERED, V2_ENV = (os.path.join(V2, d) for d in ("raw", "filtered", "env"))
-OUT_DIR = os.path.join(CLEANED, "FinalPredictions_v2")
+TAXONOMY = os.path.join(V2, "taxonomy.json")
+RUN = "v2.1"
+OUT_DIR = os.path.join(CLEANED, f"FinalPredictions_{RUN}")
+COMPARISON = os.path.join(CLEANED, f"V{RUN[1:]}_Comparison")
 V1_DIR = os.path.join(CLEANED, "FinalPredictions_Unofficial")
 
 # Kellie's hand-drawn Sweetwater boundary is gitignored and lives loose at the
@@ -162,7 +177,42 @@ def fill_missing(df, col, value):
     df[col] = df[col].fillna(value)
 
 
-def load_partner(cfg):
+def load_taxonomy():
+    """taxon_id -> set of ids at or above it (itself + iNat ancestors)."""
+    with open(TAXONOMY) as f:
+        raw = json.load(f)
+    return {int(k): {int(k), *map(int, v.get("ancestor_ids", []))}
+            for k, v in raw.items() if v}
+
+
+def study_records(study_raw):
+    """
+    Everything the study reserve's label needs, from all in-polygon records.
+
+    recorded_ids: every taxon recorded at the reserve plus all its ancestors, so a
+      candidate counts as recorded if anything at or below it was.
+    counts: records per exact name -- timestamped records after the 5-min dedup,
+      plus date-only records at one per species per day (the dedup cannot place
+      them in time, and v2.0 silently dropped them).
+    """
+    taxa = load_taxonomy()
+    ids = study_raw["taxon_id"].dropna().astype(int).unique()
+    recorded_ids, unresolved = set(), 0
+    for t in ids:
+        if t in taxa:
+            recorded_ids |= taxa[t]
+        else:
+            recorded_ids.add(t)
+            unresolved += 1
+    timed = dedup_5min(study_raw)
+    date_only = study_raw[study_raw["time_observed_at"].isna()] \
+        .drop_duplicates(["scientific_name", "observed_on"])
+    counts = pd.concat([timed["scientific_name"], date_only["scientific_name"]]).value_counts()
+    return dict(recorded_ids=recorded_ids, counts=counts, names=set(study_raw["scientific_name"]),
+                n_timed=len(timed), n_date_only=len(date_only), unresolved=unresolved)
+
+
+def load_partner(cfg, study_rings=None):
     """Partner observations joined to their sampled habitat values."""
     base = pd.read_csv(os.path.join(V2_FILTERED, f"{cfg['partner']}_Filtered.csv"),
                        low_memory=False)
@@ -185,6 +235,14 @@ def load_partner(cfg):
             polys = parse_polygons(f.read())
         rings = polys[cfg["partner_polygon"]]
         merged = filter_to_polygon(merged, rings)
+
+    # Never let the study reserve's own records into its partner (Buena Vista's
+    # bbox reaches into Dawson). They would set the partner's features and put
+    # species in the candidate pool that are "recorded" by construction.
+    if study_rings is not None:
+        inside = filter_to_polygon(merged, study_rings).index
+        merged = merged.drop(inside)
+        merged.attrs["dropped_in_study"] = len(inside)
     return merged
 
 
@@ -201,7 +259,7 @@ def habitat_is_usable(partner_df):
 
 
 # ---------------------------------------------------- features (4Models.py logic)
-def build_environmental_features(main_df, partner_df):
+def build_environmental_features(study, partner_df):
     partner = partner_df[partner_df["scientific_name"].notna()].copy()
     partner["observed_on"] = pd.to_datetime(partner["observed_on"], errors="coerce")
     features = partner.groupby("scientific_name").agg(
@@ -224,11 +282,15 @@ def build_environmental_features(main_df, partner_df):
     fill_missing(features, "iconic_taxon_name", "Unknown")
     fill_missing(features, "common_name", "Unknown")
 
-    main_counts = main_df["scientific_name"].value_counts().reset_index()
-    main_counts.columns = ["scientific_name", "main_obs_count"]
-    features = features.merge(main_counts, on="scientific_name", how="left")
-    features["main_obs_count"] = features["main_obs_count"].fillna(0)
-    features["present_in_main"] = (features["main_obs_count"] > 0).astype(int)
+    # Candidate taxon_id: the partner's most frequent id for that name.
+    tid = partner.dropna(subset=["taxon_id"]).groupby("scientific_name")["taxon_id"] \
+        .agg(lambda s: int(s.mode().iloc[0]))
+    features["taxon_id"] = features["scientific_name"].map(tid)
+
+    features["main_obs_count"] = features["scientific_name"].map(study["counts"]).fillna(0)
+    by_name = features["scientific_name"].isin(study["names"])
+    by_taxon = features["taxon_id"].isin(study["recorded_ids"])
+    features["present_in_main"] = (by_name | by_taxon).astype(int)
     return features
 
 
@@ -246,7 +308,7 @@ def run_model(features):
 
     out = features[["scientific_name", "common_name", "iconic_taxon_name",
                     "present_in_main", "predicted_present", "probability_of_presence",
-                    "main_obs_count", "backup_obs_count",
+                    "main_obs_count", "backup_obs_count", "taxon_id",
                     "avg_elevation", "avg_ndvi", "avg_soil_clay"]].copy()
     conditions = [
         (out["present_in_main"] == 1) & (out["predicted_present"] == 1) & (out["main_obs_count"] <= UNDERREPRESENTED_THRESHOLD),
@@ -311,16 +373,22 @@ def main():
                              f"available: {list(polys)}")
         rings = polys[cfg["unofficial"]]
 
-        # Study reserve: raw -> unofficial polygon -> 5-min dedup, the v1 order.
+        # Study reserve: raw -> unofficial polygon. The label uses every record;
+        # the 5-min dedup only shapes the counts (study_records).
         raw = pd.read_csv(os.path.join(V2_RAW, cfg["raw"]),
-                          usecols=["scientific_name", "latitude", "longitude", "time_observed_at"],
-                          low_memory=False).dropna(subset=["latitude", "longitude"])
-        main_df = dedup_5min(filter_to_polygon(raw, rings))
-        print(f"    study    : {len(main_df):6,} obs, {main_df['scientific_name'].nunique():5,} species")
+                          usecols=["scientific_name", "latitude", "longitude", "time_observed_at",
+                                   "observed_on", "taxon_id"],
+                          low_memory=False).dropna(subset=["latitude", "longitude", "scientific_name"])
+        study = study_records(filter_to_polygon(raw, rings))
+        print(f"    study    : {study['n_timed']:6,} obs after dedup + {study['n_date_only']} "
+              f"date-only, {len(study['names']):5,} names"
+              + (f" ({study['unresolved']} taxa not in taxonomy.json)" if study["unresolved"] else ""))
 
-        partner_df = load_partner(cfg)
+        partner_df = load_partner(cfg, study_rings=rings)
+        dropped_in_study = partner_df.attrs.get("dropped_in_study", 0)
         print(f"    partner  : {len(partner_df):6,} obs, "
-              f"{partner_df['scientific_name'].nunique():5,} species")
+              f"{partner_df['scientific_name'].nunique():5,} species "
+              f"({dropped_in_study:,} dropped: inside the study polygon)")
 
         ok, why = habitat_is_usable(partner_df)
         print(f"    habitat  : {why}")
@@ -332,7 +400,7 @@ def main():
             skipped.append(dict(reserve=cfg["target"], partner=cfg["partner_label"], reason=why))
             continue
 
-        feats = build_environmental_features(main_df, partner_df)
+        feats = build_environmental_features(study, partner_df)
         out = run_model(feats)
         dest = os.path.join(OUT_DIR, f"{cfg['target']}_Final_Predictions.csv")
         out.to_csv(dest, index=False)
@@ -342,7 +410,9 @@ def main():
         print(f"    -> {os.path.relpath(dest, ROOT)}  ({n_imputed} imputed/missing)")
         rows.append(dict(
             reserve=cfg["target"], partner=cfg["partner_label"],
-            study_obs=len(main_df), study_species=main_df["scientific_name"].nunique(),
+            study_obs=study["n_timed"], study_date_only=study["n_date_only"],
+            study_names=len(study["names"]),
+            partner_obs_dropped_in_study=dropped_in_study,
             candidate_pool=len(feats), imputed_missing=n_imputed,
             v1_candidate_pool=v1_pool if v1_pool is not None else "n/a",
             v1_imputed_missing=v1_imputed if v1_imputed is not None else "n/a",
@@ -355,20 +425,22 @@ def main():
 
     # Merge into the existing table: a run on one reserve must not drop the others.
     comp = pd.DataFrame(rows)
-    comp_path = os.path.join(CLEANED, "V2_Comparison.csv")
+    comp_path = COMPARISON + ".csv"
     if os.path.exists(comp_path):
         old = pd.read_csv(comp_path)
         comp = pd.concat([old[~old["reserve"].isin(comp["reserve"])], comp])
     order = {c["target"]: i for i, c in enumerate(PAIRS)}
     comp = comp.sort_values("reserve", key=lambda s: s.map(order)).reset_index(drop=True)
     comp.to_csv(comp_path, index=False)
-    with open(os.path.join(CLEANED, "V2_Comparison.md"), "w") as f:
-        f.write("# v2 run -- refreshed data, unofficial extents\n\n")
+    with open(COMPARISON + ".md", "w") as f:
+        f.write(f"# {RUN} run -- refreshed data, unofficial extents, audit fixes\n\n")
         f.write("Observations are from the Sep 14 2026 iNaturalist API pull, cut to each\n")
-        f.write("reserve's unofficial boundary and 5-min deduplicated. `candidate_pool` is the\n")
-        f.write("partner's species list -- the only species that can be predicted.\n")
-        f.write("`imputed_missing` = predicted present at the reserve with zero observations\n")
-        f.write("there. v1 columns are the Jan-Feb 2026 website-export run for comparison;\n")
+        f.write("reserve's unofficial boundary. `study_obs` is after the 5-min dedup;\n")
+        f.write("`study_date_only` counts records with no time of day (one per species per day).\n")
+        f.write("`candidate_pool` is the partner's species list, excluding partner records inside\n")
+        f.write("the study polygon (`partner_obs_dropped_in_study`) -- the only species that can\n")
+        f.write("be predicted. `imputed_missing` = predicted present at the reserve with no record\n")
+        f.write("there of that taxon or anything below it. v1 columns are the Jan-Feb 2026 website-export run for comparison;\n")
         f.write("Kendall-Frost's v1 partner was Tijuana River, not Sweetwater Marsh.\n\n")
         f.write(md_table(comp) + "\n")
         if skipped:
@@ -376,7 +448,7 @@ def main():
             for s in skipped:
                 f.write(f"- **{s['reserve']}** (partner {s['partner']}): {s['reason']}\n")
             f.write("\n")
-    print("\n[+] CleanedData/V2_Comparison.{csv,md}")
+    print(f"\n[+] {os.path.relpath(COMPARISON, ROOT)}.{{csv,md}}")
     print(comp.to_string(index=False))
 
 
